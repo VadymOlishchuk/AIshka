@@ -2154,67 +2154,2949 @@
       "slug": "ai-visuals",
       "title": "Visuals With AI",
       "description": "Produce images that look intentional instead of generated. Covers style consistency, revisions, and delivering files a client can actually use.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "why-images-look-generated",
+          "title": "Why Generated Images Look Generated",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>People can now spot AI images at a glance, and they have started to associate that look with a business that did not try very hard. That is a real commercial problem, not a matter of taste.</p><p>The giveaway is rarely a technical flaw. It is that the image looks like it was made for nobody in particular — which is exactly what happens when nothing specific was asked for.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Default Look",
+              "bodyHtml": "<p>Ask for something general and you get the average of everything: shallow depth of field, glossy lighting, a symmetrical composition, colours that belong to no brand.</p><p><s>«A professional photo of a coffee shop.»</s></p><p><strong>«Morning light through a side window, one cup on a scratched wooden counter, shot from standing height, muted greens.»</strong></p><p>The second one describes a decision. The first one asks for a consensus, and consensus is what looks generated.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Images look generated when nobody made a decision about them."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Decisions Worth Making",
+              "bodyHtml": "<ul><li><strong>Light</strong> — where it comes from and what time of day it implies</li><li><strong>Position</strong> — where the viewer is standing, and how far away</li><li><strong>Imperfection</strong> — a worn surface, an off-centre object, something real</li><li><strong>Palette</strong> — the brand's actual colours, named, not implied</li></ul><p>Four decisions turn a stock-looking render into something that could plausibly belong to one business rather than any business.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client says the images «look like AI». Which change helps most?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Generate at a higher resolution so that the fine detail is much sharper."
+                },
+                {
+                  "id": "b",
+                  "label": "Specify the light, the camera position and one imperfect real detail."
+                },
+                {
+                  "id": "c",
+                  "label": "Try a different image tool that has a reputation for realistic output."
+                },
+                {
+                  "id": "d",
+                  "label": "Add more descriptive adjectives about quality and professionalism."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "The generated look comes from unmade decisions, not from resolution or tooling. Naming the light, the viewpoint and one imperfect detail is what makes an image feel photographed rather than assembled.",
+              "wrongHint": "Think about what actually differs between a real photograph and a default render."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Match the Business, Not the Trend",
+              "bodyHtml": "<p>A tone that suits a fashion brand actively harms a plumber. Generated images drift toward whatever looks impressive in general, which is often wrong for the specific business paying you.</p><p>Look at their existing photos, their premises, their customers. The image should look like it came from the same world, and that is a research task before it is a generation task.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a real local business and describe one image using the four decisions.",
+                "Generate it, then generate the vague version of the same request.",
+                "Put both next to a real photo from that business and compare.",
+                "Note which decision made the biggest difference — usually the light."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Edit After Generating",
+              "bodyHtml": "<p>Almost nothing should ship exactly as generated. A crop, a colour adjustment towards the brand palette, and removing the one strange detail takes five minutes.</p><p>That pass is most of the visible difference between a freelancer's work and something the client could have produced themselves in a browser tab — which matters, because they know they could.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated images look generated because no decisions were made. Specify the light, the viewpoint, one imperfection and the real palette, match the business rather than a trend, and always edit afterwards — a crop and a colour pass are what separate paid work from a free render.",
+              "nextTeaser": "Next: why consistency, not quality, is what clients are actually buying."
+            }
+          ]
+        },
+        {
+          "slug": "consistency-is-the-job",
+          "title": "Consistency Is the Whole Job",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A client can produce one good image on their own now. What they cannot produce is forty images that look like they belong to the same company.</p><p>That is the actual service, and it is worth noticing early, because it changes what you practise and what you sell. Nobody is paying for your best single image.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One Image Is a Sample, Forty Are a Brand",
+              "bodyHtml": "<p>Consistency is what makes a set of images read as intentional.</p><p><s>Forty striking images, each in a slightly different style.</s></p><p><strong>Forty ordinary images with the same light, palette, framing and level of detail.</strong></p><p>The second set looks professional even when no individual image is remarkable. The first looks like someone was experimenting in public.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody is paying for your best image. They are paying for your fortieth to match your first."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Has to Stay Fixed",
+              "bodyHtml": "<ul><li><strong>Palette</strong> — the same handful of colours, named as values</li><li><strong>Light direction and quality</strong> — soft from the left, every time</li><li><strong>Framing distance</strong> — how close the subject sits in frame</li><li><strong>Level of realism</strong> — photographic or illustrated, never both in a set</li></ul><p>Write these down once as a recipe. Reusing the recipe is the job; inventing a new one for each image is why sets drift.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client needs twenty images for a product range. What matters most?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "That each image is as visually striking and memorable as possible."
+                },
+                {
+                  "id": "b",
+                  "label": "That all twenty share the same light, palette, framing and realism."
+                },
+                {
+                  "id": "c",
+                  "label": "That every image is generated at the maximum resolution available."
+                },
+                {
+                  "id": "d",
+                  "label": "That the set covers as many different styles as the products allow."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A range is read as a set, not as individual pictures. Shared light, palette and framing make twenty ordinary images look deliberate, while twenty striking but unrelated ones look like a collection of experiments.",
+              "wrongHint": "Think about how the images will be seen — one at a time, or together on a page?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Build the Recipe First",
+              "bodyHtml": "<p>Spend the first hour of a set producing one image you are happy with, then write down exactly what produced it — every specification, in order.</p><p>The remaining nineteen are variations on that recipe, changing only the subject. This is also why the second project for the same client is far more profitable than the first.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Make one image you are pleased with and write the recipe that produced it.",
+                "Generate three more subjects using the same recipe unchanged.",
+                "Put all four side by side and look for the drift.",
+                "Tighten whichever specification drifted, then repeat."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Sell the Recipe Too",
+              "bodyHtml": "<p>The recipe is a deliverable. Handing over a documented style — with the exact specifications — is something clients value and few freelancers offer.</p><p>It does not cost you future work. It usually creates it, because the client now has a standard they want maintained, and maintaining it is a monthly job.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Clients can make one good image themselves; they cannot make forty that match. Fix the palette, light, framing and realism as a written recipe, build it once and vary only the subject. Hand the recipe over as a deliverable — it creates maintenance work rather than removing it.",
+              "nextTeaser": "Next: delivering files a client can actually use without coming back to you."
+            }
+          ]
+        },
+        {
+          "slug": "delivering-usable-files",
+          "title": "Delivering Files a Client Can Use",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Visual work has a delivery problem that writing does not. The images can be exactly right and the job still feels unfinished, because the client cannot get them into the places they need to go.</p><p>This is where a lot of goodwill quietly disappears — not in the work, but in the twenty minutes afterwards when they discover the file is the wrong shape.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask Where It Will Live",
+              "bodyHtml": "<p>Every destination has its own requirements, and the client will not think to mention them.</p><p><s>«Here are the twenty images.»</s></p><p><strong>«Twenty images, each in three crops: square for the shop, wide for the site banner, tall for stories. Named by product code.»</strong></p><p>The second version is the difference between files and a finished job.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A file the client has to resize themselves is a job that is not finished."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things That Make Files Usable",
+              "bodyHtml": "<ul><li><strong>Named systematically</strong> — product code, not «final_v3_new».</li><li><strong>Right sizes</strong> — the crops each destination actually needs</li><li><strong>Right weight</strong> — compressed for web, so pages stay fast</li><li><strong>One folder</strong> — a single link, organised, nothing to hunt for</li></ul><p>None of this is creative work. All of it is what makes the client describe you as easy to work with, which is what gets repeated.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You deliver twenty images and the client asks for them all in a different size. What went wrong?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Nothing — resizing requests are a normal part of any visual project."
+                },
+                {
+                  "id": "b",
+                  "label": "You did not ask where the images would be used before producing them."
+                },
+                {
+                  "id": "c",
+                  "label": "You generated at too low a resolution to allow easy resizing later."
+                },
+                {
+                  "id": "d",
+                  "label": "The client changed their mind about the platforms after seeing the work."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Destinations decide dimensions, and the client rarely volunteers them. One question at the briefing stage — where will these appear — prevents an entire round of rework at the end.",
+              "wrongHint": "Think about which question at the start would have made this request unnecessary."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Say What They May Do With It",
+              "bodyHtml": "<p>Include one line on usage: what they can use the images for, and whether anything is restricted.</p><p>Rules around generated imagery vary by tool and change over time. Being the freelancer who mentioned it, rather than the one who was asked afterwards, is a small thing that reads as professional and prevents an awkward conversation later.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the question you will ask about destinations in every visual brief.",
+                "Build your standard folder structure and naming convention now.",
+                "Export one image in the three most common crops you deliver.",
+                "Draft your one-line usage note so it never has to be improvised."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Originals",
+              "bodyHtml": "<p>Keep full-resolution versions and the recipe that produced them for at least a year, organised by client.</p><p>Requests come back months later — a new size, one more product in the same style. Being able to answer in ten minutes rather than rebuilding from nothing is worth the storage many times over.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Visual jobs are finished at the file, not at the image. Ask where they will appear, deliver the crops each destination needs, name files systematically, compress for the web and send one organised link. Add a line about usage rights, and keep originals and recipes for a year.",
+              "nextTeaser": "Next unit: packaging visual identity work as a fixed-price product."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "brand-kit",
       "title": "Brand Kits As a Service",
       "description": "Package visual identity work into a fixed-price product. Covers what goes in a kit, how to present it, and how to keep revisions from eating the fee.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "what-goes-in-a-kit",
+          "title": "What Actually Goes in a Brand Kit",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Small businesses rarely want a brand strategy. They want to stop making the same five decisions every time they post something, and to look like one company rather than several.</p><p>A brand kit is the answer to that, and it is one of the easiest things to sell as a fixed-price product — provided you build the version people actually use.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Small and Used Beats Complete and Ignored",
+              "bodyHtml": "<p>The instinct is to make it thorough, because thorough looks like value.</p><p><s>A forty-page document covering values, personality, tone and extensive usage rules.</s></p><p><strong>Two pages: the colours as values, two fonts with sizes, three logo files, and five example posts.</strong></p><p>The second gets opened on a phone before a post goes out. The first gets saved and never read again.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A brand kit nobody opens on a phone is a document, not a tool."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Six Things Worth Including",
+              "bodyHtml": "<ul><li><strong>Colours</strong> — as copyable values, with what each is for</li><li><strong>Two fonts</strong> — heading and body, with actual sizes</li><li><strong>Logo files</strong> — light, dark, and a small square version</li><li><strong>Image style</strong> — three examples of right, one of wrong</li><li><strong>Five templates</strong> — the formats they post most</li><li><strong>One page of rules</strong> — the decisions, nothing else</li></ul><p>Six items, deliverable in a few days, and each one removes a recurring decision.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A small shop wants «branding». What is the most useful first deliverable?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A brand strategy document covering values, positioning and personality."
+                },
+                {
+                  "id": "b",
+                  "label": "Two pages of colours, fonts, logos and five ready-to-use templates."
+                },
+                {
+                  "id": "c",
+                  "label": "A new logo, since that is the foundation everything else builds on."
+                },
+                {
+                  "id": "d",
+                  "label": "A competitor analysis showing how similar shops present themselves."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "What a small shop needs is to stop making the same decisions weekly. Colours, fonts and templates do that immediately, while strategy documents and competitor analyses change nothing about tomorrow's post.",
+              "wrongHint": "Think about which deliverable changes what happens the very next time they post something."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Templates Are the Real Product",
+              "bodyHtml": "<p>The rules page is what you write; the templates are what they use. Five editable templates in whatever tool they already have will be opened weekly for years.</p><p>Build them in the tool the client actually uses, not the one you prefer. A template they cannot edit is a picture of a template, and it teaches them that the kit does not fit how they work.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a small business and list the five things they post most often.",
+                "Build one template for the most frequent format.",
+                "Write the one-page rules — decisions only, no explanation of theory.",
+                "Check the whole kit is readable on a phone screen."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Show the Wrong Version",
+              "bodyHtml": "<p>Include one example of what not to do — the stretched logo, the off-palette colour, the wrong photo style.</p><p>People learn boundaries much faster from a wrong example than from a rule, and this single page prevents most of the drift that otherwise appears within a few months.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Small businesses want fewer decisions, not a strategy. Deliver two pages: colours as copyable values, two fonts with sizes, three logo files, an image style with examples, five editable templates in their own tool, and one page of rules including one wrong example.",
+              "nextTeaser": "Next: presenting the kit so it gets used rather than filed."
+            }
+          ]
+        },
+        {
+          "slug": "presenting-a-kit",
+          "title": "Presenting It So It Gets Used",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A kit that is never opened produces no visible change, and a client who sees no change does not commission anything else. The presentation is not decoration — it is what determines whether the work has any effect.</p><p>Most of it comes down to reducing the number of steps between the client and the decision they need to make.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Deliver Where They Work",
+              "bodyHtml": "<p>Format decides usage more than content does.</p><p><s>A polished PDF sent as an email attachment.</s></p><p><strong>A shared folder with the templates already inside the tool they use, plus a two-page summary they can open on a phone.</strong></p><p>The PDF looks more like a deliverable. The folder is the one that changes what they post next week.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every step between the client and the decision is a chance for the kit to go unused."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Walk Them Through It Once",
+              "bodyHtml": "<ul><li><strong>Fifteen minutes</strong>, screen shared or recorded</li><li><strong>Make one real post</strong> with them, using a template</li><li><strong>Show the wrong example</strong> and why it is wrong</li><li><strong>Leave the recording</strong> for whoever joins the business later</li></ul><p>That recording keeps working long after you have gone, and it is often what makes the kit survive a change of staff.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Two months after delivery, the client's posts look inconsistent again. What most likely went wrong?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The kit itself was not detailed enough to cover all their situations."
+                },
+                {
+                  "id": "b",
+                  "label": "It was never made part of how they actually create posts each week."
+                },
+                {
+                  "id": "c",
+                  "label": "They hired someone new who has different taste in visual design."
+                },
+                {
+                  "id": "d",
+                  "label": "The templates were too restrictive for the content they wanted to post."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Kits fail at adoption far more often than at design. If the templates are not inside the tool they open every week, the old habits win by default — regardless of how good the rules were.",
+              "wrongHint": "Think about where the kit lives compared to where the work actually happens."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Check Back at Thirty Days",
+              "bodyHtml": "<p>Send one message a month later: «How are the templates working? Anything you keep needing that isn't there?»</p><p>It costs a sentence and produces two things — small paid additions, and the knowledge of what a kit should include next time. It is also the most natural possible opening for further work.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Decide where your kits will live — the tool, not the file format.",
+                "Write your fifteen-minute walkthrough outline.",
+                "Draft the thirty-day check-in message now.",
+                "Add a line to your delivery offering to make the first post together."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Name the Owner",
+              "bodyHtml": "<p>Ask who inside the business will actually use this, and address the kit to that person rather than to the owner who commissioned it.</p><p>Very often those are different people, and the kit that was handed to a director never reaches whoever posts on Thursday. Sending it to both, with a note, takes ten seconds and doubles the chance it gets used.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Kits fail at adoption, not design. Deliver into the tool they already use, walk them through it once and record it, make one real post together, then check back at thirty days. Ask who will actually use it and address it to that person, not only to whoever paid.",
+              "nextTeaser": "Next: pricing kits so revisions do not consume the fee."
+            }
+          ]
+        },
+        {
+          "slug": "fixed-price-fixed-revisions",
+          "title": "Fixed Price, Fixed Revisions",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Visual work attracts opinions in a way that written work does not. Everyone has a view on a colour, and every view arrives as a small request.</p><p>This is why unbounded revision is far more dangerous here than anywhere else. The work is never wrong exactly — it is just not quite what someone pictured, and that can continue indefinitely.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Rounds, Not Requests",
+              "bodyHtml": "<p>The structure of feedback matters more than the number of changes.</p><p><s>«Let me know any changes you'd like and I'll adjust them.»</s></p><p><strong>«Two rounds included. Please collect all comments from everyone into one message per round.»</strong></p><p>The second prevents the worst pattern in visual work: three people sending contradictory notes over five days, each expecting a new version.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Unlimited revisions do not make clients happier. They make decisions optional."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Present Options Once, Then Refine",
+              "bodyHtml": "<ul><li><strong>Round one</strong> — two or three directions, deliberately different</li><li><strong>They pick one</strong> — a decision, in writing</li><li><strong>Round two</strong> — refinement of the chosen one only</li><li><strong>Delivery</strong> — files, templates, walkthrough</li></ul><p>Presenting three directions and then refining one is far quicker than showing a single option and adjusting it until it becomes something else.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "After choosing a direction, the client asks to see the rejected option «one more time, adjusted». What now?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Show it — it costs little and keeping them happy matters more here."
+                },
+                {
+                  "id": "b",
+                  "label": "Note it is a new direction, and offer it as a priced extra round."
+                },
+                {
+                  "id": "c",
+                  "label": "Refuse and remind them they already made a decision in writing."
+                },
+                {
+                  "id": "d",
+                  "label": "Combine both directions into one version to satisfy everyone involved."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Reopening a rejected direction is new work, not a revision. Naming it and pricing it keeps the project finite, while quietly absorbing it teaches the client that decisions can always be reversed for free.",
+              "wrongHint": "Ask whether this request is refining the chosen work or restarting the choice."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask Who Approves Before Starting",
+              "bodyHtml": "<p>The most expensive question in visual work is the one asked too late: who has final say?</p><p>If a partner, a spouse or a marketing lead has to be happy, get them into round one. Discovering a second decision-maker at the end means starting again, usually for free.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your revision policy in one sentence, including consolidated feedback.",
+                "Add the approval question to your standard briefing message.",
+                "Decide your price for an extra round and write it down now.",
+                "Draft the polite line you use when a request reopens a decision."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Get the Choice in Writing",
+              "bodyHtml": "<p>When they pick a direction, confirm it in a message: «Going with direction B — refining that one now.»</p><p>It sounds excessive for a friendly project and it is the thing that makes the conversation above possible. Without it, the disagreement is about memory, and memory conveniently favours whoever is paying.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Visual work invites endless small opinions, so structure the feedback: two rounds, consolidated comments, three directions first and refinement of one afterwards. Confirm the chosen direction in writing, ask who approves before starting, and price reopened decisions as new work.",
+              "nextTeaser": "Next unit: doing data work with AI without handing over answers you cannot check."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "no-code-automation",
       "title": "Automation Without Code",
       "description": "Sell time back to a business by connecting the tools it already pays for. Covers mapping a manual process, building it, and proving the hours saved.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "find-the-repeating-hour",
+          "title": "Find the Hour That Repeats",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Automation is usually sold as a technology decision — which tools connect to which. That framing is why most automation projects go nowhere: nobody could say what they were for.</p><p>The useful version starts somewhere else entirely. Find one hour a week that a person spends doing the same thing, and the project has a purpose, a price and a way to prove it worked.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask About the Week, Not the Systems",
+              "bodyHtml": "<p>The discovery question decides the whole job.</p><p><s>«Which tools do you use, and what would you like to automate?»</s></p><p><strong>«What did someone do three times this week that was exactly the same each time?»</strong></p><p>The first invites a wish list nobody can price. The second produces a real task, with a real person attached, and usually a real number of hours.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody buys automation. They buy an hour back, every week, forever."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Makes a Task Automatable",
+              "bodyHtml": "<ul><li><strong>It repeats</strong> — weekly at least, ideally daily</li><li><strong>The rules are stable</strong> — the same input leads to the same decision</li><li><strong>The data is already digital</strong> — in a form, a sheet, an inbox</li><li><strong>A mistake is recoverable</strong> — nothing irreversible on the first build</li></ul><p>Fail the second and you are automating a judgement, which needs a human check in the middle. Fail the fourth and you should not be the person building it yet.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which task is the best first automation project for a small business?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Deciding which customers should receive a refund and how much to give."
+                },
+                {
+                  "id": "b",
+                  "label": "Copying form entries into a sheet and sending the team a daily summary."
+                },
+                {
+                  "id": "c",
+                  "label": "Writing personalised replies to every incoming customer complaint."
+                },
+                {
+                  "id": "d",
+                  "label": "Choosing which products to discount based on this month's stock levels."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Copying and summarising is repetitive, rule-based, already digital and harmless if it breaks. The other three all involve judgement with money or relationships attached, which is where a first build should not be.",
+              "wrongHint": "Look for the task where the same input always leads to the same correct action."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Count the Hours Out Loud",
+              "bodyHtml": "<p>Before building anything, agree the number: «this takes about forty minutes, three times a week». Write it in the message.</p><p>That number is what you are selling, what justifies your price, and what you will point at in a month. Skipping it is why so many automation jobs end with a client vaguely wondering whether it was worth it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Ask one business owner what they did three times this week identically.",
+                "Write the task as: trigger, steps, result — no tools mentioned yet.",
+                "Estimate the minutes it takes and how often it happens.",
+                "Check it against the four conditions above before offering anything."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Start Smaller Than You Want To",
+              "bodyHtml": "<p>The temptation with a first automation client is to redesign their whole process, because you can see how much is wrong with it.</p><p>Automate one step instead. A small thing that works on Monday buys you the trust to look at the rest — and a large thing that half-works teaches them that automation is unreliable, which closes the door for everyone.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Automation projects fail when they start from tools. Start from one repeating hour: ask what someone did three times identically this week, check it is rule-based, digital and safe to get wrong, then agree the number of minutes it costs today. Automate one step, not the whole process.",
+              "nextTeaser": "Next: building it so it survives the week you are not watching."
+            }
+          ]
+        },
+        {
+          "slug": "build-and-prove",
+          "title": "Build It Once, Then Prove It Works",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Getting an automation to run once is the easy part, and it is where beginners declare victory. The client sees a demonstration, everyone is pleased, and the handover happens.</p><p>Then something arrives in a format nobody anticipated, the flow fails silently, and three weeks later the client is back to doing it by hand — without telling you.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Build for the Odd Case",
+              "bodyHtml": "<p>The difference between a demo and a service is what happens when the input is wrong.</p><p><s>A flow that works perfectly on the five test entries you made yourself.</s></p><p><strong>A flow that handles a blank field, a duplicate, an unexpected format — and tells someone when it cannot.</strong></p><p>Real data is messier than test data, always. The odd case is not an edge case; it is Tuesday.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A flow that fails silently is worse than no flow, because now nobody is checking."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things Every Build Needs",
+              "bodyHtml": "<ul><li><strong>A failure alert</strong> — a message to a real person when it breaks</li><li><strong>A log</strong> — what ran, when, and what it did</li><li><strong>A manual override</strong> — a way to run or skip it by hand</li><li><strong>A test with real data</strong> — theirs, not yours, before it goes live</li></ul><p>These four take an extra hour and are the difference between something still running in six months and something quietly abandoned in three weeks.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your automation ran fine for two weeks, then stopped without anyone noticing. What was missing?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "More thorough testing of every possible input before it went live."
+                },
+                {
+                  "id": "b",
+                  "label": "An alert to a named person the moment a run fails to complete."
+                },
+                {
+                  "id": "c",
+                  "label": "Better documentation explaining how the whole flow was constructed."
+                },
+                {
+                  "id": "d",
+                  "label": "A more reliable set of tools with fewer connections between them."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Everything breaks eventually — that is not the failure. The failure is that nobody found out. An alert to a named person turns an invisible outage into a fifteen-minute fix.",
+              "wrongHint": "Think about which answer addresses «without anyone noticing» rather than «stopped»."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Prove It With Their Numbers",
+              "bodyHtml": "<p>Two weeks after launch, send one line: «It has run 34 times, handled 210 entries, and failed twice — both fixed. That is roughly six hours not spent.»</p><p>This is the single most valuable message in the whole project. It converts an invisible background process into a visible result, and it is what makes the next automation an easy conversation.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any flow you have built and list what happens if the input is blank.",
+                "Add a failure alert that reaches a person, not a log nobody opens.",
+                "Run it on real data with the client watching, not on your own samples.",
+                "Write the two-week proof message before you even launch it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Hand Over More Than Access",
+              "bodyHtml": "<p>Give the client a one-page note: what it does, what triggers it, who gets alerts, how to pause it, and what to do if it breaks.</p><p>Freelancers often keep this vague, believing it protects future work. It does the opposite — a client who feels trapped by a system they cannot understand does not commission a second one.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A demo becomes a service when it survives bad input. Add a failure alert, a log, a manual override, and a test on real data. Two weeks later, send the numbers — runs, items handled, hours saved. Hand over a one-page note so nobody feels trapped by what you built.",
+              "nextTeaser": "Next: pricing something that keeps working after you have left."
+            }
+          ]
+        },
+        {
+          "slug": "price-time-not-tools",
+          "title": "Price the Time Saved, Not the Tools",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Automation is the work where hourly billing is most obviously wrong. A flow that takes you three hours to build can save a business four hours every week for years.</p><p>Bill for your three hours and you have priced your typing speed. The client received something worth two hundred hours a year, and neither of you noticed what just happened.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Anchor on Their Number",
+              "bodyHtml": "<p>You already agreed the hours in the first conversation. Use them.</p><p><s>«It took me about four hours, so £160.»</s></p><p><strong>«This replaces about two hours a week. £450 to build, and you're ahead within a couple of months.»</strong></p><p>The second is judged against what it saves, which is the only number that has anything to do with what it is worth.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Bill for your build hours and you have priced your typing speed, not the result."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Parts to Charge For",
+              "bodyHtml": "<ul><li><strong>The build</strong> — one fee, anchored on the time it replaces</li><li><strong>The care</strong> — a small monthly amount for monitoring and fixes</li><li><strong>The changes</strong> — new steps or new cases, priced as small add-ons</li></ul><p>Most freelancers charge only for the first and then do the other two free, which is exactly how automation becomes an unpaid support job.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your flow took three hours to build and saves the client three hours every week. How do you price it?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Three hours at your usual hourly rate, since that is what it took you."
+                },
+                {
+                  "id": "b",
+                  "label": "A build fee anchored on the weekly saving, plus a small monthly care fee."
+                },
+                {
+                  "id": "c",
+                  "label": "A percentage of the money the business saves, calculated every quarter."
+                },
+                {
+                  "id": "d",
+                  "label": "Nothing up front, with a larger monthly fee for as long as it keeps running."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A build fee based on what it replaces captures the value, and a small care fee funds the maintenance that will definitely be needed. Percentage deals require accounting nobody wants, and no build fee leaves you exposed if they cancel early.",
+              "wrongHint": "Think about which structure pays for both the value created and the work that comes later."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Charge Something for Care",
+              "bodyHtml": "<p>Tools change, formats shift, connections expire. Something will need attention within a few months — this is normal, not a defect.</p><p>A small monthly fee makes that expected and paid. Without it, every fix is an awkward favour, and you end up either resenting the client or ignoring the message.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a flow idea and write what it would save per week, in minutes.",
+                "Set a build fee anchored on that, not on your build time.",
+                "Add a monthly care fee and say exactly what it covers.",
+                "Write the sentence explaining why care is not optional, in plain words."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The Second One Is Easier",
+              "bodyHtml": "<p>Once a business has seen one process get quieter, they start noticing the others themselves. The second project usually needs no selling at all.</p><p>This is why the two-week proof message matters so much. It is not a report — it is the thing that makes someone look around their own week and find the next hour to hand you.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Automation is worth what it replaces, not what it costs you to build. Anchor the fee on the hours saved, add a small monthly care fee so maintenance is expected and paid, and price changes as add-ons. Then prove the saving — that is what produces the second project.",
+              "nextTeaser": "Next unit: building an assistant for one specific job, and what it takes to hand it over safely."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ai-agents-as-a-service",
       "title": "AI Assistants As a Service",
       "description": "Build a working assistant for one specific job a client does every week. Covers scoping, guardrails, handover, and pricing something that keeps running.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "assistant-is-a-job-description",
+          "title": "An Assistant Is a Job Description",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Businesses now ask for «an AI assistant» the way they used to ask for «a website» — as a thing they have heard about, without a clear picture of what it does.</p><p>Delivered as a general helper, it gets used twice and abandoned. The ones that stay in use are the ones built for a single named job, and that difference is decided before any building starts.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Narrow Beats Clever",
+              "bodyHtml": "<p>Compare two versions of the same project:</p><p><s>«An assistant that helps the team with customer questions.»</s></p><p><strong>«Answers the eleven questions we get about delivery, using our real policy, and hands anything else to a person.»</strong></p><p>The second can be tested, corrected and trusted. The first cannot even be judged — there is no standard to hold it to.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An assistant that could do anything gets used for nothing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Write It Like a Job Ad",
+              "bodyHtml": "<ul><li><strong>The tasks</strong> — listed, countable, nothing vague</li><li><strong>The sources</strong> — exactly which documents it may use</li><li><strong>The limits</strong> — what it must never answer or promise</li><li><strong>The escalation</strong> — who it hands to, and when</li></ul><p>If you would not hire a person on this description, the assistant is not defined well enough to build yet. Writing this document is most of the actual work.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks for «an AI assistant for the business». What do you deliver first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A general assistant trained on all their documents that anyone can query."
+                },
+                {
+                  "id": "b",
+                  "label": "A one-page description of the single job it will do, agreed before building."
+                },
+                {
+                  "id": "c",
+                  "label": "A demonstration of what the technology can do, to spark ideas for later."
+                },
+                {
+                  "id": "d",
+                  "label": "A comparison of the available tools with a recommendation on which to use."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "The scoping document is the deliverable that makes everything else possible, and clients will pay for it. Building before the job is defined produces something nobody can evaluate and nobody ends up using.",
+              "wrongHint": "Think about what has to exist before you could tell whether the finished thing is any good."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Sell the Definition Separately",
+              "bodyHtml": "<p>That one-page description is a paid first stage. It takes a couple of hours, produces something genuinely useful even if they stop there, and it protects you from building against a moving target.</p><p>It also filters. A client who will not pay for two hours of definition was not going to be a good client for the twenty hours that follow.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a business you know and name one job an assistant could do there.",
+                "Write the four sections: tasks, sources, limits, escalation.",
+                "Read it as a job ad — would you hire someone on this description?",
+                "Note every place you had to guess; those are the questions to ask the client."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Count the Questions First",
+              "bodyHtml": "<p>Before agreeing to anything, ask for real examples — the last fifty enquiries, the actual questions people ask.</p><p>You will usually find that a handful of questions cover most of the volume. That is the scope of the first version, and it makes a genuinely difficult project into a small, finishable one.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Assistants fail when they are general. Define one job as if writing a job ad — tasks, permitted sources, hard limits, escalation — and sell that definition as a paid first stage. Look at fifty real enquiries first: a handful of questions usually cover most of the volume.",
+              "nextTeaser": "Next: the guardrails that have to exist before capability."
+            }
+          ]
+        },
+        {
+          "slug": "guardrails-first",
+          "title": "Guardrails Before Capability",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The interesting part of building an assistant is making it capable. The part that decides whether it survives contact with real customers is making it refuse.</p><p>One confidently wrong answer about a refund, a price or a legal question costs more than a hundred correct ones earned. That asymmetry should shape the whole build.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Design the Refusals First",
+              "bodyHtml": "<p>Most builds start with what it should do and add limits at the end, if at all.</p><p><s>«It answers customer questions using our documents.»</s></p><p><strong>«It never quotes a price, never promises a delivery date, never discusses refunds — those three always go to a person.»</strong></p><p>Writing the refusals first makes them explicit and testable, rather than something you hope the model works out.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "One confidently wrong answer about money undoes a hundred correct ones."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Guardrails Worth Having",
+              "bodyHtml": "<ul><li><strong>Source limits</strong> — it answers only from approved documents</li><li><strong>Topic bans</strong> — money, legal, medical, anything binding</li><li><strong>Uncertainty behaviour</strong> — say «I'll pass this on» rather than guess</li><li><strong>A visible label</strong> — people are told they are talking to a tool</li></ul><p>The third is the one everybody forgets, and it is the one that prevents the situation you would least like to explain to a client.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "During testing the assistant invents a delivery time that is not in the documents. What is the fix?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Add more documents so it has the correct delivery information available."
+                },
+                {
+                  "id": "b",
+                  "label": "Ban the topic outright and route every delivery question to a person."
+                },
+                {
+                  "id": "c",
+                  "label": "Instruct it to be more careful and accurate when discussing delivery."
+                },
+                {
+                  "id": "d",
+                  "label": "Accept it as a rare edge case that customers are unlikely to trigger."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Anything the business would be held to — dates, prices, promises — should be a hard route to a human rather than a matter of instruction quality. Asking a model to be careful is a preference; a topic ban is a rule.",
+              "wrongHint": "Think about which fix still holds when the model behaves unpredictably next month."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Test With Hostile Input",
+              "bodyHtml": "<p>Before launch, spend an hour trying to break it: confusing phrasing, questions outside scope, requests to ignore its instructions, angry customers.</p><p>Do this with the client watching. It builds enormous trust, it surfaces the real limits, and it means both of you agreed what the boundaries were before anyone else found them.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the three topics your assistant will always refuse.",
+                "Write its exact wording for «I do not know» — it should be one friendly line.",
+                "Spend twenty minutes trying to make a test assistant say something wrong.",
+                "Record what worked; those become test cases before every change."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say What It Is",
+              "bodyHtml": "<p>People should know they are talking to a tool, and should always have a visible way to reach a person.</p><p>Beyond the obvious fairness, it is practical: expectations drop to something reasonable, and a customer who knows they can escalate does not spend four messages getting angry at software.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Build the refusals before the capabilities: approved sources only, hard bans on anything binding, a clear «I'll pass this on» for uncertainty, and a visible label. Test with hostile input while the client watches, so the limits are agreed before a customer finds them.",
+              "nextTeaser": "Next: handing it over so it is still running in six months."
+            }
+          ]
+        },
+        {
+          "slug": "handover-and-after",
+          "title": "Handover, and What Happens After",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>An assistant is not a file you deliver. It is something that keeps running, on live inputs, in a business that changes — which makes handover a different problem from any other freelance delivery.</p><p>Handled badly, it becomes either an abandoned experiment or an unpaid support role. Handled well, it is the most reliable recurring income in this whole field.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Launch Quietly",
+              "bodyHtml": "<p>Do not switch it on for every customer on day one.</p><p><s>Full launch, all channels, the moment testing looks good.</s></p><p><strong>Two weeks answering internally, or drafting replies a person approves before sending.</strong></p><p>A soft launch surfaces the real questions — which are never the ones you predicted — while mistakes are still private and cheap.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The questions real customers ask are never the ones you tested for."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What the Client Must Be Able to Do Alone",
+              "bodyHtml": "<ul><li><strong>Turn it off</strong> — one obvious control, no message to you required</li><li><strong>See what it said</strong> — a log a non-technical person can read</li><li><strong>Add a fact</strong> — update a source document without your involvement</li><li><strong>Reach you</strong> — a clear route when something is actually wrong</li></ul><p>Withholding the first three does not protect your income. It makes the client nervous, and nervous clients quietly stop using things.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "How should an assistant that answers customers be launched?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Fully live once testing passes, with monitoring for the first busy week."
+                },
+                {
+                  "id": "b",
+                  "label": "Drafting replies for a person to approve first, then live after two weeks."
+                },
+                {
+                  "id": "c",
+                  "label": "Live only outside working hours at first, when the volume is much lower."
+                },
+                {
+                  "id": "d",
+                  "label": "Live for a small random share of customers, increasing gradually each week."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Human-approved drafts surface every real question while every mistake stays internal. It also produces a fortnight of corrections that make the live version genuinely good rather than merely tested.",
+              "wrongHint": "Look for the option where real questions are discovered before any customer sees an answer."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Review Monthly, Charge for It",
+              "bodyHtml": "<p>Sell a monthly review: read a sample of conversations, fix the misses, add new facts, report what customers are actually asking.</p><p>That last part is worth more than the assistant. A monthly summary of real customer questions is business intelligence the client has never had, and it makes the retainer obviously worth keeping.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your soft-launch plan: how long, who approves, what you measure.",
+                "List the four controls the client must have and check each exists.",
+                "Draft the one-page operating note in plain language, no jargon.",
+                "Write what your monthly review covers and what it costs."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Plan for the Day It Is Wrong",
+              "bodyHtml": "<p>At some point it will say something incorrect to a real customer. Agree in advance who is told, how quickly it is corrected, and who speaks to the customer.</p><p>Having that conversation before launch turns an alarming incident into a procedure. Having it afterwards, under pressure, is how a good project ends badly.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Launch softly with human-approved drafts, then live. Give the client four controls they can use alone: off, logs, adding facts, reaching you. Sell a monthly review — the summary of what customers actually ask is worth more than the assistant — and agree the incident procedure before launch.",
+              "nextTeaser": "Next unit: doing data work with AI without handing over answers you cannot check."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "data-with-ai",
       "title": "Data Work With AI",
       "description": "Turn messy spreadsheets into answers a business can act on. Covers cleaning, summarising, and checking AI output before it reaches a client.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "cleaning-is-the-job",
+          "title": "Cleaning Is Most of the Job",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Data work sounds like analysis: find the insight, spot the trend, explain what it means. That is the part everybody wants to talk about, and it is maybe a fifth of the time.</p><p>The rest is making the data trustworthy enough to analyse. Skip it and you will produce a confident answer built on duplicated rows and three different spellings of the same city.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Real Data Is Always Messy",
+              "bodyHtml": "<p>Client spreadsheets are not databases. They are the record of many people typing things over several years.</p><p><s>Loading the file and asking for the top-selling products straight away.</s></p><p><strong>Checking first: duplicate rows, inconsistent dates, blank fields, three spellings of one supplier, refunds counted as sales.</strong></p><p>Every one of those changes the answer. None of them announces itself.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An answer from dirty data is not a rough answer. It is a wrong one delivered confidently."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Five Checks Before Any Analysis",
+              "bodyHtml": "<ul><li><strong>Row count</strong> — does it match what the client expects?</li><li><strong>Date range</strong> — is the period what you think it is?</li><li><strong>Duplicates</strong> — same order counted twice?</li><li><strong>Categories</strong> — how many spellings of the same thing?</li><li><strong>Blanks</strong> — which columns have gaps, and how many?</li></ul><p>Ten minutes of checking. It also gives you the first thing worth telling the client, often before you have analysed anything.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client's sales file gives a total 12% higher than their accounts. What do you do first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Report the higher figure, since the raw data is the more reliable source."
+                },
+                {
+                  "id": "b",
+                  "label": "Find the discrepancy — likely duplicates, refunds or an overlapping period."
+                },
+                {
+                  "id": "c",
+                  "label": "Adjust the total downwards by 12% so it matches the official accounts."
+                },
+                {
+                  "id": "d",
+                  "label": "Report both numbers and let the client decide which one to rely on."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A gap between two sources is information, not noise. Finding its cause usually reveals a real problem in how the data is recorded — which is often more valuable to the client than the analysis they asked for.",
+              "wrongHint": "Think about which response treats the discrepancy as something to explain rather than something to smooth over."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "AI Helps, But Verify the Method",
+              "bodyHtml": "<p>AI is genuinely good at the tedious parts: spotting inconsistent formats, suggesting how to normalise categories, writing the transformation steps.</p><p>What it should not do unchecked is decide what counts. Whether a refund is a negative sale or an excluded row is a business decision — ask the client, then apply it consistently and say so in the output.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find any public spreadsheet and run the five checks on it.",
+                "Count how many spellings exist for the categories in one column.",
+                "Write down every decision you had to make to clean it.",
+                "Note which of those decisions a client should really have made."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Show Your Cleaning",
+              "bodyHtml": "<p>Include a short note with any analysis: rows removed, duplicates found, assumptions made, what was excluded and why.</p><p>Clients almost never ask for this, and it is the thing that makes the numbers defensible when someone internally disagrees with them. It also quietly proves the work was more than pasting a file into a tool.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Most data work is making the data trustworthy. Run five checks before analysing — row count, date range, duplicates, category spellings, blanks — and let the client make the business decisions about what counts. Then show your cleaning, so the numbers can be defended.",
+              "nextTeaser": "Next: why you should never deliver a number you cannot verify by hand."
+            }
+          ]
+        },
+        {
+          "slug": "never-ship-unchecked",
+          "title": "Never Ship a Number You Cannot Check",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The most dangerous thing about generated analysis is how convincing it looks. A clean table with plausible figures reads as authoritative regardless of whether the calculation was right.</p><p>In writing, a weak draft is obvious. In data, a wrong answer looks exactly like a correct one — and the client may act on it before anyone notices.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Check One Row by Hand",
+              "bodyHtml": "<p>The habit that prevents most of these failures takes two minutes.</p><p><s>Accepting the summary table because the numbers look reasonable.</s></p><p><strong>Picking one product, adding its sales manually, and confirming the total matches the table.</strong></p><p>If one row is right, the method is probably right. If it is wrong, you have just avoided delivering a report built on a broken calculation.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A wrong number looks exactly like a right one. That is what makes data work risky."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things Worth Verifying",
+              "bodyHtml": "<ul><li><strong>Totals</strong> — do the parts add to the whole?</li><li><strong>One row by hand</strong> — recalculate a single case yourself</li><li><strong>Extremes</strong> — is the biggest value plausible, or a data error?</li><li><strong>Direction</strong> — does the trend match what the client already knows?</li></ul><p>The last one catches the most. Clients know their own business, and «that doesn't sound right» is usually correct.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your analysis shows one product accounts for 60% of revenue. The client is surprised. What now?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Present it as a genuine finding — surprising results are often the valuable ones."
+                },
+                {
+                  "id": "b",
+                  "label": "Verify that product's rows by hand before presenting the number at all."
+                },
+                {
+                  "id": "c",
+                  "label": "Soften it by describing the product as one of the stronger performers."
+                },
+                {
+                  "id": "d",
+                  "label": "Exclude it as an outlier and report the pattern across the other products."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Surprise from someone who knows the business is a signal to check, not to celebrate or to hide. Often it is a duplicated import or a bundle counted individually — and finding that is worth more than the original analysis.",
+              "wrongHint": "Think about what the client's surprise is telling you about the data rather than about the business."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Say What You Are Not Sure About",
+              "bodyHtml": "<p>Uncertainty stated plainly reads as competence: «This assumes refunds are excluded — if they are included, the top three change order.»</p><p>Clients make better decisions with that sentence than without it, and it protects you when a number is later questioned. Presenting everything with equal confidence is what damages trust the first time something turns out to be wrong.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any generated summary of a dataset and recalculate one row by hand.",
+                "Check whether the parts actually add up to the stated total.",
+                "Look at the largest value and ask whether it is plausible.",
+                "Write one sentence naming the biggest assumption in the analysis."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Steps",
+              "bodyHtml": "<p>Save the sequence you used to get from raw file to answer — the transformations, in order.</p><p>Two things follow: you can rerun it next month in minutes instead of hours, and when someone asks how a figure was produced, you can show them. That combination is what turns one-off analysis into a monthly retainer.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Wrong numbers look identical to right ones, so verify before delivering: check totals, recalculate one row by hand, sanity-check extremes, and test the direction against what the client already knows. State assumptions plainly and keep your steps so the work can be repeated and defended.",
+              "nextTeaser": "Next: turning a verified spreadsheet into a decision someone can actually make."
+            }
+          ]
+        },
+        {
+          "slug": "spreadsheet-to-decision",
+          "title": "Turning a Spreadsheet Into a Decision",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A correct analysis that changes nothing is a failed job, even when every number is right. This is the most common way data work disappoints — it answers the question asked rather than the decision behind it.</p><p>Clients ask for analysis because something needs deciding. Finding out what that is turns a spreadsheet into work worth paying for again.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask What They Will Do With It",
+              "bodyHtml": "<p>One question at the briefing stage changes the entire deliverable.</p><p><s>«You'd like a breakdown of sales by product and month — I'll send that over.»</s></p><p><strong>«What are you deciding? Whether to drop products, where to spend the ad budget, or what to stock next season?»</strong></p><p>Each of those three answers produces a completely different analysis of the same file.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody wants a breakdown. They want to know what to do on Monday."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Answer in This Order",
+              "bodyHtml": "<ul><li><strong>The answer</strong> — one sentence, first, before any method</li><li><strong>The evidence</strong> — the two or three numbers that support it</li><li><strong>The caveat</strong> — what would change the answer</li><li><strong>The next step</strong> — what you would do, concretely</li></ul><p>Reports written the other way round — method, tables, then conclusion — are read to the end by almost nobody, including the person who commissioned them.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks for «an analysis of last year's sales». What is the most useful first response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Deliver a full breakdown by product, month, region and customer type."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask what decision this is feeding, then analyse for that specific question."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask which chart types and format they would like the report delivered in."
+                },
+                {
+                  "id": "d",
+                  "label": "Analyse everything you can find and highlight whatever looks interesting."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The same data supports completely different analyses depending on the decision behind the request. Asking takes one message and is the difference between a report that is read and one that is filed.",
+              "wrongHint": "Think about which response changes what you actually produce rather than how it looks."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Cut Everything That Is Merely Interesting",
+              "bodyHtml": "<p>You will find patterns unrelated to the decision. It is tempting to include them, because they show effort and they are genuinely interesting to you.</p><p>Put them in one short «also noticed» line at the end, or save them for the next conversation. Mixed into the main answer, they dilute it — and the client stops being able to tell what you are recommending.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any dataset and write the decision it might inform, in one sentence.",
+                "Produce the answer to that decision in a single sentence, before any charts.",
+                "Add the two numbers that support it and the one caveat that could change it.",
+                "Check whether anything else you found actually belongs in the report."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say What You Would Do",
+              "bodyHtml": "<p>Clients often want a recommendation and are reluctant to ask for one, because it feels like admitting they cannot read their own data.</p><p>Offer it plainly: «If it were mine, I'd stop stocking the bottom four and put that budget into the top two.» You may be overruled, and you will still be the person who is thinking about the business rather than the file.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Analysis that changes nothing is a failed job. Ask what decision the work feeds, answer in one sentence before any method, then evidence, caveat and next step. Keep merely interesting findings out of the main answer, and say plainly what you would do.",
+              "nextTeaser": "Next unit: reports that get acted on rather than filed."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "reports-that-sell",
       "title": "Reports Clients Act On",
       "description": "Deliver findings people read instead of file away. Covers structure, one-chart-one-point, and the recommendation that turns a report into more work.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "reports-filed-unread",
+          "title": "Why Reports Get Filed Unread",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most reports are thorough, accurate and unread. The freelancer who made one usually concludes the client is not interested in detail, which is the wrong lesson.</p><p>The client is interested. They just could not find, in the time they had, what the report wanted them to do — and a document that requires an hour to yield a decision gets postponed until it is stale.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Front-Load the Conclusion",
+              "bodyHtml": "<p>Reports are usually built like an argument: context, method, findings, conclusion. That order is exactly backwards for a busy reader.</p><p><s>Twelve pages building carefully towards a recommendation on page eleven.</s></p><p><strong>One page: here is what we found, here is what to do, here is what it rests on. Detail behind it for anyone who wants it.</strong></p><p>Nobody has ever complained that the conclusion came too early.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A report that takes an hour to yield a decision will be read next month, when it no longer matters."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Reasons Reports Fail",
+              "bodyHtml": "<ul><li><strong>No single answer</strong> — findings listed, nothing concluded</li><li><strong>Too many charts</strong> — twelve visuals, no argument</li><li><strong>No recommendation</strong> — data handed over, decision left open</li><li><strong>Wrong audience</strong> — written for an analyst, read by an owner</li></ul><p>Each is a formatting failure rather than an analysis failure, which is good news: they are all fixable in twenty minutes.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client says your last report was «very thorough» but nothing changed afterwards. What went wrong?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The analysis was not deep enough to reveal anything genuinely actionable."
+                },
+                {
+                  "id": "b",
+                  "label": "It presented findings without a single clear answer and recommended action."
+                },
+                {
+                  "id": "c",
+                  "label": "The client is not the kind of person who makes decisions from data."
+                },
+                {
+                  "id": "d",
+                  "label": "The report should have included more charts to make the patterns clearer."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "«Very thorough» with no action is the classic signal that the reader could not find the point. Findings without a conclusion put the interpretation back on the busiest person, and it does not get done.",
+              "wrongHint": "Think about what «thorough but nothing changed» actually tells you about the reader's experience."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write for the Person Who Decides",
+              "bodyHtml": "<p>Before writing, ask who will read this and what they know. An owner needs plain language and consequences; a specialist wants method and caveats.</p><p>Writing at the wrong level is not a small mistake — it makes the whole document feel either patronising or impenetrable, and both get filed.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any report you have seen and find its main conclusion.",
+                "Note how far down the page it appears.",
+                "Rewrite the first three lines so the answer comes first.",
+                "Cut any chart that does not support that answer directly."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One Page, Then Everything Else",
+              "bodyHtml": "<p>Structure every report the same way: one page that stands alone, then the detail behind it.</p><p>The one page is what gets read, forwarded and acted on. The detail exists so that when someone challenges a number, the answer is available — and that is exactly what it should be for.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Reports fail on format, not analysis. Put the conclusion first, write for the person deciding rather than for a specialist, and make page one stand alone with the detail behind it. «Very thorough, nothing changed» means the reader could not find the point.",
+              "nextTeaser": "Next: making each chart carry exactly one idea."
+            }
+          ]
+        },
+        {
+          "slug": "one-chart-one-point",
+          "title": "One Chart, One Point",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Charts are the most misused part of a report. They get added because a page of text looks bare, not because there is something a picture explains better than a sentence.</p><p>The result is a document that looks analytical and communicates less than three plain lines would have — and takes longer to read.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Every Chart Needs a Sentence",
+              "bodyHtml": "<p>The fastest test: can you write the point of the chart in one sentence? If not, the chart does not have a point yet.</p><p><s>A chart titled «Monthly revenue by category, 2025».</s></p><p><strong>The same chart titled «Two categories carry the year — everything else is flat».</strong></p><p>The first labels the data. The second tells the reader what to see, which is the entire job of the visual.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If you cannot write the chart's point in one sentence, the chart has no point yet."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Rules That Make Charts Readable",
+              "bodyHtml": "<ul><li><strong>Title states the finding</strong>, not the axes</li><li><strong>One idea per chart</strong> — two ideas means two charts</li><li><strong>Highlight the point</strong> — one colour, everything else grey</li><li><strong>Order by size</strong>, not alphabetically, unless time is the axis</li><li><strong>Label directly</strong> — a legend is one more lookup</li></ul><p>These take a minute each and are the difference between a chart that is understood at a glance and one that is skipped.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You want to show that one product outsells all others. What is the clearest chart?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A pie chart showing every product's share of total sales for the year."
+                },
+                {
+                  "id": "b",
+                  "label": "A bar chart sorted by size with that one product in a stronger colour."
+                },
+                {
+                  "id": "c",
+                  "label": "A line chart of monthly sales for each product across the whole year."
+                },
+                {
+                  "id": "d",
+                  "label": "A table of all products with their totals and percentages listed."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Sorted bars make comparison immediate, and colouring only the subject tells the eye where to look. Pie charts hide differences between similar slices, and multi-line charts bury one product among many.",
+              "wrongHint": "Think about which option makes the comparison obvious without the reader doing any work."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Fewer Charts, Better Ones",
+              "bodyHtml": "<p>Three charts that each carry a point beat twelve that catalogue the data. Every additional chart divides the reader's attention and dilutes the argument.</p><p>A good rule when finishing a report: remove the weakest chart and check whether anything is lost. Usually nothing is, and the report gets stronger.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any chart and rewrite its title as the finding it shows.",
+                "Grey out everything except the part that supports the point.",
+                "Sort the categories by size and see whether it reads faster.",
+                "Remove one chart from a report and check what is actually lost."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Numbers in Sentences Are Fine",
+              "bodyHtml": "<p>Not everything needs a visual. «Three products make 62% of revenue» is clearer as a sentence than as any chart.</p><p>Use charts for comparison, distribution and change over time. For a single striking number, write the number — it is faster to read and impossible to misinterpret.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A chart earns its place only if you can state its point in one sentence. Title with the finding, keep one idea per chart, highlight the subject and grey the rest, sort by size and label directly. Three purposeful charts beat twelve descriptive ones, and single numbers belong in sentences.",
+              "nextTeaser": "Next: the recommendation that turns a report into the next piece of work."
+            }
+          ]
+        },
+        {
+          "slug": "recommendation-that-sells",
+          "title": "The Recommendation That Buys the Next Job",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every report ends at a fork. It can stop at «here is what the data says», or it can continue to «here is what I would do about it».</p><p>The first is safer and forgettable. The second is what makes a client think of you as someone involved in their business rather than someone who processed a file for them.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Recommend Something Specific",
+              "bodyHtml": "<p>Vague recommendations are worse than none, because they signal that you did not want to commit.</p><p><s>«Consider focusing marketing efforts on higher-performing product categories.»</s></p><p><strong>«Stop advertising the bottom four products and move that budget to the two that convert. That's roughly £600 a month redirected.»</strong></p><p>The second can be acted on this week, argued with, or rejected — all of which are more useful than agreement with nothing in particular.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A recommendation nobody can disagree with is a recommendation nobody can act on."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Levels to Offer",
+              "bodyHtml": "<ul><li><strong>Do today</strong> — one thing, no budget, no meeting required</li><li><strong>Do this month</strong> — one change worth a small investment</li><li><strong>Consider</strong> — a bigger question this raised, for later</li></ul><p>The first gets done and proves the report was useful. The third is where the next project usually comes from, without ever being pitched.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which recommendation is most likely to be acted on and to lead to more work?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Continue monitoring these metrics closely over the coming quarter."
+                },
+                {
+                  "id": "b",
+                  "label": "Pause ads on the four lowest converters this week and watch the change."
+                },
+                {
+                  "id": "c",
+                  "label": "Consider a broader review of the marketing strategy across all channels."
+                },
+                {
+                  "id": "d",
+                  "label": "Explore whether customer segmentation could improve overall performance."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A specific action with a timeframe can be done without a meeting, and doing it proves the report was worth commissioning. The other three all require someone to first decide what they mean.",
+              "wrongHint": "Ask which one a busy person could actually complete before the end of the week."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Name What You Would Need",
+              "bodyHtml": "<p>If the data could not answer something important, say so and say what would fix it: «I could not separate new from returning customers — if you can export that field, it would sharpen this considerably.»</p><p>That sentence is honest, useful, and frequently becomes the next job — without any part of it reading as a sales pitch.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any analysis and write the three levels of recommendation.",
+                "Make the first one something doable today without spending money.",
+                "Add one sentence about the data you wish you had.",
+                "Check that none of the three could be agreed with while changing nothing."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Follow Up on the Action",
+              "bodyHtml": "<p>Two weeks later, ask what happened with the first recommendation. Very few freelancers do this.</p><p>If it worked, you have a result to point at and an obvious next step. If it did not, you have new information and a reason to look again — and either way you are still in the conversation, which is where all repeat work comes from.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Stop at the findings and the report is forgettable. Recommend something specific enough to be argued with, offer three levels — today, this month, consider — and name the data you wish you had. Then follow up in two weeks on whether the first action worked.",
+              "nextTeaser": "Next unit: video work treated as a writing problem rather than a camera one."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ai-video",
       "title": "Video With AI",
       "description": "Produce short video without a camera or an editing background. Covers script, assembly, captions, and delivering formats each platform accepts.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "video-is-writing",
+          "title": "Video Is a Writing Problem in Disguise",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>People avoid video work because they think it requires equipment, a face on camera and editing skill. Those are the visible parts, so they look like the hard parts.</p><p>Almost every weak video fails before any of that. It fails in the script — a first line that gave nobody a reason to stay, or three ideas competing where one would have landed.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Script Decides Everything",
+              "bodyHtml": "<p>A beautifully edited video of a weak idea performs worse than a plain one with a strong hook.</p><p><s>«Hi everyone, today I want to talk about a few tips for small business owners.»</s></p><p><strong>«Your product page is losing sales in the first line, and it's a sentence you wrote yourself.»</strong></p><p>Same production, entirely different outcome. The second one made a promise a specific person wants kept.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody stops scrolling because the editing was good."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "A Short Video Has Four Parts",
+              "bodyHtml": "<ul><li><strong>The hook</strong> — one line, a promise or a contradiction</li><li><strong>The stake</strong> — why this matters to them, in one line</li><li><strong>The substance</strong> — one idea, demonstrated not described</li><li><strong>The close</strong> — one action, or one line worth remembering</li></ul><p>Under sixty seconds, that is the whole structure. Add a second idea and both get lost.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client's videos are well produced but nobody watches past the start. What do you fix first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The pacing and editing, so the opening moves faster and holds attention."
+                },
+                {
+                  "id": "b",
+                  "label": "The first line, so it makes a specific promise to a specific person."
+                },
+                {
+                  "id": "c",
+                  "label": "The thumbnail and title, so more of the right people click to watch."
+                },
+                {
+                  "id": "d",
+                  "label": "The length, cutting each video down to well under thirty seconds."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "People leave in the first seconds because nothing was promised, not because the edit was slow. A specific opening line is the cheapest and most reliable fix, and it costs nothing to test.",
+              "wrongHint": "Think about what a viewer is deciding in the first two seconds of watching."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write It as Text First",
+              "bodyHtml": "<p>Draft the script as writing, read it aloud, cut a third. Only then think about visuals.</p><p>Reading aloud catches the sentences no human says — which are exactly the ones generated drafts are full of. Two minutes of reading saves an hour of re-recording.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any video that held your attention and write down its first line.",
+                "Write four different hooks for one idea from your own field.",
+                "Read each aloud and keep the one that sounds like speech.",
+                "Draft the full four-part script for that one idea."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Sell Scripts Before Production",
+              "bodyHtml": "<p>Scripting is a service on its own, and it is the easiest entry point into video work. Many businesses have someone who can film and edit but nobody who knows what to say.</p><p>Selling scripts also removes the equipment barrier entirely — you are being paid for the part that decides whether the video works, and you can start this week.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Video fails in the script, not the edit. Write four parts — hook, stake, one idea, close — as text, read it aloud and cut a third. Sell scripting on its own: it is where the value sits, and it needs no equipment at all.",
+              "nextTeaser": "Next: assembling video without a camera and without appearing on screen."
+            }
+          ]
+        },
+        {
+          "slug": "assembling-without-camera",
+          "title": "Assembling Video Without a Camera",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A great deal of commercial video contains no original footage at all: screen recordings, stock clips, text on motion, product shots the client already owns.</p><p>This matters because it removes the two biggest barriers at once — no filming and nobody on camera. What remains is assembly, and assembly is a learnable, sellable skill.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Show, Do Not Narrate",
+              "bodyHtml": "<p>The most common weak edit is a voice explaining something while unrelated footage plays.</p><p><s>Stock footage of a busy office while a voice discusses productivity.</s></p><p><strong>A screen recording of the actual problem happening, with three words on screen naming it.</strong></p><p>The second is cheaper to produce and far more convincing, because the viewer sees the thing rather than being told about it.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Stock footage of an office says nothing. A screen recording of the real problem says everything."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Sources That Cost Nothing",
+              "bodyHtml": "<ul><li><strong>Screen recordings</strong> — the product, the problem, the fix</li><li><strong>The client's own photos</strong> — real premises, real products</li><li><strong>Text on plain motion</strong> — for anything with no natural visual</li><li><strong>Generated b-roll</strong> — used sparingly, and never as the main subject</li></ul><p>Generated footage works best in short cutaways. As the central image it draws the wrong kind of attention, and the viewer starts assessing the video instead of the message.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client sells software and wants short videos but has no footage. What is the strongest approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Generated visuals throughout, styled to match their brand colours closely."
+                },
+                {
+                  "id": "b",
+                  "label": "Screen recordings of the software solving the exact problem, plus text."
+                },
+                {
+                  "id": "c",
+                  "label": "Stock footage of professionals working, with a voiceover explaining features."
+                },
+                {
+                  "id": "d",
+                  "label": "Animated charts showing the improvements customers typically achieve."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "For software, the product doing the thing is the most persuasive footage available and it costs nothing to capture. Everything else asks the viewer to imagine what the screen recording would have simply shown them.",
+              "wrongHint": "Think about which option shows the actual thing rather than a representation of it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Cut on the Beat of the Script",
+              "bodyHtml": "<p>Change what is on screen when the idea changes, not on a timer. A cut that lands with a new sentence feels intentional; a cut every three seconds feels like a screensaver.</p><p>This single habit does more for perceived production quality than any transition effect, and it requires no additional skill — just following the script you already wrote.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a script and mark where the idea changes — those are your cuts.",
+                "Record your screen doing the thing the script describes.",
+                "Assemble it with cuts on the marks and no transitions at all.",
+                "Watch it with the sound off and check it still makes sense."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Pieces",
+              "bodyHtml": "<p>Save recordings, clips and text elements by client and topic. The second video for the same client should take half the time of the first.</p><p>That improving margin is the whole economics of video work. Charging the same and taking less time is not a discount to pass on — it is the return on having built a library.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Most commercial video needs no camera: screen recordings, the client's own photos, text on motion, and generated clips used sparingly as cutaways. Show the real thing rather than narrating over stock, cut when the idea changes, and keep a library so each project is faster than the last.",
+              "nextTeaser": "Next: captions, formats and making sure it plays properly everywhere."
+            }
+          ]
+        },
+        {
+          "slug": "captions-and-formats",
+          "title": "Captions, Formats and Where It Plays",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The unglamorous end of video work is where most of the value is lost. A good video delivered in the wrong shape, without captions, gets a fraction of the attention it earned.</p><p>None of this is creative. All of it is the difference between a client who is pleased and a client who quietly wonders why the numbers were disappointing.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Most Viewing Is Silent",
+              "bodyHtml": "<p>A large share of video is watched with the sound off, in public, at speed.</p><p><s>Delivering a video whose message depends entirely on the audio.</s></p><p><strong>Delivering one that still communicates with the sound off, because the key lines are on screen.</strong></p><p>Captions are not an accessibility afterthought here — they are the primary channel for a lot of the audience.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If the video makes no sense with the sound off, most viewers will never know what it said."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Delivery Details",
+              "bodyHtml": "<ul><li><strong>Burned-in captions</strong> — styled, readable, never blocking the subject</li><li><strong>Correct aspect</strong> — vertical, square or wide, per destination</li><li><strong>Safe margins</strong> — nothing important where the interface covers it</li><li><strong>A silent-watch check</strong> — mute it and see if it still works</li></ul><p>The last one takes thirty seconds and catches more problems than any other review step.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client reports low completion rates on well-made videos. What is the most likely cause?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The videos are slightly too long for the platform they are posted on."
+                },
+                {
+                  "id": "b",
+                  "label": "They rely on audio, so silent viewers leave without knowing the point."
+                },
+                {
+                  "id": "c",
+                  "label": "The visual quality is not high enough compared with competitors' videos."
+                },
+                {
+                  "id": "d",
+                  "label": "They are being published at the wrong times of day for the audience."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Silent viewing is the default in most feeds. A video that only makes sense with sound loses those viewers in seconds, and captions usually fix completion rates faster than any other change.",
+              "wrongHint": "Think about how most people encounter video in a feed — where are they, and is the sound on?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Deliver Every Shape at Once",
+              "bodyHtml": "<p>Ask where it will be posted and export all needed aspects in one session. It takes minutes while the project is open and half an hour once it is closed.</p><p>Design for the tightest crop from the start: keep the subject and text centred so a vertical version does not cut the point out of frame.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any video and watch it muted from the beginning.",
+                "Note the first moment you stop understanding it.",
+                "Add captions for that section and watch again silently.",
+                "Export the same video in vertical and square, checking nothing important is cut."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Check the Captions Yourself",
+              "bodyHtml": "<p>Automatic captions are close but rarely correct on names, products and technical words — exactly the words the client cares most about.</p><p>Reading through once before delivery takes two minutes. Sending a video where the company's own product name is misspelled on screen undoes an otherwise good job in a single frame.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Most viewing is silent, so the video must work muted: burned-in captions, correct aspect for each destination, safe margins, and a mute check before delivery. Export every shape while the project is open, and always proofread automatic captions for names and products.",
+              "nextTeaser": "Next unit: running short-form as a repeatable system instead of one-off posts."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "short-form-systems",
       "title": "Short-Form Systems",
       "description": "Run short-form content as a repeatable service rather than one-off posts. Covers hooks, batching, and reporting what actually moved.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "first-three-seconds",
+          "title": "The First Three Seconds",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Short-form is judged almost entirely at the start. Everything after the opening exists only for people the opening kept, which is a much smaller group than most creators assume.</p><p>This is not a trick to learn. It is a constraint that changes how you write, and treating it as manipulation is why a lot of good content is never seen.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Give Them a Reason, Not a Greeting",
+              "bodyHtml": "<p>The most wasted seconds in short-form are spent on introduction.</p><p><s>«Hey guys, welcome back, in this video we're going to look at…»</s></p><p><strong>«This one line on your checkout page is why people abandon the basket.»</strong></p><p>The second starts inside the idea. Every second of preamble is a second the viewer spends deciding whether to leave.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Everything after the opening is written only for the people it kept."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Five Openings That Work",
+              "bodyHtml": "<ul><li><strong>The contradiction</strong> — «More detail is losing you sales.»</li><li><strong>The named audience</strong> — «If you sell handmade jewellery, this one's yours.»</li><li><strong>The number</strong> — «Three words changed this page's conversion.»</li><li><strong>The mistake</strong> — «I did this for two years and it cost me clients.»</li><li><strong>The demonstration</strong> — start mid-action, explain after.</li></ul><p>None of these overstate anything. They just refuse to spend the opening on throat-clearing.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which opening line is most likely to hold a viewer scrolling a feed?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Hello everyone, today I want to share some tips about pricing your work."
+                },
+                {
+                  "id": "b",
+                  "label": "You are probably charging by the hour, and it is capping what you earn."
+                },
+                {
+                  "id": "c",
+                  "label": "In this short video I will explain three approaches to setting prices."
+                },
+                {
+                  "id": "d",
+                  "label": "Pricing is one of the hardest things freelancers have to work out."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "It names the viewer's situation and states a consequence in one line. The others announce a topic, and announcing a topic asks the viewer to wait for the point rather than giving it to them.",
+              "wrongHint": "Look for the line that is already inside the idea rather than introducing it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Do Not Overpromise",
+              "bodyHtml": "<p>A hook that promises more than the video delivers wins the first three seconds and loses the next ten, along with any reason to watch the following one.</p><p>The strongest hooks are simply the most specific true statement you can make. Specificity does the work that exaggeration is usually recruited for, and it survives being checked.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take one idea and write it as all five opening types.",
+                "Read each aloud and time how long before the point arrives.",
+                "Cut any opening that takes more than two seconds to reach it.",
+                "Check the strongest hook is still literally true of the content."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Test Openings, Not Topics",
+              "bodyHtml": "<p>When something underperforms, the instinct is to change the subject. Usually the subject was fine and the opening was not.</p><p>Post the same idea again with a different hook a fortnight later. This is the cheapest experiment in content, almost nobody runs it, and it teaches you more about an audience than any analytics dashboard.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Short-form is decided in the opening. Start inside the idea rather than introducing it, use a contradiction, a named audience, a number, a mistake or a demonstration — and keep the hook literally true. When something fails, re-test the opening before changing the topic.",
+              "nextTeaser": "Next: producing short-form in batches so it survives a busy month."
+            }
+          ]
+        },
+        {
+          "slug": "batching-short-form",
+          "title": "Batching Instead of Inventing",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Short-form punishes inconsistency more than it punishes mediocrity. Posting three times a week for a month and then stopping produces almost nothing.</p><p>Yet daily creation is exhausting, which is why most accounts stop. The way out is not more discipline; it is producing in batches so that a busy week costs nothing.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One Session, Many Pieces",
+              "bodyHtml": "<p>Most of the cost of a piece is starting it: setting up, getting into the right head, remembering the format.</p><p><s>Twenty minutes a day, every day, starting from nothing each time.</s></p><p><strong>One session a week: eight hooks, four scripts, one recording block, one editing block.</strong></p><p>Same total time, several times the output, and the busy days no longer break the schedule.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Most of the cost of a piece is starting it. Batching pays that cost once."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Separate the Four Jobs",
+              "bodyHtml": "<ul><li><strong>Ideas</strong> — collect, never judge, keep a running list</li><li><strong>Scripts</strong> — write several in one sitting, no recording</li><li><strong>Capture</strong> — record everything in one block</li><li><strong>Assembly</strong> — edit, caption and export together</li></ul><p>Mixing these is what makes creation feel slow. Writing while recording means doing both badly, and it is why a single piece can absorb a whole afternoon.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client can only spare two hours a week for video. What is the best structure?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Twenty-five minutes each weekday, creating and posting one piece daily."
+                },
+                {
+                  "id": "b",
+                  "label": "One two-hour session weekly, producing several pieces to post gradually."
+                },
+                {
+                  "id": "c",
+                  "label": "Two one-hour sessions, one for filming and one for editing each week."
+                },
+                {
+                  "id": "d",
+                  "label": "One monthly session of eight hours, producing everything for the month."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A single weekly block pays the start-up cost once and builds a buffer, so a bad week does not break the schedule. Daily sessions restart the cost every day, and monthly ones are too easy to skip entirely.",
+              "wrongHint": "Think about which structure still works during a week when something goes wrong."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep an Idea List Running",
+              "bodyHtml": "<p>The hardest part of a batch session is starting from an empty page. Solve it during the week: note every question a client asks, every complaint, every thing you had to explain twice.</p><p>Arrive at the session with twenty rough ideas and the two hours become production rather than invention — which is the difference between a session that works and one that gets rescheduled.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Start a running list and add five ideas from this week's conversations.",
+                "Block one production session in the calendar as a real appointment.",
+                "Split that session into the four jobs, in order, with times.",
+                "Produce three pieces in it and schedule them across two weeks."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Build a Two-Week Buffer",
+              "bodyHtml": "<p>Never post what you made today. Keep a fortnight of finished pieces scheduled ahead.</p><p>The buffer absorbs illness, holidays and client emergencies. It also improves quality, because a piece you look at again two days later is one you can fix before anyone else sees it.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Consistency beats intensity, and batching is what makes consistency survivable. Separate ideas, scripts, capture and assembly, run one weekly session with a running idea list ready, and keep two weeks of finished pieces scheduled ahead.",
+              "nextTeaser": "Next: reporting on short-form so the client sees what actually moved."
+            }
+          ]
+        },
+        {
+          "slug": "reporting-what-moved",
+          "title": "Reporting What Actually Moved",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Short-form generates a lot of numbers and very few conclusions. Views, likes, shares, saves, watch time — each moves for reasons nobody can fully explain.</p><p>That makes it easy to report activity instead of results, and reporting activity is the fastest way to lose a content client who is trying to work out whether this is worth the money.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask What Counts Before You Start",
+              "bodyHtml": "<p>Agree the measure in the first conversation, not the third month.</p><p><s>«We'll track engagement and see how it goes.»</s></p><p><strong>«What would make this obviously worth continuing — enquiries, sign-ups, or people mentioning it on calls?»</strong></p><p>Views are easy to count and rarely what the client cares about. The thing they care about is usually harder to see and always worth asking for.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Views are easy to count, which is why they get reported instead of results."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Numbers That Mean Something",
+              "bodyHtml": "<ul><li><strong>Completion</strong> — did people watch to the end? Tests the script.</li><li><strong>Saves and shares</strong> — did anyone find it useful enough to keep?</li><li><strong>The business signal</strong> — enquiries, sign-ups, mentions.</li></ul><p>Likes are the least informative number available and the most frequently reported. Completion tells you whether the writing worked, which is something you can act on next week.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A video got high views but very low completion. What does that tell you?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The topic is popular and should be covered again in more depth soon."
+                },
+                {
+                  "id": "b",
+                  "label": "The hook worked and the rest did not deliver on what it promised."
+                },
+                {
+                  "id": "c",
+                  "label": "The video was posted at a good time and reached the right audience."
+                },
+                {
+                  "id": "d",
+                  "label": "The platform's algorithm favoured this format over the previous ones."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Views mean the opening earned attention; low completion means the rest did not keep it. That combination points at the middle of the video, which is a specific thing to fix rather than a vague result.",
+              "wrongHint": "Think about what each number measures — one is about arriving, the other about staying."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Report the Pattern, Not the Post",
+              "bodyHtml": "<p>Individual pieces vary enormously for reasons outside anyone's control. One video doing well proves very little.</p><p>Report monthly and look for repeated patterns: which subjects consistently hold attention, which formats get saved. That is something to act on; a single result is mostly noise dressed as insight.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the question you will ask about what counts as success.",
+                "Pick the three numbers you will report and ignore the rest.",
+                "Draft a four-line monthly summary template.",
+                "Add one recommendation line for what to try next month."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Give Them Something Beyond Video",
+              "bodyHtml": "<p>Once a month, hand over something the content revealed about their customers: a question that keeps coming up in comments, a phrase that lands, an objection nobody had noticed.</p><p>That insight feeds their sales and product decisions, and it is what makes a content retainer feel like part of the business rather than a monthly expense to reconsider.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Agree what counts before you start, then report three things: completion, saves and the business signal. Look at monthly patterns rather than individual posts, and hand over one insight about customers each month — that is what keeps a content retainer alive.",
+              "nextTeaser": "Next unit: doing assistant work in half the time and charging for the outcome."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ai-assistant-work",
       "title": "AI-Powered Virtual Assistance",
       "description": "Do assistant work in half the time using AI, and charge for the outcome. Covers the tasks worth automating and the ones you should never hand over.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "tasks-worth-taking-over",
+          "title": "The Tasks Worth Taking Over",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Assistant work is the easiest paid work to start, and the easiest to get stuck in. Take whatever is offered and you become cheap, endlessly available, and impossible to raise rates on.</p><p>Choosing what you take is the whole difference. Some tasks compound into a real service; others quietly turn you into an unpaid employee with no contract.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Take Repeating Work, Not Errands",
+              "bodyHtml": "<p>Compare two versions of the same relationship:</p><p><s>«Whatever comes up during the week — I'll send things over as they arise.»</s></p><p><strong>«Inbox triage each morning, the weekly report on Fridays, and scheduling for the month.»</strong></p><p>The second can be improved, systematised and eventually priced as a package. The first can only be endured, and it never gets faster.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Errands cannot be improved. Repeating work can be turned into a system you own."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Signs a Task Is Worth Taking",
+              "bodyHtml": "<ul><li><strong>It repeats on a schedule</strong> — you can get better at it</li><li><strong>It has a visible output</strong> — something the client sees each week</li><li><strong>It can be documented</strong> — so it survives your holiday</li><li><strong>It is not urgent by nature</strong> — no expectation of instant replies</li></ul><p>The fourth is the one people underweight. Work that arrives as emergencies destroys your week regardless of how well it pays.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client offers assistant work. Which arrangement is best to accept?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "General support as things come up, billed hourly whenever you work."
+                },
+                {
+                  "id": "b",
+                  "label": "Three named recurring tasks with fixed days and a monthly fee agreed."
+                },
+                {
+                  "id": "c",
+                  "label": "Being available during their working hours for whatever they need."
+                },
+                {
+                  "id": "d",
+                  "label": "A trial month doing everything, so you can see what they need most."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Named recurring tasks can be systematised, documented and eventually done faster — which is the only way this work becomes more profitable over time. Open availability gets cheaper the better you become at it.",
+              "wrongHint": "Think about which arrangement can be improved through repetition rather than merely endured."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use AI on the Boring Half",
+              "bodyHtml": "<p>Summarising long threads, drafting standard replies, turning notes into documents, extracting details from messages — these are where the tools genuinely save hours.</p><p>What should not be handed over unchecked is anything involving a promise, a number or a tone the client cares about. Draft with the tool, decide yourself, and keep that boundary explicit.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List the assistant tasks you could take on for a business you know.",
+                "Mark each against the four signs above.",
+                "Cross out anything urgent by nature or impossible to document.",
+                "Write the three you would offer as a package, with days attached."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say No to Availability",
+              "bodyHtml": "<p>The most damaging thing you can sell in this work is your presence. «Available during working hours» has no ceiling and no measurable output.</p><p>Offer named tasks on named days instead. Clients accept this readily — it is more predictable for them too — and it is what makes the arrangement survivable past month three.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Assistant work becomes valuable when it repeats, produces visible output, can be documented and is not urgent by nature. Use AI on summarising and drafting, keep judgement yourself, and never sell availability — sell named tasks on named days.",
+              "nextTeaser": "Next: working inside someone else's systems without becoming a liability."
+            }
+          ]
+        },
+        {
+          "slug": "inside-someone-elses-systems",
+          "title": "Working Inside Someone Else's Systems",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Assistant work almost always means access: an inbox, a calendar, a shared drive, sometimes a payment system. That access is the job and it is also the risk.</p><p>Handled casually, one mistake becomes a serious problem for a business that trusted you. Handled properly, being obviously safe to give access to is a genuine competitive advantage.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask for the Least Access That Works",
+              "bodyHtml": "<p>The instinct is to accept whatever is offered, because asking questions feels like making things complicated.</p><p><s>«Send me the login and I'll take it from there.»</s></p><p><strong>«Add me as a user with my own login, limited to the inbox and calendar — not the admin account.»</strong></p><p>Separate credentials mean actions are attributable, access is revocable, and neither of you is exposed if something goes wrong.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Shared logins make every mistake anonymous, including the ones that were not yours."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Rules for Access",
+              "bodyHtml": "<ul><li><strong>Your own account</strong>, never a shared password</li><li><strong>Minimum permissions</strong> — nothing you do not need weekly</li><li><strong>Two-factor everywhere</strong>, on your side too</li><li><strong>Written scope</strong> — what you may send or approve without asking</li></ul><p>The fourth prevents the most common awkward moment in this work: doing something helpful that you were not authorised to do.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client sends you the password to their main business account. Best response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Accept it and be careful, since asking for changes will slow things down."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask for a separate user account with only the permissions you need."
+                },
+                {
+                  "id": "c",
+                  "label": "Accept it but change the password so only you know the new one."
+                },
+                {
+                  "id": "d",
+                  "label": "Decline the work, as sharing passwords shows poor security practice."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "A separate account protects both sides: your actions are attributable, access can be removed cleanly, and you are not holding credentials to a business you do not own. Asking for it reads as professional, not difficult.",
+              "wrongHint": "Think about what happens on the day the working relationship ends, for either reason."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write Down What You May Decide",
+              "bodyHtml": "<p>Agree a short list: what you send without asking, what needs approval, what always goes to them.</p><p>Without it you will either interrupt them constantly, which defeats the point of hiring you, or make a decision that was not yours to make. One list, five lines, settles it for good.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the access request message you will send at the start of any job.",
+                "List the permissions you genuinely need weekly, and nothing more.",
+                "Draft the three-column note: send freely, ask first, always escalate.",
+                "Check your own account security before asking anyone to trust you."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Leave Cleanly",
+              "bodyHtml": "<p>When work ends, ask them to remove your access and confirm it is done. Do not simply stop logging in.</p><p>It takes one message and closes the relationship properly. It also means that if something goes wrong at that business six months later, there is no question about who still had a key.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Access is the job and the risk. Ask for your own account with the minimum permissions, use two-factor on both sides, and agree in writing what you may send, what needs approval and what always escalates. When the work ends, ask for access to be removed and confirmed.",
+              "nextTeaser": "Next: charging for outcomes instead of hours of availability."
+            }
+          ]
+        },
+        {
+          "slug": "outcomes-not-availability",
+          "title": "Charging for Outcomes, Not Availability",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Assistant work is the field where hourly billing survives longest, and where it hurts most. Every improvement you make reduces your income.</p><p>Get twice as fast at inbox triage using better tools and better routines, and an hourly arrangement quietly halves your pay for the same result. That is not a small inefficiency; it is a penalty on competence.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Price the Coverage, Not the Clock",
+              "bodyHtml": "<p>The alternative is to price a defined amount of work per month.</p><p><s>«£15 an hour, roughly ten hours a week.»</s></p><p><strong>«£520 a month covers daily inbox triage, the Friday report and scheduling. Anything beyond that we agree separately.»</strong></p><p>The client gets predictability, and you keep the benefit of getting faster — which is the only way this work improves over time.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Bill by the hour and every efficiency you find is a pay cut you gave yourself."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Makes It Safe to Fix a Price",
+              "bodyHtml": "<ul><li><strong>Named tasks</strong> — three or four, not «support»</li><li><strong>A volume assumption</strong> — «up to about forty emails a day»</li><li><strong>A review point</strong> — revisit in three months</li><li><strong>An overflow rule</strong> — what happens in an unusually heavy month</li></ul><p>The volume assumption is what protects you. Without it, a client whose business doubles has doubled your work at the same fee.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have halved the time your monthly tasks take. What is the right move?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Tell the client and reduce the fee, since it now takes far less time."
+                },
+                {
+                  "id": "b",
+                  "label": "Keep the fee, keep the output, and use the time for another client."
+                },
+                {
+                  "id": "c",
+                  "label": "Keep the fee but quietly add extra unrequested tasks to fill the time."
+                },
+                {
+                  "id": "d",
+                  "label": "Switch to hourly billing so the arrangement stays fair to both sides."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The client is buying a result at an agreed price and is receiving exactly that. Speed you developed is your return on improving, and the honest use of it is taking on more work rather than lowering your rate.",
+              "wrongHint": "Ask what the client actually agreed to buy — a number of hours, or a result?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Review at Three Months",
+              "bodyHtml": "<p>Put a date in the agreement to revisit scope and fee. Volumes change, tasks get added informally, and without a review the arrangement silently drifts in the client's favour.</p><p>A scheduled review makes the conversation routine instead of confrontational — you are not asking for a raise, you are doing what you both agreed to do.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your assistant tasks and write them as a monthly package.",
+                "Add the volume assumption in plain numbers.",
+                "Write the overflow rule for an unusually heavy month.",
+                "Put a three-month review date in the agreement itself."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Show What You Handled",
+              "bodyHtml": "<p>Monthly work becomes invisible when it goes well, and invisible work gets cancelled during a cost review.</p><p>One line a month fixes it: «Handled 640 emails, 22 scheduled, 4 reports. Two things I'd flag.» Thirty seconds, and it keeps the value of the arrangement visible to whoever eventually looks at the budget.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Hourly billing punishes you for improving. Price a monthly package of named tasks with a volume assumption, an overflow rule and a three-month review. Keep the benefit of getting faster, and send one line a month showing what you handled so the work stays visible.",
+              "nextTeaser": "Next unit: taking over the small recurring operations that drain a business owner's week."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "inbox-and-ops",
       "title": "Inbox and Operations",
       "description": "Take over the small recurring work that drains a business owner's week. Covers inbox triage, scheduling, documentation, and staying invisible in a good way.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "triage-before-automation",
+          "title": "Triage Before Automation",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Someone hands you an overflowing inbox and the temptation is to start building: filters, rules, automated replies, a whole system on day one.</p><p>Build before you understand the pattern and you will automate the wrong things confidently. A week of sorting by hand teaches you what a month of guessing cannot.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Sort First, Then Decide",
+              "bodyHtml": "<p>The first week is research disguised as work.</p><p><s>Setting up filters and templates on day one based on what usually works.</s></p><p><strong>Sorting everything by hand for a week and counting: how many of each type, how many needed the owner, how many were the same question.</strong></p><p>That count is what tells you which single change removes the most work — and it is usually not the one you would have guessed.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Automate before you understand the pattern and you will remove the wrong work efficiently."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Buckets",
+              "bodyHtml": "<ul><li><strong>Answer</strong> — you can handle it, no approval needed</li><li><strong>Draft</strong> — you write it, they send it</li><li><strong>Escalate</strong> — only the owner can decide</li><li><strong>Ignore</strong> — no reply needed, archive it</li></ul><p>The fourth bucket is usually the largest and the most valuable. Most inbox overwhelm is volume that never needed a response at all.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You take over an inbox with 200 unread messages. What is the first thing you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Set up filters and automated replies to stop the volume growing further."
+                },
+                {
+                  "id": "b",
+                  "label": "Sort a week of messages by hand and count how many of each type arrive."
+                },
+                {
+                  "id": "c",
+                  "label": "Answer everything as quickly as possible to reach a clear inbox today."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask the owner which messages matter most and prioritise only those."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A week of manual sorting produces the counts that show which change removes the most work. Filters built on assumption tend to hide the wrong things, and hidden messages are worse than unread ones.",
+              "wrongHint": "Think about which action produces information you do not currently have."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Then Remove, in Order",
+              "bodyHtml": "<p>Once you have counts, act on the biggest bucket first. Usually that means unsubscribing and filtering the noise, then templating the three questions that make up most of the real messages.</p><p>Two changes often halve the volume. Doing them in the right order, based on counts rather than instinct, is the difference between an inbox that improves and one that just gets rearranged.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your own inbox and sort one day into the four buckets.",
+                "Count each bucket and note which is largest.",
+                "Write a template for the most repeated real question.",
+                "Unsubscribe from everything in the ignore bucket."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Report the Numbers Back",
+              "bodyHtml": "<p>After the first week, tell the owner what you found: «Of 340 messages, 190 needed no reply, 90 were the same three questions, 60 needed you.»</p><p>That is often the most useful thing anyone has ever told them about their own week — and it turns a routine assistant job into something they can see the value of immediately.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Sort before you automate. Spend a week putting everything into four buckets — answer, draft, escalate, ignore — and count them. Act on the largest bucket first, then template the repeated questions, and report the numbers back: they are usually a revelation.",
+              "nextTeaser": "Next: documenting the work so it survives your holiday."
+            }
+          ]
+        },
+        {
+          "slug": "documenting-to-be-replaceable",
+          "title": "Documenting So You Are Replaceable",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>There is a common instinct in ongoing work: keep the details in your head so you cannot easily be replaced. It feels like security.</p><p>It produces the opposite. A client who depends on you and cannot see how anything works becomes nervous, and nervous clients look for ways to reduce the dependency — usually by ending it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Documented Work Is Bigger Work",
+              "bodyHtml": "<p>Compare how two arrangements grow:</p><p><s>«Only I know how the reporting process works, so they always have to ask me.»</s></p><p><strong>«Everything is written down, so they trust me with the next process too.»</strong></p><p>Documentation makes you the person who organises things rather than the person who holds them hostage, and organisers get given more.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Being irreplaceable makes you a risk. Being organised makes you the person they expand."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What a Usable Note Contains",
+              "bodyHtml": "<ul><li><strong>When it happens</strong> — the trigger or the day</li><li><strong>The steps</strong> — numbered, in the words a stranger would need</li><li><strong>The decisions</strong> — what to do when it is not straightforward</li><li><strong>Who to ask</strong> — when even the note does not cover it</li></ul><p>Half a page per recurring task. Written once, updated when something changes, and it takes less time than explaining the same thing twice.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You will be away for two weeks. What makes the handover work?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A long call explaining everything to whoever will cover the tasks."
+                },
+                {
+                  "id": "b",
+                  "label": "Written notes per task, with steps, decisions and who to ask when stuck."
+                },
+                {
+                  "id": "c",
+                  "label": "Doing extra work in advance so nothing needs handling while away."
+                },
+                {
+                  "id": "d",
+                  "label": "Staying reachable for questions during the holiday, just in case."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Written notes work when you are unavailable and keep working afterwards. A call is forgotten within days, working ahead only postpones the problem, and staying reachable means never actually being away.",
+              "wrongHint": "Think about which option still helps on day nine, when you cannot be contacted."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write It While You Do It",
+              "bodyHtml": "<p>Do not set aside a day for documentation — it never arrives. Write the note the first time you do a task, correcting it the second time.</p><p>By the third repetition it is accurate and complete, and it cost you no separate effort at all. This is also how you discover which parts of the task are actually decisions rather than steps.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick one recurring task you do and write the four sections for it.",
+                "Give it to someone unfamiliar and watch them try to follow it.",
+                "Fix every point where they had to ask a question.",
+                "Store it where the client can read it without asking you."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Hand It Over Deliberately",
+              "bodyHtml": "<p>Tell the client the documentation exists and where it lives. Do not leave it in a folder they never open.</p><p>«Everything I do for you is written up here, so nothing depends on me being available» is a genuinely reassuring sentence — and it tends to be followed by being asked to take on something else.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Holding knowledge makes you a risk; documenting it makes you the person they expand. Write half a page per recurring task — trigger, steps, decisions, who to ask — while doing the work rather than in a separate session, and tell the client where it lives.",
+              "nextTeaser": "Next: being invisible in the right way, and visible in the right way."
+            }
+          ]
+        },
+        {
+          "slug": "invisible-in-the-right-way",
+          "title": "Invisible in the Right Way",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Good operations work disappears. Nothing goes wrong, nobody notices, and the week runs smoothly — which is exactly the problem when someone reviews the budget.</p><p>The skill is being invisible in the work and visible in the value. Those are different things, and confusing them is why reliable people get cut in cost reviews.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Silence Reads as Nothing Happening",
+              "bodyHtml": "<p>The most reliable freelancers often communicate least, because there is nothing wrong to report.</p><p><s>Three months of quiet competence with no updates at all.</s></p><p><strong>One line each month: what was handled, what was prevented, what is worth their attention.</strong></p><p>The second costs thirty seconds and is what people remember when deciding what to keep paying for.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Work that goes perfectly looks identical to work that is not happening."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Report What Did Not Happen",
+              "bodyHtml": "<ul><li><strong>Volume handled</strong> — the number that would otherwise be theirs</li><li><strong>Problems caught early</strong> — the missed deadline that was not missed</li><li><strong>Time returned</strong> — hours that went back to them</li><li><strong>One thing to notice</strong> — a pattern only you can see</li></ul><p>The second is the most persuasive and the least reported. Nobody thinks to mention a disaster that quietly did not occur.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Six months of flawless operations work. The client is reviewing costs. What protects the arrangement?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Your consistently fast response times over the whole six-month period."
+                },
+                {
+                  "id": "b",
+                  "label": "A monthly record of volume handled, problems prevented and time returned."
+                },
+                {
+                  "id": "c",
+                  "label": "The strength of the personal relationship you have built with the owner."
+                },
+                {
+                  "id": "d",
+                  "label": "Offering a discount to make the arrangement easier to justify keeping."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A cost review looks for evidence, and flawless work leaves none by nature. A monthly record is the only thing that makes prevented problems and returned hours visible to someone reading a spreadsheet.",
+              "wrongHint": "Think about what someone reviewing a budget can actually see when nothing has gone wrong."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Be Invisible in the Work",
+              "bodyHtml": "<p>Inside the work itself, disappear properly: match their tone in replies, follow their conventions, do not add your own systems to a business that already has some.</p><p>Operations work is not where you demonstrate personality. The compliment you are aiming for is that nobody could tell where their process ended and yours began.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your monthly one-liner template with the four elements.",
+                "Look back at last month and fill it in for real.",
+                "Note one problem you prevented that nobody ever knew about.",
+                "Send it, even if nothing notable happened at all."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Flag Before It Breaks",
+              "bodyHtml": "<p>When you notice something heading for trouble — a contract expiring, a supplier slipping, a growing backlog — say so early and briefly.</p><p>Two or three of those and you stop being someone who handles tasks and become someone who watches the business. That shift is what makes an operations arrangement genuinely difficult to cancel.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Operations work disappears when it goes well, which is a risk at every cost review. Be invisible inside the work — their tone, their conventions — and visible in the value: one line a month covering volume, problems prevented, time returned and one thing worth noticing.",
+              "nextTeaser": "Next unit: positioning and rates, once you have decided what you are good at."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "positioning-and-rates",
       "title": "Positioning and Rates",
       "description": "Move from «cheap and available» to «obvious choice» for one kind of buyer. Covers narrowing, wording, and raising rates without losing the client.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "why-narrow-costs-more",
+          "title": "Why Narrow Work Costs More",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Raising your rate feels like a negotiation problem — find the right words, hold your nerve, hope they agree. Approached that way it is genuinely hard.</p><p>It is usually a positioning problem instead. A generalist competes with everyone and is priced against the cheapest of them. A specialist is compared with almost nobody.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Same Skills, Different Comparison",
+              "bodyHtml": "<p>Two freelancers with identical ability can be worth very different amounts, because they are being compared against different sets of people.</p><p><s>«Freelance writer, all industries, flexible on scope.»</s></p><p><strong>«I write product descriptions for independent food brands.»</strong></p><p>The first is one of thousands and is priced accordingly. The second is one of a handful, and the buyer has nobody obvious to compare the price against.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A generalist is priced against the cheapest person who could do it. A specialist is priced against nobody."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Ways to Narrow",
+              "bodyHtml": "<ul><li><strong>By industry</strong> — food brands, clinics, software companies</li><li><strong>By task</strong> — only launch emails, only product pages</li><li><strong>By situation</strong> — businesses moving from one platform to another</li></ul><p>Any one of these is enough. The third is the most overlooked and often the most profitable, because the need is urgent and the field is nearly empty.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You want to raise rates but fear losing work. What usually changes the outcome most?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Better negotiation, so you can defend your number under pressure."
+                },
+                {
+                  "id": "b",
+                  "label": "Narrowing what you advertise, so fewer people are directly comparable."
+                },
+                {
+                  "id": "c",
+                  "label": "Improving your portfolio, so the quality justifies the higher price."
+                },
+                {
+                  "id": "d",
+                  "label": "Waiting until you are fully booked, then raising prices from strength."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Price is largely set by what a buyer compares you against. Narrowing removes most of the comparison set, which does more for your rate than any negotiation technique or portfolio improvement.",
+              "wrongHint": "Think about what the buyer is mentally comparing your price with before they answer."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Narrow the Advertising, Not the Work",
+              "bodyHtml": "<p>Specialising does not mean refusing everything else. It means what you lead with is specific, so the people who arrive are already the right ones.</p><p>You will still take other work when it appears. But the enquiries that come from a narrow position arrive pre-convinced, and pre-convinced clients argue about price far less.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Look at your last five jobs and find what they had in common.",
+                "Write your position three ways: by industry, by task, by situation.",
+                "Pick the one with the most live demand you can actually see.",
+                "Rewrite your profile headline as that single sentence."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Let Evidence Follow the Choice",
+              "bodyHtml": "<p>The fear is being unqualified for the niche you pick. In practice, three relevant samples and one finished job are enough to be credible.</p><p>Choose the position first, then make the evidence fit it. Waiting until you feel qualified means waiting for a permission that never arrives from anywhere.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Rates are set by comparison, so the fastest way to charge more is to be compared with fewer people. Narrow by industry, task or situation, keep taking other work but stop advertising it, and build three relevant samples after choosing — not before.",
+              "nextTeaser": "Next: raising rates with clients you already have."
+            }
+          ]
+        },
+        {
+          "slug": "raising-rates",
+          "title": "Raising Rates Without Losing Clients",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most freelancers keep the same rate far too long, because raising it feels like risking a working relationship over money.</p><p>What actually loses clients is not the increase. It is a large jump after two years of nothing, announced badly, with no warning and no reason attached.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "New Clients First",
+              "bodyHtml": "<p>The safest increase is invisible: charge the new rate to people who never knew the old one.</p><p><s>Announcing a rate rise to everyone at once and waiting for reactions.</s></p><p><strong>Quoting the new number to every new enquiry, and moving existing clients gradually at natural moments.</strong></p><p>Within a few months most of your work is at the new rate and nobody had to be told anything.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody argues with a price they have never seen before."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "When to Tell Existing Clients",
+              "bodyHtml": "<ul><li><strong>At a scheduled review</strong> — the reason it was scheduled</li><li><strong>At the start of a new project</strong>, not mid-way through one</li><li><strong>When scope grows</strong> — the natural moment to reprice</li><li><strong>With notice</strong> — a month ahead, never with immediate effect</li></ul><p>Never mid-project, never as a surprise, and never with a long justification — one line stating the new rate and when it starts is enough.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You want to raise your rate with a long-standing monthly client. Best approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Explain in detail how your costs and experience have increased recently."
+                },
+                {
+                  "id": "b",
+                  "label": "Give a month's notice with the new rate and the date it takes effect."
+                },
+                {
+                  "id": "c",
+                  "label": "Raise it quietly on the next invoice and see whether they mention it."
+                },
+                {
+                  "id": "d",
+                  "label": "Offer additional services at the new rate while keeping the old one."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Notice and a date treat it as ordinary business, which is what it is. Long justifications invite negotiation, quiet increases damage trust, and adding services changes the arrangement instead of the price.",
+              "wrongHint": "Think about which approach treats a rate change as routine rather than as something requiring permission."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Expect to Lose Someone",
+              "bodyHtml": "<p>An increase that nobody objects to was probably too small. Losing one client from a rate rise is a normal outcome, not a failure.</p><p>The arithmetic usually works out well: fewer clients at a higher rate is the same money with less work, and the client who leaves over a modest increase was rarely the one you wanted to keep.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your current rate and the number you would like it to be.",
+                "Quote the new one to the next enquiry, without explanation.",
+                "Pick one existing client and note their next natural review moment.",
+                "Draft the two-line notice message for that moment now."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Use a Rule, Not a Feeling",
+              "bodyHtml": "<p>Waiting until you feel you deserve more means waiting indefinitely. Use a mechanical rule instead: raise the rate every fifth completed job, or every six months.</p><p>A rule removes the emotional decision entirely, and it means the increases are small and frequent rather than large and alarming — which is exactly what makes them easy to accept.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Raise the price for new enquiries first and move existing clients at natural moments with a month's notice and no long justification. Use a rule rather than a feeling — every fifth job or every six months — and accept that losing one client to an increase is a normal, usually profitable outcome.",
+              "nextTeaser": "Next: deciding which clients are worth keeping at all."
+            }
+          ]
+        },
+        {
+          "slug": "choosing-who-to-stop",
+          "title": "Choosing Who to Stop Working With",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>At some point the constraint stops being finding work and becomes having too much of the wrong kind. That transition is rarely noticed, because turning work down feels like something only established people do.</p><p>But a schedule full of low-paying, high-friction clients leaves no room for the ones that would replace them — and that is what keeps rates flat for years.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Count the Real Cost",
+              "bodyHtml": "<p>Fee alone is a poor measure of whether a client is worth keeping.</p><p><s>«They pay £300 a month, which is decent.»</s></p><p><strong>«£300, but four hours of messages, two rounds of unpaid changes and one late payment every month.»</strong></p><p>Written out that way, a lot of tolerable clients turn out to be the reason there is no capacity for better ones.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A client who fills your week at a low rate is not income. They are the reason you have no room."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Signs to Move On",
+              "bodyHtml": "<ul><li><strong>Every job needs three rounds</strong> that were not in the scope</li><li><strong>Payment always needs chasing</strong>, every single time</li><li><strong>The rate has not moved</strong> in a year and will not</li><li><strong>You feel worse after their messages</strong> — this one is data</li></ul><p>One of these is manageable. Three together means the arrangement is costing more than the fee, and the fee is not going to change.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A long-standing client pays below your current rate and takes twice the time. What is the best move?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Keep them for stability while you look for better-paying replacements."
+                },
+                {
+                  "id": "b",
+                  "label": "Quote your current rate at the next natural point and accept either answer."
+                },
+                {
+                  "id": "c",
+                  "label": "End the arrangement now to free up capacity for better work immediately."
+                },
+                {
+                  "id": "d",
+                  "label": "Reduce the quality of the work to match what they are actually paying."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Repricing turns an awkward decision into their choice, and either answer is fine: they accept and become worth keeping, or they leave and free the capacity. Ending abruptly costs goodwill you may want later.",
+              "wrongHint": "Look for the option where either outcome leaves you better off than today."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Reprice Instead of Refusing",
+              "bodyHtml": "<p>You rarely need to end anything. Quote your current rate and let the client decide — most difficult conversations resolve themselves this way.</p><p>If they accept, the friction is now paid for. If they decline, you have capacity and nobody was rejected. This is the whole technique, and it works far more often than people expect.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List your current clients with fee, hours and friction for each.",
+                "Calculate what each actually earns per hour of your attention.",
+                "Identify the one at the bottom of that list.",
+                "Draft the repricing message you will send at their next natural moment."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Leave the Door Open",
+              "bodyHtml": "<p>When a relationship does end, end it warmly: recommend someone else if you can, hand over everything cleanly, say the door is open.</p><p>Businesses change, budgets change, and the client who could not afford you in March sometimes returns in November — usually to the person who made leaving easy rather than uncomfortable.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Count the real cost of each client — fee against hours, unpaid rounds and chasing — and reprice the worst rather than refusing them. Either they accept and the friction is paid for, or they leave and free the capacity for better work. End warmly; people come back.",
+              "nextTeaser": "That completes the plan: from choosing an offer to choosing which clients are worth keeping."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "pricing-and-offers",
