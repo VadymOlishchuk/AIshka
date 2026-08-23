@@ -1618,13 +1618,537 @@
       "slug": "ai-copywriting",
       "title": "Writing People Pay For",
       "description": "Sell writing that keeps a client's voice instead of sounding like everyone else. Covers briefs, structure, editing AI drafts, and what buyers check first.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "writing-people-pay-for",
+          "title": "What Makes Writing Worth Paying For",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Now that anyone can generate clean, grammatical text in seconds, it is reasonable to ask what is left to sell. If the writing itself is free, why would a business pay for it?</p><p>Because clean text was never what they were buying. They were buying someone who knows what the text is supposed to do — and that is the part the tool cannot decide.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Job Behind the Words",
+              "bodyHtml": "<p>Every piece of paid writing has a job, and knowing it changes every sentence.</p><p><s>«Write a product description for a ceramic mug.»</s></p><p><strong>«This mug is returned often because people expect it to be bigger. The description has to set the size expectation without making it sound small.»</strong></p><p>The second is not a better prompt. It is a decision about what the writing must achieve, and nobody but you was going to make it.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Anyone can produce sentences now. Almost nobody knows what the sentences are for."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions Before Writing",
+              "bodyHtml": "<ul><li><strong>Who is reading, and what do they already believe?</strong></li><li><strong>What one action should follow?</strong> Buy, reply, keep reading.</li><li><strong>What objection is in their way?</strong> Price, trust, effort.</li><li><strong>What must not be said?</strong> Claims they cannot legally or honestly make.</li></ul><p>Answer these and even a mediocre draft lands. Skip them and a beautiful draft achieves nothing in particular.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client says their landing page «isn't converting». What do you establish first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Which tone of voice they would prefer the new version to be written in."
+                },
+                {
+                  "id": "b",
+                  "label": "What visitors expect before arriving, and what stops them from buying."
+                },
+                {
+                  "id": "c",
+                  "label": "How long the page should be and how many sections it needs overall."
+                },
+                {
+                  "id": "d",
+                  "label": "Which competitors they admire, so the new page can match that style."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A page fails because of a mismatch between what the reader expected and what they found, or because an objection went unanswered. Tone, length and style are decisions you make after that, not instead of it.",
+              "wrongHint": "Think about which answer explains why people are leaving rather than how the page looks."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Specifics Are the Product",
+              "bodyHtml": "<p>Generated text drifts toward the general, because the general is the safest average of everything it has seen.</p><p>Your job is to put specifics back: the real objection, the real number, the real detail only this business knows. «Ships in 48 hours from Leeds» does more work than any amount of polished description, and no tool could have invented it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any page from a business you like and answer the four questions for it.",
+                "Rewrite one paragraph using only those answers, without generating anything.",
+                "Now generate a version and compare which one contains real specifics.",
+                "Note which specifics you had to supply yourself — that is your paid work."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Edit Like an Owner",
+              "bodyHtml": "<p>The last pass is where the fee is earned. Cut every sentence that could appear on a competitor's site, replace adjectives with facts, and read it aloud to catch the phrases no human says.</p><p>Clients rarely have words for this, but they feel it immediately. «It finally sounds like us» is the whole review, and it comes from that pass rather than from the draft.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Businesses are not buying sentences, they are buying decisions about what the sentences must do. Establish the reader, the action, the objection and the limits before writing, then put real specifics back in and cut anything a competitor could have written.",
+              "nextTeaser": "Next: capturing a client's voice so the work sounds like them, not like everyone."
+            }
+          ]
+        },
+        {
+          "slug": "capturing-a-voice",
+          "title": "Capturing a Client's Voice",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>«It doesn't sound like us» is the most common piece of feedback in paid writing, and the hardest to act on, because clients cannot usually explain what «us» is.</p><p>Voice feels mysterious for that reason. It is not. It is a small set of observable habits, and once you write them down it becomes something you can reproduce on purpose.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Voice Is Six Observable Things",
+              "bodyHtml": "<ul><li><strong>Sentence length</strong> — short and clipped, or long and flowing</li><li><strong>Person</strong> — «we» or «I», «you» or «customers»</li><li><strong>Formality</strong> — contractions or none; slang or none</li><li><strong>Humour</strong> — present, dry, absent</li><li><strong>Vocabulary they own</strong> — the words they always use</li><li><strong>Words they avoid</strong> — often more distinctive than the ones they use</li></ul><p>Twenty minutes with three of their published pieces gives you all six.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Voice is not a mood. It is a list of habits you can write down and copy."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Show, Do Not Describe",
+              "bodyHtml": "<p>Adjectives are useless for transferring voice, because they mean different things to everyone.</p><p><s>«Write in a friendly, professional, approachable tone.»</s></p><p><strong>«Match this: [paste two of their paragraphs]. Note they never use exclamation marks and always say «our team», never «we».»</strong></p><p>Examples plus explicit rules will beat any tone description you can write, every time.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client rejects three drafts saying each is «too corporate». What is the most useful next step?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Rewrite in a much more casual register with shorter, friendlier sentences."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask them to send two things they wrote that felt right, and copy the habits."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask them to define exactly what corporate means to them in their industry."
+                },
+                {
+                  "id": "d",
+                  "label": "Suggest a call to discuss their brand values and positioning in more depth."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "People recognise their voice far more reliably than they can describe it. Two examples they already approve of give you observable habits to copy, while asking for a definition returns another adjective.",
+              "wrongHint": "Think about which option gives you evidence rather than another word to interpret."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write the Voice Guide Once",
+              "bodyHtml": "<p>Turn those six observations into a short document — half a page — and reuse it at the top of every request for that client.</p><p>This is also sellable on its own. Businesses pay for a voice guide, and you produce it as a by-product of work you were doing anyway. Few freelancers realise it is a product.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a company and read three of their published pieces closely.",
+                "Note the six habits, with one real example of each.",
+                "Write a half-page guide, then generate something using it.",
+                "Compare against a version written without the guide."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The Voice Is Not Yours",
+              "bodyHtml": "<p>The most common quiet failure is a freelancer whose clients all sound the same — because they all sound like the freelancer.</p><p>Your preferences are not the standard. If you like short punchy sentences and the client writes long careful ones, the client wins. Clients notice this even when they cannot name it, and it is a large part of who gets rehired.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Voice is six observable habits: sentence length, person, formality, humour, owned vocabulary and avoided words. Gather them from real published work, show examples instead of describing tone, and write a reusable half-page guide — which is also a product clients will buy.",
+              "nextTeaser": "Next: writing that survives being scanned rather than read."
+            }
+          ]
+        },
+        {
+          "slug": "writing-that-gets-read",
+          "title": "Writing That Survives Being Scanned",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most writing advice assumes a reader who starts at the top and continues to the bottom. Almost nobody does that on a screen.</p><p>People scan first and decide whether to read at all. So a piece can be well argued, accurate and clear, and still fail — because it was never given the four seconds it needed to earn the fifth.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Front-Load Everything",
+              "bodyHtml": "<p>Academic writing builds to a conclusion. Commercial writing puts it first.</p><p><s>«In today's competitive market, businesses face many challenges when it comes to…»</s></p><p><strong>«Your product pages don't mention delivery times. That's the question filling your inbox.»</strong></p><p>The first sentence is a warm-up nobody stays for. The second is the point, delivered before the reader decides to leave.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "On a screen, the second paragraph is a privilege the first one has to earn."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Scanning Eyes Land On",
+              "bodyHtml": "<ul><li><strong>Headings</strong> — write them as statements, not labels: «Delivery is the question» beats «Delivery»</li><li><strong>The first line of each paragraph</strong> — put the point there</li><li><strong>Bold phrases</strong> — three or four per page, never a paragraph</li><li><strong>Lists</strong> — anything with three or more items</li><li><strong>Numbers</strong> — digits stop the eye where words do not</li></ul><p>Written well, those five carry the whole argument to someone who never reads a full sentence.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which heading works hardest for a reader who is scanning the page?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Delivery information and shipping options for your recent order"
+                },
+                {
+                  "id": "b",
+                  "label": "Most orders arrive in two days, and all of them are tracked"
+                },
+                {
+                  "id": "c",
+                  "label": "An overview of our approach to logistics and fulfilment"
+                },
+                {
+                  "id": "d",
+                  "label": "Frequently asked questions about delivery and returns policy"
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A heading that states a fact delivers information to someone who reads nothing else. Labels only tell the reader where they are, which is useful for navigation and useless for persuasion.",
+              "wrongHint": "Ask which heading still says something useful if the reader never opens the section."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Cut After Generating",
+              "bodyHtml": "<p>Generated drafts are consistently too long, because more text always looks like more effort.</p><p>A reliable pass: delete the first paragraph, delete every sentence containing «in today's», and cut the length by a third. The piece almost always improves, which tells you what those words were doing.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a draft and read only the headings and bold phrases in order.",
+                "Ask whether that alone conveys the argument — if not, rewrite the headings.",
+                "Delete the opening paragraph and see whether anything is actually lost.",
+                "Cut the total length by a third and compare the two versions."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One Idea per Paragraph",
+              "bodyHtml": "<p>Long paragraphs are not hard because of the words. They are hard because two ideas were pushed together and the reader has to separate them.</p><p>Three sentences, one idea, then a break. This single habit does more for readability than any amount of vocabulary work — and it is the easiest thing to check before you deliver.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Readers scan before they read, so put the point first and make headings state facts rather than label sections. Carry the argument in headings, opening lines, bold phrases, lists and numbers. Cut generated drafts by a third, and keep one idea per paragraph.",
+              "nextTeaser": "Next unit: turning writing into a repeatable content system you can sell monthly."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "content-systems",
       "title": "Content Systems That Scale",
       "description": "Build a repeatable content process you can sell as a monthly service. Covers calendars, repurposing, and handing over work a client can review quickly.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "one-idea-many-places",
+          "title": "One Idea, Many Places",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most businesses producing content are inventing something new every time. That is why they run out of energy in about six weeks, and why they keep hiring people to restart it.</p><p>The businesses that keep going are not more creative. They are reusing a small number of ideas in different shapes, and that difference is a system you can build and sell.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Reuse Is Not Repetition",
+              "bodyHtml": "<p>The fear is that saying the same thing twice looks lazy. In practice almost nobody sees everything you publish.</p><p><s>Writing a new topic for every post, every week, forever.</s></p><p><strong>Taking one strong idea and giving it five shapes: the short version, the example, the counter-argument, the checklist, the story behind it.</strong></p><p>Same idea, five entries, and each one reaches people the others missed.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Almost nobody sees everything you publish. Repetition is a fear, not a risk."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Shapes That Work",
+              "bodyHtml": "<ul><li><strong>The claim</strong> — the idea stated plainly in two lines</li><li><strong>The example</strong> — one real case where it happened</li><li><strong>The counter</strong> — the common belief it contradicts</li><li><strong>The how</strong> — steps someone can follow today</li><li><strong>The story</strong> — how you learned it, including getting it wrong</li></ul><p>Five shapes from one idea. A month of content is now four ideas, which is a completely different task from twenty.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client wants twenty posts a month and worries about running out of things to say. Best structure?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Twenty separate topics, planned in advance across the whole quarter."
+                },
+                {
+                  "id": "b",
+                  "label": "Four ideas a month, each written in five different shapes and formats."
+                },
+                {
+                  "id": "c",
+                  "label": "Whatever is topical that week, decided a few days before publishing."
+                },
+                {
+                  "id": "d",
+                  "label": "Ten topics, each published twice with slightly different wording used."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Four ideas is a manageable creative task; twenty is not, which is why calendars collapse. Five shapes per idea produces genuine variety in form while keeping the thinking load small enough to sustain.",
+              "wrongHint": "Think about which structure is still workable in month six, not just month one."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Harvest, Do Not Invent",
+              "bodyHtml": "<p>The ideas already exist inside the business. They are in support emails, sales calls, the questions asked before every purchase, and the objections that come up weekly.</p><p>Twenty minutes in a client's inbox produces more usable material than a day of brainstorming — and it comes phrased in the customer's own words, which is exactly what you need anyway.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take one idea you believe about your own work and write it as a claim.",
+                "Now write the same idea as an example, a counter, a how-to and a story.",
+                "Notice which shape was hardest — that is usually the most valuable one.",
+                "List the five questions you get asked most: those are five more ideas."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Sell the System, Not the Posts",
+              "bodyHtml": "<p>Posts are a commodity and get priced like one. A system — idea harvesting, five shapes, a monthly calendar and a review step — is a service, and it is the thing that makes a retainer make sense.</p><p>It is also more honest. What the client actually needs is to stop running out of things to say, and that is what you are solving.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Content collapses when every piece needs a new idea. Take four ideas a month and give each five shapes — claim, example, counter, how-to, story. Harvest the ideas from support emails and sales questions rather than inventing them, and sell the system rather than the posts.",
+              "nextTeaser": "Next: building a calendar the client can actually keep to."
+            }
+          ]
+        },
+        {
+          "slug": "calendar-that-survives",
+          "title": "A Calendar That Survives Contact With Reality",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Almost every content calendar is built in an optimistic hour and abandoned within a month. The plan was not wrong; it was designed for a version of the week that never happens.</p><p>A calendar that survives is built around the worst realistic week, not the best one — and that single change is what makes it still be running in month six.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Plan for the Bad Week",
+              "bodyHtml": "<p>Ambition at the planning stage is what causes collapse later.</p><p><s>«Five posts a week, plus a newsletter and a monthly long-form piece.»</s></p><p><strong>«Two posts a week and one newsletter a month, produced in a single batch on the first Monday.»</strong></p><p>The second one is boring and still running in December. Consistency at a low volume beats intensity that stops.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A calendar built for your best week is a calendar built for four weeks."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Batch, Do Not Trickle",
+              "bodyHtml": "<ul><li><strong>One session for ideas</strong> — harvest four, decide the shapes</li><li><strong>One session for drafting</strong> — all of them, in one context</li><li><strong>One session for editing and scheduling</strong> — the whole month at once</li></ul><p>Three focused sessions beat twenty interruptions, because most of the cost of a piece is starting it. Batching pays that cost once.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client keeps missing their own publishing schedule. What is the most likely fix?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A stricter schedule with clear deadlines and reminders for each piece."
+                },
+                {
+                  "id": "b",
+                  "label": "Halve the volume and produce everything in one batch session monthly."
+                },
+                {
+                  "id": "c",
+                  "label": "Add another person to the process so the work is shared between two."
+                },
+                {
+                  "id": "d",
+                  "label": "Move to a different platform where the audience is easier to reach."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Missed schedules are almost always a volume problem wearing a discipline costume. Less work, produced in one sitting, is what people actually keep doing — and consistency at low volume outperforms bursts.",
+              "wrongHint": "Think about whether the problem is willpower or the amount of work being planned."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Two Weeks Ahead, Always",
+              "bodyHtml": "<p>Keep a fortnight of finished content scheduled at all times. Not a month — that is too much stock to keep fresh — and not three days, which is where panic lives.</p><p>The buffer absorbs illness, holidays and busy weeks, and it is what turns publishing from a recurring emergency into something that just happens.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the smallest publishing schedule you would be embarrassed to admit to.",
+                "Halve it once more, then commit to that for three months.",
+                "Block one batch session per month in the calendar as a real appointment.",
+                "Build a two-week buffer before publishing anything at all."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Review Once a Month, Not Daily",
+              "bodyHtml": "<p>Checking numbers after every post produces anxiety and no information — the variance between individual pieces is mostly noise.</p><p>Look once a month at which ideas travelled and which shapes worked. That is a pattern you can act on, and it fits neatly into the same session where you plan the next four ideas.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Calendars fail because they are built for the best week. Halve the volume, batch production into three sessions, keep a two-week buffer of finished pieces, and review results monthly rather than daily. Boring and still running beats ambitious and abandoned.",
+              "nextTeaser": "Next: reporting on content in a way that leads to more work."
+            }
+          ]
+        },
+        {
+          "slug": "reporting-on-content",
+          "title": "Reporting So the Client Sees the Value",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Content retainers are cancelled more often for invisibility than for poor results. The work happened, the numbers were fine, and nobody inside the business could say what it had done.</p><p>A short monthly report fixes that. It is fifteen minutes of work and it is frequently what decides whether the arrangement continues.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Report Meaning, Not Metrics",
+              "bodyHtml": "<p>A wall of numbers puts the interpretation back on the client, who will not do it.</p><p><s>«Impressions 14,300, engagement 2.1%, clicks 190, follows +38.»</s></p><p><strong>«The delivery-times post did three times the usual traffic — people are still deciding based on that. Worth a second piece and a line on the product page.»</strong></p><p>The second is the same data with the thinking done, which is the part they are paying for.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A report full of numbers hands the client homework. A report with one recommendation hands them a decision."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Lines Is Enough",
+              "bodyHtml": "<ul><li><strong>What went out</strong> — counts, one line</li><li><strong>What worked</strong> — the best piece and, briefly, why</li><li><strong>What that suggests</strong> — one observation about the audience</li><li><strong>What you recommend next</strong> — one concrete action</li></ul><p>Four lines, sent on the same date every month. That predictability is itself reassuring, and it is what makes you feel like part of the business rather than a supplier.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A month's results are mediocre — nothing performed particularly well. What do you report?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Report the numbers plainly and note that this month was a quiet one."
+                },
+                {
+                  "id": "b",
+                  "label": "Say what the flat month rules out, and name the one thing to test next."
+                },
+                {
+                  "id": "c",
+                  "label": "Highlight the best-performing piece to keep the tone of the report positive."
+                },
+                {
+                  "id": "d",
+                  "label": "Skip the report this month and send a fuller one when results recover."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A flat month is information: it eliminates possibilities. Saying what it rules out and naming the next test keeps you in the role of someone thinking about the business, which is exactly what survives a bad month.",
+              "wrongHint": "Think about which response is still useful to the client when the news is not good."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Agree the Measure First",
+              "bodyHtml": "<p>Ask at the start what would make this worth doing — enquiries, sales, fewer support emails — and report against that.</p><p>Otherwise you report reach while they were quietly counting enquiries, and the arrangement ends with both sides thinking the other misunderstood something obvious.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your four-line report template with blanks for the specifics.",
+                "Add the question you will ask about what counts as success.",
+                "Set a fixed monthly date and keep it even in bad months.",
+                "Practise on any content you have made, including your own."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Show the Thing They Can Reuse",
+              "bodyHtml": "<p>Once a month, hand over something they can use elsewhere: the customer question that keeps appearing, the phrase that performed, the objection nobody had noticed.</p><p>That is worth more than the posts themselves, because it feeds their sales and product decisions — and it is why the retainer stops being a line item they periodically reconsider.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Retainers end because value became invisible, not because results were poor. Send four lines every month on the same date: what went out, what worked, what it suggests, what to do next. Agree the measure up front, and hand over one insight they can use elsewhere.",
+              "nextTeaser": "You now have the full writing path: the job behind the words, the voice, the format, the system and the report."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ai-visuals",
@@ -2500,25 +3024,1073 @@
       "slug": "contracts-and-scope",
       "title": "Contracts and Scope",
       "description": "Protect the work with a simple written agreement. Covers scope, revisions, deadlines missed by the client, and how to end a job that has gone wrong.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "agreement-in-three-lines",
+          "title": "The Agreement That Fits in Three Lines",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Contracts sound like something you need a lawyer and a template pack for. So for small jobs most people skip them entirely and rely on goodwill.</p><p>Goodwill works until the moment two people remember the same conversation differently. What protects a small job is not a legal document — it is three lines in writing, sent before the work starts.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "What Actually Has to Be Written",
+              "bodyHtml": "<p>An agreement only needs to make one thing impossible: an honest disagreement about what was promised.</p><p><s>«Great, I'll get started and send it over when it's ready.»</s></p><p><strong>«Twelve descriptions, delivered Thursday 14th, £180, one revision round within 7 days. Shall I start?»</strong></p><p>That second message is a contract. It has an offer, a scope, a price and an acceptance — which is all a small agreement has ever needed.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "You do not need a legal document. You need a record that both of you agreed to the same thing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Four Things People Forget",
+              "bodyHtml": "<ul><li><strong>What is not included.</strong> «Text only — no images or publishing.»</li><li><strong>What you need from them, and when.</strong> Late input moves the deadline.</li><li><strong>The revision window.</strong> Not just how many, but by when.</li><li><strong>Who owns the work.</strong> Usually them, on payment — say it out loud.</li></ul><p>Each of these is one clause. Adding all four still keeps the message under six lines.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client is enthusiastic and wants to start today. What is the minimum you send first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Nothing formal — begin now and confirm the details once work is underway."
+                },
+                {
+                  "id": "b",
+                  "label": "One message with deliverables, date, price and the revision window."
+                },
+                {
+                  "id": "c",
+                  "label": "A signed contract prepared from a proper freelance legal template pack."
+                },
+                {
+                  "id": "d",
+                  "label": "An invoice for the full amount, so the commitment is clear from day one."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Four facts in one message is enough to prevent almost every dispute on a small job. A full contract slows an enthusiastic client down, and starting with nothing written is what makes scope drift invisible.",
+              "wrongHint": "Think about the lightest thing that would still settle an honest disagreement later."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Deposits Are Normal",
+              "bodyHtml": "<p>For a new client above a certain size, ask for part of the fee up front — commonly half. Say it as procedure, not suspicion: «I usually start on 50%, balance on delivery.»</p><p>Almost nobody objects. The ones who do are telling you something useful about how the final payment would have gone.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your standard agreement message with the four commonly forgotten items.",
+                "Keep it under six lines and leave blanks only for the specifics.",
+                "Add your deposit sentence and read it until it sounds routine.",
+                "Use it on the next job, however small or informal it feels."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When to Use a Real Contract",
+              "bodyHtml": "<p>Move to a proper document when the money is significant, the work runs for months, or the client is a larger company with a procurement process.</p><p>In those cases they usually have their own paperwork. Read the payment terms and the ownership clause carefully; the rest is generally standard and not worth negotiating on your first job with them.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A small job needs a record, not a legal document: deliverables, date, price and revision window in one message before you start. Add what is excluded, what you need from them, and who owns the work. Take a deposit from new clients and treat it as ordinary procedure.",
+              "nextTeaser": "Next: what to do when the job quietly grows after you have agreed the price."
+            }
+          ]
+        },
+        {
+          "slug": "when-scope-grows",
+          "title": "When the Job Quietly Grows",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Scope rarely changes in one big moment. It arrives as a series of small, reasonable requests, each too minor to argue about.</p><p>«Could you also do the homepage?» «Can we try a second version?» Individually they cost twenty minutes. Together they turn a profitable job into an unpaid week, and nobody involved ever intended that.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Say Yes and Name the Price",
+              "bodyHtml": "<p>The instinct is to refuse or to absorb. There is a third response that keeps both the relationship and the fee.</p><p><s>«Sure, no problem, I'll add that in.»</s></p><p><strong>«Happy to — that's outside the twelve we agreed, so it'd be £45 for the extra three. Want me to add them?»</strong></p><p>Nothing here is confrontational. It simply makes the request visible as a decision instead of a favour.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Free extras are not generous. They teach the client that your scope is a suggestion."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Sentences That Handle It",
+              "bodyHtml": "<ul><li><strong>Acknowledge.</strong> «Good idea, that would help.»</li><li><strong>Locate it.</strong> «That sits outside what we agreed.»</li><li><strong>Offer the choice.</strong> «I can add it for £X, or include it in the next batch.»</li></ul><p>Said calmly, this almost never causes friction. What causes friction is silence followed by resentment three requests later.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Mid-project the client adds a small extra task, roughly thirty minutes of work. Best response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Do it without mentioning it — thirty minutes is not worth a conversation."
+                },
+                {
+                  "id": "b",
+                  "label": "Note that it is extra, then offer to include it in this round for free once."
+                },
+                {
+                  "id": "c",
+                  "label": "Refuse and explain that the scope of this project was agreed in advance."
+                },
+                {
+                  "id": "d",
+                  "label": "Stop the work and renegotiate the whole project price from the beginning."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Naming it keeps the boundary visible; giving it once keeps the relationship warm. Silent absorption is what makes the fourth request feel normal, and refusing outright spends goodwill on thirty minutes.",
+              "wrongHint": "Look for the answer that keeps the boundary and the goodwill at the same time."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Change the Deadline Too",
+              "bodyHtml": "<p>Added work moves the delivery date, and saying so at the moment of agreement prevents a much worse conversation later.</p><p>«Adding those three pushes delivery to Monday» is easy to hear on Tuesday. On Thursday evening, when the original deadline passes, the same sentence sounds like an excuse.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your three-sentence response to an out-of-scope request.",
+                "Decide in advance what you will give free once, and what you never will.",
+                "Add the sentence that moves the deadline when work is added.",
+                "Read all of it aloud until it sounds routine rather than defensive."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The One You Should Refuse",
+              "bodyHtml": "<p>There is one request worth declining outright: redoing finished work because someone changed their mind about the direction, after approving it.</p><p>Say it plainly and without blame — «that's a different piece of work rather than a revision, so it would be a new batch». Absorbing a full redo teaches a client that approval means nothing, and that lesson is expensive on every job afterwards.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Scope grows through small reasonable requests, not big ones. Acknowledge, locate the request outside the agreement, and offer a priced choice — then move the deadline in the same breath. Give something free once if you like, but never absorb a full redo of approved work.",
+              "nextTeaser": "Next: how to end a job that has gone wrong without burning anything."
+            }
+          ]
+        },
+        {
+          "slug": "ending-a-bad-job",
+          "title": "Ending a Job That Has Gone Wrong",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Occasionally a job stops working. The brief keeps changing, feedback contradicts itself, or the client is unpleasant in a way that makes the work impossible.</p><p>The usual instinct is to endure it, because leaving feels unprofessional. Enduring is what turns a bad week into a bad month and, often, into work you never get paid for anyway.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Try the Reset First",
+              "bodyHtml": "<p>Most struggling jobs are recoverable, and the fix is usually a single honest message rather than more effort.</p><p><s>Silently doing another round and hoping this one lands.</s></p><p><strong>«We've been round this three times, so I think the brief and I are out of step. Can we agree the two things this must do, and I'll rebuild from there?»</strong></p><p>Naming the pattern is not rude. It is the thing a professional does before a job fails.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Enduring a broken job is not professionalism. It is postponing the same conversation at your own expense."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Signals It Is Time to Stop",
+              "bodyHtml": "<ul><li><strong>The target moves after every delivery</strong>, with no new information</li><li><strong>Payment terms are already being renegotiated</strong> before delivery</li><li><strong>Communication is disrespectful</strong>, and a calm request did not change it</li><li><strong>You are hiding from the inbox</strong> — a reliable early sign</li></ul><p>One of these is a bad week. Two together usually means the job will not improve.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Three rounds in, the client's feedback contradicts what they approved last week. What first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Deliver another version quickly, since arguing will only delay things more."
+                },
+                {
+                  "id": "b",
+                  "label": "Name the pattern and ask to agree the two goals the work must achieve."
+                },
+                {
+                  "id": "c",
+                  "label": "End the project immediately and return whatever they have paid so far."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask for more money before continuing, given how many rounds it has taken."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Contradictory feedback almost always means the brief was never settled. Naming it and agreeing two concrete goals fixes most of these jobs, and it is the step that has to happen before ending is justified.",
+              "wrongHint": "Think about which option addresses the cause rather than the latest symptom."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Leaving Cleanly",
+              "bodyHtml": "<p>If it cannot be reset, end it in one short message: what is finished, what you are handing over, what is owed for work done, and no blame.</p><p>«I don't think I'm the right fit for this one. Everything completed so far is attached; the invoice covers those items only.» Short, calm, final — and it protects your reputation far better than a long explanation would.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your reset message, with a blank for the pattern you are naming.",
+                "Write your exit message: what is done, what is owed, no blame.",
+                "Decide your personal limit — how many contradictory rounds you accept.",
+                "Save both where you can find them on a bad day, when writing is hardest."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Do Not Fear the Review",
+              "bodyHtml": "<p>On platforms, the fear of a bad rating keeps people in jobs long past sense. In practice, one poor review among good ones changes very little — buyers read patterns, not single entries.</p><p>What does damage a reputation is unfinished work and unanswered messages. Leaving early, politely and with the finished parts handed over rarely produces a review that hurts you.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Most struggling jobs are fixed by naming the pattern and agreeing two concrete goals. If that fails, leave in one short message: what is finished, what is owed, no blame. Watch for moving targets, renegotiated payment and inbox avoidance — and do not stay for fear of one review.",
+              "nextTeaser": "Next unit: handling client data without creating a problem for either of you."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "client-data-and-ai",
       "title": "Client Data and AI",
       "description": "Handle other people's information without creating a problem. Covers what may go into a model, NDAs, disclosure, and the questions clients now ask.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "what-you-can-paste",
+          "title": "What You Can and Cannot Paste Into AI",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>This is the part of AI freelancing that almost no course covers, and it is the part clients have started asking about first.</p><p>The moment you work with someone else's material, you are making decisions about their information on their behalf. Getting that wrong is not a technical mistake — it is the kind that ends a working relationship and occasionally does worse.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Buckets",
+              "bodyHtml": "<ul><li><strong>Public.</strong> Their website, published posts, public prices. Safe.</li><li><strong>Internal but ordinary.</strong> Draft copy, product lists, brand notes. Usually fine — ask once.</li><li><strong>Sensitive.</strong> Customer records, contracts, financials, anything with names and contact details. Do not paste.</li></ul><p>Almost every real decision is deciding which bucket something is in, and the honest answer when unsure is to ask rather than guess.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If you would hesitate to email it to a stranger, do not paste it into a tool the client has not approved."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Ask Once, Properly",
+              "bodyHtml": "<p>One question at the start of a working relationship covers you for everything afterwards.</p><p><s>Quietly pasting whatever they send and hoping it never comes up.</s></p><p><strong>«I use AI tools in my process. Is there anything here you'd rather I didn't put through them?»</strong></p><p>This reads as competence, not as a warning. It also produces the answer in writing, which is exactly where you want it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client sends a spreadsheet of customer names and emails to «write personalised messages». What now?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Use it as sent — they provided it, so they have clearly approved the use."
+                },
+                {
+                  "id": "b",
+                  "label": "Replace the personal details with placeholders and work from the pattern."
+                },
+                {
+                  "id": "c",
+                  "label": "Refuse the task, since customer data can never be handled by a freelancer."
+                },
+                {
+                  "id": "d",
+                  "label": "Remove only the email addresses, since names alone are not really sensitive."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "You almost never need the real names to produce the work. Building the template on placeholders gives the client the same result, keeps their customers' details out of a third-party tool, and takes about a minute.",
+              "wrongHint": "Ask what you actually need in order to do the task well — is it the real details, or the pattern?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Strip Before You Send",
+              "bodyHtml": "<p>The habit that solves most of this is mechanical: before pasting anything, replace names, emails, phone numbers and addresses with placeholders.</p><p>The output is just as good, and you can put the real values back in afterwards. It takes under a minute and turns a judgement call into a routine you do not have to think about.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the one-line question you will ask every new client about AI use.",
+                "Take a file a client might send and mark which bucket each column is in.",
+                "Practise the placeholder swap on it, then check the output is still usable.",
+                "Save both as your standard first-week routine with any new client."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When the Client Says No AI",
+              "bodyHtml": "<p>Some clients will say their material must not go through AI tools at all. Take it at face value and price accordingly — the work is now slower.</p><p>Arguing about whether their concern is technically justified is a conversation with no upside. Respecting it without debate is a small thing that makes you noticeably easier to work with.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Sort everything into public, internal-but-ordinary, and sensitive — and never paste the third. Ask once, at the start, whether anything is off limits, and make placeholder-swapping a routine rather than a judgement call. If a client says no AI, respect it and price for the slower work.",
+              "nextTeaser": "Next: whether to tell clients you use AI, and how to say it."
+            }
+          ]
+        },
+        {
+          "slug": "telling-clients-you-use-ai",
+          "title": "Telling Clients You Use AI",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Plenty of freelancers quietly use AI and hope it never comes up. It feels safer — some buyers are suspicious, and the work is genuinely yours by the time it is delivered.</p><p>The problem is not ethics in the abstract. It is that the secret has to be maintained, and a client who finds out later feels deceived about something you could have mentioned in one line.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Say It as Method, Not Confession",
+              "bodyHtml": "<p>How you say it decides how it lands.</p><p><s>«I should be upfront — I do use AI to help with some of the writing.»</s></p><p><strong>«My process: AI for first drafts and research, then I rewrite and fact-check everything. That's why turnaround is quick.»</strong></p><p>The first sounds like an admission that invites doubt. The second sounds like a workflow, and turns speed into a feature you are charging for.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Described as a confession, it invites doubt. Described as a method, it explains your speed."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Clients Actually Worry About",
+              "bodyHtml": "<ul><li><strong>«Will it sound generic?»</strong> — answered by samples, not by promises</li><li><strong>«Am I paying for something free?»</strong> — answered by naming the judgement you add</li><li><strong>«Could it be wrong?»</strong> — answered by saying you verify facts</li><li><strong>«Will my competitor get the same text?»</strong> — answered by your brief and voice work</li></ul><p>None of these are answered by hiding the tool. All are answered by describing the process around it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks directly: «Is this written by AI?» What is the strongest answer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "No — everything you receive from me is written entirely by hand."
+                },
+                {
+                  "id": "b",
+                  "label": "AI drafts, I rewrite and verify. You are paying for the second part."
+                },
+                {
+                  "id": "c",
+                  "label": "Everyone uses AI these days, so it is not really a meaningful question."
+                },
+                {
+                  "id": "d",
+                  "label": "Only for research, never for anything that appears in the final text."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A short, specific description of the process answers the real question — what am I paying for — without defensiveness. Denials are fragile, and dismissing the question tells the client their concern does not matter.",
+              "wrongHint": "Think about which answer would still hold up if the client asked again in three months."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where It Genuinely Matters",
+              "bodyHtml": "<p>Some contexts have real rules: academic work, regulated industries, publications with their own AI policies, and clients whose own customers demand human-made work.</p><p>Ask about policies at the start with new clients in those areas. Discovering a policy after delivery is the version of this conversation that costs you the relationship.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your two-sentence process description, ending with what you add.",
+                "Read it and remove any word that sounds apologetic.",
+                "Add the question you will ask about their AI policy on the first call.",
+                "Put the process line in your profile, not only in conversations."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Let the Work Settle It",
+              "bodyHtml": "<p>The most persuasive answer to «is this AI?» is a sample that clearly is not generic — specific examples, their vocabulary, details a model could not have invented.</p><p>Clients rarely object to the tool. They object to output that reads like it was made for nobody, and that is a briefing problem you already know how to solve.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Describe AI as method rather than confession: drafts by tool, judgement and verification by you, which is what the fee covers. Answer the four real worries with process and samples, ask about policies in regulated work, and let specific, non-generic output do most of the arguing.",
+              "nextTeaser": "Next unit: making sure the money actually arrives, on time."
+            }
+          ]
+        },
+        {
+          "slug": "keeping-your-own-records",
+          "title": "Keeping Records You Will Not Regret",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Record-keeping is the least interesting part of freelancing and the one that quietly decides how the year ends. It is also the easiest to postpone, because nothing bad happens for months.</p><p>Then something does: a client disputes what was agreed, a payment goes missing, or a tax deadline arrives and the last eleven months have to be reconstructed from an inbox.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Things Worth Keeping",
+              "bodyHtml": "<ul><li><strong>The agreement message</strong> for every job, in one folder</li><li><strong>Every invoice</strong>, numbered in sequence, and its payment date</li><li><strong>Delivered files</strong>, in the state you delivered them</li><li><strong>Permission notes</strong> — who said you could use the work as a sample</li></ul><p>Four folders and one spreadsheet. This is not a system to design; it is a habit to start today and never revisit.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The record you did not keep is the argument you cannot win."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Number Your Invoices",
+              "bodyHtml": "<p>Sequential numbering looks bureaucratic and does two useful things: it makes chasing unambiguous, and it makes your accounting reconstructable.</p><p><s>«The invoice I sent you last month.»</s></p><p><strong>«Invoice 0043, sent 3 March, due 10 March — still showing unpaid at my end.»</strong></p><p>The second sentence gets answered. The first one gets «which one?» and another week of delay.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client says the work does not match what was agreed. What decides this conversation?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "How politely and patiently you explain your understanding of the brief."
+                },
+                {
+                  "id": "b",
+                  "label": "The written agreement you both saw before any of the work started."
+                },
+                {
+                  "id": "c",
+                  "label": "The number of hours you can show you spent on the project overall."
+                },
+                {
+                  "id": "d",
+                  "label": "Whether the delivered work is objectively good quality for the price."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Disputes are settled by what was agreed, not by effort or by quality in the abstract. This is the entire reason the three-line agreement exists — it turns a disagreement about memory into a question with an answer.",
+              "wrongHint": "Think about what both people can look at and agree on afterwards."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Track Money Weekly",
+              "bodyHtml": "<p>Once a week, spend five minutes updating one sheet: invoiced, paid, outstanding.</p><p>It takes almost no time and prevents the two most common freelance surprises — discovering an invoice went unpaid two months ago, and discovering at tax time that you have no idea what you earned.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Create four folders: agreements, invoices, delivered, permissions.",
+                "Move everything from your current jobs into them, however few there are.",
+                "Start your invoice numbering at 0001 and never reuse a number.",
+                "Put the weekly five-minute money review in your calendar."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Separate the Money Early",
+              "bodyHtml": "<p>If freelancing is more than occasional, use a separate account for it from the start, even a basic one.</p><p>Mixing business and personal money is easy for the first three months and painful forever after, because untangling it later means reading a year of transactions and guessing. Separating now costs an afternoon.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Keep four things: the agreement, numbered invoices with payment dates, delivered files, and permission notes. Review the money weekly for five minutes and use a separate account from the start. Disputes are settled by what was written before the work began, not by effort afterwards.",
+              "nextTeaser": "Next unit: invoices, deposits and getting paid on time from anywhere."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "getting-paid",
       "title": "Getting Paid",
       "description": "Make money arrive on time from anywhere. Covers invoices, deposits, payment services, chasing late payers, and keeping records you can hand to an accountant.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "invoice-that-gets-paid",
+          "title": "The Invoice That Gets Paid",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>An invoice feels like paperwork you send after the real work is done. In practice it is part of the job, and how it is written changes when the money arrives.</p><p>Most late payments are not refusals. They are invoices that were unclear, arrived at an awkward moment, or gave no reason to be dealt with this week rather than next month.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Send It With the Work",
+              "bodyHtml": "<p>The strongest moment to invoice is the moment the client is most pleased — when they open the delivery.</p><p><s>«I'll send the invoice at the end of the month.»</s></p><p><strong>«Files attached. Invoice 0043 is attached too, payable by the 17th.»</strong></p><p>Waiting feels considerate and costs you weeks. By month end, the delivery is old news and the invoice is one of forty things in a pile.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An invoice with no due date is read as no particular hurry."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Six Things It Must Contain",
+              "bodyHtml": "<ul><li><strong>A number</strong>, in sequence</li><li><strong>What it is for</strong>, in the client's words, not yours</li><li><strong>The amount</strong>, with currency stated explicitly</li><li><strong>A due date</strong>, not «payable on receipt»</li><li><strong>How to pay</strong>, with full details, no back-and-forth</li><li><strong>Your legal name and address</strong>, whatever form your business takes</li></ul><p>Missing any of the six creates a reply instead of a payment, and each reply adds days.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "When should the invoice for a completed small job be sent?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Attached to the delivery message, with a due date about a week later."
+                },
+                {
+                  "id": "b",
+                  "label": "A few days after delivery, once the client has reviewed everything."
+                },
+                {
+                  "id": "c",
+                  "label": "At the end of the month, together with any other work for them."
+                },
+                {
+                  "id": "d",
+                  "label": "After they confirm they are happy, to avoid seeming impatient at all."
+                }
+              ],
+              "correctId": "a",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Attaching it to the delivery links payment to the moment the client is most satisfied. Every other option separates the two, and separation is where an invoice becomes something to deal with later.",
+              "wrongHint": "Think about when the client feels best about the work, and how long that feeling lasts."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Deposits Change Everything",
+              "bodyHtml": "<p>For anything above a small first job, take part of the fee before starting. Half is standard; a third is fine.</p><p>It filters out the clients who were never going to pay, and it means that if a job collapses halfway through, you are not working for nothing. Stated as routine — «I start on 50%» — it almost never causes friction.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Build your invoice template with all six elements filled in permanently.",
+                "Set your standard terms — seven days is reasonable for small work.",
+                "Write the deposit sentence you will use on jobs above your threshold.",
+                "Send your next invoice attached to the delivery rather than after it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Make Paying Easy",
+              "bodyHtml": "<p>Whatever is easiest for the client wins. Bank transfer for local work, a payment service for international, whatever their finance process already expects.</p><p>Working across borders, agree the currency and who covers transfer fees before the job, not on the invoice. That single sentence prevents the most common awkward conversation in international freelancing.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Send the invoice with the delivery, not later, and give it a number, a due date and complete payment details. Take a deposit on anything beyond a small first job, and agree currency and fees before international work starts. Most late payments are unclear invoices, not refusals.",
+              "nextTeaser": "Next: what to do when the due date passes and nothing has arrived."
+            }
+          ]
+        },
+        {
+          "slug": "chasing-late-payment",
+          "title": "When the Payment Does Not Arrive",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The due date passes and nothing happens. The instinct is to wait a bit longer, because chasing feels rude and you do not want to damage the relationship.</p><p>That instinct is why so many freelancers are owed money. In most companies an unpaid invoice is not a decision — it is an item nobody has been reminded about, and reminding is your job.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The First Reminder Is Neutral",
+              "bodyHtml": "<p>Assume an oversight, because it usually is.</p><p><s>«I'm really sorry to bother you about this, I know you're busy…»</s></p><p><strong>«Invoice 0043 was due on the 17th and is still showing unpaid — could you confirm it's in the run?»</strong></p><p>The apology invites delay by suggesting the request is an imposition. The neutral version reads as administration, which is exactly what it is.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Apologising for asking to be paid teaches the client that paying you is optional."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "An Escalation Ladder",
+              "bodyHtml": "<ul><li><strong>Day 1 after due.</strong> Neutral reminder, invoice attached again.</li><li><strong>Day 7.</strong> Ask specifically who handles payments and when the next run is.</li><li><strong>Day 14.</strong> State that further work is paused until it clears.</li><li><strong>Day 30.</strong> Formal notice with your terms, and platform mediation if it applies.</li></ul><p>Calm, spaced, escalating. Almost everything resolves at step one or two.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "An invoice is ten days overdue and your polite reminder went unanswered. What next?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Wait another two weeks — chasing again so soon may damage the relationship."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask who handles payments there and when the next payment run happens."
+                },
+                {
+                  "id": "c",
+                  "label": "Send a strongly worded message warning about legal action if unpaid."
+                },
+                {
+                  "id": "d",
+                  "label": "Write the money off and simply avoid working with this client again."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Silence usually means your contact is not the person who pays. Asking who handles it moves the invoice to someone who can act, and it does that without turning an administrative delay into a confrontation.",
+              "wrongHint": "Think about who inside the company actually has the power to release the payment."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Pause Work, Do Not Threaten",
+              "bodyHtml": "<p>The most effective pressure is not a threat but a fact: work stops while payment is outstanding.</p><p>«I'll pick the next batch up as soon as 0043 clears» is calm, reasonable, and impossible to argue with. It also protects you from the situation where you are three jobs deep with a client who has paid for none of them.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your four reminder messages now, before you need any of them.",
+                "Remove every apology and every softening phrase from all four.",
+                "Decide the day you pause work — put a number on it, not a feeling.",
+                "Set a calendar reminder for each unpaid invoice's due date."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Prevention Beats Chasing",
+              "bodyHtml": "<p>Almost all of this is avoided upstream: deposits on new clients, small first jobs, short payment terms and staged delivery on larger work.</p><p>If a client has already paid half, the remaining conversation is rarely difficult. The unpaid invoices that hurt are nearly always for full jobs delivered to someone who had risked nothing.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Late payment is usually an unattended item, not a refusal. Remind neutrally on day one, ask who handles payments on day seven, pause work at day fourteen, and formalise at thirty. Never apologise for asking — and prevent most of it with deposits and staged delivery.",
+              "nextTeaser": "Next unit: turning a finished job into work that keeps coming."
+            }
+          ]
+        },
+        {
+          "slug": "money-across-borders",
+          "title": "Getting Paid From Anywhere",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Working with clients abroad opens up better-paying markets, and it introduces a set of small problems nobody warns beginners about — until a payment arrives smaller than expected.</p><p>None of them are complicated. All of them are much easier to solve before the first international job than after it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Agree Three Things Up Front",
+              "bodyHtml": "<ul><li><strong>Currency.</strong> Which one the invoice is in, stated explicitly.</li><li><strong>Who covers transfer fees.</strong> Normally the sender — say so.</li><li><strong>Method.</strong> Whatever their finance process already handles.</li></ul><p>All three fit in one line of the agreement. Skipping them is how a £400 invoice becomes £362 in your account with nobody at fault.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Exchange rates and fees are not a surprise. They are a sentence you forgot to write."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Price in a Currency You Understand",
+              "bodyHtml": "<p>Quote in whichever currency you can judge instinctively, then convert if the client needs it.</p><p><s>Guessing a figure in a currency you have to look up each time.</s></p><p><strong>Setting your rate once in your own currency and converting at a rate you check monthly.</strong></p><p>Otherwise you will underprice by accident, because unfamiliar numbers do not trigger the flinch that keeps your rate honest.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A foreign client agrees to £400 and sends payment. £362 arrives. What should have happened earlier?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "You should have quoted a higher figure to absorb the transfer fees."
+                },
+                {
+                  "id": "b",
+                  "label": "The agreement should have stated that the sender covers transfer fees."
+                },
+                {
+                  "id": "c",
+                  "label": "You should have insisted on being paid through the platform instead."
+                },
+                {
+                  "id": "d",
+                  "label": "You should have asked for the full amount in your own local currency."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Fees are predictable and easy to assign in advance. One line in the agreement — sender covers transfer costs — prevents this entirely, and asking for it afterwards is a conversation with no good version.",
+              "wrongHint": "Think about which fix removes the problem rather than hiding its cost inside your price."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep Some Buffer",
+              "bodyHtml": "<p>Freelance income is uneven by nature: three good months, one quiet one. Treat that as normal rather than as failure.</p><p>A useful habit from the first payment is setting aside a fixed share of everything that arrives — some for tax, some as a buffer. Doing it automatically, on arrival, is far easier than finding it later.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Add the currency and fee line to your standard agreement message.",
+                "Check what receiving an international payment actually costs you.",
+                "Set your rate in your own currency and note today's conversion.",
+                "Decide the share of each payment you will set aside, and where it goes."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Ask Someone Local About Tax",
+              "bodyHtml": "<p>Tax rules for freelance income differ completely by country, and no course can answer them for you. What is universal is that the answer is cheaper to get early.</p><p>One conversation with an accountant in your own country, in your first months, usually costs less than a single job and prevents the kind of mistake that takes a year to unwind.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Agree currency, who covers transfer fees, and the payment method before international work starts. Price in a currency you can judge instinctively, set aside a fixed share of every payment for tax and buffer, and get local tax advice early rather than after the first full year.",
+              "nextTeaser": "Next unit: turning one finished job into income that repeats."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "repeat-work",
       "title": "Turning One Project Into Income",
       "description": "Convert a finished job into ongoing work. Covers retainers, productised services, check-in cadence, and asking for the referral at the right moment.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "why-first-job-ends",
+          "title": "Why Good Clients Disappear After One Job",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A job goes well. The client is pleased, says thank you, pays on time — and you never hear from them again. It is easy to read that as a quiet failure.</p><p>Usually it is not. They liked the work and then went back to their own problems, because nobody told them what the next step was. Repeat work is rarely won by being better; it is won by being suggested.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Sentence Almost Nobody Sends",
+              "bodyHtml": "<p>At delivery, one line changes the shape of the relationship.</p><p><s>«Thanks, it's been great working with you — let me know if you need anything else.»</s></p><p><strong>«The next obvious piece is the category pages — same format, same rate. Want me to pencil it in for the 20th?»</strong></p><p>The first hands them a task: work out what they need and remember you. The second hands them a decision, which is much easier to make.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Clients do not leave because the work was poor. They leave because nobody named the next step."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Natural Openings",
+              "bodyHtml": "<ul><li><strong>At delivery</strong> — highest goodwill, lowest effort, name one next piece</li><li><strong>Two weeks later</strong> — ask how it performed; you get feedback and a reason to talk</li><li><strong>At an obvious moment</strong> — a new season, a launch, a quarter starting</li></ul><p>None of these is a sales message. Each is a specific, timely observation, which is why they work when a general check-in does not.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You delivered a job three weeks ago and heard nothing since. What is the best re-contact?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A friendly message saying hello and asking whether they need anything else."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask how the descriptions performed, and name the next set worth doing."
+                },
+                {
+                  "id": "c",
+                  "label": "A discount offer on their next order to give them a reason to return."
+                },
+                {
+                  "id": "d",
+                  "label": "Nothing — if they needed more work they would have contacted you first."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Asking about results shows you care what the work did rather than that it shipped, and naming the next set turns a check-in into a decision. A general hello puts the thinking back on the busiest person.",
+              "wrongHint": "Think about which message gives the client something concrete to say yes or no to."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask What Happened Next",
+              "bodyHtml": "<p>Very few freelancers ask about results, which is why the ones who do are remembered.</p><p>«Did the new descriptions change anything on the slower products?» costs one sentence. If the answer is good, you have a case study. If it is bad, you have a reason to be involved again — and either way you are the person still thinking about their business.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "For each finished job, write the one obvious next piece of work.",
+                "Add that line to your standard delivery message.",
+                "Set a reminder two weeks after each delivery to ask about results.",
+                "List every past client you never followed up with, and message one today."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep a Short List",
+              "bodyHtml": "<p>Ten past clients you contact twice a year is worth more than a hundred strangers you contact once. They know you, they have paid you before, and the trust conversation is already finished.</p><p>Keep the list somewhere visible with the date you last spoke. That single column is the difference between a network and a folder of old emails.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "One-off clients are usually clients nobody gave a next step. Name a specific next piece at delivery, ask about results two weeks later, and return at natural moments. Keep a short list of past clients with the date you last spoke — they convert far more easily than strangers.",
+              "nextTeaser": "Next: turning that into monthly work instead of a series of one-offs."
+            }
+          ]
+        },
+        {
+          "slug": "from-projects-to-retainer",
+          "title": "From One-Off Jobs to Monthly Work",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Project work has a hidden cost that does not show up in the fee: every job needs finding, quoting, briefing and closing before it earns anything.</p><p>Monthly work removes most of that. The same money arrives with a fraction of the surrounding effort — and the client gets someone who already knows their business.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Offer the Rhythm They Already Have",
+              "bodyHtml": "<p>A retainer only makes sense when the underlying need repeats. Look at what they will need again anyway.</p><p><s>«Would you like to put me on a monthly retainer?»</s></p><p><strong>«You add products most months — twelve descriptions a month at £150 instead of £180, and you stop having to ask.»</strong></p><p>The first asks for a commitment. The second describes their existing routine with the friction removed, and prices it slightly better.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A retainer is not a bigger job. It is the same job with the asking removed."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Makes It Safe for Both",
+              "bodyHtml": "<ul><li><strong>A fixed quantity</strong> — «up to twelve» rather than «ongoing support»</li><li><strong>A named month</strong>, invoiced on the same date each time</li><li><strong>An exit</strong> — either side can stop with a month's notice</li><li><strong>A rollover rule</strong> — unused work does not accumulate forever</li></ul><p>Vague retainers are how freelancers end up permanently on call for a fixed fee. The quantity is what prevents that.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which monthly offer is safest to take on, for both you and the client?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ongoing content support whenever needed, billed at a flat monthly rate."
+                },
+                {
+                  "id": "b",
+                  "label": "Up to twelve descriptions a month, invoiced on the first, monthly notice."
+                },
+                {
+                  "id": "c",
+                  "label": "Priority access to your time at a reduced hourly rate for regular work."
+                },
+                {
+                  "id": "d",
+                  "label": "A discounted bundle of hours to be used at any point during the year."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A capped quantity, a fixed invoice date and a simple exit make the arrangement predictable on both sides. Everything else here leaves the amount of work undefined, which always ends up defined in the client's favour.",
+              "wrongHint": "Look for the option where both people know exactly what a month contains."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask After the Third Job",
+              "bodyHtml": "<p>The natural moment is the third repeat purchase. By then the pattern is obvious to both of you, and the offer sounds like an observation rather than a pitch.</p><p>«This is the third batch — shall we make it monthly and save you asking?» is almost always accepted, because you are removing a task from their list rather than adding a commitment.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Look at your finished jobs and find the one a client would need repeatedly.",
+                "Write it as a monthly offer with a capped quantity and a fixed date.",
+                "Add the notice period and the rollover rule in one line each.",
+                "Identify the client closest to a third repeat purchase and prepare the sentence."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Do Not Fill Every Slot",
+              "bodyHtml": "<p>Retainers are stable, which makes it tempting to take as many as you can. Fill your whole month and you have effectively taken a job — with no colleagues and no notice period.</p><p>Leave part of your capacity open for project work. That is where new clients, better rates and the freedom you started this for actually come from.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Retainers work when the underlying need already repeats: cap the quantity, fix the invoice date, agree notice and a rollover rule. Offer it around the third repeat purchase as an observation rather than a pitch — and leave part of your month open for new work.",
+              "nextTeaser": "Next: asking for the referral that brings the next client to you."
+            }
+          ]
+        },
+        {
+          "slug": "asking-for-referrals",
+          "title": "Asking for the Referral",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Referrals are the cheapest clients you will ever get: no application, no competition, and the trust conversation is already over before you speak.</p><p>Most freelancers get almost none of them, and the reason is simple. They never ask, because asking feels like begging for favours from someone who already paid them.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Make It Easy to Say Yes",
+              "bodyHtml": "<p>A vague request puts the work on the client, who will not do it.</p><p><s>«If you know anyone who needs this kind of work, send them my way!»</s></p><p><strong>«Do you know one other shop owner who adds products regularly? Happy for you to forward this — I've written the message so you don't have to.»</strong></p><p>Asking for one person, with the text already written, is a request that takes ten seconds to grant.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Anyone you know» asks for a search. «One person» asks for a name."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Moments Worth Using",
+              "bodyHtml": "<ul><li><strong>Right after praise.</strong> When they say they are pleased, that is the moment.</li><li><strong>At the end of a retainer month</strong> that went smoothly.</li><li><strong>When you deliver results</strong> they can see and would happily repeat.</li></ul><p>Outside those, a referral request feels like it came from nowhere. Inside them it feels like a natural continuation of the conversation you were already having.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client emails to say they are delighted with the work. What is the strongest reply?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Thank them warmly and mention that you have capacity for more work."
+                },
+                {
+                  "id": "b",
+                  "label": "Thank them, ask to use it as a testimonial, and ask for one introduction."
+                },
+                {
+                  "id": "c",
+                  "label": "Thank them and send a list of the other services you can provide them."
+                },
+                {
+                  "id": "d",
+                  "label": "Thank them and offer a referral discount for anyone they send to you."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Praise is the one moment when both a testimonial and an introduction are easy to give. Asking for one specific introduction rather than general awareness is what turns goodwill into an actual name.",
+              "wrongHint": "Think about which reply converts a good feeling into two concrete things you can use."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Collect the Testimonial Then",
+              "bodyHtml": "<p>Ask while they are pleased, and make it painless: «Could I use what you just wrote as a testimonial?» Almost nobody refuses their own words.</p><p>Waiting a month turns an easy yes into a request to compose something about work they have stopped thinking about — and that is why most freelancers have none.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your referral ask: one person, forwarding text included.",
+                "Write your testimonial ask as a single sentence.",
+                "Add both to your delivery routine so they are never improvised.",
+                "Send one of them today to a client who recently said something kind."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Thank the Person Who Referred",
+              "bodyHtml": "<p>When an introduction turns into work, tell the person who made it and thank them specifically.</p><p>It costs a message and is the single strongest way to get a second referral from the same person. Silence, on the other hand, quietly teaches them that the introduction went nowhere.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Referrals are the cheapest clients and the least asked for. Ask at the three moments when goodwill is highest, request one specific introduction with the forwarding text already written, and collect the testimonial in the same breath. Then thank whoever referred you, specifically.",
+              "nextTeaser": "You have the full path now: offer, proof, clients, price, agreement, delivery, payment and repeat work."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
