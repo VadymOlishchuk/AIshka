@@ -24,7 +24,11 @@ export default function LoginPage() {
 
         {/* Найчастіший сценарій підтримки: людина зареєструвалась і забула. */}
         <p className="mt-5 text-[14px] text-ink-muted">
-          Forgot your password? Enter the email you signed up with and we&apos;ll send a reset link.
+          Forgot your password?{" "}
+          <Link href="/reset" className="font-semibold text-accent underline-offset-2 hover:underline">
+            Send yourself a reset link
+          </Link>
+          .
         </p>
       </Card>
 

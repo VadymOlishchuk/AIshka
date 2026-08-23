@@ -11,12 +11,24 @@ type Props = {
   fields: Field[];
   submitLabel: string;
   defaultNext?: string;
+  /** Приховані значення, які їдуть разом із формою — наприклад токен з URL. */
+  hidden?: Record<string, string>;
+  /** Якщо задано, після успіху показуємо це замість переходу на іншу сторінку. */
+  successMessage?: string;
 };
 
-export function AuthForm({ endpoint, fields, submitLabel, defaultNext }: Props) {
+export function AuthForm({
+  endpoint,
+  fields,
+  submitLabel,
+  defaultNext,
+  hidden,
+  successMessage,
+}: Props) {
   const router = useRouter();
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [formError, setFormError] = useState<string | null>(null);
+  const [done, setDone] = useState(false);
   const [pending, setPending] = useState(false);
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -27,7 +39,7 @@ export function AuthForm({ endpoint, fields, submitLabel, defaultNext }: Props) 
     setErrors({});
     setFormError(null);
 
-    const data = Object.fromEntries(new FormData(event.currentTarget));
+    const data = { ...Object.fromEntries(new FormData(event.currentTarget)), ...hidden };
 
     try {
       const res = await fetch(endpoint, {
@@ -43,6 +55,11 @@ export function AuthForm({ endpoint, fields, submitLabel, defaultNext }: Props) 
         return;
       }
 
+      if (successMessage) {
+        setDone(true);
+        return;
+      }
+
       router.push(defaultNext ?? body.data?.next ?? "/dashboard");
       router.refresh();
     } catch {
@@ -50,6 +67,14 @@ export function AuthForm({ endpoint, fields, submitLabel, defaultNext }: Props) 
     } finally {
       setPending(false);
     }
+  }
+
+  if (done && successMessage) {
+    return (
+      <p className="rounded-[10px] bg-success-tint px-4 py-4 text-[15px] leading-relaxed text-ink-strong">
+        {successMessage}
+      </p>
+    );
   }
 
   return (
