@@ -167,9 +167,24 @@ export async function getLessonForUser(
   let nextLessonSlug: string | null = null;
 
   if (inPlan) {
+    // Персональний план — послідовний: урок відкривається після попереднього.
     const flat = inPlan.units.flatMap((u) => u.lessons);
     const index = flat.findIndex((l) => l.id === lesson.id);
     locked = index >= 0 ? flat[index]!.locked : false;
+    nextLessonSlug = index >= 0 ? (flat[index + 1]?.slug ?? null) : null;
+  } else {
+    // Academy — вільний доступ: будь-який урок відкритий одразу.
+    const course = await db.course.findUnique({
+      where: { id: courseId },
+      include: {
+        modules: {
+          orderBy: { sortOrder: "asc" },
+          include: { lessons: { where: { isPublished: true }, orderBy: { sortOrder: "asc" } } },
+        },
+      },
+    });
+    const flat = course?.modules.flatMap((m) => m.lessons) ?? [];
+    const index = flat.findIndex((l) => l.id === lesson.id);
     nextLessonSlug = index >= 0 ? (flat[index + 1]?.slug ?? null) : null;
   }
 
@@ -202,4 +217,123 @@ export async function completeLesson(userId: string, lessonId: string, courseId:
     create: { userId, lessonId, courseId },
     update: {},
   });
+}
+
+export type CatalogCourse = {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  kind: string;
+  shelf: string | null;
+  lessons: number;
+  minutes: number;
+  completed: number;
+};
+
+/**
+ * Academy — бібліотека за потребою, а не програма: доступ вільний,
+ * прогрес рахується окремо для кожного курсу.
+ */
+export async function getAcademyCatalog(userId: string): Promise<CatalogCourse[]> {
+  const courses = await db.course.findMany({
+    where: { isPublished: true, kind: { not: "plan" } },
+    orderBy: [{ sortOrder: "asc" }, { title: "asc" }],
+    include: {
+      modules: { include: { lessons: { where: { isPublished: true }, select: { durationMin: true } } } },
+    },
+  });
+
+  const done = await db.progress.groupBy({
+    by: ["courseId"],
+    where: { userId },
+    _count: { _all: true },
+  });
+  const completedByCourse = new Map(done.map((d) => [d.courseId, d._count._all]));
+
+  return courses.map((course) => {
+    const lessons = course.modules.flatMap((m) => m.lessons);
+    return {
+      id: course.id,
+      slug: course.slug,
+      title: course.title,
+      description: course.description,
+      kind: course.kind,
+      shelf: course.shelf,
+      lessons: lessons.length,
+      minutes: lessons.reduce((n, l) => n + l.durationMin, 0),
+      completed: completedByCourse.get(course.id) ?? 0,
+    };
+  });
+}
+
+export type CourseView = {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  kind: string;
+  units: {
+    id: string;
+    slug: string;
+    title: string;
+    description: string;
+    lessons: PlanLesson[];
+  }[];
+  totalLessons: number;
+  completedLessons: number;
+  nextLessonSlug: string | null;
+};
+
+export async function getCourseForUser(userId: string, slug: string): Promise<CourseView | null> {
+  const course = await db.course.findUnique({
+    where: { slug },
+    include: {
+      modules: {
+        orderBy: { sortOrder: "asc" },
+        include: { lessons: { where: { isPublished: true }, orderBy: { sortOrder: "asc" } } },
+      },
+    },
+  });
+  if (!course || !course.isPublished) return null;
+
+  const done = await db.progress.findMany({
+    where: { userId, courseId: course.id },
+    select: { lessonId: true },
+  });
+  const completedIds = new Set(done.map((p) => p.lessonId));
+
+  let nextLessonSlug: string | null = null;
+  let totalLessons = 0;
+  let completedLessons = 0;
+
+  const units = course.modules
+    .filter((m) => m.lessons.length > 0)
+    .map((module) => ({
+      id: module.id,
+      slug: module.slug,
+      title: module.title,
+      description: module.description,
+      lessons: module.lessons.map((lesson) => {
+        const completed = completedIds.has(lesson.id);
+        totalLessons += 1;
+        if (completed) completedLessons += 1;
+        else nextLessonSlug ??= lesson.slug;
+
+        // Academy не блокує нічого: locked завжди false.
+        return toPlanLesson(lesson, completed, false);
+      }),
+    }));
+
+  return {
+    id: course.id,
+    slug: course.slug,
+    title: course.title,
+    description: course.description,
+    kind: course.kind,
+    units,
+    totalLessons,
+    completedLessons,
+    nextLessonSlug,
+  };
 }

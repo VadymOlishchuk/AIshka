@@ -5,6 +5,7 @@ import { requireUser } from "@/core/auth/guards";
 import { readAnswers } from "@/core/plan/enroll";
 import { explainFirstUnit } from "@/core/plan/rules";
 import { Button, Card, GeneratedCover } from "@/components/ui/primitives";
+import { duration, plural } from "@/lib/format";
 
 export default async function PlanReadyPage() {
   const user = await requireUser();
@@ -32,8 +33,8 @@ export default async function PlanReadyPage() {
         {enrollment.course.title}
       </h1>
       <p className="mb-6 text-[17px] leading-relaxed text-ink-body">
-        {units.length} {units.length === 1 ? "unit" : "units"} · {lessons} lessons · about{" "}
-        {minutes < 60 ? `${minutes} min` : `${Math.floor(minutes / 60)}h ${minutes % 60}m`}
+        {plural(units.length, "unit", "units")} · {plural(lessons, "lesson", "lessons")} · about{" "}
+        {duration(minutes)}
       </p>
 
       {why ? (

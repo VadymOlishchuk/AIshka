@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { requireActiveAccess } from "@/core/auth/guards";
 import { getUserPlan } from "@/core/progress/service";
 import { Button, Card, ProgressBar } from "@/components/ui/primitives";
+import { plural } from "@/lib/format";
 
 export default async function DashboardHome() {
   const user = await requireActiveAccess();
@@ -45,8 +46,8 @@ export default async function DashboardHome() {
             />
           </div>
           <p className="mt-2 text-[13px] text-white/60 tabular-nums">
-            {plan.completedLessons} of {plan.totalLessons} lessons · {plan.units.length}{" "}
-            {plan.units.length === 1 ? "unit" : "units"}
+            {plan.completedLessons} of {plan.totalLessons} lessons ·{" "}
+            {plural(plan.units.length, "unit", "units")}
           </p>
         </div>
 

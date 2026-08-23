@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { requireActiveAccess } from "@/core/auth/guards";
 import { getUserPlan } from "@/core/progress/service";
 import { UnitAccordion } from "@/components/dashboard/UnitAccordion";
+import { JourneyTabs } from "@/components/dashboard/JourneyTabs";
 import { ProgressBar } from "@/components/ui/primitives";
 
 export default async function JourneyPage() {
@@ -15,6 +16,8 @@ export default async function JourneyPage() {
 
   return (
     <main className="mx-auto w-full max-w-[840px] px-5 py-8">
+      <JourneyTabs />
+
       <h1 className="mb-2 text-[28px] font-semibold leading-tight text-ink-strong">Your plan</h1>
       <p className="mb-4 text-[15px] text-ink-muted">
         Built from your answers. Lessons open one after another, so there&apos;s always exactly one
