@@ -1,0 +1,974 @@
+{
+  "slug": "chatgpt-for-paid-work",
+  "title": "ChatGPT for Paid Work",
+  "description": "Eleven lessons on using one tool well enough to charge for the result: setup, briefing, voice, verification, long documents, research, images, custom assistants and where it fails.",
+  "kind": "tool",
+  "shelf": "Tool courses",
+  "sortOrder": 0,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "One capability per lesson, in the order you will actually need them when work arrives.",
+      "lessons": [
+        {
+          "slug": "gpt-setup",
+          "title": "Set It Up So It Works for You",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people use a chat tool exactly as it comes out of the box, then conclude the output is generic. It is — because nothing has been told about who is asking or what they need.</p><p>Twenty minutes of setup changes every conversation you have afterwards. It is the least interesting hour of this course and the one with the largest effect.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Tell It Who You Are, Once",
+              "bodyHtml": "<p>Custom instructions apply to every new conversation, so anything you find yourself repeating belongs there.</p><p><s>Explaining your job and your audience at the start of every chat.</s></p><p><strong>«I'm a freelance writer for small e-commerce shops. Plain English, no marketing adjectives, always ask what the reader should do next.»</strong></p><p>Written once, that removes the same three corrections from every conversation you will have this month.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Anything you correct in every conversation belongs in the settings, not in the conversation."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Belongs in There",
+              "bodyHtml": "<ul><li><strong>Who you are</strong> — the work you do and who you do it for</li><li><strong>How you want answers</strong> — length, formatting, whether to ask questions first</li><li><strong>What to avoid</strong> — words, tones and habits you always delete</li><li><strong>What to assume</strong> — your level, so it stops explaining the basics</li></ul><p>Keep it short. A long instruction set makes every answer stiff, because you have removed all its judgement.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which instruction is most useful to keep permanently in your settings?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Always be helpful, accurate and thorough in the answers you produce."
+                },
+                {
+                  "id": "b",
+                  "label": "Never use marketing adjectives, and ask what the reader should do next."
+                },
+                {
+                  "id": "c",
+                  "label": "You are an expert copywriter with twenty years of industry experience."
+                },
+                {
+                  "id": "d",
+                  "label": "Try to write in a professional tone that suits business audiences well."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A permanent instruction should change behaviour every time. A banned word category and a required question do that; being helpful, expert or professional describes an intention nothing acts on.",
+              "wrongHint": "Ask which option would visibly change the next answer you receive."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Separate Your Work by Project",
+              "bodyHtml": "<p>Keeping every client in one long conversation means their instructions bleed into each other, and the tool starts writing everything in the voice of whoever you worked with last.</p><p>Use one project or workspace per client, with that client's brief pinned inside it. Switching contexts then takes one click and no re-explaining.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open your settings and write four lines: who you are, how you want answers, what to avoid, what to assume.",
+                "Start a new conversation and ask for something ordinary.",
+                "Note which of your usual corrections you no longer had to make.",
+                "Create one project for a client and pin their brief inside it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Check What It Remembers",
+              "bodyHtml": "<p>Memory features carry details between conversations, which is useful and occasionally awkward — a client's name or a rate can surface where you did not expect it.</p><p>Look at what is stored, delete anything that belongs to a client rather than to you, and turn memory off for work you would not want repeated elsewhere.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Set custom instructions once — who you are, how you want answers, what to avoid, what to assume — and keep them short enough to leave room for judgement. Use one project per client so briefs stay separate, and check what memory is storing about your clients.",
+              "nextTeaser": "Next: why a brief beats a question, every time."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-briefing",
+          "title": "Briefing Instead of Asking",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The single biggest difference between people who get useful output and people who do not is not vocabulary or technique. It is whether they are asking a question or handing over a brief.</p><p>A question invites a general answer, because a general answer is the safest response to a general request. A brief removes the guessing.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Same Task, Two Ways",
+              "bodyHtml": "<p><s>«Write a follow-up email to a client who hasn't replied.»</s></p><p><strong>«Write a follow-up to a shop owner who asked for a quote nine days ago and went quiet. Two sentences, no apology, ends with a question they can answer in one word.»</strong></p><p>Both take about the same time to type. Only one of them produces something you could send.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A question gets you an average answer. A brief gets you a draft."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things a Brief Contains",
+              "bodyHtml": "<ul><li><strong>The reader</strong> — who they are and what they already know</li><li><strong>The job</strong> — what this text has to make happen</li><li><strong>The shape</strong> — length, structure, format</li><li><strong>The limits</strong> — what must not appear</li></ul><p>Miss the first and everything drifts general. Miss the last and you spend the next round deleting.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your draft comes back sounding like a brochure. Which part of the brief was missing?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The shape — you did not specify how long the finished text should be."
+                },
+                {
+                  "id": "b",
+                  "label": "The reader — nobody specific was named, so it wrote for everyone."
+                },
+                {
+                  "id": "c",
+                  "label": "The job — you did not explain what the text needed to achieve here."
+                },
+                {
+                  "id": "d",
+                  "label": "The limits — you did not list the words that should be avoided."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Brochure tone is what happens when no particular reader exists. Naming one specific person is the fastest fix, and it usually solves the tone problem without any instruction about tone at all.",
+              "wrongHint": "Think about what makes writing sound like it was made for nobody in particular."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Give It Something to Match",
+              "bodyHtml": "<p>The strongest line in any brief is an example. One paragraph of the voice you want teaches more than a paragraph of adjectives describing it.</p><p>Paste two real pieces the client published and ask for that voice. This single habit removes most «doesn't sound like us» rounds before they happen.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a task you would normally ask about and write it as a four-part brief.",
+                "Run both versions and put the answers side by side.",
+                "Add one real example paragraph to the brief and run it again.",
+                "Save the version that worked — it is the template for next time."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Ask It to Ask You",
+              "bodyHtml": "<p>When the task is fuzzy, end the brief with: «Ask me up to three questions before you start.»</p><p>The questions are usually the parts you had not decided yet, which makes this a genuinely useful thinking tool rather than a trick — and it prevents three rounds of confident, wrong output.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Stop asking and start briefing: name the reader, the job the text must do, the shape and the limits. Add one real example to match, and when the task is fuzzy, ask it to ask you three questions first.",
+              "nextTeaser": "Next: keeping a client's voice instead of producing everyone's."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-voice",
+          "title": "Writing That Keeps a Client's Voice",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Clients rarely complain that generated text is wrong. They complain that it is not theirs — and they usually cannot say why.</p><p>That gap is where your fee lives. Matching a voice is a mechanical process once you stop treating it as a matter of feel.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Voice Is a List, Not a Mood",
+              "bodyHtml": "<p>Six observable habits describe almost any voice:</p><ul><li><strong>Sentence length</strong> and whether they vary it</li><li><strong>Person</strong> — «we» or «I», «you» or «customers»</li><li><strong>Contractions</strong> — present or absent</li><li><strong>Humour</strong> — dry, warm or none</li><li><strong>Words they own</strong> — the ones that keep appearing</li><li><strong>Words they avoid</strong> — often the most distinctive of all</li></ul>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Voice is not a feeling. It is six habits you can write down and reproduce."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Gather Before You Generate",
+              "bodyHtml": "<p>Twenty minutes with three published pieces gives you all six. Then the instruction becomes concrete.</p><p><s>«Write in a friendly but professional tone that suits their brand.»</s></p><p><strong>«Match these two paragraphs. Short sentences, always «our team», never exclamation marks, never the word solutions.»</strong></p><p>The second is checkable — you can hold the output against it and see whether it complied.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client says three drafts are «too corporate». What is the most useful next step?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Rewrite everything in a noticeably more casual and conversational style."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask for two pieces they wrote that felt right, and copy the habits."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask them to define what corporate means to them in their own words."
+                },
+                {
+                  "id": "d",
+                  "label": "Suggest a call to talk through their brand values and positioning."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "People recognise their own voice much better than they can describe it. Two approved examples give you observable habits to copy, while a definition just returns another adjective to interpret.",
+              "wrongHint": "Look for the option that produces evidence rather than another word to guess about."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Edit Where It Always Slips",
+              "bodyHtml": "<p>Generated drafts drift in predictable directions: three adjectives where one would do, a summarising final paragraph that repeats everything, and transitions like «moreover» that nobody says aloud.</p><p>Reading the draft out loud catches all three in about ninety seconds. That pass is the difference between something usable and something obviously machine-made.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a company and read three things they published.",
+                "Write their six habits with one real example of each.",
+                "Generate the same piece with and without that list.",
+                "Read both aloud and mark every sentence a human would not say."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Sell the Voice Guide",
+              "bodyHtml": "<p>Once written, that half-page is a deliverable in its own right. Businesses pay for a voice guide, and you produced it as a by-product of work you were already doing.</p><p>It also protects the relationship: whoever writes for them next has a standard to follow, and you are the person who created it.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Capture voice as six observable habits from real published work, instruct with examples rather than adjectives, then edit for the three predictable drifts — extra adjectives, the summarising ending, and transitions nobody says. Sell the resulting guide as its own deliverable.",
+              "nextTeaser": "Next: checking what it gives you before a client sees it."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-checking",
+          "title": "Checking What It Gives You",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The output arrives fluent, confident and formatted. That is precisely the problem — fluency reads as accuracy, and a wrong answer looks exactly like a right one.</p><p>Everything you deliver carries your name, not the tool's. Checking is not caution; it is the part of the work the client is actually paying for.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Things That Are Reliably Wrong",
+              "bodyHtml": "<ul><li><strong>Specific facts</strong> — dates, prices, statistics, names</li><li><strong>Quotes and sources</strong> — sometimes attributed to the wrong person, sometimes invented</li><li><strong>Anything recent</strong> — the world moved after the model stopped reading</li></ul><p>Everything else is usually fine. Knowing which three to check keeps verification to a few minutes rather than a rewrite.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Fluent and correct feel identical on the page. Only one of them survives a client checking."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Make It Show Its Working",
+              "bodyHtml": "<p>You can shift a lot of risk by changing what you ask for.</p><p><s>«Write a paragraph about how much time businesses waste on admin.»</s></p><p><strong>«Write it, then list every factual claim separately so I can check each one.»</strong></p><p>The second gives you a checklist instead of a paragraph you have to reverse-engineer.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A draft includes a striking statistic with a named source. What do you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Keep it — a named source means the figure has already been verified."
+                },
+                {
+                  "id": "b",
+                  "label": "Search for the original source and confirm the number before using it."
+                },
+                {
+                  "id": "c",
+                  "label": "Remove the statistic, since generated figures cannot be trusted at all."
+                },
+                {
+                  "id": "d",
+                  "label": "Soften it to «research suggests» so the claim is no longer specific."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Named sources are among the most confidently invented details, and a false statistic in a client's published text is your problem, not the tool's. Checking takes a minute; softening hides the risk without removing it.",
+              "wrongHint": "Think about who is responsible when a client publishes a number that turns out to be wrong."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Read for What Is Missing",
+              "bodyHtml": "<p>The subtler failure is omission. A draft about pricing that never mentions deposits is not wrong — it is incomplete in a way that is easy to miss because everything present reads well.</p><p>Ask yourself what an expert would have included that this did not. That question catches more real problems than fact-checking does.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any generated draft and list every factual claim in it.",
+                "Check the two most specific ones against a real source.",
+                "Ask what an expert would have covered that is missing here.",
+                "Note how long the whole check took — usually under five minutes."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say What You Verified",
+              "bodyHtml": "<p>When delivering research-based work, add one line: «Figures checked against the source; the industry comparison is an estimate.»</p><p>Clients almost never ask for this and it noticeably raises trust, because it shows you know the difference between what you confirmed and what you did not.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Fluency is not accuracy. Check facts, sources and anything recent, ask for claims to be listed separately so verification is quick, and read for what an expert would have included but the draft omitted. Then tell the client what you actually verified.",
+              "nextTeaser": "Next: working with long documents without losing the detail."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-documents",
+          "title": "Working With Long Documents",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Pasting a fifty-page document and asking for a summary produces something accurate, bland and useless — a description of what the document is about rather than what it says.</p><p>The fix is not a better tool. It is asking a question narrow enough to have a real answer.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Summarise for a Purpose",
+              "bodyHtml": "<p>A summary with no purpose defaults to a table of contents in sentences.</p><p><s>«Summarise this report.»</s></p><p><strong>«This is a competitor's pricing page. List every claim they make about delivery, and every place they mention cost.»</strong></p><p>The second returns something you can act on. The first returns something you have to read the document to evaluate.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A summary with no purpose is a table of contents in full sentences."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions That Work on Long Inputs",
+              "bodyHtml": "<ul><li><strong>«Find every mention of X»</strong> — extraction, not summary</li><li><strong>«What does this assume without saying?»</strong> — surfaces the hidden argument</li><li><strong>«Where does it contradict itself?»</strong> — genuinely hard for a person to spot</li><li><strong>«What would a sceptic attack first?»</strong> — the useful review question</li></ul><p>All four give answers you can check against the source in seconds.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client sends a long transcript and asks what to do with it. What produces the most value?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A clean summary of the whole conversation from beginning to end."
+                },
+                {
+                  "id": "b",
+                  "label": "Every question the customer asked, listed with the answers given."
+                },
+                {
+                  "id": "c",
+                  "label": "A list of the main topics covered, in the order they came up."
+                },
+                {
+                  "id": "d",
+                  "label": "A shortened version of the transcript with the small talk removed."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Extracting the customer's actual questions gives the business something to act on — content to write, pages to fix, objections to answer. The other three reorganise the transcript without adding a decision.",
+              "wrongHint": "Think about which output the client could do something with on Monday morning."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Work in Sections",
+              "bodyHtml": "<p>For very long material, go section by section and keep the outputs. Quality drops noticeably when everything is processed in one pass, and the drop is invisible — it looks like a shorter answer, not a worse one.</p><p>Sectioning also lets you check as you go, which is much faster than discovering a problem in a finished summary of forty pages.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a long article and ask for a plain summary.",
+                "Then ask for every claim it makes about one specific thing.",
+                "Compare which output you could actually use in work.",
+                "Repeat the second question on a section rather than the whole piece."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Original Nearby",
+              "bodyHtml": "<p>Never deliver an extract you have not spot-checked against the source. The most common failure with long inputs is a detail that is subtly reassigned — the right number attached to the wrong year.</p><p>Checking three items at random takes a minute and catches this class of error almost every time it occurs.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Long documents reward extraction over summary: ask for every mention of one thing, hidden assumptions, contradictions, or what a sceptic would attack. Work section by section on very long material, and spot-check extracts against the original before delivering.",
+              "nextTeaser": "Next: turning research into something a client will pay for."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-research",
+          "title": "Turning Research Into Something Sellable",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Research is the easiest AI-assisted service to start selling and the easiest to sell badly. A document full of accurate findings that changes nothing is not worth what it cost to read.</p><p>The difference between the two is a decision. Findings inform; a recommendation is what gets bought again.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Start From the Decision",
+              "bodyHtml": "<p>Before researching anything, establish what the client will do with it.</p><p><s>«Research the market for handmade candles.»</s></p><p><strong>«They are deciding whether to add a subscription. What would make that a good or bad idea for a shop this size?»</strong></p><p>The same sources produce completely different work depending on which of those you were asked.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Findings inform. A recommendation is what gets commissioned again."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "A Shape That Sells",
+              "bodyHtml": "<ul><li><strong>The answer</strong> — one sentence, before any method</li><li><strong>Three reasons</strong> — the evidence, briefly</li><li><strong>What would change it</strong> — the honest caveat</li><li><strong>What to do first</strong> — one concrete step this week</li></ul><p>One page in that shape beats twelve pages of findings, and takes less time to produce once you know the decision.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which research deliverable is most likely to lead to more work?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A thorough overview of the market with every relevant finding included."
+                },
+                {
+                  "id": "b",
+                  "label": "A one-page answer with three reasons, a caveat and a first step."
+                },
+                {
+                  "id": "c",
+                  "label": "A list of sources with short summaries so the client can read more."
+                },
+                {
+                  "id": "d",
+                  "label": "A comparison table of every competitor and their published pricing."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A client commissioned research because something needs deciding. A page that decides — with reasons, a caveat and a first step — does that job, while overviews and tables hand the deciding back to them.",
+              "wrongHint": "Ask which deliverable ends with the client knowing what to do next."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Check Before You Cite",
+              "bodyHtml": "<p>Research is where invented sources do the most damage, because the entire value of the work is that it is true.</p><p>Every figure you include should have been opened and read by you. If you cannot find the original, either drop the claim or mark it clearly as an estimate — a habit that will one day save a client relationship.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a question you could research and write the decision behind it.",
+                "Produce the four-part page: answer, reasons, caveat, first step.",
+                "Open every source you cited and confirm the figure.",
+                "Mark anything you could not verify as an estimate."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say What You Could Not Find",
+              "bodyHtml": "<p>Naming a gap is more valuable than filling it with something vague: «I could not find reliable data on repeat purchase rates for this category — worth asking your supplier.»</p><p>That sentence is honest, useful, and often becomes the next piece of work without ever sounding like a pitch.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Establish the decision before researching anything, then deliver one page: the answer first, three reasons, what would change it, and one step to take this week. Verify every figure yourself, mark estimates as estimates, and name the gaps you could not fill.",
+              "nextTeaser": "Next: what images are actually good for in paid work."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-images",
+          "title": "Images: What They Are Actually Good For",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Generated images are the most demonstrated and least commercially useful capability in most freelance work. They make an impressive demo and a disappointing deliverable.</p><p>That is not because the images are bad. It is because the jobs businesses actually need doing are narrower than the ones the demos show.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Where They Genuinely Help",
+              "bodyHtml": "<ul><li><strong>Placeholders</strong> — showing a layout before real photography exists</li><li><strong>Abstract concepts</strong> — a header for an article about focus</li><li><strong>Backgrounds and textures</strong> — where nothing specific is depicted</li><li><strong>Variations of a thing you own</strong> — a product shot recoloured</li></ul><p>Notice what is missing: anything where the image must show a real product, place or person accurately.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The moment an image has to show something real, generated images become the wrong tool."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Say What the Picture Is Doing",
+              "bodyHtml": "<p>Weak prompts describe a subject. Useful ones describe a decision.</p><p><s>«A professional image for a blog post about productivity.»</s></p><p><strong>«Wide header, mostly empty on the left for a headline, muted blues, a single desk lamp lit at dusk.»</strong></p><p>The second one has a job: it leaves room for text and sets a mood. That is what makes it usable rather than merely nice.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client needs images of their actual products for a shop page. What do you advise?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Generate them, matching the products as closely as the tool allows."
+                },
+                {
+                  "id": "b",
+                  "label": "Photograph the real products — generated images cannot show them."
+                },
+                {
+                  "id": "c",
+                  "label": "Generate backgrounds and place existing product photos on top of them."
+                },
+                {
+                  "id": "d",
+                  "label": "Use stock photography of similar products from the same category."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Anything a customer is buying has to be shown as it really is, and a generated approximation of a real product is misleading at best. Backgrounds are a fair use of the tool; the product itself is not.",
+              "wrongHint": "Think about what a customer would feel on receiving something that did not match the picture."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Editing Is Still the Job",
+              "bodyHtml": "<p>Almost nothing should ship straight from the generator. A crop, a colour shift towards the brand palette and removing the one strange detail take five minutes.</p><p>That pass is most of the visible difference between paid work and something the client could have produced in a browser tab — which matters, because they know they could.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write a header prompt that specifies composition, empty space and palette.",
+                "Generate it and check whether a headline would actually fit.",
+                "Adjust the colours towards a real brand you like.",
+                "Note how long the edit took compared with the generation."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Be Clear With Clients",
+              "bodyHtml": "<p>Say plainly which images are generated. Some businesses have policies, some audiences care, and finding out afterwards is the version of this conversation that costs you the relationship.</p><p>Stated as method — «headers are generated, product shots are yours» — it reads as competence rather than confession.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated images earn their place in placeholders, abstract headers, backgrounds and variations of things the client already owns — never in showing a real product, place or person. Specify composition and palette rather than a subject, always edit afterwards, and tell the client which images are generated.",
+              "nextTeaser": "Next: building a custom assistant for one specific job."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-custom",
+          "title": "Building a Custom Assistant for One Job",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Custom assistants are where this tool stops being something you use and becomes something you can sell. A business pays for the configured thing, not for the chat window it came from.</p><p>The difference between one that gets used daily and one that gets opened twice is decided before you configure anything.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One Job, Named Precisely",
+              "bodyHtml": "<p><s>«An assistant that helps our team with customer emails.»</s></p><p><strong>«Drafts replies to the eleven delivery questions we get every week, using our real policy, and hands anything else to a person.»</strong></p><p>The first cannot be evaluated — there is no standard to hold it to. The second can be tested, corrected and trusted, which is what makes it worth money.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An assistant that could do anything gets used for nothing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Goes Into the Configuration",
+              "bodyHtml": "<ul><li><strong>The task list</strong> — countable, nothing vague</li><li><strong>The sources</strong> — exactly which documents it may use</li><li><strong>The refusals</strong> — prices, promises, anything binding</li><li><strong>The escalation</strong> — the words it uses to hand over</li></ul><p>Write the refusals before the capabilities. One confidently wrong answer about money undoes a hundred correct ones.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "During testing, the assistant invents a delivery time that is not in the documents. What is the fix?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Upload more documents so the correct delivery information is available."
+                },
+                {
+                  "id": "b",
+                  "label": "Ban the topic and route every delivery question to a person instead."
+                },
+                {
+                  "id": "c",
+                  "label": "Instruct it to be more careful and precise when discussing delivery."
+                },
+                {
+                  "id": "d",
+                  "label": "Accept it as a rare case that customers are unlikely to trigger often."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Anything the business would be held to should be a hard route to a human, not a matter of instruction quality. Asking a model to be careful is a preference; a topic ban is a rule that holds next month too.",
+              "wrongHint": "Think about which fix still works when the model behaves unpredictably later."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Feed It Real Examples",
+              "bodyHtml": "<p>Ask for the last fifty real enquiries before configuring anything. You will usually find a handful of questions cover most of the volume.</p><p>That is the scope of version one, and it turns a vague project into a small finishable one — which is also much easier to price.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick one job an assistant could do for a business you know.",
+                "Write the four sections: tasks, sources, refusals, escalation.",
+                "Configure it and try for ten minutes to make it say something wrong.",
+                "Write down everything that worked — those become your test cases."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Hand It Over Properly",
+              "bodyHtml": "<p>Give the client a one-page note: what it does, what it refuses, how to update its sources, and how to turn it off.</p><p>Keeping that vague does not protect your income. A client who cannot see how it works becomes nervous, and nervous clients stop using things.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Define one job precisely enough to be tested, write the refusals before the capabilities, and scope version one from fifty real enquiries. Try to break it before the client does, then hand over a page covering what it does, what it refuses, and how to switch it off.",
+              "nextTeaser": "Next: making all of this repeatable rather than remembered."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-repeatable",
+          "title": "Making It Repeatable",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people rebuild the same instructions from memory every time, which is why the second month of work takes as long as the first.</p><p>Everything you do twice should exist as a saved thing. That is the whole difference between a freelancer whose margin improves and one whose does not.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Save the Instruction, Not the Answer",
+              "bodyHtml": "<p>The output is disposable; the instruction that produced it is the asset.</p><p><s>Keeping a folder of good results you occasionally look at.</s></p><p><strong>Keeping the exact brief that produced them, with the corrections you had to make.</strong></p><p>The second reproduces the result on new material. The first only reminds you that it once worked.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The output is disposable. The instruction that produced it is the thing you own."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things Worth Keeping per Client",
+              "bodyHtml": "<ul><li><strong>The voice guide</strong> — six habits with examples</li><li><strong>The standing brief</strong> — pinned at the top of every request</li><li><strong>The banned list</strong> — words you delete every single time</li><li><strong>Two approved samples</strong> — the target to match</li></ul><p>Half a page per client. Written once, it makes round one usable instead of round three.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You correct the same thing in every draft for a client. Where does that correction belong?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "In your notes, so you remember to fix it before each delivery."
+                },
+                {
+                  "id": "b",
+                  "label": "In the standing brief, so it stops appearing in the drafts at all."
+                },
+                {
+                  "id": "c",
+                  "label": "In a message to the client, explaining the limitation you found."
+                },
+                {
+                  "id": "d",
+                  "label": "In a checklist you run through at the end of every single project."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A correction you make every time is a missing instruction, not a task to remember. Moving it into the brief removes the work permanently, while notes and checklists keep the work and only make it reliable.",
+              "wrongHint": "Ask which option means you never have to make that correction again."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Build Templates for the Jobs You Repeat",
+              "bodyHtml": "<p>If you have written three sets of product descriptions, the fourth should start from a template with the brief, the structure and the checks already in it.</p><p>This is where the margin comes from. Charging the same and finishing in half the time is the return on having built something, not a discount to pass on.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a client and write their half-page: voice, brief, banned words, samples.",
+                "Run your next request with it pinned at the top.",
+                "Count how many corrections you no longer had to make.",
+                "Turn your most repeated job into a template with the checks included."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Review the Library Monthly",
+              "bodyHtml": "<p>Once a month, look at what you have corrected repeatedly and move it into the relevant brief. Ten minutes.</p><p>Over a year this quietly becomes the most valuable thing you own — a set of instructions that reliably produce your standard, which is exactly what a business is buying when it hires you again.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Save instructions rather than outputs: a voice guide, a standing brief, a banned list and two approved samples per client. Move every repeated correction into the brief instead of remembering it, template the jobs you do often, and review the library once a month.",
+              "nextTeaser": "Next: the places where it reliably fails."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-limits",
+          "title": "Where It Fails, and What to Do Then",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Knowing what a tool cannot do is more commercially useful than knowing what it can. It decides what you accept, what you price higher, and what you decline.</p><p>It also protects you from the one bad outcome that matters — promising a client something that turns out to be unachievable after you have taken the job.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Five Reliable Failures",
+              "bodyHtml": "<ul><li><strong>Anything recent</strong> — the world moved on after training</li><li><strong>Specific numbers</strong> — plausible and frequently invented</li><li><strong>Your client's internal knowledge</strong> — it was never in there</li><li><strong>Genuine originality</strong> — it averages, it does not surprise</li><li><strong>Long consistency</strong> — quality drifts over very long pieces</li></ul><p>None of these is fixable with a better prompt, which is why recognising them saves so much time.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A better prompt cannot supply information the model never had."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What to Do Instead",
+              "bodyHtml": "<p>Each failure has a workaround, and the workaround is usually you.</p><p><s>Rewriting the prompt for the fifth time hoping the facts improve.</s></p><p><strong>Supplying the facts yourself and asking it to write around them.</strong></p><p>The tool is excellent at shaping material and unreliable at supplying it. Splitting the job along that line solves most of the frustration people report.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client wants an article about their industry's results from last quarter. What is the right approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Prompt carefully for recent data and check the figures it produces."
+                },
+                {
+                  "id": "b",
+                  "label": "Gather the figures yourself, then have it structure and write around them."
+                },
+                {
+                  "id": "c",
+                  "label": "Explain that recent industry topics cannot be written about reliably."
+                },
+                {
+                  "id": "d",
+                  "label": "Use general industry knowledge and avoid mentioning specific quarters."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Recent specifics are the one thing a model cannot supply, and shaping material is the thing it does best. Splitting the job along that line gives the client an accurate article and keeps the speed advantage.",
+              "wrongHint": "Think about which part of this job is research and which part is writing."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Price the Human Part Honestly",
+              "bodyHtml": "<p>Jobs heavy on verification, internal knowledge or genuine originality take longer, not shorter. Price them accordingly rather than assuming the tool makes everything faster.</p><p>Freelancers who lose money on AI-assisted work almost always underpriced a job whose real cost was checking, not producing.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List the last five jobs you did and mark which parts the tool actually sped up.",
+                "Mark which parts took longer because they needed checking.",
+                "Work out which of your services are genuinely faster now.",
+                "Adjust the price of the ones that are not."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say No Sometimes",
+              "bodyHtml": "<p>Some jobs are worse with a tool in the loop: highly specialised technical writing, anything legally binding, work where a mistake is unrecoverable.</p><p>Declining those, or pricing them as fully manual work, is a professional judgement rather than a limitation. It is also the thing that keeps you out of the failure that ends relationships.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Five failures are structural: recent events, specific numbers, internal knowledge, genuine originality and consistency over long pieces. Supply facts yourself and let the tool shape them, price verification-heavy work honestly, and decline the jobs where a mistake would be unrecoverable.",
+              "nextTeaser": "Next: combining it with the other tools you already use."
+            }
+          ]
+        },
+        {
+          "slug": "gpt-combining",
+          "title": "Combining It With Other Tools",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The last lesson of a tool course is usually a list of integrations. That is the wrong instinct — the useful question is not what connects to what, but where the handoffs in your own work are slow.</p><p>Chains built from enthusiasm break quietly. Chains built from a specific delay tend to survive.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Start From the Handoff That Hurts",
+              "bodyHtml": "<p><s>«What could I connect to this to make my workflow more efficient?»</s></p><p><strong>«Every Friday I copy the same figures into the same document by hand. That is the handoff.»</strong></p><p>The second gives you a project with a defined start, end and value. The first gives you an afternoon of experimenting.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Build chains from a delay you can name, not from a tool you want to try."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Combinations Worth Having",
+              "bodyHtml": "<ul><li><strong>Notes in, draft out</strong> — voice memo or bullets become a first version</li><li><strong>Data in, summary out</strong> — a sheet becomes a client-ready paragraph</li><li><strong>Draft out, checklist run</strong> — your standard checks applied automatically</li></ul><p>Each removes a specific repeated action. None requires anything exotic.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which combination is most worth building first for a freelancer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Whichever integration is newest and most talked about right now."
+                },
+                {
+                  "id": "b",
+                  "label": "The one that removes a step you repeat every week by hand."
+                },
+                {
+                  "id": "c",
+                  "label": "The most technically impressive chain you are able to build."
+                },
+                {
+                  "id": "d",
+                  "label": "A setup that connects every tool you currently use together."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A weekly repeated step has a measurable cost, which makes it worth automating and easy to justify to a client. Novelty and technical impressiveness produce chains nobody maintains after the first month.",
+              "wrongHint": "Think about which option you could put a number of minutes against."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep the Human Check in the Chain",
+              "bodyHtml": "<p>The most dangerous automation is the one that delivers without anyone reading. Put your approval between generation and anything a client sees.</p><p>The step that costs you two minutes is the step that stops a wrong figure reaching a customer — and that is precisely the value you are selling.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write down every step you repeat weekly, with the minutes each takes.",
+                "Pick the one that costs most and is most identical each time.",
+                "Build the smallest version that removes it, with an approval step.",
+                "Run it for two weeks before building anything else."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "This Is Also a Service",
+              "bodyHtml": "<p>Everything in this lesson is something businesses pay for. Mapping a manual process, building the chain and proving the hours saved is a well-paid job, and you have just done it for yourself.</p><p>Your own workflow is the first case study — and the most honest one, because you can say exactly how many minutes it gave back.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Build from a handoff you can name and measure, not from a tool you want to try. Notes to draft, data to summary, draft to checklist — each removing one repeated action, with your approval before anything reaches a client. Then sell the same work to businesses.",
+              "nextTeaser": "That completes the course: setup, briefing, voice, verification, documents, research, images, custom assistants, repeatability, limits and combinations."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
