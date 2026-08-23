@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-real-estate-agents",
+  "title": "AI for Real Estate Agents",
+  "description": "Listings that get read, fields that get you found, follow-up with something to say, and the claims that put an agent at risk. Written for the parts of the job where the wording is regulated.",
+  "kind": "career",
+  "icon": "🏠",
+  "shelf": "Careers",
+  "sortOrder": 7,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in property work without publishing a claim you cannot support.",
+      "lessons": [
+        {
+          "slug": "re-why-listings-same",
+          "title": "Why Every Listing Sounds the Same",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Property descriptions were already formulaic before anyone generated them. Now they are formulaic at scale, and buyers scroll past all of them at identical speed.</p><p>The words that do work are the ones only someone who stood in the room could write.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Adjectives Are Invisible",
+              "bodyHtml": "<p><s>«Stunning three-bedroom property boasting spacious accommodation in a sought-after location.»</s></p><p><strong>«The kitchen gets sun until about four. The third bedroom fits a desk but not a double bed. Station is nine minutes on foot, downhill.»</strong></p><p>The second answers what people actually wonder, and it could not have been written from a floor plan.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Stunning» and «spacious» are read by nobody. «Nine minutes, downhill» is read by everyone."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Buyers Are Actually Asking",
+              "bodyHtml": "<ul><li><strong>Will my furniture fit?</strong> Real dimensions, in context</li><li><strong>What is it like at 8am?</strong> Light, noise, traffic</li><li><strong>What is the catch?</strong> They assume there is one</li><li><strong>How far, really?</strong> Walking minutes, not «convenient for»</li></ul><p>A listing that answers all four gets fewer enquiries and far better viewings.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which line is most likely to make the right buyer book a viewing?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A beautifully presented home in a highly desirable residential area."
+                },
+                {
+                  "id": "b",
+                  "label": "South-facing kitchen keeps light until four; the box room fits a desk."
+                },
+                {
+                  "id": "c",
+                  "label": "Spacious and versatile accommodation arranged over two generous floors."
+                },
+                {
+                  "id": "d",
+                  "label": "An excellent opportunity for families or professionals seeking comfort."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Specifics let the right buyer recognise their own situation and let the wrong one self-select out. The other three describe every property ever listed, which is why buyers stopped reading them.",
+              "wrongHint": "Ask which line could not have been copied onto a different property."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It to Draft, Not to Invent",
+              "bodyHtml": "<p>Give it your own notes from the viewing — the light, the noise, the awkward corner — and let it write them up cleanly.</p><p>Asking it to describe a property from a bullet list of features produces exactly the copy buyers ignore, because there was nothing specific to work from.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Walk one property and note five things a photograph cannot show.",
+                "Write the listing from those notes rather than from the spec sheet.",
+                "Check every sentence would break if applied to the house next door.",
+                "Compare enquiry quality against your previous listing."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say the Drawback",
+              "bodyHtml": "<p>Naming the obvious flaw — the small third bedroom, the busy road — builds more trust than any amount of praise, and it filters out the viewings that were never going to convert.</p><p>Buyers find the drawback anyway, in person, having taken an afternoon off. Whether they hear it from you first decides how the rest of that conversation goes.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Listings fail because adjectives are invisible. Answer what buyers actually wonder — will the furniture fit, what is it like in the morning, what is the catch, how far really — write from viewing notes rather than a spec sheet, and name the drawback yourself.",
+              "nextTeaser": "Next: what buyers search for and how listings get found."
+            }
+          ]
+        },
+        {
+          "slug": "re-what-buyers-search",
+          "title": "What Buyers Actually Search For",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A listing has two audiences and they want opposite things. The portal filters on structured fields; the human reads the first two lines. Most listings are written for neither.</p><p>Getting both right is a mechanical task, which makes it a good place for help.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Fields First, Prose Second",
+              "bodyHtml": "<ul><li><strong>Every filterable field filled</strong> — a blank field removes you from that search entirely</li><li><strong>The first two lines carry the hook</strong> — that is all the preview shows</li><li><strong>Local names spelled as locals spell them</strong></li><li><strong>Numbers as digits</strong> — they stop the eye in a list</li></ul><p>The first point costs more listings than bad writing ever has, and it is entirely avoidable.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An empty filter field does not lower your ranking. It removes you from the search completely."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Write the Preview Deliberately",
+              "bodyHtml": "<p><s>«Situated in a popular location, this well-presented home offers…»</s></p><p><strong>«Nine minutes to the station, south-facing garden, no chain.»</strong></p><p>The first two lines are the whole advert in a list of forty. Everything else is read only by people the preview already convinced.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A listing gets many views but few enquiries. What is the most likely cause?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The asking price is above what the local market will currently support."
+                },
+                {
+                  "id": "b",
+                  "label": "The photos and text oversell, so viewers lose interest on closer reading."
+                },
+                {
+                  "id": "c",
+                  "label": "The property is being shown to the wrong audience by the portal itself."
+                },
+                {
+                  "id": "d",
+                  "label": "The description is too short to answer the questions buyers have."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Views mean the preview worked; enquiries stopping afterwards points at the gap between the promise and the detail. Price problems usually suppress views as well, and short descriptions rarely attract views in the first place.",
+              "wrongHint": "Think about which stage the buyer actually drops out at, and what changes only that stage."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Photos Carry More Than Words",
+              "bodyHtml": "<p>Order matters more than count: the strongest exterior first, then the room that sells the property, then layout in a logical walk.</p><p>Never enhance beyond what the eye would see. A buyer who arrives at a property that looks worse than its photos has already decided about you before the door opens.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a current listing and check every filterable field is complete.",
+                "Rewrite the first two lines as three concrete facts.",
+                "Reorder the photos into a logical walk through the property.",
+                "Compare enquiries over the next fortnight."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Match the Listing to the Buyer",
+              "bodyHtml": "<p>The same property sells differently to a first-time buyer and to a downsizer. You usually know which is most likely from the street and the layout.</p><p>Writing two versions and using the right one on the right channel takes ten minutes and is the cheapest targeting available to an agent.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Fill every filterable field — a blank one removes you from that search — and write the first two lines as concrete facts, because the preview is the whole advert. Order photos as a logical walk, never enhance beyond reality, and write a second version for the other likely buyer.",
+              "nextTeaser": "Next: follow-up that does not feel automated."
+            }
+          ]
+        },
+        {
+          "slug": "re-follow-up",
+          "title": "Follow-Up That Does Not Feel Automated",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most sales in property are lost in the gap after the viewing. The buyer is deciding for two weeks and hears nothing, or hears the same message every three days.</p><p>Both failures come from the same place: no plan for what to say when there is no news.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Give Them Something, Not a Nudge",
+              "bodyHtml": "<p><s>«Just checking in to see if you had any further thoughts on the property?»</s></p><p><strong>«You asked about the loft — the vendor confirmed the conversion was signed off in 2019, certificate attached.»</strong></p><p>The first asks the buyer to do the work. The second gives them a reason to reply and quietly answers the objection that was holding them.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Just checking in» tells the buyer you have nothing to say and want something anyway."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Note the Question, Answer It Later",
+              "bodyHtml": "<ul><li><strong>Write down every question asked at the viewing</strong>, in their words</li><li><strong>Answer one per follow-up</strong>, not all at once</li><li><strong>Attach something</strong> — a certificate, a plan, a photo they asked for</li><li><strong>Say what happens next</strong>, with a date</li></ul><p>Three unanswered questions is three natural, welcome follow-ups over two weeks.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Five days after a viewing you have no news. What is the strongest follow-up?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A short friendly message asking whether they have made a decision yet."
+                },
+                {
+                  "id": "b",
+                  "label": "The answer to something they asked at the viewing, with the document."
+                },
+                {
+                  "id": "c",
+                  "label": "A note that another party has shown interest, to encourage a decision."
+                },
+                {
+                  "id": "d",
+                  "label": "A list of three similar properties in case this one was not right."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Answering their own question proves you listened and gives a genuine reason to make contact. Pressure tactics damage trust and often backfire, and sending alternatives signals you have given up on this one.",
+              "wrongHint": "Ask which message the buyer would actually be pleased to receive."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep the Notes Where You Can Use Them",
+              "bodyHtml": "<p>Viewing notes decay fast, and after eight viewings in a week nobody remembers who asked about the boiler.</p><p>Record and extract the questions immediately. It takes two minutes and turns the following fortnight from guesswork into a plan.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your last three viewings and list every question asked.",
+                "Write one follow-up per question, each with something attached.",
+                "Schedule them across two weeks rather than sending together.",
+                "Note which one gets a reply."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say When You Will Stop",
+              "bodyHtml": "<p>After two or three follow-ups with no response, say plainly that you will leave it with them and are there if anything changes.</p><p>It ends the awkwardness for both sides, and buyers frequently come back to the agent who made stepping away easy rather than the one who kept pushing.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Follow-up fails when it has nothing to say. Write down every question asked at the viewing and answer one per message with something attached, spread over the fortnight the buyer is deciding. Then say clearly when you are stepping back.",
+              "nextTeaser": "Next: claims, compliance and not overpromising."
+            }
+          ]
+        },
+        {
+          "slug": "re-claims-and-compliance",
+          "title": "Claims and Not Overpromising",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Property advertising is regulated, and the rules apply to whatever produced the words. A generated description that overstates a room, invents a permission or implies a school catchment is your problem entirely.</p><p>This is the part of the job where the tool's confident tone is actively dangerous.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Claims That Cause Trouble",
+              "bodyHtml": "<ul><li><strong>Measurements</strong> — never repeat a figure you have not verified</li><li><strong>Permissions and conversions</strong> — «potential to extend» implies more than it says</li><li><strong>Catchments and schools</strong> — boundaries change and are not yours to promise</li><li><strong>Running costs</strong> — a band or a bill from the last owner is not a forecast</li></ul><p>Generated copy produces all four fluently, because they are the kinds of things listings usually say.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Potential to extend» sounds like description and reads to a buyer like a promise."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Check Every Number Against a Document",
+              "bodyHtml": "<p><s>Accepting the room dimensions that appeared in the drafted description.</s></p><p><strong>Checking each figure against the floor plan or your own measurement before it is published.</strong></p><p>Numbers are the single most likely thing to be quietly wrong, and the easiest for a buyer to check with a tape measure on the day.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A drafted listing says «excellent potential to convert the loft». What should you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Publish it — it says potential, which is clearly not a guarantee of anything."
+                },
+                {
+                  "id": "b",
+                  "label": "Remove it unless the vendor can show what has actually been established."
+                },
+                {
+                  "id": "c",
+                  "label": "Soften it to «may offer potential» so the wording is less definite still."
+                },
+                {
+                  "id": "d",
+                  "label": "Keep it but add a general disclaimer at the bottom of the description."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Buyers read «potential» as an assessment you have made, and a disclaimer does not undo a specific claim in the body text. If nothing has been established, the sentence should not be there at all.",
+              "wrongHint": "Think about how a buyer who paid for a survey would read that sentence afterwards."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep a Record of What You Verified",
+              "bodyHtml": "<p>Note where each factual claim came from: the floor plan, the vendor, a certificate you have seen.</p><p>If a listing is ever questioned, that record is the difference between a correction and a complaint — and it takes a line per property to keep.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a live listing and mark every factual claim in it.",
+                "Note the source for each and remove anything you cannot source.",
+                "Check your local advertising rules for the four categories above.",
+                "Add the verification note to your standard listing process."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Disclose Generated Imagery",
+              "bodyHtml": "<p>Staged or enhanced images must be labelled as such, and rules on this are tightening in most markets.</p><p>Label it in the listing itself rather than mentioning it at the viewing. A buyer who feels misled by a photograph does not become a buyer who trusts the survey.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Regulation applies to whatever wrote the words. Verify every measurement against a document, remove claims about permissions, catchments and running costs unless established, keep a note of each source, and label any staged or enhanced image in the listing itself.",
+              "nextTeaser": "That completes the course: listings, search, follow-up and claims."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

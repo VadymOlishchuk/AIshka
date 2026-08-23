@@ -153,9 +153,14 @@ export async function getLessonForUser(
 ): Promise<{ lesson: LessonView; locked: boolean } | null> {
   const lesson = await db.lesson.findUnique({
     where: { slug },
-    include: { module: { include: { course: true } } },
+    include: { module: { include: { course: { include: { _count: { select: { modules: true } } } } } } },
   });
   if (!lesson || !lesson.isPublished) return null;
+
+  // У курсах з одного юніта назва юніта нічого не додає («The Course»),
+  // тому в шапці уроку показуємо назву курсу.
+  const eyebrow =
+    lesson.module.course._count.modules === 1 ? lesson.module.course.title : lesson.module.title;
 
   const blocks = Block.array().parse(lesson.blocks);
   const courseId = lesson.module.courseId;
@@ -203,7 +208,7 @@ export async function getLessonForUser(
       blocks,
       courseId,
       courseSlug: lesson.module.course.slug,
-      unitTitle: lesson.module.title,
+      unitTitle: eyebrow,
       completed: Boolean(completed),
       nextLessonSlug,
     },
@@ -225,6 +230,7 @@ export type CatalogCourse = {
   title: string;
   description: string;
   kind: string;
+  icon: string | null;
   shelf: string | null;
   lessons: number;
   minutes: number;
@@ -259,6 +265,7 @@ export async function getAcademyCatalog(userId: string): Promise<CatalogCourse[]
       title: course.title,
       description: course.description,
       kind: course.kind,
+      icon: course.icon,
       shelf: course.shelf,
       lessons: lessons.length,
       minutes: lessons.reduce((n, l) => n + l.durationMin, 0),

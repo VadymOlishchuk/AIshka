@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-teachers",
+  "title": "AI for Teachers",
+  "description": "Where AI saves real hours in a teaching week and where it costs more than it saves. Covers planning, differentiated materials, marking that pupils still trust, and what to tell students about their own use.",
+  "kind": "career",
+  "icon": "📚",
+  "shelf": "Careers",
+  "sortOrder": 1,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in teaching without handing over the judgement that makes a lesson work.",
+      "lessons": [
+        {
+          "slug": "tea-why-plans-feel-empty",
+          "title": "Why Generated Lesson Plans Feel Empty",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Ask for a lesson plan on any topic and something arrives immediately: objectives, a starter, a main activity, a plenary. It looks like a plan and teaches like a template.</p><p>What is missing is not detail. It is everything you know about the twenty-nine people in the room, and none of that was in the request.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Class Is the Missing Input",
+              "bodyHtml": "<p><s>«Write a lesson plan on photosynthesis for Year 8.»</s></p><p><strong>«Year 8, mixed ability, forty minutes, no lab access this week. Six students read well below level. They did respiration last term and confused the two.»</strong></p><p>The second produces something you could actually run on Tuesday, because the constraints that shape a real lesson are finally in the room.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A plan that would work in any classroom will not work well in yours."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What to Put in Every Request",
+              "bodyHtml": "<ul><li><strong>Time you really have</strong> — after registration and settling</li><li><strong>What they already met</strong>, and what they got wrong last time</li><li><strong>The spread</strong> — the range you are planning for, not the average</li><li><strong>Your constraints</strong> — no printer, no lab, shared equipment</li></ul><p>Four lines. They are the difference between a template and a plan.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your generated plan is fine but generic. Which detail usually fixes it fastest?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Asking for more activities so there is plenty of material to choose from."
+                },
+                {
+                  "id": "b",
+                  "label": "Naming what this class already got wrong the last time you taught it."
+                },
+                {
+                  "id": "c",
+                  "label": "Requesting a more engaging and creative style for the whole lesson."
+                },
+                {
+                  "id": "d",
+                  "label": "Specifying the exact curriculum reference the lesson is meant to cover."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "A known misconception gives the plan something specific to work against, which is what makes a lesson feel targeted. Curriculum references and extra activities add volume without adding aim.",
+              "wrongHint": "Think about which detail only you could supply about this particular class."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It for the Second Version",
+              "bodyHtml": "<p>The strongest use is not writing a plan from nothing. It is adapting one you already trust: same lesson, lower reading level; same lesson, twenty minutes; same lesson, no equipment.</p><p>That work is genuinely slow by hand and genuinely fast with a tool, and it keeps your judgement in the plan.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a lesson you have taught and liked, and paste your own outline.",
+                "Ask for a version at a lower reading level, keeping the activities.",
+                "Ask for a twenty-minute version for a shortened period.",
+                "Note which parts it cut — that tells you what it thought was optional."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Bit That Is Yours",
+              "bodyHtml": "<p>Whatever the plan says, the parts that make a lesson land are the example that fits this class, the question you know will start an argument, and the pupil you plan to ask first.</p><p>None of that can be generated. It is also, reliably, the part that takes five minutes rather than fifty.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated plans feel empty because the class was never described. Give the real time, the prior misconception, the ability spread and your practical constraints — and use the tool mostly to adapt lessons you already trust rather than to invent new ones.",
+              "nextTeaser": "Next: turning a curriculum point into materials you can use tomorrow."
+            }
+          ]
+        },
+        {
+          "slug": "tea-materials-that-work",
+          "title": "Materials You Can Use Tomorrow",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Preparation, not planning, is where teaching hours actually disappear: the differentiated worksheet, the six extra practice questions, the version for the pupil who was absent.</p><p>This is the work AI is genuinely good at, and it is also where the checking has to be fastest.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask for Variants, Not Content",
+              "bodyHtml": "<p><s>«Make a worksheet about fractions.»</s></p><p><strong>«Here are my six questions. Make three versions: same numbers with more scaffolding, same difficulty with different contexts, and a harder extension using the same method.»</strong></p><p>The second keeps your material and your judgement about difficulty, and produces exactly what a mixed class needs.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Your questions, three difficulty levels: that is twenty minutes of work in two."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Materials Worth Generating",
+              "bodyHtml": "<ul><li><strong>Differentiated versions</strong> of a sheet you already use</li><li><strong>Extra practice</strong> in the same format as your examples</li><li><strong>Plain-language explanations</strong> for a pupil who missed the lesson</li><li><strong>Parent-facing summaries</strong> of what is being covered and why</li></ul><p>All four are repetitive, low-risk and immediately checkable by reading them once.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You need practice questions for tomorrow. What is the fastest reliable approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask for twenty new questions on the topic and pick the usable ones."
+                },
+                {
+                  "id": "b",
+                  "label": "Give your six best questions and ask for more in exactly that format."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask for a complete worksheet including instructions and answer key."
+                },
+                {
+                  "id": "d",
+                  "label": "Describe the topic in detail and let it choose the question types itself."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Your own questions carry your judgement about difficulty, phrasing and what the class has met. Matching that format produces questions you can trust after a quick read, rather than twenty you must triage.",
+              "wrongHint": "Think about which approach keeps the standard you have already set for this class."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Check the Answers Yourself",
+              "bodyHtml": "<p>Generated answer keys are wrong often enough to matter, and a wrong key in front of a class costs more than the sheet saved.</p><p>Work through the questions yourself before printing. For most sheets that is three minutes, and it is not optional.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a worksheet you use and generate a scaffolded version of it.",
+                "Generate an extension set at the same difficulty as your hardest question.",
+                "Work through every answer yourself before it reaches a pupil.",
+                "Note how long the whole thing took compared with writing it by hand."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Build a Bank, Not a One-Off",
+              "bodyHtml": "<p>Save the request that produced good material, not just the material. Next year the same prompt with a new topic gives you the same standard in one step.</p><p>Over a couple of terms this quietly becomes the most useful file you own, and it belongs to you rather than to any particular tool.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Preparation is where the hours go, so generate variants of material you already trust: differentiated versions, extra practice in your format, catch-up explanations and parent summaries. Always work the answers yourself, and save the prompts rather than only the sheets.",
+              "nextTeaser": "Next: feedback and marking without losing the pupil."
+            }
+          ]
+        },
+        {
+          "slug": "tea-feedback",
+          "title": "Feedback Without Losing the Pupil",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Marking is the heaviest recurring load in teaching, so it is the first place people want to automate — and the place where automating badly does the most damage.</p><p>Feedback works because a pupil believes someone read their work. Anything that breaks that belief costs more than the time it saved.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Draft the Frame, Write the Substance",
+              "bodyHtml": "<p><s>Pasting a pupil's essay and sending back whatever comes out.</s></p><p><strong>Marking it yourself in three notes, then asking for those notes to be turned into feedback in your usual tone, at their reading level.</strong></p><p>The judgement stays yours; the rewriting into kind, clear sentences is the part that took forty minutes across a class.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Feedback works because a pupil believes someone read it. Protect that belief above all."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Must Stay Human",
+              "bodyHtml": "<ul><li><strong>The judgement</strong> — what is good, what is wrong, what grade</li><li><strong>Anything personal</strong> — effort, progress, a hard term at home</li><li><strong>The next step</strong> — you know what this pupil can do next</li><li><strong>Anything a parent may see</strong> — read every word before it leaves</li></ul><p>What can be handed over is phrasing, length and consistency across thirty scripts.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have thirty essays to mark by Friday. What is the sound approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Paste each essay and send the generated comments after a quick read."
+                },
+                {
+                  "id": "b",
+                  "label": "Mark each yourself in three notes, then expand those into full comments."
+                },
+                {
+                  "id": "c",
+                  "label": "Generate comments for the weakest scripts and write the strongest by hand."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask for a grade and comment together, then adjust anything that looks off."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Expanding your own notes keeps every judgement yours while removing the slow part — turning shorthand into readable, consistent comments. The other options hand over the assessment itself.",
+              "wrongHint": "Ask which part of marking is judgement and which part is typing."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Watch for Sameness",
+              "bodyHtml": "<p>Thirty comments generated the same way start to read identically, and pupils notice faster than adults expect. They compare.</p><p>Vary the opening line yourself, and make sure at least one sentence in each could only have been written about that pupil's work.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Mark five pieces with three shorthand notes each.",
+                "Expand one set into full feedback in your own tone.",
+                "Read it as the pupil would and check it names something specific.",
+                "Compare the time against marking the other four by hand."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Tell Them What You Do",
+              "bodyHtml": "<p>Being open with pupils and parents about how feedback is produced costs nothing and prevents the conversation you would least like to have.</p><p>«I write the judgements; a tool helps me write them up clearly» is honest, easy to say, and most people find it entirely reasonable.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Keep judgement, personal comment and next steps human; hand over phrasing, length and consistency. Mark in shorthand notes and expand them, make sure each comment names something specific to that pupil, and be open about how the write-up is produced.",
+              "nextTeaser": "Next: what to tell students about their own use of AI."
+            }
+          ]
+        },
+        {
+          "slug": "tea-talking-to-students",
+          "title": "What to Tell Students About AI",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Students are already using these tools, whatever any policy says. The question is not whether to allow it but what they understand about it.</p><p>A ban with no explanation teaches them to hide it. An honest conversation teaches them where it helps and where it quietly costs them something.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Name What Is Actually Lost",
+              "bodyHtml": "<p>«It's cheating» is a rule. Rules get worked around when nobody explains them.</p><p><s>«Don't use AI for your homework.»</s></p><p><strong>«If it writes your first draft, you skip the part where you find out what you actually think. That struggle is the lesson — the essay is just evidence of it.»</strong></p><p>The second is arguable, which is exactly why it works better than an instruction.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A rule without a reason teaches concealment, not judgement."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Rules Students Can Follow",
+              "bodyHtml": "<ul><li><strong>Say what you used and where</strong> — a line at the end, no penalty for honesty</li><li><strong>You must be able to explain every sentence</strong> — if you cannot, it is not yours</li><li><strong>Never for the thinking step</strong> — planning and arguing are the work</li></ul><p>These are checkable in conversation, which matters because detection tools are unreliable and accusing a student wrongly does lasting harm.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You suspect a submitted essay was largely generated. What is the sound first step?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Run it through a detector and act on whatever percentage it returns."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask the student to talk you through their argument and their choices."
+                },
+                {
+                  "id": "c",
+                  "label": "Give it a zero and explain that generated work receives no marks."
+                },
+                {
+                  "id": "d",
+                  "label": "Compare the writing style against their previous submitted work."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A conversation is the only reliable test: a student who did the thinking can explain their choices, and one who did not cannot. Detectors produce false positives, and a wrong accusation causes lasting damage.",
+              "wrongHint": "Think about which method could not wrongly accuse a student who actually did the work."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Show Them Where It Fails",
+              "bodyHtml": "<p>The most convincing lesson is a demonstration. Ask it something in your subject where it is confidently wrong, and take the class through the error together.</p><p>Ten minutes of that does more for their scepticism than a term of warnings, and it teaches a habit they will need long after school.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find one confident error in your subject and save the exchange.",
+                "Write your three classroom rules in language a student would repeat.",
+                "Plan the ten-minute demonstration lesson.",
+                "Decide what you will do when a student declares they used it — reward the honesty."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Agree It Across the Department",
+              "bodyHtml": "<p>Different rules in different classrooms produce confusion and resentment, and students will point out the inconsistency before you do.</p><p>One shared line, even an imperfect one, is worth more than five carefully considered individual policies.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Explain what is lost rather than issuing a ban: the thinking is the lesson. Use three checkable rules — declare it, be able to explain every sentence, never outsource the thinking — settle suspicion by conversation rather than detectors, and agree the line across the department.",
+              "nextTeaser": "That completes the course: planning, materials, feedback and the conversation with students."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

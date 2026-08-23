@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-accountants",
+  "title": "AI for Accountants",
+  "description": "Where AI is genuinely useful in an accounting week and where it quietly gets things wrong. Covers the tasks worth handing over, a two-minute checking routine, and what you may safely put into a tool.",
+  "kind": "career",
+  "icon": "🧮",
+  "shelf": "Careers",
+  "sortOrder": 0,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in accounting without putting your name to a number you have not checked.",
+      "lessons": [
+        {
+          "slug": "acc-why-numbers-go-wrong",
+          "title": "Why It Gets Numbers Wrong",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The first instinct in accounting is to test whether the tool can do arithmetic. It usually can, and that test tells you almost nothing about where it will actually fail you.</p><p>The failures are not in the sums. They are in the assumptions underneath them: which rows counted, which period, whether a refund was a negative sale or an excluded line.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Fluent Is Not Verified",
+              "bodyHtml": "<p>A generated reconciliation summary reads exactly like a correct one. That is the whole problem.</p><p><s>«Total expenses for Q2 were £48,200, up 12% on Q1.»</s></p><p><strong>«Total from the 412 rows supplied: £48,200. Excludes 6 blank-date rows and 3 refunds — confirm how you want those treated.»</strong></p><p>The second is the same work with its assumptions on the surface, where you can check them.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "In accounting, a confident wrong number is worse than no number at all."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where It Actually Breaks",
+              "bodyHtml": "<ul><li><strong>Silent exclusions</strong> — blank fields dropped without mention</li><li><strong>Date formats</strong> — 06/07 read as June or July depending on nothing</li><li><strong>Duplicates</strong> — the same invoice counted twice</li><li><strong>Sign conventions</strong> — credits treated as debits</li></ul><p>None of these announce themselves, and all of them survive into a total that looks perfectly reasonable.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A generated summary gives a figure 12% above the client's own accounts. What comes first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Report the higher figure — the raw transaction data is more reliable."
+                },
+                {
+                  "id": "b",
+                  "label": "Find the cause: usually duplicates, refunds or an overlapping period."
+                },
+                {
+                  "id": "c",
+                  "label": "Adjust the total down so that it matches the client's own accounts."
+                },
+                {
+                  "id": "d",
+                  "label": "Report both numbers and let the client decide which one to use."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A gap between two sources is information. Finding its cause usually surfaces a real problem in how the data is recorded — which is often worth more to the client than the summary they asked for.",
+              "wrongHint": "Think about which response treats the difference as something to explain rather than smooth over."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask for the Working, Not the Answer",
+              "bodyHtml": "<p>Change what you request and most of this risk disappears: ask for the steps and the exclusions alongside the figure.</p><p>«List every row you ignored and why» takes one extra line to ask and turns an opaque total into something you can review in two minutes.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a real ledger export and ask for a category total.",
+                "Then ask which rows were excluded and on what basis.",
+                "Recalculate one category by hand and compare.",
+                "Note which assumption you would never have spotted from the total alone."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "You Sign It, Not the Tool",
+              "bodyHtml": "<p>Professional responsibility does not move. Whatever produced the figure, the person who sends it to a client or a tax authority owns it.</p><p>That is not a reason to avoid the tool. It is the reason to use it for the parts where checking is fast, and to keep judgement where it belongs.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Arithmetic is not where it fails — assumptions are: silent exclusions, date formats, duplicates and sign conventions. Ask for the working and the excluded rows alongside any figure, recalculate one line by hand, and remember that the signature on the output is still yours.",
+              "nextTeaser": "Next: the tasks that are genuinely worth handing over."
+            }
+          ]
+        },
+        {
+          "slug": "acc-tasks-worth-handing",
+          "title": "The Tasks Worth Handing Over",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most accountants who try AI once try it on the wrong thing — usually something involving numbers — decide it is unreliable, and stop.</p><p>The valuable tasks in an accounting week are mostly not arithmetic. They are the reading, writing and explaining that surround the numbers, and that is where hours actually disappear.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Sort the Week by Risk",
+              "bodyHtml": "<ul><li><strong>Safe and slow</strong> — drafting client emails, explaining a rule in plain words, summarising a long thread</li><li><strong>Useful with checking</strong> — categorising transactions, drafting reconciliation notes, first-pass variance commentary</li><li><strong>Keep to yourself</strong> — final figures, filings, advice with a liability attached</li></ul><p>The first group is where to start, because a mistake costs a rewrite rather than a client.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The hours vanish in the explaining, not in the arithmetic."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Best First Task",
+              "bodyHtml": "<p>Client communication is the highest-value, lowest-risk place to begin.</p><p><s>Writing the same «we need your receipts» email for the eleventh time this month.</s></p><p><strong>Drafting it once with your usual tone, then adapting it in ten seconds per client.</strong></p><p>Nothing here is a judgement call, and the worst outcome is an email you rewrite.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which task is the best place for an accountant to start?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Calculating the quarterly VAT figures from the client's raw ledger."
+                },
+                {
+                  "id": "b",
+                  "label": "Drafting the routine emails that chase missing receipts and records."
+                },
+                {
+                  "id": "c",
+                  "label": "Deciding how an unusual transaction should be treated for tax."
+                },
+                {
+                  "id": "d",
+                  "label": "Preparing the final year-end figures ready for the client to sign."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Routine correspondence repeats constantly, carries no liability, and a poor draft costs you a rewrite. The other three all end in a number or a position that someone is accountable for.",
+              "wrongHint": "Look for the task where the worst possible outcome is a wasted five minutes."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Explaining Is a Service",
+              "bodyHtml": "<p>Clients rarely need more figures. They need to understand the ones they have — why the bill is what it is, what changed, what to do differently.</p><p>Turning a variance into three plain sentences is quick with a tool and is exactly the part clients remember. It is also what separates an accountant they keep from one they compare on price.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List every routine message you sent clients last month.",
+                "Pick the one you wrote most often and draft a reusable version.",
+                "Take one recent set of figures and write three plain sentences explaining the change.",
+                "Send that explanation to one client who did not ask for it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep a Line You Do Not Cross",
+              "bodyHtml": "<p>Write down which tasks never leave your hands — filings, final figures, anything advisory. Put it in your own notes, not just in your head.</p><p>The line matters most when you are busy, which is exactly when it gets crossed by accident.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Sort your week into safe-and-slow, useful-with-checking and keep-to-yourself. Start with client correspondence and plain-language explanations of figures you already produced — high value, no liability — and write down the line you never cross before a busy week decides it for you.",
+              "nextTeaser": "Next: how to check the work before it reaches a client."
+            }
+          ]
+        },
+        {
+          "slug": "acc-checking-first",
+          "title": "Checking Before It Reaches a Client",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Speed is only a gain if the checking is quick too. Otherwise you have moved the work rather than reduced it, and added a new way to be wrong.</p><p>A short, fixed review routine keeps the gain and removes almost all of the risk.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Checks, Two Minutes",
+              "bodyHtml": "<ul><li><strong>Do the parts add to the whole?</strong> Sub-totals against the total</li><li><strong>Recalculate one line by hand</strong> — if one is right, the method usually is</li><li><strong>Is the biggest number plausible?</strong> Outliers are often data errors</li><li><strong>Does the direction match what you know?</strong> Your instinct about the client is evidence</li></ul><p>The last one catches the most. You know the business; the tool does not.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«That doesn't sound right» is a professional judgement, not a feeling. Follow it."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Write the Assumptions Down",
+              "bodyHtml": "<p>Every summary you pass on should carry its own footnotes.</p><p><s>«Q2 marketing spend: £11,400.»</s></p><p><strong>«Q2 marketing spend: £11,400. Excludes the two disputed invoices; includes the annual software renewal in full rather than pro-rated.»</strong></p><p>Those two clauses are the difference between a number and a defensible number.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "An analysis shows one supplier accounts for 60% of costs. The client is surprised. What now?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Present it as a finding — surprising results are often the valuable ones."
+                },
+                {
+                  "id": "b",
+                  "label": "Verify that supplier's rows by hand before the number goes anywhere."
+                },
+                {
+                  "id": "c",
+                  "label": "Soften it by describing them as one of the larger suppliers this year."
+                },
+                {
+                  "id": "d",
+                  "label": "Exclude it as an outlier and report the pattern across the others."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Surprise from someone who knows their own business is a signal to check. It is frequently a duplicated import or a supplier appearing under two spellings — and finding that is worth more than the original analysis.",
+              "wrongHint": "Think about what the client's surprise tells you about the data rather than the business."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep the Steps",
+              "bodyHtml": "<p>Save the sequence that produced the output: the export, the cleaning, the question you asked.</p><p>Next quarter it takes minutes instead of an hour, and when someone asks how a figure was reached, you can show them rather than reconstruct it from memory.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your four-check routine on a card and keep it visible.",
+                "Run it on the next thing you produce, even something small.",
+                "Add a footnote line to that output naming two assumptions.",
+                "Save the steps somewhere you can rerun them next period."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say What You Checked",
+              "bodyHtml": "<p>Adding one line — «figures reconciled to the bank export; the accrual estimate is mine» — costs nothing and raises trust noticeably.</p><p>It also protects you: it separates what you verified from what you estimated, before anyone has to ask.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Keep the speed by making checking fast: totals against parts, one line by hand, the biggest number for plausibility, and the direction against what you already know. Attach assumptions as footnotes, save the steps for next quarter, and state plainly what you verified.",
+              "nextTeaser": "Next: client data, confidentiality and what you can safely paste."
+            }
+          ]
+        },
+        {
+          "slug": "acc-client-data",
+          "title": "Client Data and What You Can Paste",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Accounting runs on other people's confidential information, and this is the part of AI use that carries real professional consequences rather than merely embarrassing ones.</p><p>The good news is that the rules are simple once written down, and following them costs about a minute per task.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Buckets",
+              "bodyHtml": "<ul><li><strong>Public</strong> — filed accounts, published rates, general rules. Safe.</li><li><strong>Identifiable but ordinary</strong> — a client's category totals with the name removed</li><li><strong>Never</strong> — names with figures, bank details, payroll records, anything with a person attached</li></ul><p>Almost every real decision is working out which bucket something is in. When unsure, treat it as the third.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If you would not email it to a stranger, do not paste it into a tool the client has not approved."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Strip Before You Send",
+              "bodyHtml": "<p>The habit that solves most of this is mechanical rather than a judgement each time.</p><p><s>Pasting the payroll sheet to get a summary of the changes.</s></p><p><strong>Replacing names with «Employee 1…12» first, then pasting. The summary is identical.</strong></p><p>You rarely need the real identifiers to get the work done. Putting them back afterwards takes seconds.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client sends a payroll file and asks for a summary of month-on-month changes. What do you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Use the file as sent — the client provided it, so its use is approved."
+                },
+                {
+                  "id": "b",
+                  "label": "Replace names and numbers with placeholders, then summarise the pattern."
+                },
+                {
+                  "id": "c",
+                  "label": "Decline, since payroll data can never be processed with these tools."
+                },
+                {
+                  "id": "d",
+                  "label": "Remove only the bank details, since names alone are not really sensitive."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "You need the pattern, not the identities, and placeholders give an identical summary. Being sent a file is not the same as being authorised to put it through a third-party service.",
+              "wrongHint": "Ask what you actually need in order to answer the question — the identities, or the shape of the change?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask Your Client Once",
+              "bodyHtml": "<p>One line in your engagement conversation covers everything afterwards: «I use AI tools in parts of my process — is there anything here you'd rather I didn't put through them?»</p><p>Some clients will say no to everything. Take that at face value, price for the slower work, and do not argue about whether their concern is technically justified.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your three buckets down with a real example of each from your own clients.",
+                "Practise the placeholder swap on one file and check the output still answers the question.",
+                "Draft the one-line question for new engagements.",
+                "Check your professional body's current guidance and note anything stricter."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Rules Change, So Check Yearly",
+              "bodyHtml": "<p>Professional guidance on AI use is being written and rewritten right now, and it differs by jurisdiction and body.</p><p>Put a yearly reminder to re-read yours. Being the person who already knew the current position is a small thing that clients and regulators both notice.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Sort everything into public, de-identified and never — and treat anything uncertain as never. Make placeholder-swapping a routine rather than a decision, ask each client once whether anything is off limits, and re-read your professional body's guidance yearly.",
+              "nextTeaser": "That completes the course: where it fails, what to hand over, how to check, and how to handle client data."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-designers",
+  "title": "AI for Designers",
+  "description": "Why generated layouts feel flat, how to get from a vague brief to a direction quickly, production and handoff, and how to answer clients who ask whether the work is really yours.",
+  "kind": "career",
+  "icon": "🎨",
+  "shelf": "Careers",
+  "sortOrder": 5,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in design while keeping the decision that makes design work.",
+      "lessons": [
+        {
+          "slug": "des-why-generated-looks-generated",
+          "title": "Why Generated Design Looks Generated",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Clients can now produce something that looks like design in a minute, and several have already tried before calling you. That changes the conversation, but not in the direction most designers fear.</p><p>What they produce looks plausible and does not work, and the reason is worth understanding precisely — because explaining it is now part of the job.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Style Without Decisions",
+              "bodyHtml": "<p>Generated layouts have a recognisable quality: everything is centred, spacing is even, nothing has priority.</p><p><s>A page where every element is beautifully arranged and equally weighted.</s></p><p><strong>A page where one thing is obviously first, and everything else got smaller so it could be.</strong></p><p>Design is the decision about what matters most. An average of everything cannot make that decision.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Design is deciding what matters most. An average cannot decide."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things It Cannot Know",
+              "bodyHtml": "<ul><li><strong>What the page is for</strong> — a sale, a signup, a reassurance</li><li><strong>Who is looking</strong>, and what they already believe</li><li><strong>What the business cannot change</strong> — the logo, the photos, the CMS</li><li><strong>What happened last time</strong> they tried something similar</li></ul><p>Every one of these is a constraint, and constraints are what turn arrangement into design.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client shows you a generated homepage and asks why it feels flat. What is the real answer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The colour palette is not sophisticated enough for their industry."
+                },
+                {
+                  "id": "b",
+                  "label": "Nothing on it is prioritised — every element carries the same weight."
+                },
+                {
+                  "id": "c",
+                  "label": "It uses default fonts rather than a distinctive typeface for the brand."
+                },
+                {
+                  "id": "d",
+                  "label": "The images are generic stock rather than photographs of their product."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Fonts, colour and photography are all fixable in minutes. A page where nothing was chosen as most important cannot be fixed by styling, because the missing thing is a decision rather than a treatment.",
+              "wrongHint": "Think about which problem would remain even after every visual detail was improved."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where It Genuinely Helps",
+              "bodyHtml": "<p>The useful uses are all upstream or downstream of the decision: exploring directions quickly, generating placeholder imagery, producing variants of something you already chose, and writing the rationale you always struggle to word.</p><p>None of them is «make me a design». All of them save real hours.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any generated layout and mark what is meant to be seen first.",
+                "If nothing is, rebuild it around one element and shrink the rest.",
+                "Note which change made the biggest difference — it is usually scale.",
+                "Write the one sentence explaining why that element is first."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "This Is Now Part of the Pitch",
+              "bodyHtml": "<p>Clients who have tried it themselves are not harder to sell to — they are easier, because they have felt the gap without being able to name it.</p><p>Naming it clearly, in one sentence about priority rather than taste, is the most persuasive thing you can say in a first meeting this year.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated layouts look flat because nothing was chosen as most important, and no tool knows the page's purpose, the audience, the fixed constraints or the history. Use it upstream and downstream of that decision, and learn to name the gap out loud — clients feel it but cannot describe it.",
+              "nextTeaser": "Next: getting from brief to a direction quickly."
+            }
+          ]
+        },
+        {
+          "slug": "des-brief-to-direction",
+          "title": "From Brief to Direction, Fast",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The slowest part of most design projects is the beginning: the vague brief, the client who cannot describe what they want, the three directions that take a week to produce.</p><p>This is where the hours are, and it is the part that compresses most safely, because nothing produced here is final.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Interrogate the Brief First",
+              "bodyHtml": "<p><s>«Modern, clean, professional, but with personality.»</s></p><p><strong>«Which of these five sites feels closest, and what specifically about it? What would make your board reject this immediately?»</strong></p><p>The second gets you constraints instead of adjectives, and constraints are what a direction is built from.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Modern and clean» is not a brief. It is a client asking you to guess."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Explore Wide, Then Commit",
+              "bodyHtml": "<ul><li><strong>Generate references</strong>, not deliverables — mood, not layout</li><li><strong>Three deliberately different directions</strong>, not three variations of one</li><li><strong>One sentence each</strong> explaining the thinking</li><li><strong>Then stop generating</strong> and design the chosen one properly</li></ul><p>The fourth is the discipline that matters. Continuing to generate past the decision produces drift, not refinement.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You are presenting three directions to a client. What makes the presentation work?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Three polished variations so the client can compare fine details."
+                },
+                {
+                  "id": "b",
+                  "label": "Three genuinely different approaches, each with one line of reasoning."
+                },
+                {
+                  "id": "c",
+                  "label": "One recommended direction with the alternatives kept in reserve."
+                },
+                {
+                  "id": "d",
+                  "label": "Five options so the client feels they had a proper range to consider."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Genuinely different options make the choice about direction rather than detail, and the reasoning turns it into a decision instead of a preference. Variations invite fiddling, and five options postpone the decision entirely.",
+              "wrongHint": "Ask what the client is actually being asked to decide between."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write the Rationale as You Go",
+              "bodyHtml": "<p>Most designers can defend a decision out loud and struggle to write it down, which is why presentations get thin.</p><p>Dictate the reasoning while you work and have it written up cleanly. It is faster than composing it afterwards, and it is more honest, because it captures why you actually did it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a vague brief and turn it into five questions for the client.",
+                "Gather references and describe each in one line of reasoning.",
+                "Produce three genuinely different directions, not variations.",
+                "Write the sentence you would say when presenting each."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Never Present a Generated Image as Final",
+              "bodyHtml": "<p>If a direction contains generated imagery, say so and say what will replace it. Clients fall in love with placeholders, and discovering later that the hero image cannot be reproduced is a painful conversation.</p><p>Label it in the file itself, not just in the meeting where you said it once.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Turn adjectives into constraints with five questions, then explore wide with references rather than deliverables, present three genuinely different directions each with one line of reasoning, and stop generating once a direction is chosen. Label every placeholder as a placeholder.",
+              "nextTeaser": "Next: production, variants and handoff."
+            }
+          ]
+        },
+        {
+          "slug": "des-production",
+          "title": "Production, Variants and Handoff",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Once a direction is agreed, design becomes production: the same thing at eleven sizes, the copy that was supposed to arrive last week, the handoff nobody enjoys writing.</p><p>This half of the job is repetitive by nature, which makes it the safest place to be fast.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Variants Are the Real Win",
+              "bodyHtml": "<p><s>Manually rebuilding one layout for six placements over an afternoon.</s></p><p><strong>Defining the rules once — what moves, what shrinks, what gets cut — and producing the set.</strong></p><p>The value is in stating the rules explicitly. That is a design decision, and writing it down improves the original as well as the variants.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Writing down what may shrink and what may never move improves the original design too."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Placeholder Copy Costs You Later",
+              "bodyHtml": "<ul><li><strong>Realistic length</strong> — real headlines run longer than filler Latin</li><li><strong>Real edge cases</strong> — the product with a 60-character name</li><li><strong>Actual tone</strong> — so the client reacts to the design, not the words</li><li><strong>Empty and error states</strong> — the screens nobody designs until they break</li></ul><p>Generating plausible copy for all four takes minutes and prevents the layout that only works with perfect content.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "What is the most valuable use of generated copy in a design file?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Final wording, so the client can approve the text and the design together."
+                },
+                {
+                  "id": "b",
+                  "label": "Realistic placeholder text at true length, including the awkward edge cases."
+                },
+                {
+                  "id": "c",
+                  "label": "Short filler text that keeps the layout looking clean during review."
+                },
+                {
+                  "id": "d",
+                  "label": "Multiple tone options so the client can pick their preferred voice."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Designs break on real content length and awkward edge cases, not on ideal text. Clean filler hides exactly the problem you need to find, and final wording is a decision for whoever owns the copy.",
+              "wrongHint": "Think about what will break the layout after launch rather than during review."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write the Handoff Notes",
+              "bodyHtml": "<p>Handoff documentation is genuinely tedious and genuinely important: spacing rules, behaviour at breakpoints, what happens when the text is twice as long.</p><p>Dictate it from the file and have it written up. Developers read a clear one-pager; they do not read a forty-page spec, and both take you the same amount of care to produce.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a finished layout and write the rules for what shrinks and what never moves.",
+                "Generate realistic copy at the longest plausible length and check the layout.",
+                "Design the empty and error state you have been avoiding.",
+                "Write the one-page handoff note from your own dictated notes."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Check Every Asset You Ship",
+              "bodyHtml": "<p>Generated imagery carries specific risks in production: an extra finger, a warped logo, text in an image that says something almost right.</p><p>Zoom in on everything that ships. This class of error is embarrassing precisely because it is obvious once someone else spots it.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Production is repetitive by nature and safe to speed up: define variant rules explicitly, use realistic copy at true length including edge cases, design the empty and error states, and dictate handoff notes into a readable one-pager. Then inspect every asset closely before it ships.",
+              "nextTeaser": "Next: talking to clients about AI in your process."
+            }
+          ]
+        },
+        {
+          "slug": "des-talking-to-clients",
+          "title": "Talking to Clients About Your Process",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Design is the field where clients ask about AI most directly, usually somewhere between «could you just generate this?» and «is any of this actually yours?»</p><p>Both questions have good answers. Neither is helped by being vague.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Describe the Split",
+              "bodyHtml": "<p><s>«I use AI a bit, like everyone does.»</s></p><p><strong>«Exploration and production use AI. Direction, hierarchy and every decision about what matters most are mine — that's what you're paying for.»</strong></p><p>The second answers the real question, which is not about tools but about what the fee buys.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "They are not asking which tools you use. They are asking what they are paying for."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Answer «Can't I Just Generate It?» Properly",
+              "bodyHtml": "<p>The honest answer is yes, they can generate something — and then they will have the flat page from lesson one.</p><ul><li>Show them a generated version and your version side by side</li><li>Point at what is first on each, and why</li><li>Let them see the difference rather than describing it</li></ul><p>This is the most persuasive five minutes available in a new-business meeting.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks whether the work you delivered was made with AI. What is the strongest answer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "No — everything I deliver is designed entirely by hand from scratch."
+                },
+                {
+                  "id": "b",
+                  "label": "Exploration and production yes; direction and hierarchy are my decisions."
+                },
+                {
+                  "id": "c",
+                  "label": "Everyone in the industry uses it now, so the question is not meaningful."
+                },
+                {
+                  "id": "d",
+                  "label": "Only for placeholder images, never for anything in the final design."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "A precise description of the split answers what they actually want to know and holds up if they ask again in three months. Denials are fragile, and dismissing the question tells a client their concern does not matter.",
+              "wrongHint": "Think about which answer would still be true if they asked to see your files."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Know the Rules on What You Ship",
+              "bodyHtml": "<p>Rights around generated imagery vary by tool and are still shifting. Some clients — publishers, regulated industries, anyone with a strict brand policy — have hard rules.</p><p>Ask at the start of the project, put the answer in the agreement, and keep a note of which assets are generated. Finding out afterwards is the expensive version of this conversation.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your two-sentence process description and remove anything apologetic.",
+                "Prepare the side-by-side comparison you will show in a pitch.",
+                "Add the AI-policy question to your project kickoff list.",
+                "Start a note per project recording which assets were generated."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Charge for the Decision",
+              "bodyHtml": "<p>If production is faster, the temptation is to lower prices. That prices the typing rather than the thinking, and it is a trap you cannot easily reverse.</p><p>Your fee covers judgement about priority, and that has not got faster. Speed is your margin, not a discount to hand over.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Say precisely which parts of your process use AI and which are your judgement — that answers what clients actually want to know. Show a side-by-side rather than arguing, ask about their AI policy at kickoff and record which assets are generated, and keep pricing the decision rather than the production.",
+              "nextTeaser": "That completes the course: why generated design falls flat, direction, production and the client conversation."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

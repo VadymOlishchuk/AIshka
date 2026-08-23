@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-sales-managers",
+  "title": "AI for Sales Managers",
+  "description": "Outreach that still gets replies, research worth fifteen minutes, notes that keep a CRM current, and a forecast built on facts rather than optimism.",
+  "kind": "career",
+  "icon": "📈",
+  "shelf": "Careers",
+  "sortOrder": 4,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in sales without training buyers to ignore you.",
+      "lessons": [
+        {
+          "slug": "sal-personalised-spam",
+          "title": "Why «Personalised at Scale» Reads as Spam",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The promise is obvious: write one message, personalise it a thousand ways, book more meetings. Everyone tried it, and the result was that reply rates fell across the whole channel.</p><p>Buyers now recognise the pattern instantly — a first line that mentions their company and a second line that could be about anyone.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Mentioning Is Not Knowing",
+              "bodyHtml": "<p><s>«Loved what you're doing at Bellworth — as a leader in your space, you're probably focused on growth.»</s></p><p><strong>«Your careers page has eleven open roles in support. Usually that means the ticket backlog got ahead of the team.»</strong></p><p>The first inserted a name into a template. The second says something only someone who looked would know.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A first line that mentions their name and a second line that fits anyone is worse than no personalisation."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Buyers Screen Out",
+              "bodyHtml": "<ul><li><strong>Compliments about their brand</strong> — the clearest template marker there is</li><li><strong>«I noticed…» followed by something public and obvious</strong></li><li><strong>A meeting request in the first message</strong></li><li><strong>Three paragraphs about you</strong> before anything about them</li></ul><p>Removing all four leaves a short message that has to say something real, which is exactly the point.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which opening line is most likely to get a reply from a busy buyer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "I hope you don't mind me reaching out — I've been following your growth."
+                },
+                {
+                  "id": "b",
+                  "label": "Your booking page asks for a phone number before it shows any pricing."
+                },
+                {
+                  "id": "c",
+                  "label": "We help companies like yours reduce costs and improve efficiency fast."
+                },
+                {
+                  "id": "d",
+                  "label": "I noticed you recently posted about hiring, congratulations on the news."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Only one of these could not have been sent to a hundred other companies. A specific observation about how their business works proves you looked, which is the exact thing the reader is scanning for.",
+              "wrongHint": "Ask which line would still make sense if you pasted it into a completely different email."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It for Research, Not for Writing",
+              "bodyHtml": "<p>The split that works: let the tool read — their site, their reviews, their job ads, their last quarter — and write the message yourself from what it found.</p><p>Reading twenty companies properly used to cost a morning. That is the part worth automating; the four sentences at the end are not the slow bit.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick five real target companies and gather one specific fact about each.",
+                "Write the first line of each message from that fact alone.",
+                "Check every line would break if pasted into another company's email.",
+                "Send them and track replies against your usual template."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Fewer, Better, Tracked",
+              "bodyHtml": "<p>Twenty researched messages beat two hundred generated ones on replies, on meetings and on your domain reputation — which is the cost nobody counts until it is already damaged.</p><p>Volume is the easiest thing to increase and the only lever that makes every future message worse.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Buyers now recognise templated personalisation instantly. Cut brand compliments, obvious observations, first-message meeting requests and paragraphs about yourself. Use AI to read companies quickly and write the message yourself — twenty researched beats two hundred generated.",
+              "nextTeaser": "Next: what to actually look for before the first message."
+            }
+          ]
+        },
+        {
+          "slug": "sal-research-first",
+          "title": "Research Before the First Message",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>«Do your research» is advice everyone agrees with and few can act on, because nobody says what to look for. So people read the homepage, learn nothing, and write the template anyway.</p><p>There are about five things worth finding, and all of them are public.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Five Signals Worth Finding",
+              "bodyHtml": "<ul><li><strong>Hiring</strong> — where they are adding people is where the pressure is</li><li><strong>Recent change</strong> — funding, a new market, a leadership move</li><li><strong>Their own words</strong> — how they describe the problem you solve</li><li><strong>Public complaints</strong> — reviews and support threads</li><li><strong>What they already use</strong> — the tool your product sits beside</li></ul><p>Any one of these gives you a first line. Two gives you a conversation.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Where a company is hiring is where it is hurting. That is public information."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Ask for Evidence, Not Opinions",
+              "bodyHtml": "<p><s>«Tell me about this company and what they might need.»</s></p><p><strong>«From these pages, list only what they state about their support process, and quote each line.»</strong></p><p>The first invites invention, and invented details about a prospect are the fastest way to lose credibility in the reply.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your research summary includes a fact you cannot find on their site. What do you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Use it anyway — it is probably from a source that was not linked."
+                },
+                {
+                  "id": "b",
+                  "label": "Drop it, because an invented detail about a prospect ends the conversation."
+                },
+                {
+                  "id": "c",
+                  "label": "Soften it to «I believe» so the claim is no longer stated as a fact."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask about it in the message and let them correct you if it is wrong."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "An unverifiable claim about someone's own business is the worst possible content for a first message — they know the truth and you have just proved you did not. Hedging it draws attention to the same weakness.",
+              "wrongHint": "Think about what happens when the reader knows more about the fact than you do."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Fifteen Minutes, Not an Hour",
+              "bodyHtml": "<p>Research has a ceiling. Past about fifteen minutes per account you are learning things that will never appear in a message.</p><p>Set the limit deliberately: five signals, one usable fact, write. Depth beyond that is procrastination wearing a productive costume.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take one target and find all five signals in fifteen minutes.",
+                "Write down the single fact you would actually open with.",
+                "Verify it appears on a page you can link to.",
+                "Repeat for four more accounts and time yourself."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep It Where the Team Can See",
+              "bodyHtml": "<p>Research done once and left in a personal document gets redone by the next person who calls that account. Put the fact and its source in the CRM record.</p><p>It also protects the relationship: nothing damages a deal like two people from the same company asking the same discovery question.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Look for five public signals — hiring, recent change, their own wording, complaints, and what they already use — and ask for quoted evidence rather than opinions. Drop anything you cannot verify, cap research at fifteen minutes per account, and record the fact where the team can see it.",
+              "nextTeaser": "Next: notes, follow-ups and a CRM that stays current."
+            }
+          ]
+        },
+        {
+          "slug": "sal-notes-and-crm",
+          "title": "Notes, Follow-Ups and a Current CRM",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every sales team has the same quiet failure: the CRM is out of date because updating it happens after the call, when the next call has already started.</p><p>This is the most straightforwardly useful place for AI in sales, and it needs almost no judgement to get right.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Extract the Four Things",
+              "bodyHtml": "<p><s>«Summarise this call.»</s></p><p><strong>«List: what they said their problem is, in their words; who else has to approve; what happens next and when; and any objection raised.»</strong></p><p>Those four fields are what the next conversation actually needs. A narrative summary is read by nobody, including you.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A CRM updated on Friday describes a company that stopped existing on Tuesday."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Their Words, Not Yours",
+              "bodyHtml": "<p>The single most valuable thing to capture is the buyer's own phrasing of the problem.</p><ul><li>It is what you repeat back in the proposal</li><li>It is what convinces their colleagues who were not on the call</li><li>It is the copy your marketing team has been guessing at for a year</li></ul><p>Paraphrasing loses exactly the thing that made it persuasive.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "What is the most valuable thing to capture from a discovery call?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A full narrative summary of everything that was discussed in order."
+                },
+                {
+                  "id": "b",
+                  "label": "The buyer's own words describing the problem, plus who else approves."
+                },
+                {
+                  "id": "c",
+                  "label": "Your assessment of how likely the deal is to close this quarter."
+                },
+                {
+                  "id": "d",
+                  "label": "The list of product features that came up during the conversation."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Their phrasing is what you reuse in the proposal and what persuades people who were not there, and the approver decides whether the deal can close at all. Narrative summaries and feature lists are re-read by nobody.",
+              "wrongHint": "Think about what you will need in three weeks when the deal reaches someone new."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Draft the Follow-Up Immediately",
+              "bodyHtml": "<p>The follow-up that lands is the one sent within the hour, quoting their words back and naming the next step with a date.</p><p>Generate it from the extracted notes, read it, fix the one thing that is off, send. Ten minutes, and it is the difference between a deal that moves and one that goes quiet.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your last call recording and extract the four fields.",
+                "Write the follow-up quoting one exact phrase they used.",
+                "Update the CRM record with the same four fields.",
+                "Check whether your notes would help a colleague pick this deal up cold."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Read Before It Goes",
+              "bodyHtml": "<p>Extraction sometimes attaches the right statement to the wrong person, which in a deal with three stakeholders is a real problem.</p><p>Spot-check the quotes against the recording before the follow-up leaves. It takes a minute and prevents the correction that makes a buyer wonder what else you misheard.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Extract four fields from every call — their words on the problem, who approves, next step with a date, and objections — rather than a summary. Send the follow-up within the hour quoting their exact phrasing, update the CRM with the same fields, and spot-check quotes before anything goes out.",
+              "nextTeaser": "Next: forecasting honestly."
+            }
+          ]
+        },
+        {
+          "slug": "sal-forecasting",
+          "title": "Forecasting Honestly",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Forecasting is where sales tools promise the most and deliver the least. A confidence percentage produced from activity data looks like insight and is mostly a description of how busy someone has been.</p><p>What actually predicts a close is a small number of facts, and most of them are missing from the average pipeline.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Facts, Not Feelings",
+              "bodyHtml": "<p><s>«Q3 pipeline: £840k weighted, 68% confidence.»</s></p><p><strong>«Four deals have a named approver and an agreed next step. Six have neither. The £840k assumes all ten close.»</strong></p><p>The second is uncomfortable and correct, and it tells you exactly what to work on this week.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A weighted pipeline built on optimism is a spreadsheet describing a mood."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions Per Deal",
+              "bodyHtml": "<ul><li><strong>Who signs?</strong> Named, not a job title</li><li><strong>What is the next step, and when?</strong> In the buyer's calendar, not yours</li><li><strong>What happens if they do nothing?</strong> If the answer is «nothing», it will not close</li><li><strong>Has budget been confirmed by someone who controls it?</strong></li></ul><p>Ask these of every deal and most pipelines shrink by a third — which is the useful part, not the painful one.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A deal has high engagement, many meetings and no named approver. How should it be forecast?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Highly likely — sustained engagement is the strongest signal available."
+                },
+                {
+                  "id": "b",
+                  "label": "Uncertain — without a named approver there is nobody who can say yes."
+                },
+                {
+                  "id": "c",
+                  "label": "Likely, weighted down slightly to account for the missing information."
+                },
+                {
+                  "id": "d",
+                  "label": "Excluded entirely, since incomplete deals distort the whole forecast."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Engagement measures interest, not authority. A deal with no identified decision-maker has no path to a signature, however many meetings it produces — and that is the gap to close this week.",
+              "wrongHint": "Ask who, specifically, would be able to say yes to this deal today."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It to Find the Gaps",
+              "bodyHtml": "<p>The sound use of AI here is auditing, not predicting: «Which of these deals is missing a named approver, an agreed next step, or a confirmed budget?»</p><p>That produces a work list. A confidence score produces a conversation about whether the score is right, which helps nobody.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Run the four questions across your current pipeline.",
+                "Mark every deal missing an answer.",
+                "Rebuild the forecast using only deals that answer all four.",
+                "Compare that number with the one you were going to report."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Report the Honest Number",
+              "bodyHtml": "<p>An optimistic forecast buys one comfortable meeting and costs the next three. It also removes the chance of getting help while there is still time to use it.</p><p>The number with the gaps named is the one that makes you trusted — and it is far easier to defend, because you can say exactly what would change it.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Confidence scores describe activity, not likelihood. Ask four questions of every deal — who signs, what is the agreed next step, what happens if they do nothing, and is budget confirmed — use AI to audit for missing answers, and report the honest number with the gaps named.",
+              "nextTeaser": "That completes the course: outreach, research, notes and forecasting."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

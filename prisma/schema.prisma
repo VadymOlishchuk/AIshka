@@ -107,6 +107,7 @@ enum CourseKind {
   tool
   challenge
   mini
+  career
 }
 
 model Course {
@@ -115,6 +116,7 @@ model Course {
   title       String
   description String // обов'язковий: він продає курс у каталозі
   coverUrl    String? // null → генерована обкладинка зі слага, а не бита картинка
+  icon        String? // емодзі для списків, де обкладинка завелика
   kind        CourseKind
   shelf       String? // динамічна полиця вітрини, а не окрема сутність
   sortOrder   Int

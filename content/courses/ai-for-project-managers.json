@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-project-managers",
+  "title": "AI for Project Managers",
+  "description": "Reports people read, notes that turn into action, and estimates that survive contact with reality. Covers what to hand over, what to keep with the team, and the questions worth asking before a date is committed.",
+  "kind": "career",
+  "icon": "📊",
+  "shelf": "Careers",
+  "sortOrder": 3,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in project work without letting a plausible document replace a shared plan.",
+      "lessons": [
+        {
+          "slug": "pm-why-reports-unread",
+          "title": "Why Nobody Reads Your Status Report",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Status reports take a surprising share of a project manager's week and are read by almost nobody. The usual conclusion is that stakeholders are not engaged.</p><p>They are engaged. They just cannot find, in the time they have, the thing that requires them to act — and a report that yields nothing gets skipped next week too.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Report Decisions, Not Activity",
+              "bodyHtml": "<p><s>«This week the team completed 14 tickets, continued integration work and held two workshops.»</s></p><p><strong>«We'll miss the 12th unless we drop the export feature or add a developer. I need a decision by Thursday.»</strong></p><p>The first describes effort. The second is the only sentence that required a report to exist at all.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If a status report contains nothing to decide, it did not need to be sent."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Lines Is Enough",
+              "bodyHtml": "<ul><li><strong>Are we on track?</strong> One word, then the caveat</li><li><strong>What changed</strong> since last week</li><li><strong>What I need from you</strong> — a decision, with a date</li><li><strong>What I'm watching</strong> — the risk that is not yet a problem</li></ul><p>Detail belongs underneath for anyone who wants it. The top four lines are what actually gets read.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your weekly report is thorough but stakeholders never respond. What is most likely wrong?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "It is too long, so busy people postpone reading it until it is stale."
+                },
+                {
+                  "id": "b",
+                  "label": "It reports activity instead of naming a decision that someone must make."
+                },
+                {
+                  "id": "c",
+                  "label": "It is sent on the wrong day, when everyone is already fully committed."
+                },
+                {
+                  "id": "d",
+                  "label": "It lacks charts, so the information is harder to absorb at a glance."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Silence usually means nothing in the report required an answer. A named decision with a date creates an obligation; activity summaries can always be read later, which means never.",
+              "wrongHint": "Ask what the reader is supposed to do after finishing it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Let It Write the Version, Not the Judgement",
+              "bodyHtml": "<p>Deciding whether the project is on track is your job and takes two minutes of thinking. Turning that judgement into a clear paragraph for three different audiences is the part that took an hour.</p><p>That is the split worth automating: your assessment, its wording, three versions.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take last week's report and find the sentence that required a decision.",
+                "If there is none, write the one that should have been there.",
+                "Rewrite the whole thing as four lines with the detail below.",
+                "Send it and see whether anybody replies this time."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Different Audiences, Same Truth",
+              "bodyHtml": "<p>A sponsor, a team and a client need different levels of detail — never different facts. Generating three versions from one honest assessment is fine; softening the assessment for one of them is where projects quietly go wrong.</p><p>Write the hard version first, then adapt the length.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Reports go unread because they report activity. Lead with whether you are on track, what changed, what decision you need and by when, and what you are watching — then put the detail below. Keep the judgement yours and generate the audience versions from one honest assessment.",
+              "nextTeaser": "Next: turning meeting notes into decisions and actions."
+            }
+          ]
+        },
+        {
+          "slug": "pm-notes-to-decisions",
+          "title": "Turning Notes Into Decisions",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Meeting notes are the clearest win available to a project manager, and also the one most often done badly — usually by producing a transcript nobody opens.</p><p>A meeting produces exactly three things worth keeping: decisions, actions and open questions. Everything else is context that will never be read again.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Extract, Do Not Summarise",
+              "bodyHtml": "<p><s>«Summarise this meeting.»</s></p><p><strong>«List every decision made, every action with an owner and a date, and every question left open. Quote the exact words for each.»</strong></p><p>The first returns a paragraph about what was discussed. The second returns something you can send round and act on this afternoon.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A meeting produces three things worth keeping: decisions, actions and open questions."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where the Gaps Show Up",
+              "bodyHtml": "<ul><li><strong>Actions with no owner</strong> — the most common failure, and always fatal</li><li><strong>Decisions nobody stated</strong> — everyone left with a different one</li><li><strong>Dates that were never agreed</strong> — «soon» recorded as a commitment</li><li><strong>The unanswered question</strong> that everyone hoped someone else would raise</li></ul><p>Extraction surfaces these immediately, which is uncomfortable and useful in exactly equal measure.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "The extracted notes list an action with no owner. What is the right response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Assign it to the person most likely to have been expected to do it."
+                },
+                {
+                  "id": "b",
+                  "label": "Send it back to the meeting asking who owns it and by when."
+                },
+                {
+                  "id": "c",
+                  "label": "Record it as a team action so that everyone shares responsibility."
+                },
+                {
+                  "id": "d",
+                  "label": "Leave it out, since an action nobody claimed was probably not real."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "An action with no owner is a gap in the meeting, not a gap in the notes. Asking closes it in one message; assigning it yourself creates a commitment nobody made, and team ownership means nobody does it.",
+              "wrongHint": "Think about which response fixes the meeting rather than tidying the record of it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Send It Within the Hour",
+              "bodyHtml": "<p>Notes sent the same day get corrected while memories are fresh. Notes sent on Friday are accepted silently and then disputed a month later.</p><p>Fast extraction makes same-hour sending realistic, and that speed is worth more than the polish of the document.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your last meeting recording or notes and extract the three lists.",
+                "Mark every action missing an owner or a date.",
+                "Send the notes with those gaps highlighted as questions.",
+                "Note how many gaps existed that you would not have caught by hand."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Check the Quotes",
+              "bodyHtml": "<p>Extraction occasionally attaches the right decision to the wrong person, which is a much bigger problem than a vague summary.</p><p>Spot-check two or three quotes against the source before sending. Two minutes, and it prevents the awkward correction that undermines every set of notes you send afterwards.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Extract decisions, actions with owners and dates, and open questions — with quotes — rather than summarising. Treat missing owners and unstated decisions as gaps in the meeting to close by message, send within the hour, and spot-check the quotes before you do.",
+              "nextTeaser": "Next: estimates, risks and better questions."
+            }
+          ]
+        },
+        {
+          "slug": "pm-estimates-and-risk",
+          "title": "Estimates, Risks and Better Questions",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Estimation is where projects are decided long before they are delivered, and it is tempting to hand it over because it feels like arithmetic.</p><p>It is not. An estimate is a set of assumptions about a specific team, and no tool has access to those. What it can do is make your assumptions visible.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask for the Assumptions",
+              "bodyHtml": "<p><s>«How long should this feature take?»</s></p><p><strong>«Here is the scope. List every assumption someone would have to make to estimate this, and every question I should ask before committing.»</strong></p><p>The first returns a number with no basis. The second returns the list of things you had not thought of, which is what actually improves an estimate.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "No tool knows your team. It can only show you the assumptions you were about to make silently."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where Estimates Actually Break",
+              "bodyHtml": "<ul><li><strong>The dependency</strong> on a team that has not been asked yet</li><li><strong>Review and approval time</strong>, which is calendar time, not effort</li><li><strong>The unstated scope</strong> — migration, training, documentation</li><li><strong>Holidays and part-time reality</strong> versus a full-time plan</li></ul><p>Every one of these is a question, not a calculation — and they are the four that sink dates.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A stakeholder wants a delivery date today for a partly defined project. What is the sound move?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Give a confident date and adjust it later as the scope becomes clearer."
+                },
+                {
+                  "id": "b",
+                  "label": "Give a range with the two assumptions that would narrow it, and a date to confirm."
+                },
+                {
+                  "id": "c",
+                  "label": "Refuse to estimate anything until the scope is completely defined first."
+                },
+                {
+                  "id": "d",
+                  "label": "Give the most pessimistic date you can defend, so you are safe either way."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A range with named assumptions is honest and still answers the question, and it tells the stakeholder exactly what would make it firmer. A confident date sets an expectation you did not have grounds for, and refusing reads as obstruction.",
+              "wrongHint": "Look for the answer that is both honest about uncertainty and still useful today."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It as a Devil's Advocate",
+              "bodyHtml": "<p>The most valuable prompt in project work is adversarial: «Here is the plan. What is most likely to go wrong, and what have I not considered?»</p><p>Most of what comes back you will already know. The one or two you had not thought of are worth the whole exercise, and they arrive before the project rather than after.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a current plan and ask what would have to be true for the date to hold.",
+                "Ask what is most likely to go wrong and score each item yourself.",
+                "Turn the top three into questions for the people who can answer them.",
+                "Add the answers to the estimate and see whether the date survives."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Own the Number",
+              "bodyHtml": "<p>Whatever helped you produce it, the estimate you give is yours. «The analysis suggested twelve weeks» is not a position anyone can defend in a steering meeting.</p><p>Use the tool to find what you missed, then commit to a number you are personally willing to argue for.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "An estimate is a set of assumptions about your team, so ask for the assumptions and the questions rather than a number. Watch the four that sink dates — dependencies, approval time, unstated scope and holiday reality — and use adversarial prompting before the plan is signed off.",
+              "nextTeaser": "Next: keeping the team, rather than the tool, in charge."
+            }
+          ]
+        },
+        {
+          "slug": "pm-team-in-charge",
+          "title": "Keeping the Team in Charge",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The risk in project management is not that AI produces bad documents. It is that it produces plausible ones fast enough that nobody notices the thinking stopped happening.</p><p>A plan is not a document. It is a shared understanding, and only one of those two can be generated.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Documents Are Not Agreement",
+              "bodyHtml": "<p><s>Generating a project plan, circulating it, and treating silence as approval.</s></p><p><strong>Generating a draft, walking the team through it, and changing the three things they push back on.</strong></p><p>The document looks identical afterwards. Only the second one is a plan anyone will follow when it gets difficult.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A plan is a shared understanding. Only the document part of it can be generated."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where to Keep People In",
+              "bodyHtml": "<ul><li><strong>Estimating</strong> — the people doing the work own the number</li><li><strong>Prioritising</strong> — trade-offs are a judgement about value</li><li><strong>Retrospectives</strong> — the point is the conversation, not the summary</li><li><strong>Anything about performance</strong> — never, in any form</li></ul><p>The safe uses are drafting, extracting and rewriting. The unsafe ones all involve deciding.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You want to speed up retrospectives. What is the sound use of AI?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Generate the list of what went well and badly from the project data."
+                },
+                {
+                  "id": "b",
+                  "label": "Cluster the team's own written input so the discussion starts faster."
+                },
+                {
+                  "id": "c",
+                  "label": "Produce the action items directly, so the meeting can be much shorter."
+                },
+                {
+                  "id": "d",
+                  "label": "Summarise past retrospectives and reuse the recurring themes as an agenda."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Clustering the team's own words speeds up the start while keeping the material theirs. Generating the findings or the actions removes the reason the meeting exists — people saying what they actually think.",
+              "wrongHint": "Ask which option makes the conversation faster without replacing it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Say What You Used",
+              "bodyHtml": "<p>Teams work this out quickly, and finding out indirectly damages trust more than the practice ever would.</p><p>«I draft status updates and meeting notes with AI; estimates and priorities come from us» takes ten seconds to say and settles the question permanently.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List the documents you produce and mark which are drafting versus deciding.",
+                "Pick one deciding task you have quietly been automating and stop.",
+                "Tell your team where you use it and where you do not.",
+                "Ask them where they would find it useful — the answers are often surprising."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Watch for Fluent Nonsense",
+              "bodyHtml": "<p>The specific danger in project documents is a risk register full of plausible generic risks, or a plan whose phases sound right and match nothing your team does.</p><p>Read every generated artefact and ask: is this true of <em>us</em>? Anything that could belong to any project belongs in no project.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Documents can be generated; agreement cannot. Keep estimating, prioritising, retrospectives and anything about people with the team, use AI for drafting, extracting and rewriting, tell your team where the line is, and delete anything in a plan that could belong to any project.",
+              "nextTeaser": "That completes the course: reports, notes, estimates and where the team stays in charge."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

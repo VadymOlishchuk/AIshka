@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-hr",
+  "title": "AI for HR",
+  "description": "Where AI helps in hiring and people work, and where it creates problems you will not see. Covers screening that stays explainable, ads and questions that filter for fit, difficult messages, and the records you need.",
+  "kind": "career",
+  "icon": "📋",
+  "shelf": "Careers",
+  "sortOrder": 2,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in HR without handing a hiring decision to something nobody can audit.",
+      "lessons": [
+        {
+          "slug": "hr-why-screening-fails",
+          "title": "Why AI Screening Goes Wrong",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Screening is the first thing most HR teams try to automate, because the volume is obvious and the work feels mechanical. It is the one place where a mistake is both invisible and serious.</p><p>A rejected candidate never finds out why, never complains, and never appears in any metric. The failure leaves no trace, which is exactly why it persists.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ranking Is Not Reading",
+              "bodyHtml": "<p><s>«Score these 200 CVs against the job description and give me the top 20.»</s></p><p><strong>«Flag which of these 200 mention hands-on experience with X, and quote the line. I'll read the flagged ones.»</strong></p><p>The first hands over the decision. The second hands over the finding, which is the part that was genuinely slow.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A candidate rejected by a filter never appears in any metric you look at."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Ways It Filters Badly",
+              "bodyHtml": "<ul><li><strong>Wording, not ability</strong> — the right experience described in unusual words</li><li><strong>Career gaps</strong> — treated as a negative signal without context</li><li><strong>Non-standard paths</strong> — self-taught, career changers, foreign qualifications</li><li><strong>Inherited patterns</strong> — whatever your past hiring already looked like</li></ul><p>Each of these removes exactly the candidates a good process is supposed to find.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have 200 applications for one role. What is the sound use of AI here?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Rank all of them by fit and interview the highest-scoring candidates."
+                },
+                {
+                  "id": "b",
+                  "label": "Extract and quote the specific evidence, then read the shortlist yourself."
+                },
+                {
+                  "id": "c",
+                  "label": "Reject everyone scoring below a set threshold to make the volume manageable."
+                },
+                {
+                  "id": "d",
+                  "label": "Summarise every CV into one paragraph and decide from the summaries alone."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Extraction with a quote is checkable — you can see what it found and where. Ranking and thresholds move the hiring decision to a system nobody can audit, and summaries quietly drop the detail that makes someone worth meeting.",
+              "wrongHint": "Think about which option leaves a human making the decision that a candidate could later question."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It on the Job, Not the Person",
+              "bodyHtml": "<p>The safer half of the same work is analysing your own material: is this description clear, does it list requirements that are not real, would anyone outside your industry understand it?</p><p>That improves the applicant pool at the top of the funnel rather than trimming it blindly at the bottom.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a recent job ad and ask which requirements would exclude a capable career changer.",
+                "Take five real CVs and ask only for evidence of one specific skill, with quotes.",
+                "Check whether the quotes are actually in the documents.",
+                "Note how long reading the five took compared with reading all of them."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Be Able to Explain Any Rejection",
+              "bodyHtml": "<p>Whatever process you run, someone may eventually ask why a particular person was not progressed. «The system scored them low» is not an answer that survives that conversation.</p><p>Keep the decision, and the reason for it, with a person. That is the line worth defending regardless of volume.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Screening fails invisibly: wording rather than ability, gaps, non-standard paths and inherited patterns. Use AI to extract and quote evidence rather than to rank or reject, apply it to your own job descriptions, and keep every rejection explainable by a person.",
+              "nextTeaser": "Next: writing ads and interview questions that actually filter."
+            }
+          ]
+        },
+        {
+          "slug": "hr-ads-and-questions",
+          "title": "Ads and Questions That Actually Filter",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most job ads are written by copying the last one and changing the title. They attract volume rather than fit, and then the screening problem you just tried to automate gets worse.</p><p>Fixing the ad is cheaper than fixing the funnel underneath it, and it is work a tool genuinely helps with.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Describe the Work, Not the Person",
+              "bodyHtml": "<p><s>«We're looking for a dynamic self-starter with excellent communication skills.»</s></p><p><strong>«In week one you'll take over the monthly reporting pack. Most of the job is turning messy data from three teams into something a director reads in five minutes.»</strong></p><p>The second attracts fewer applicants and far better ones, because people can tell whether they want the actual work.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Adjectives attract volume. A description of Tuesday attracts fit."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Cut the Requirements That Are Not Real",
+              "bodyHtml": "<ul><li><strong>Degree requirements</strong> nobody in the team actually has</li><li><strong>Years of experience</strong> chosen by habit rather than need</li><li><strong>Long tool lists</strong> where two would do</li><li><strong>«Native speaker»</strong> where fluent is what is meant</li></ul><p>Each of these shrinks your pool without improving it, and several carry legal risk depending on where you hire.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which change is most likely to improve the quality of applicants?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Adding more detail about company culture, values and team social life."
+                },
+                {
+                  "id": "b",
+                  "label": "Describing what the person will actually do in their first two weeks."
+                },
+                {
+                  "id": "c",
+                  "label": "Raising the required years of experience to filter out weaker people."
+                },
+                {
+                  "id": "d",
+                  "label": "Listing every tool the team uses so applicants can judge the fit."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Concrete early tasks let people self-select accurately, which raises fit and lowers volume at the same time. Culture text attracts everyone, experience thresholds exclude capable people, and tool lists filter on vocabulary.",
+              "wrongHint": "Think about which change helps a good candidate decide this job is for them."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Questions With a Right Kind of Answer",
+              "bodyHtml": "<p>Interview questions are easy to generate and mostly generic. The useful ones come from your own work: take a real problem the team hit last quarter and ask how the candidate would approach it.</p><p>Use the tool to turn that scenario into a clear question and a marking guide — not to invent the scenario itself, which is the part only you have.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your last job ad and mark every requirement nobody in the team meets.",
+                "Rewrite the opening as a description of the first two weeks.",
+                "Pick one real problem from last quarter and turn it into an interview question.",
+                "Write what a strong, adequate and weak answer would each contain."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Same Questions, Every Candidate",
+              "bodyHtml": "<p>Structured interviews — the same questions, in the same order, scored against the same guide — are the single most effective fairness measure available, and they make notes comparable afterwards.</p><p>Preparing that guide is exactly the kind of writing worth handing over. Deciding what a good answer looks like is not.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Fix the ad before the funnel: describe the actual first two weeks, cut requirements nobody meets, and build interview questions from real problems your team hit. Generate the wording and the scoring guide; keep the scenarios and the judgement yourself.",
+              "nextTeaser": "Next: the messages that are hard to write."
+            }
+          ]
+        },
+        {
+          "slug": "hr-difficult-messages",
+          "title": "The Messages That Are Hard to Write",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A large share of HR writing is messages nobody enjoys: rejections, policy changes, pay decisions, the note that follows a difficult meeting.</p><p>They get delayed because they are unpleasant, and delay makes them worse. This is where drafting help earns its place — provided the judgement stays yours.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Kind Is Specific",
+              "bodyHtml": "<p><s>«Unfortunately we have decided to proceed with other candidates at this time.»</s></p><p><strong>«We went with someone who had run this reporting process before. Your presentation was the clearest we saw — if the analyst role opens in spring, I'd like to call you.»</strong></p><p>The second takes a minute longer and is the reason people apply again, recommend you, and do not post about the experience.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The rejection you write badly is the one people remember about your company."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What to Keep Yourself",
+              "bodyHtml": "<ul><li><strong>The decision</strong> and the real reason for it</li><li><strong>Anything personal</strong> — health, family, performance history</li><li><strong>The commitment</strong> — dates, money, anything you are held to</li><li><strong>The final read</strong> — every word, before it goes</li></ul><p>What can be handed over is structure, tone and the version that says the same thing in half the words.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You need to reject fifteen candidates after final interviews. What is the sound approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Send the same template to everyone — consistency is fairer than variation."
+                },
+                {
+                  "id": "b",
+                  "label": "Write one real reason per person, then have the wording drafted from it."
+                },
+                {
+                  "id": "c",
+                  "label": "Generate a personalised rejection for each from their CV and interview notes."
+                },
+                {
+                  "id": "d",
+                  "label": "Send nothing unless they follow up, to avoid an awkward exchange."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "One real reason per person keeps the message honest and takes about thirty seconds to note. Generating from notes invents specifics you did not decide, and silence after a final interview is the thing candidates hold against a company for years.",
+              "wrongHint": "Look for the option where the reason given is one you actually held."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Say Less Than You Think",
+              "bodyHtml": "<p>Long explanations in difficult messages read as defensiveness, and each extra sentence adds something to argue with.</p><p>Ask for a shorter version and choose it. «Half the length, same information, same warmth» is a good instruction and almost always improves the result.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a rejection you sent recently and rewrite it with one real reason.",
+                "Ask for it at half the length and compare which you would rather receive.",
+                "Build a structure — not a template — for the three messages you send most.",
+                "Read the last one aloud before sending; awkward sentences are audible."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Never Send What You Have Not Read",
+              "bodyHtml": "<p>This is the one rule with no exceptions. Drafts occasionally invent a detail, and an invented specific in a message about someone's job is a serious problem.</p><p>Reading takes twenty seconds. It is the cheapest professional safeguard in this entire course.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Difficult messages get delayed and then get worse. Keep the decision, the real reason and anything personal yourself; hand over structure and tone. One honest reason beats a template, shorter is better than fuller, and nothing goes out unread.",
+              "nextTeaser": "Next: bias, records and the rules you cannot ignore."
+            }
+          ]
+        },
+        {
+          "slug": "hr-rules-and-records",
+          "title": "Bias, Records and the Rules",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Everything else in this course is craft. This lesson is about the parts where getting it wrong is not merely poor practice but a legal problem, and those parts are moving quickly.</p><p>You do not need to be a lawyer. You do need to know which questions to ask and what to write down.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Things to Establish Now",
+              "bodyHtml": "<ul><li><strong>Where your candidate data goes</strong> — which tools, which countries, and what your privacy notice says</li><li><strong>Whether any decision is automated</strong> — in several jurisdictions this carries specific obligations</li><li><strong>What you keep</strong> — the record of how each decision was made, and for how long</li></ul><p>Answering these three takes an afternoon and is the difference between defensible and improvised.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«The tool decided» has never been an acceptable answer to a candidate or a regulator."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Keep the Record as You Go",
+              "bodyHtml": "<p><s>Reconstructing a hiring decision from memory eight months later, after a complaint.</s></p><p><strong>A short note per candidate at the time: what was assessed, what the evidence was, who decided.</strong></p><p>Writing that note is quick with drafting help and nearly impossible to recreate afterwards, which is exactly when it matters.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A rejected candidate asks how their application was assessed. What must you be able to do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Show the score the system gave them and the threshold that was applied."
+                },
+                {
+                  "id": "b",
+                  "label": "Explain what was assessed, on what evidence, and who made the decision."
+                },
+                {
+                  "id": "c",
+                  "label": "Confirm that the same automated process was applied to all applicants."
+                },
+                {
+                  "id": "d",
+                  "label": "Refer them to the privacy notice they accepted when applying to you."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "A human-explainable account of the assessment is what stands up — to the candidate and to anyone reviewing it later. A score with a threshold describes the mechanism without justifying the outcome.",
+              "wrongHint": "Think about which answer would satisfy someone who genuinely wanted to understand the outcome."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Test Your Own Process for Drift",
+              "bodyHtml": "<p>Once a quarter, look at who progresses and who does not, grouped by whatever data you lawfully hold. You are not looking for proof of bias — you are looking for a pattern worth investigating.</p><p>Doing this on purpose, and recording that you did, is itself evidence of a considered process.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write down every tool that currently touches candidate data.",
+                "Check your privacy notice actually covers what you do with it.",
+                "Create the short per-candidate decision note and use it on the next role.",
+                "Put a quarterly reminder to review who progressed and who did not."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Ask Before You Roll Out",
+              "bodyHtml": "<p>Rules on automated decision-making in employment differ sharply by country and are being rewritten right now.</p><p>One conversation with an employment lawyer before you change a process is cheap. The same conversation after a complaint is not, and by then the choices have already been made.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Establish three things: where candidate data goes, whether anything is automated, and what record you keep. Write the decision note at the time rather than reconstructing it later, review progression patterns quarterly, and take legal advice before changing a process rather than after.",
+              "nextTeaser": "That completes the course: screening, ads and questions, difficult messages, and the rules."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

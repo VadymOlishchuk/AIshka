@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-customer-support",
+  "title": "AI for Customer Support",
+  "description": "Why automation lowers satisfaction while improving response times, how to decide what a person must still answer, replies that sound like your team, and what your inbox is telling the rest of the business.",
+  "kind": "career",
+  "icon": "🎧",
+  "shelf": "Careers",
+  "sortOrder": 6,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on using AI in support without teaching customers that nobody reads their messages.",
+      "lessons": [
+        {
+          "slug": "sup-why-auto-replies-anger",
+          "title": "Why Automated Replies Make People Angrier",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Automating support looks like the obvious win: high volume, repetitive questions, measurable response times. Then satisfaction scores fall while response times improve, and nobody can explain it.</p><p>The explanation is simple. Most people contacting support have already tried the obvious thing, and a fast reply telling them to try it confirms that nobody read their message.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Speed Is Not the Complaint",
+              "bodyHtml": "<p><s>«Thanks for contacting us! Have you tried resetting your password?»</s></p><p><strong>«You've reset twice and it's still failing — that usually means the account is locked at our end. I've unlocked it, try now.»</strong></p><p>The first arrived in nine seconds and made things worse. Nobody has ever complained that a reply which solved the problem took two hours.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody complains about waiting two hours for an answer that worked."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Ways Automation Fails Here",
+              "bodyHtml": "<ul><li><strong>Answering the words, not the situation</strong> — the literal question, not the problem</li><li><strong>Repeating what they already tried</strong> — the fastest way to lose someone</li><li><strong>Cheerfulness at the wrong moment</strong> — an exclamation mark on a billing error</li><li><strong>No visible way out</strong> — a loop with no route to a person</li></ul><p>The fourth is the one that turns a frustrated customer into a public complaint.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A customer writes: «This is the third time I've asked about this.» What must the reply do first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Apologise warmly for the inconvenience and thank them for their patience."
+                },
+                {
+                  "id": "b",
+                  "label": "Show that the previous two exchanges were read, then answer the actual issue."
+                },
+                {
+                  "id": "c",
+                  "label": "Restate the question so the customer knows it has been correctly understood."
+                },
+                {
+                  "id": "d",
+                  "label": "Offer a goodwill gesture immediately to recover the customer relationship."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "The complaint is that nobody read the history. Referencing what was already tried is the only thing that answers it — an apology without evidence of reading is the fourth generic reply in a row.",
+              "wrongHint": "Ask what this specific customer is actually angry about."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Automate the Drafting, Not the Sending",
+              "bodyHtml": "<p>The safe and genuinely useful split: a draft appears with the account history summarised, and a person reads it, fixes one thing and sends.</p><p>That keeps most of the speed and removes almost all of the risk — and it is the arrangement that survives contact with an angry customer at 4pm on a Friday.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take five recent tickets and read only your first reply to each.",
+                "Mark how many repeated something the customer had already tried.",
+                "Rewrite one of them referencing their history explicitly.",
+                "Note how much longer it took — usually under a minute."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Always Show the Door",
+              "bodyHtml": "<p>Whatever you automate, a route to a person must be visible in every message, not hidden after three failed attempts.</p><p>Counter-intuitively, most customers use it less when it is obvious. Knowing you can escalate is what makes people willing to try the fast path first.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Automation fails in support by answering words instead of situations, repeating what was already tried, misjudging tone and hiding the escalation route. Draft with AI and send with a person, reference the customer's own history, and make the way to a human visible in every message.",
+              "nextTeaser": "Next: deciding what a person must still answer."
+            }
+          ]
+        },
+        {
+          "slug": "sup-triage",
+          "title": "What a Person Must Still Answer",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Not every ticket needs a human, and treating them all the same is how support teams stay permanently behind.</p><p>The useful work is deciding which is which — and that decision should be made deliberately once, not improvised per ticket at nine in the morning.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Sort by Consequence, Not by Difficulty",
+              "bodyHtml": "<ul><li><strong>Safe to draft and auto-send</strong> — order status, opening hours, where to find something</li><li><strong>Draft, person sends</strong> — how-to questions, most first replies</li><li><strong>Person writes</strong> — money, complaints, anything emotional, anything legal</li><li><strong>Person and a manager</strong> — safety, data, threats to escalate publicly</li></ul><p>Sort by what a mistake costs, not by how hard the answer is.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Sort tickets by what a wrong answer costs, not by how hard the right one is."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Read the Emotion, Not Just the Question",
+              "bodyHtml": "<p><s>Routing on keywords: «refund» goes to the refund queue.</s></p><p><strong>Routing on situation: «refund» plus «third time» plus a complaint history goes to a person, today.</strong></p><p>The same word means completely different things depending on what came before it, and that context is exactly what a queue built on keywords throws away.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which ticket is safest to answer with an automatically sent reply?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A customer asking where their order is, with tracking already available."
+                },
+                {
+                  "id": "b",
+                  "label": "A customer asking whether they will be charged again after cancelling."
+                },
+                {
+                  "id": "c",
+                  "label": "A customer reporting that their product arrived damaged in delivery."
+                },
+                {
+                  "id": "d",
+                  "label": "A customer asking why their discount code was rejected at checkout."
+                }
+              ],
+              "correctId": "a",
+              "successTitle": "Correct 🔥",
+              "successBody": "Order status has one factual answer, no money decision and no emotion attached. The other three all touch billing, a complaint or a rule where a wrong automatic answer creates a second, worse conversation.",
+              "wrongHint": "Ask which of these has exactly one correct answer and nothing at stake if it is delayed."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Start Narrow and Widen",
+              "bodyHtml": "<p>Begin with one category — order status is the usual candidate — and run it for a month with a person spot-checking a sample.</p><p>Widen only when that category is boring. Every team that automated broadly on day one spent the following quarter dealing with what it broke.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take last week's tickets and sort them into the four consequence groups.",
+                "Count what share falls in the first group — usually more than expected.",
+                "Pick one category to automate and write its exact boundaries.",
+                "Set the spot-check: how many, by whom, how often."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Review What Was Auto-Sent",
+              "bodyHtml": "<p>Read a sample of automated replies every week, as a fixed habit rather than when something goes wrong.</p><p>Problems here are silent by nature: the customer who received a wrong answer usually leaves rather than complains, and that never appears in your queue.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Sort tickets by what a wrong answer costs: auto-send only the harmless, draft-and-review most, and keep money, complaints and anything emotional with a person. Route on situation rather than keywords, start with one narrow category, and read a sample of auto-sent replies weekly.",
+              "nextTeaser": "Next: replies that sound like your company rather than any company."
+            }
+          ]
+        },
+        {
+          "slug": "sup-replies-that-sound-right",
+          "title": "Replies That Sound Like Your Company",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Support writing has a voice, and customers notice when it changes mid-conversation. Generated replies default to a polite corporate register that belongs to no company in particular.</p><p>Fixing that is mechanical, and it is worth doing once because every reply afterwards inherits it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Show, Do Not Describe",
+              "bodyHtml": "<p><s>«Reply in a friendly, professional and helpful tone.»</s></p><p><strong>«Match these three replies from our best agent. We never say «unfortunately», we always give the direct answer in the first sentence, and we sign with a first name.»</strong></p><p>Three real examples plus two hard rules do more than any list of adjectives.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Adjectives describe a tone. Examples reproduce one."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Rules Worth Fixing",
+              "bodyHtml": "<ul><li><strong>Answer first</strong> — the resolution before the explanation</li><li><strong>Banned words</strong> — whatever your team already avoids</li><li><strong>Length ceiling</strong> — support replies get shorter, not longer</li><li><strong>What never to promise</strong> — dates, refunds, exceptions</li></ul><p>The fourth is a safety rule as much as a style one. A promised refund is a promised refund, whoever typed it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your drafted replies are accurate but do not sound like your team. What fixes it fastest?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Add a detailed description of the brand voice and personality guidelines."
+                },
+                {
+                  "id": "b",
+                  "label": "Paste three real replies from your best agent and require that pattern."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask for a more conversational and less formal register in every answer."
+                },
+                {
+                  "id": "d",
+                  "label": "Have each agent rewrite the drafts in their own voice before sending."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Real examples carry sentence length, structure and vocabulary all at once, which is what voice actually consists of. Descriptions return another interpretation, and rewriting every draft removes the time saving entirely.",
+              "wrongHint": "Think about which option gives something concrete to copy rather than to interpret."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Answer the Question in Line One",
+              "bodyHtml": "<p>The most common flaw in generated support replies is a warm opening paragraph before the answer.</p><p>Customers scan for the resolution. «Yes, we can — here's how» followed by detail reads as competent; three sentences of appreciation before the answer reads as stalling.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick your three best real replies and write the two rules they follow.",
+                "Draft a reply with those examples attached and compare it to one without.",
+                "Check the answer appears in the first sentence.",
+                "Add your never-promise list and test it with a tricky ticket."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Person's Name on It",
+              "bodyHtml": "<p>A reply signed by a person, who then handles the follow-up, changes the whole exchange. Customers are markedly more reasonable with someone whose name they know.</p><p>Whatever produced the draft, the conversation should belong to a human from the first message to the last.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Voice comes from examples, not adjectives: paste three real replies and add hard rules — answer first, banned words, a length ceiling, and what may never be promised. Keep the resolution in the first sentence and a real person's name on every conversation.",
+              "nextTeaser": "Next: what your inbox is telling the rest of the business."
+            }
+          ]
+        },
+        {
+          "slug": "sup-inbox-tells-you",
+          "title": "What the Inbox Tells the Business",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Support sits on the most valuable unread dataset in most companies: every confusion, every unmet expectation, in customers' own words.</p><p>Almost nobody reads it in aggregate, because doing so by hand is impossible. This is where AI adds something the business could not previously have at all.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Count Themes, Not Tickets",
+              "bodyHtml": "<p><s>«We handled 1,240 tickets this month, average response time 2.1 hours.»</s></p><p><strong>«184 tickets were about delivery timing. All of them mention the checkout page, which promises 2–3 days while shipping quotes 5.»</strong></p><p>The first describes the team. The second is a product problem that support just found for free.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Support is the only team that hears every unmet expectation, in the customer's own words."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions Worth Asking Monthly",
+              "bodyHtml": "<ul><li><strong>What are the top five reasons people write in?</strong></li><li><strong>Which of those should not exist?</strong> A page, a wording, a broken step</li><li><strong>What words do customers use</strong> that we never use?</li><li><strong>What did we start hearing this month</strong> that we did not before?</li></ul><p>The last one is an early warning system that no dashboard provides.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Analysis shows 15% of tickets are about one confusing checkout step. What is the highest-value action?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Write a clearer help article and link it from the automated reply."
+                },
+                {
+                  "id": "b",
+                  "label": "Send the finding to the product team so the step itself gets fixed."
+                },
+                {
+                  "id": "c",
+                  "label": "Add a macro so agents can answer that question much more quickly."
+                },
+                {
+                  "id": "d",
+                  "label": "Train the team on the fastest way to resolve that particular issue."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "The other three make an avoidable problem cheaper to handle forever. Fixing the step removes the tickets entirely — and this is the contribution that changes how the rest of the business sees support.",
+              "wrongHint": "Ask which action means the ticket never gets created in the first place."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Send One Page, Every Month",
+              "bodyHtml": "<p>Top five themes, one thing to fix, one phrase customers keep using, one new signal. Same date each month.</p><p>That page is how support stops being a cost line and starts being a source of decisions — and it takes half an hour to produce once the extraction is set up.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Export a month of tickets and extract the top five themes.",
+                "Pick the one that should not exist and write the fix in a sentence.",
+                "Collect three exact customer phrases worth passing to marketing.",
+                "Send the one-pager to product and see what comes back."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Handle the Data Properly",
+              "bodyHtml": "<p>Tickets are full of names, addresses and order details. Strip identifiers before any bulk analysis — you need the themes, not the people.</p><p>Check what your privacy notice actually says about how support data may be processed. This is the one part of the lesson where getting it wrong is not a quality problem.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Report themes rather than ticket counts: the top five reasons people write, which of them should not exist, the words customers use that you do not, and what is newly appearing. Send one page monthly, strip identifiers before bulk analysis, and aim to remove tickets rather than answer them faster.",
+              "nextTeaser": "That completes the course: why automation backfires, triage, voice, and what the inbox tells the business."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

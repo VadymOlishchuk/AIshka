@@ -2,26 +2,45 @@ import Link from "next/link";
 import { requireActiveAccess } from "@/core/auth/guards";
 import { getAcademyCatalog } from "@/core/progress/service";
 import { JourneyTabs } from "@/components/dashboard/JourneyTabs";
+import { ShelfTabs } from "@/components/dashboard/ShelfTabs";
+import { CoursePath } from "@/components/dashboard/CoursePath";
 import { Card, GeneratedCover, ProgressBar } from "@/components/ui/primitives";
 import { duration, plural } from "@/lib/format";
 
 const KIND_LABEL: Record<string, string> = {
+  career: "Career course",
   tool: "Tool course",
   challenge: "Challenge",
   mini: "Mini course",
 };
 
-export default async function AcademyPage() {
+// Порядок полиць фіксований: професії першими, бо це найширший вхід у каталог.
+const SHELF_ORDER = ["Careers", "Challenges", "Tool courses"];
+
+export default async function AcademyPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ shelf?: string }>;
+}) {
   const user = await requireActiveAccess();
   const courses = await getAcademyCatalog(user.id);
+  const { shelf: requested } = await searchParams;
 
-  // Полиці — це динамічні добірки над трьома форматами, а не окремі сутності.
-  // І назва полиці має відповідати вмісту: «Top 5» із 13 курсів підриває довіру.
+  // Полиці — динамічні добірки над форматами, а не окремі сутності.
   const shelves = new Map<string, typeof courses>();
   for (const course of courses) {
     const key = course.shelf ?? "Everything else";
     shelves.set(key, [...(shelves.get(key) ?? []), course]);
   }
+
+  const names = [...shelves.keys()].sort((a, b) => {
+    const ai = SHELF_ORDER.indexOf(a);
+    const bi = SHELF_ORDER.indexOf(b);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi) || a.localeCompare(b);
+  });
+
+  const active = requested && shelves.has(requested) ? requested : (names[0] ?? "");
+  const items = shelves.get(active) ?? [];
 
   return (
     <main className="mx-auto w-full max-w-[1100px] px-5 py-8">
@@ -40,15 +59,12 @@ export default async function AcademyPage() {
           </p>
         </Card>
       ) : (
-        [...shelves.entries()].map(([shelf, items]) => (
-          <section key={shelf} className="mb-10">
-            <h2 className="mb-4 text-[22px] font-semibold text-ink-strong">
-              {shelf}{" "}
-              <span className="text-[15px] font-normal text-ink-muted">
-                · {plural(items.length, "course", "courses")}
-              </span>
-            </h2>
+        <>
+          <ShelfTabs shelves={names} active={active} />
 
+          {active === "Careers" ? (
+            <CoursePath courses={items} />
+          ) : (
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {items.map((course) => (
                 <Link key={course.id} href={`/dashboard/course/${course.slug}`} className="group">
@@ -74,9 +90,10 @@ export default async function AcademyPage() {
                 </Link>
               ))}
             </div>
-          </section>
-        ))
+          )}
+        </>
       )}
+
     </main>
   );
 }
