@@ -6,6 +6,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/primitives";
 import type { Block } from "@/core/content/blocks";
 import { BlockView } from "./BlockView";
+import { AiTaskModal } from "./AiTaskModal";
+import { LessonRating } from "./LessonRating";
 
 type Props = {
   slug: string;
@@ -23,6 +25,9 @@ export function Player({ slug, title, unitTitle, blocks, nextLessonSlug }: Props
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [checked, setChecked] = useState<Record<string, boolean>>({});
   const [finished, setFinished] = useState(false);
+  const [aiOpen, setAiOpen] = useState<string | null>(null);
+  const [aiAttempted, setAiAttempted] = useState<Record<string, boolean>>({});
+  const [aiSkipped, setAiSkipped] = useState<Record<string, boolean>>({});
   const [saving, setSaving] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
   const restored = useRef(false);
@@ -106,6 +111,9 @@ export function Player({ slug, title, unitTitle, blocks, nextLessonSlug }: Props
           You finished this lesson and moved one step forward.
         </p>
 
+        {/* Оцінка не блокує перехід далі: тиск тут ламає темп навчання. */}
+        <LessonRating slug={slug} />
+
         <div className="mt-3 flex w-full max-w-[var(--container-action)] flex-col gap-3">
           {nextLessonSlug ? (
             <Link href={`/dashboard/lesson/${nextLessonSlug}`}>
@@ -159,11 +167,36 @@ export function Player({ slug, title, unitTitle, blocks, nextLessonSlug }: Props
               answer={answers[block.id]}
               checked={Boolean(checked[block.id])}
               onSelect={select}
+              aiTask={
+                block.type === "ai_task"
+                  ? {
+                      attempted: Boolean(aiAttempted[block.id]),
+                      skipped: Boolean(aiSkipped[block.id]),
+                      onOpen: () => setAiOpen(block.id),
+                      onSkip: () => setAiSkipped((prev) => ({ ...prev, [block.id]: true })),
+                    }
+                  : undefined
+              }
             />
           ))}
         </div>
         <div ref={bottomRef} />
       </main>
+
+      {/* Модалка поверх уроку: закриття повертає рівно в те саме місце. */}
+      {aiOpen
+        ? (() => {
+            const block = blocks.find((b) => b.id === aiOpen);
+            if (!block || block.type !== "ai_task") return null;
+            return (
+              <AiTaskModal
+                block={block}
+                onClose={() => setAiOpen(null)}
+                onResult={() => setAiAttempted((prev) => ({ ...prev, [block.id]: true }))}
+              />
+            );
+          })()
+        : null}
 
       <div className="fixed inset-x-0 bottom-0 bg-gradient-to-t from-canvas via-canvas to-transparent px-5 pb-6 pt-8">
         <div className="mx-auto w-full max-w-[var(--container-action)]">

@@ -2,14 +2,22 @@
 
 import type { Block } from "@/core/content/blocks";
 
+type AiTaskState = {
+  attempted: boolean;
+  skipped: boolean;
+  onOpen: () => void;
+  onSkip: () => void;
+};
+
 type Props = {
   block: Block;
   answer: string | undefined;
   checked: boolean;
   onSelect: (blockId: string, optionId: string) => void;
+  aiTask?: AiTaskState;
 };
 
-export function BlockView({ block, answer, checked, onSelect }: Props) {
+export function BlockView({ block, answer, checked, onSelect, aiTask }: Props) {
   switch (block.type) {
     case "text":
       return (
@@ -145,10 +153,40 @@ export function BlockView({ block, answer, checked, onSelect }: Props) {
       );
 
     case "ai_task":
+      // Завдання необов'язкове: «Skip for now» лишає бейдж і не блокує урок.
       return (
         <section className="rounded-[10px] border border-line bg-surface p-5">
-          <h2 className="mb-1 text-[20px] font-semibold text-ink-strong">{block.title}</h2>
-          <p className="text-[15px] text-ink-muted">{block.subtitle}</p>
+          <p className="mb-1 text-[12px] font-semibold uppercase tracking-wider text-accent">
+            AI Task
+          </p>
+          <h2 className="mb-1 text-[20px] font-semibold leading-snug text-ink-strong">
+            {block.title}
+          </h2>
+          <p className="mb-4 text-[15px] text-ink-muted">{block.subtitle}</p>
+
+          {aiTask?.skipped && !aiTask.attempted ? (
+            <p className="inline-block rounded-[8px] bg-canvas px-3 py-1.5 text-[12px] font-semibold uppercase tracking-wider text-ink-muted">
+              Task skipped
+            </p>
+          ) : null}
+
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={aiTask?.onOpen}
+              className="rounded-[10px] bg-accent px-5 py-3 text-[15px] font-bold text-white transition hover:brightness-95"
+            >
+              {aiTask?.attempted ? "Repeat task ↻" : "Open playground ✦"}
+            </button>
+
+            {!aiTask?.attempted && !aiTask?.skipped ? (
+              <button
+                onClick={aiTask?.onSkip}
+                className="rounded-[10px] px-4 py-3 text-[15px] text-ink-muted transition hover:text-ink-strong"
+              >
+                Skip for now
+              </button>
+            ) : null}
+          </div>
         </section>
       );
   }

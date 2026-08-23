@@ -85,6 +85,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Reply to the Result",
+              "subtitle": "Match each way of answering a job post with what it produces.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name the exact job and when it will be done"
+                  },
+                  "right": {
+                    "text": "The buyer can accept it without a conversation"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You list the AI tools you know how to use"
+                  },
+                  "right": {
+                    "text": "The buyer has to imagine what you would deliver"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You attach a sample of the actual work"
+                  },
+                  "right": {
+                    "text": "There is nothing left to take on trust"
+                  }
+                }
+              ],
+              "failHint": "Think about how much the buyer has to imagine before they can say yes.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "The Shortest Honest Path",
@@ -351,6 +387,42 @@
                 "For each one left, search a freelance platform for that exact job.",
                 "Keep the one with the most live listings — demand you can see beats demand you assume."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Headline to the Effect",
+              "subtitle": "Match each way of describing yourself with what the reader does next.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name one job and one kind of buyer"
+                  },
+                  "right": {
+                    "text": "A stranger recognises their own situation in one line"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You list every service you are able to provide"
+                  },
+                  "right": {
+                    "text": "The reader cannot tell what you actually do"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You keep other skills for later conversations"
+                  },
+                  "right": {
+                    "text": "Nothing is lost and the first line stays sharp"
+                  }
+                }
+              ],
+              "failHint": "Think about what the reader can work out in the three seconds they give you.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -889,6 +961,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Step to What It Prevents",
+              "subtitle": "Match each habit with the problem it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You write scope, price and date before starting"
+                  },
+                  "right": {
+                    "text": "A later disagreement about what was promised"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You send one short update halfway through"
+                  },
+                  "right": {
+                    "text": "The client quietly worrying that nothing is happening"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You attach the invoice to the delivery itself"
+                  },
+                  "right": {
+                    "text": "A payment that drifts to the end of next month"
+                  }
+                }
+              ],
+              "failHint": "Think about when each problem usually appears, and what would have stopped it earlier.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "One Check-In, Not Silence",
@@ -1423,6 +1531,42 @@
                 "Compare the two answers side by side and note which phrase caused the change.",
                 "Save the improved version — it is the first entry in your own prompt library."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Input to the Outcome",
+              "subtitle": "Match each way of writing a prompt with what it produces.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name the reader and what the text must achieve"
+                  },
+                  "right": {
+                    "text": "The answer sounds written for someone real"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say only that it should be made better"
+                  },
+                  "right": {
+                    "text": "The tool has to guess what better means here"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You set a length limit and a banned word"
+                  },
+                  "right": {
+                    "text": "Fewer rewrites, because the shape is decided"
+                  }
+                }
+              ],
+              "failHint": "Think about which part of the prompt removes a decision the tool would otherwise make.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -5177,6 +5321,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Response to What It Teaches",
+              "subtitle": "Match each answer to «is that flexible?» with what the client learns.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You cut the scope and keep the rate the same"
+                  },
+                  "right": {
+                    "text": "The price stands and they still get a real yes"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You drop the price for exactly the same work"
+                  },
+                  "right": {
+                    "text": "Your figures become an opening position to push"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You explain in detail how many hours it takes"
+                  },
+                  "right": {
+                    "text": "The number starts to sound like an apology"
+                  }
+                }
+              ],
+              "failHint": "Think about what each answer teaches the client to expect from your next quote.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Raise It on the Sixth Client",
@@ -5443,6 +5623,42 @@
                 "Now spend three minutes on the client's site and write one observation.",
                 "Put that observation first and rebuild the message around it."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Opening to the Outcome",
+              "subtitle": "Match each first line with what happens when the buyer reads it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name something specific about their business"
+                  },
+                  "right": {
+                    "text": "The buyer opens the message and keeps reading"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You open with your years of relevant experience"
+                  },
+                  "right": {
+                    "text": "The message reads like every other application"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You ask them to go and check your portfolio"
+                  },
+                  "right": {
+                    "text": "The busiest person is handed more work to do"
+                  }
+                }
+              ],
+              "failHint": "Think about what the reader is scanning for in a list of forty similar messages.",
+              "optional": true
             },
             {
               "id": "b8",
