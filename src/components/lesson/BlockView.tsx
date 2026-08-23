@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import type { Block } from "@/core/content/blocks";
 
 type AiTaskState = {
@@ -35,9 +36,21 @@ export function BlockView({ block, answer, checked, onSelect, aiTask }: Props) {
       );
 
     case "image":
-      // alt обов'язковий на рівні схеми — зображення без нього не публікується
-      // eslint-disable-next-line @next/next/no-img-element
-      return <img src={block.url} alt={block.alt} className="w-full rounded-[10px]" />;
+      // alt обов'язковий на рівні схеми — зображення без нього не публікується.
+      // Рамка потрібна тому, що в ілюстрацій власне кремове тло: без неї
+      // край картинки розчиняється в білій картці уроку.
+      return (
+        <figure className="overflow-hidden rounded-[10px] border border-line">
+          <Image
+            src={block.url}
+            alt={block.alt}
+            width={block.width ?? 1400}
+            height={block.height ?? 933}
+            sizes="(max-width: 700px) 100vw, 668px"
+            className="h-auto w-full"
+          />
+        </figure>
+      );
 
     case "video":
       return (

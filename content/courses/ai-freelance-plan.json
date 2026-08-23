@@ -152,6 +152,14 @@
               "bodyHtml": "<p>A client needs twelve product descriptions. Look at the difference in what you are actually selling:</p><p><s>«£20 per hour, roughly six hours.»</s></p><p><strong>«£180 for twelve product descriptions, delivered Thursday, one round of revisions included.»</strong></p><p>The first invites a negotiation about your speed. The second invites a decision about a result. Only one of them gets faster to answer as you get better.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/hourly-vs-value.jpg",
+              "alt": "An hourglass beside four small coins, and a finished job marked with a tick beside four larger coins.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b3",
               "type": "quote",
               "text": "Price the result, and speed becomes your profit instead of your penalty."
@@ -1488,6 +1496,14 @@
               "bodyHtml": "<ul><li><strong>Who it is for</strong> — «shop owners selling handmade jewellery», not «customers»</li><li><strong>What it should achieve</strong> — «one idea they can use today», not «be engaging»</li><li><strong>What to avoid</strong> — «no exclamation marks, under 120 words»</li></ul><p>Miss one and the answer drifts. Include all three and the first draft is usually close enough to edit rather than rewrite.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/three-part-brief.jpg",
+              "alt": "Three numbered frames: a subject, a framing, and a short list with one line crossed out.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b5",
               "type": "quiz",
               "variant": "single",
@@ -1781,6 +1797,14 @@
               "bodyHtml": "<p>Every piece of paid writing has a job, and knowing it changes every sentence.</p><p><s>«Write a product description for a ceramic mug.»</s></p><p><strong>«This mug is returned often because people expect it to be bigger. The description has to set the size expectation without making it sound small.»</strong></p><p>The second is not a better prompt. It is a decision about what the writing must achieve, and nobody but you was going to make it.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/page-blocks.jpg",
+              "alt": "A stacked page layout: a highlighted headline block, a subheading, a body block, and a final block with an arrow.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b3",
               "type": "quote",
               "text": "Anyone can produce sentences now. Almost nobody knows what the sentences are for."
@@ -1866,6 +1890,14 @@
               "type": "text",
               "heading": "Voice Is Six Observable Things",
               "bodyHtml": "<ul><li><strong>Sentence length</strong> — short and clipped, or long and flowing</li><li><strong>Person</strong> — «we» or «I», «you» or «customers»</li><li><strong>Formality</strong> — contractions or none; slang or none</li><li><strong>Humour</strong> — present, dry, absent</li><li><strong>Vocabulary they own</strong> — the words they always use</li><li><strong>Words they avoid</strong> — often more distinctive than the ones they use</li></ul><p>Twenty minutes with three of their published pieces gives you all six.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/sentence-rhythm.jpg",
+              "alt": "A row of word blocks of differing lengths separated by pause marks, above a waveform that dips at each pause.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b3",
@@ -1964,6 +1996,14 @@
               "type": "text",
               "heading": "What Scanning Eyes Land On",
               "bodyHtml": "<ul><li><strong>Headings</strong> — write them as statements, not labels: «Delivery is the question» beats «Delivery»</li><li><strong>The first line of each paragraph</strong> — put the point there</li><li><strong>Bold phrases</strong> — three or four per page, never a paragraph</li><li><strong>Lists</strong> — anything with three or more items</li><li><strong>Numbers</strong> — digits stop the eye where words do not</li></ul><p>Written well, those five carry the whole argument to someone who never reads a full sentence.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/scannable-page.jpg",
+              "alt": "A page divided into six numbered bands, with two of them highlighted.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b5",
@@ -2415,6 +2455,14 @@
               "bodyHtml": "<ul><li><strong>Palette</strong> — the same handful of colours, named as values</li><li><strong>Light direction and quality</strong> — soft from the left, every time</li><li><strong>Framing distance</strong> — how close the subject sits in frame</li><li><strong>Level of realism</strong> — photographic or illustrated, never both in a set</li></ul><p>Write these down once as a recipe. Reusing the recipe is the job; inventing a new one for each image is why sets drift.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/three-shot-types.jpg",
+              "alt": "Three framed shots of the same chair: the product alone, the product in a room, and a close-up of one detail.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b5",
               "type": "quiz",
               "variant": "single",
@@ -2594,6 +2642,14 @@
               "type": "text",
               "heading": "The Six Things Worth Including",
               "bodyHtml": "<ul><li><strong>Colours</strong> — as copyable values, with what each is for</li><li><strong>Two fonts</strong> — heading and body, with actual sizes</li><li><strong>Logo files</strong> — light, dark, and a small square version</li><li><strong>Image style</strong> — three examples of right, one of wrong</li><li><strong>Five templates</strong> — the formats they post most</li><li><strong>One page of rules</strong> — the decisions, nothing else</li></ul><p>Six items, deliverable in a few days, and each one removes a recurring decision.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/brand-kit-elements.jpg",
+              "alt": "Five brand elements side by side: a logo mark, colour dots, two letterforms, a layout sheet, and a crossed-out box.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b5",
@@ -2862,6 +2918,14 @@
               "type": "text",
               "heading": "What Makes a Task Automatable",
               "bodyHtml": "<ul><li><strong>It repeats</strong> — weekly at least, ideally daily</li><li><strong>The rules are stable</strong> — the same input leads to the same decision</li><li><strong>The data is already digital</strong> — in a form, a sheet, an inbox</li><li><strong>A mistake is recoverable</strong> — nothing irreversible on the first build</li></ul><p>Fail the second and you are automating a judgement, which needs a human check in the middle. Fail the fourth and you should not be the person building it yet.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/self-running-loop.jpg",
+              "alt": "A machine enclosed by a circular arrow, with three dots beneath it.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b5",
@@ -3936,6 +4000,14 @@
               "bodyHtml": "<ul><li><strong>The hook</strong> — one line, a promise or a contradiction</li><li><strong>The stake</strong> — why this matters to them, in one line</li><li><strong>The substance</strong> — one idea, demonstrated not described</li><li><strong>The close</strong> — one action, or one line worth remembering</li></ul><p>Under sixty seconds, that is the whole structure. Add a second idea and both get lost.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/video-timeline.jpg",
+              "alt": "A video timeline in three segments: a short highlighted opening, a longer middle, and a final segment with a cursor.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b5",
               "type": "quiz",
               "variant": "single",
@@ -4635,6 +4707,14 @@
               "bodyHtml": "<p>The alternative is to price a defined amount of work per month.</p><p><s>«£15 an hour, roughly ten hours a week.»</s></p><p><strong>«£520 a month covers daily inbox triage, the Friday report and scheduling. Anything beyond that we agree separately.»</strong></p><p>The client gets predictability, and you keep the benefit of getting faster — which is the only way this work improves over time.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/same-work-less-time.jpg",
+              "alt": "A large clock beside a much smaller clock and a single coin.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b3",
               "type": "quote",
               "text": "Bill by the hour and every efficiency you find is a pay cut you gave yourself."
@@ -5276,6 +5356,14 @@
               "bodyHtml": "<ul><li><strong>The calm test.</strong> Could you say this figure out loud without adding «but I'm flexible»?</li><li><strong>The floor test.</strong> Would you be annoyed to accept it if the job ran twice as long?</li><li><strong>The market test.</strong> Is it within range of what similar work is publicly listed at?</li></ul><p>Fail the first and raise it. Fail the second and either raise it or shrink the scope. Fail the third and check what the others include that you do not.</p>"
             },
             {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/three-pricing-lanes.jpg",
+              "alt": "Three horizontal lanes ending in coins of different sizes; the middle lane is highlighted.",
+              "width": 1400,
+              "height": 933
+            },
+            {
               "id": "b5",
               "type": "quiz",
               "variant": "single",
@@ -5397,6 +5485,14 @@
               "type": "text",
               "heading": "Two Options, Never Five",
               "bodyHtml": "<ul><li><strong>The entry package</strong> — small, fast, easy to approve alone</li><li><strong>The monthly version</strong> — the same work, repeated, at a better rate per unit</li></ul><p>Two is a choice a person makes in a minute. Five is a comparison exercise, and comparison exercises get postponed — usually forever. If you must add a third, make it obviously larger so it makes the middle one look sensible.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/three-price-tiers.jpg",
+              "alt": "Three price columns of increasing height, with the middle one filled in and ticked.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b5",
@@ -5839,6 +5935,14 @@
               "type": "text",
               "heading": "Warm Beats Cold, Always",
               "bodyHtml": "<p>Before writing to strangers, go through people who already know you: past colleagues, former employers, anyone whose business you have used.</p><p>A message to someone who recognises your name has a reply rate several times higher than cold outreach. Most first jobs come from this list, and most people skip it because it feels less like real prospecting.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/outreach-circles.jpg",
+              "alt": "Concentric arcs spreading outward from a single point, the nearest one highlighted, with an arrow crossing them.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b9",
@@ -7030,6 +7134,14 @@
               "type": "text",
               "heading": "Offer the Rhythm They Already Have",
               "bodyHtml": "<p>A retainer only makes sense when the underlying need repeats. Look at what they will need again anyway.</p><p><s>«Would you like to put me on a monthly retainer?»</s></p><p><strong>«You add products most months — twelve descriptions a month at £150 instead of £180, and you stop having to ask.»</strong></p><p>The first asks for a commitment. The second describes their existing routine with the friction removed, and prices it slightly better.</p>"
+            },
+            {
+              "id": "img1",
+              "type": "image",
+              "url": "/lessons/one-thing-sold-many-times.jpg",
+              "alt": "A stack of identical folders with three arrows leading out to separate coins.",
+              "width": 1400,
+              "height": 933
             },
             {
               "id": "b3",

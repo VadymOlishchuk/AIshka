@@ -28,6 +28,9 @@ export const ImageBlock = z.object({
   type: z.literal("image"),
   url: z.string().min(1),
   alt: z.string().min(1, "alt обов'язковий: без нього зображення не існує для читача з екранним диктором"),
+  // Розміри відомі наперед: без них браузер не резервує місце і сторінка стрибає.
+  width: z.number().int().positive().optional(),
+  height: z.number().int().positive().optional(),
 });
 
 export const QuoteBlock = z.object({
