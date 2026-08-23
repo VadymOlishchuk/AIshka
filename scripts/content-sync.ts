@@ -3,6 +3,7 @@ import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient } from "../src/generated/prisma/client";
 import { loadCourses } from "../src/core/content/load";
 import { publishableModules } from "../src/core/content/course";
+import { refreshPlans } from "../src/core/plan/enroll";
 
 const db = new PrismaClient({
   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL! }),
@@ -117,6 +118,10 @@ async function main() {
     const lessonCount = modules.reduce((n, m) => n + m.lessons.length, 0);
     console.log(`✓ ${course.slug}: ${modules.length} юнітів, ${lessonCount} уроків`);
   }
+
+  // Новий контент має дійти до тих, хто вже вчиться, без перепроходження онбордингу.
+  const refreshed = await refreshPlans();
+  if (refreshed > 0) console.log(`✓ оновлено планів: ${refreshed}`);
 }
 
 main()

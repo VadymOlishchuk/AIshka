@@ -278,31 +278,1341 @@
       "slug": "pick-your-offer",
       "title": "Pick One Offer You Can Sell",
       "description": "Turn scattered skills into one clear service you can describe in a sentence. Covers choosing a niche task, sizing it, and testing demand before you build anything.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "why-anything-wins-nothing",
+          "title": "Why «I Can Do Anything» Wins Nothing",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>When you are starting out, staying open feels like the safe choice. Narrowing down looks like turning away money you cannot afford to turn away.</p><p>In practice it works the other way round. A buyer scanning ten profiles is not looking for the most flexible person. They are looking for someone who has clearly done <em>their exact thing</em> before. Breadth reads as inexperience, even when it is genuinely capability.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Two Profiles, One Buyer",
+              "bodyHtml": "<p>Imagine a shop owner who needs product descriptions rewritten. They open two profiles:</p><p><s>«AI generalist. Writing, design, automation, data, video. Fast and reliable.»</s></p><p><strong>«I rewrite product descriptions for small online shops so they read like a person wrote them.»</strong></p><p>The first person might be better at the job. The second one has already answered the only question the buyer had.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Being findable beats being capable, right up until someone hires you."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Narrowing Actually Costs",
+              "bodyHtml": "<p>Here is the part that makes it easier to do:</p><ul><li>You are choosing what to <strong>advertise</strong>, not what to accept</li><li>Nothing stops you saying yes to a different job that lands in your inbox</li><li>You can change the offer next month — nobody is keeping a record</li><li>You keep every skill you have; you just stop leading with all of them at once</li></ul><p>The cost is close to zero. The gain is that strangers can finally tell what you do.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You can write, edit video and build automations. What should your profile headline say?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Writer, video editor and automation builder available for projects."
+                },
+                {
+                  "id": "b",
+                  "label": "I turn long webinars into short clips for coaches who sell online."
+                },
+                {
+                  "id": "c",
+                  "label": "Experienced AI generalist helping businesses of all sizes grow."
+                },
+                {
+                  "id": "d",
+                  "label": "Flexible freelancer offering content, video and workflow support."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A headline that names one job and one kind of buyer lets a stranger recognise themselves in it. Your other skills stay available — they just stop competing for attention in the first line.",
+              "wrongHint": "Think about which line lets one specific person say «that's my situation» in under three seconds."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where a Good Offer Comes From",
+              "bodyHtml": "<p>The strongest first offer usually sits where three things overlap:</p><ul><li><strong>Something you have already done</strong>, even unpaid, even for yourself</li><li><strong>Something businesses already buy</strong> — you can see it in job posts today</li><li><strong>Something finishable in days</strong>, not months</li></ul><p>If an idea fails the third test, it is a service for later. Long projects are hard to price, hard to trust and hard to finish while you are still learning how any of this works.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List five things you have made with AI in the last month, paid or not.",
+                "Cross out anything that would take longer than a week to deliver.",
+                "For each one left, search a freelance platform for that exact job.",
+                "Keep the one with the most live listings — demand you can see beats demand you assume."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say It in One Sentence",
+              "bodyHtml": "<p>Write your offer as: <strong>I help [specific person] with [specific job] so they [specific outcome]</strong>.</p><p>If any bracket still contains the word «businesses» or «content», it is not specific enough yet. «Small online shops» is a person. «Product descriptions» is a job. «Sound like a person wrote them» is an outcome you can be judged on.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Breadth feels safe but reads as inexperience. Pick one job, for one kind of buyer, that you can finish in days and that you can see people buying today. You are choosing what to advertise, not what to accept — and you can change it whenever you like.",
+              "nextTeaser": "Next: how to size that offer so it is safe to put a price on."
+            }
+          ]
+        },
+        {
+          "slug": "size-your-service",
+          "title": "How to Size a Service Someone Will Buy",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Once you know what you sell, the next question is how big one unit of it should be. Most beginners get this wrong in the same direction: they make the offer too large, hoping it looks more valuable.</p><p>A large offer is harder to price, harder to trust and harder to say yes to. The first purchase is not about value. It is about risk.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Small Enough to Approve Alone",
+              "bodyHtml": "<p>There is a size below which a person can just decide, and above which they have to ask someone else. Compare:</p><p><s>«Full content strategy and three months of execution.»</s></p><p><strong>«Twelve product descriptions, delivered Thursday, £180.»</strong></p><p>The second one gets answered today by the person reading it. The first one goes into a folder called «think about later», which is where offers go to die.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The first sale is not about how much value you offer. It is about how little risk you ask for."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Numbers Make It Safe",
+              "bodyHtml": "<p>A service is properly sized when you can state all three of these without thinking:</p><ul><li><strong>Quantity.</strong> Twelve descriptions. Four posts. One landing page.</li><li><strong>Delivery date.</strong> A weekday, not «soon» and not «within two weeks».</li><li><strong>Revision limit.</strong> One round included, extra rounds priced separately.</li></ul><p>Miss any of the three and the job has no edges. Work without edges expands until the fee stops making sense, and the person who absorbs that is always you.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which of these is sized well enough for a stranger to accept without a call?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ongoing content support for your brand, priced monthly by agreement."
+                },
+                {
+                  "id": "b",
+                  "label": "Eight LinkedIn posts from your existing blog, sent next Tuesday."
+                },
+                {
+                  "id": "c",
+                  "label": "A complete social media audit and strategy tailored to your goals."
+                },
+                {
+                  "id": "d",
+                  "label": "Help with your marketing whenever you need an extra pair of hands."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A quantity and a date turn an offer into something a person can approve on their own. Everything else on this list needs a conversation first, and most conversations never get scheduled.",
+              "wrongHint": "Look for the option where you could count the deliverables and put them in a calendar."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Two Sizes, Not Ten",
+              "bodyHtml": "<p>Once the small version works, add exactly one larger version — usually the same thing repeated monthly.</p><p>Two options is a choice. Five options is a research task, and people postpone research tasks. The small one gets you in the door; the larger one is what you offer once they already trust you, which is a much easier conversation.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your offer with a quantity, a delivery day and a revision limit.",
+                "Read it as if you were the buyer: could you say yes without asking anyone?",
+                "If not, cut the scope in half and read it again.",
+                "Write the monthly version of the same thing in one line underneath."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When the Job Is Genuinely Big",
+              "bodyHtml": "<p>Some real work does not fit in a week. The answer is not to shrink it dishonestly — it is to sell the first stage on its own.</p><p>A paid audit, a sample batch, a single page before the whole site. The client gets a small decision and real output; you get paid while both sides find out whether you work well together.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Size the offer so one person can approve it alone: a quantity, a delivery day and a revision limit. Keep two options rather than five, and split genuinely large work into a paid first stage instead of asking for a big commitment from a stranger.",
+              "nextTeaser": "Next: how to check there is real demand before you spend a week on it."
+            }
+          ]
+        },
+        {
+          "slug": "test-before-you-build",
+          "title": "Test the Offer Before You Build It",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The tempting next step is to prepare: a portfolio site, a price sheet, a set of templates. It feels like progress because it is visible work you fully control.</p><p>But none of it answers the only question that matters yet — does anyone want this? That answer costs about an hour to get, and it changes what you would have spent the week building.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Demand You Can See",
+              "bodyHtml": "<p>You do not need a survey. You need evidence that money is already moving:</p><ul><li>Live job posts asking for this exact task, posted in the last month</li><li>Other freelancers selling it — competition is proof, not a warning</li><li>Businesses visibly doing it badly themselves</li></ul><p>If you find none of the three after twenty minutes of looking, the problem is the offer, not your search skills.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Competition is the cheapest proof that someone is willing to pay."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The One-Hour Test",
+              "bodyHtml": "<p>Take the sentence you wrote and put it in front of five real people who could plausibly buy. Not friends, and not a public post — five direct messages.</p><p>You are not selling yet. You are asking one question: «Is this something you deal with?» The replies tell you more than any amount of preparation, because they arrive in the buyer's own words, which you can then reuse.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Four people reply that they already handle this in-house and it works fine. What now?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Lower your price until handling it in-house stops being worth it."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask what the annoying part of handling it in-house actually is."
+                },
+                {
+                  "id": "c",
+                  "label": "Move on to a completely different field where nobody says this."
+                },
+                {
+                  "id": "d",
+                  "label": "Send the same message again to a much larger group of people."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "«We handle it ourselves» is rarely the end of the conversation. The annoying part of doing it in-house is usually the real offer, and it is described to you in the buyer's own words if you ask.",
+              "wrongHint": "Think about which reply gives you new information rather than repeating what you already tried."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What a Good Signal Looks Like",
+              "bodyHtml": "<p>You are not waiting for enthusiasm. You are watching for three quieter things:</p><ul><li>They describe the problem back to you in more detail than you used</li><li>They ask how much or how long — a question about logistics, not about interest</li><li>They mention who currently does it and why that is unsatisfying</li></ul><p>Any one of those means keep going. Polite agreement with no detail means the problem is not painful enough to pay for.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find five businesses that fit your buyer description exactly.",
+                "Send each a short message asking whether this task is something they deal with.",
+                "Record the replies word for word — that phrasing becomes your offer text.",
+                "If nobody responds after a follow-up, change one thing: the buyer or the task."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Then Build, But Only What Is Needed",
+              "bodyHtml": "<p>Once someone has shown interest, build exactly what the next conversation requires and nothing else. Usually that is one sample and a price.</p><p>The site, the brand and the templates can come later, paid for by work you have already done. Almost every freelancer who stalls for months stalled while building things nobody had asked to see.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Before building anything, look for demand you can see and send five direct messages. Watch for detail, logistics questions and complaints about the current solution rather than enthusiasm. Then build only what the next conversation needs — usually one sample and a price.",
+              "nextTeaser": "Next unit: turning that offer into a profile a stranger trusts in ten seconds."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "profile-that-converts",
       "title": "A Profile That Wins Work",
       "description": "Build a profile and portfolio that work with zero client history. Covers proof you can create yourself, the first three lines that decide everything, and samples that read as real work.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "first-three-lines",
+          "title": "The First Three Lines Decide Everything",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most profile advice is about completeness: fill every field, list every skill, upload a good photo. So people write a full page and wonder why nothing happens.</p><p>Almost nobody reads a full page. A buyer with fifteen applications open gives each one a few seconds, and that decision is made in the first three lines — the headline and the opening sentence.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Write for Recognition, Not Admiration",
+              "bodyHtml": "<p>The opening is not where you impress. It is where the reader recognises themselves.</p><p><s>«Detail-oriented professional passionate about leveraging AI to deliver results.»</s></p><p><strong>«If your blog posts never make it to social media, that is the part I take over.»</strong></p><p>The first sentence describes you and could belong to anyone. The second describes their week and could only belong to someone who has seen the problem.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A buyer is not deciding whether you are good. They are deciding whether you understood."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Words That Cost You Attention",
+              "bodyHtml": "<p>Some phrases are so common they now read as noise:</p><ul><li><strong>«Passionate about…»</strong> — every profile says it, so it carries no information</li><li><strong>«Results-driven»</strong> — a claim with nothing behind it</li><li><strong>«I'm new but eager to learn»</strong> — honest, but it asks the buyer to take the risk</li><li><strong>«Any project, big or small»</strong> — reads as «nothing in particular»</li></ul><p>Cutting all four usually shortens a profile by a third and makes it noticeably sharper.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which opening line is most likely to get a reply from a busy buyer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Passionate AI enthusiast with strong attention to detail and deadlines."
+                },
+                {
+                  "id": "b",
+                  "label": "Your product photos are fine — the descriptions under them are losing sales."
+                },
+                {
+                  "id": "c",
+                  "label": "Experienced freelancer offering high quality work at competitive rates."
+                },
+                {
+                  "id": "d",
+                  "label": "I am new to this platform but very motivated to prove myself to clients."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "The line that names something specific about the buyer's situation proves you looked. Everything else on this list describes the writer, and the reader has no reason to care about the writer yet.",
+              "wrongHint": "Think about which line could only have been written by someone who looked at this particular business."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The Shape That Works",
+              "bodyHtml": "<p>Three short paragraphs are enough:</p><ul><li><strong>The problem</strong>, in their words, in one sentence</li><li><strong>What you deliver</strong>, with a quantity and a timeframe</li><li><strong>One piece of proof</strong> — a link, a sample, a specific result</li></ul><p>Then stop. Everything after this point is read only by people who have already decided to consider you, and they are looking for a reason to say yes, not more description.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open your current profile and read only the first three lines out loud.",
+                "Count how many words describe you rather than the buyer's problem.",
+                "Rewrite the opening so the first sentence is about them, not you.",
+                "Delete every phrase from the list above, then read it again."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One Profile per Offer",
+              "bodyHtml": "<p>If you genuinely sell two different things, write two versions and send whichever one fits.</p><p>Trying to cover both in one profile produces the vague opening we started with. A tailored page takes ten minutes to adapt and is the single clearest signal that you read the job post before applying.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Your profile is judged in three lines. Open with the buyer's problem in their own words, follow with what you deliver and by when, then give one piece of proof and stop. Cut every phrase that could appear on anyone else's profile.",
+              "nextTeaser": "Next: the proof you can create today, without a single past client."
+            }
+          ]
+        },
+        {
+          "slug": "proof-you-can-make",
+          "title": "Proof You Can Make Today",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The obvious problem with a first job is that you need experience to get it, and a job to get experience. It looks like a genuine deadlock, and it stops a lot of people for months.</p><p>It is not one. Buyers do not actually require past clients — they require evidence that the work will be good. Those are different things, and only one of them needs someone else's permission.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "What Counts as Evidence",
+              "bodyHtml": "<p>A buyer looking at a sample is asking one question: does this person produce work at the standard I need?</p><p><s>«I don't have client work yet, but I'm confident I can do this.»</s></p><p><strong>«Here are three descriptions I rewrote for a shop like yours — same products, different result.»</strong></p><p>Nobody asks whether the second one was paid. The output answers the question by existing.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody asks whether the sample was paid for. They only ask whether it is good."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Kinds of Proof You Control",
+              "bodyHtml": "<ul><li><strong>The unrequested rework.</strong> Take a real company's page and redo it. Show both versions.</li><li><strong>The self-project.</strong> Something you built for yourself, with the numbers if you have them.</li><li><strong>The teardown.</strong> A short breakdown of what is wrong with something and how you would fix it.</li><li><strong>The process note.</strong> How you actually work, in six lines — this reassures nervous buyers.</li></ul><p>Each takes an afternoon. None requires anyone's permission.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have no clients yet. Which sample is most persuasive to a shop owner?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A certificate from a well-reviewed online course about AI writing."
+                },
+                {
+                  "id": "b",
+                  "label": "Their own product page, rewritten, shown next to the original text."
+                },
+                {
+                  "id": "c",
+                  "label": "A long document explaining your writing process and general approach."
+                },
+                {
+                  "id": "d",
+                  "label": "A list of the AI tools you use, with your experience level in each."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Work done on their own page removes every act of imagination the buyer would otherwise have to perform. It also proves you spent real effort before being paid, which most applicants never do.",
+              "wrongHint": "Think about which option requires the buyer to imagine the least before deciding."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Show the Before",
+              "bodyHtml": "<p>A sample on its own is decoration. A sample next to what it replaced is an argument.</p><p>Put the original and your version side by side, and add one line explaining what changed and why. That line is what turns «nice writing» into «this person knows what they are doing» — and it is the part almost everyone leaves out.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick one real business you would genuinely like to work with.",
+                "Redo one small piece of their work — a page, a post, a workflow.",
+                "Put the before and after side by side with one line explaining the change.",
+                "Save it somewhere you can link to in under five seconds."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Three Is Enough",
+              "bodyHtml": "<p>You do not need a portfolio of twenty pieces. Three strong samples in the same category beat twenty mixed ones, because they show a standard rather than a range.</p><p>Mixed portfolios quietly repeat the mistake from the last unit: they say «I can do anything», and the buyer reads «nothing in particular».</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "You do not need past clients, you need evidence. Rework a real company's page, build something for yourself, or take one thing apart and show how you would fix it — then present it beside what it replaced with a line about what changed. Three focused samples are enough.",
+              "nextTeaser": "Next: how to present those samples so they read as real work rather than practice."
+            }
+          ]
+        },
+        {
+          "slug": "samples-that-read-real",
+          "title": "Samples That Read Like Real Work",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Two people can produce identical work and get completely different responses to it. The difference is almost never quality — it is packaging.</p><p>A sample presented as an exercise gets read as an exercise. The same file presented as a delivery gets read as evidence that you have done this before, because that is what a delivery looks like.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Label It as Work, Not Practice",
+              "bodyHtml": "<p>The framing sentence above a sample does most of the work.</p><p><s>«A practice piece I made while learning, feedback welcome.»</s></p><p><strong>«Rewrite of a live product page — original on the left, new version on the right.»</strong></p><p>Both are honest. Only one of them asks the reader to lower their expectations before they have looked at anything.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Apologising for a sample teaches the reader to judge it gently — and to hire someone else."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What a Buyer Checks in a Sample",
+              "bodyHtml": "<ul><li><strong>Is it in my world?</strong> Same industry, or close enough to imagine.</li><li><strong>Is it finished?</strong> No placeholder text, no half-formatted lists, no broken links.</li><li><strong>Can I see the decision?</strong> One line on why it changed beats three paragraphs of process.</li><li><strong>How fast can I look?</strong> Anything requiring a download loses most readers.</li></ul><p>Three of those four are presentation, not skill — which is good news, because presentation is quick to fix.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Where should a sample live so that the most buyers actually look at it?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A shared document link that opens instantly in the browser window."
+                },
+                {
+                  "id": "b",
+                  "label": "A zip archive attached to the message, ready for them to download."
+                },
+                {
+                  "id": "c",
+                  "label": "A portfolio site that asks for an email address before showing work."
+                },
+                {
+                  "id": "d",
+                  "label": "A design file that opens properly in professional editing software."
+                }
+              ],
+              "correctId": "a",
+              "successTitle": "Correct 🔥",
+              "successBody": "Every extra step between the message and the work removes a share of readers. A link that opens instantly in the browser is read by nearly everyone; anything requiring a download or a sign-up is read by few.",
+              "wrongHint": "Think about how many actions the buyer has to take before they see anything at all."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Match the Sample to the Job",
+              "bodyHtml": "<p>Sending three samples signals «pick one that fits». Sending the single closest one signals «I read your post».</p><p>If nothing you have matches, make the match: spend an hour producing a small piece in their exact category before you reply. That hour is the cheapest advantage available to a beginner, and almost nobody spends it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open each of your samples the way a stranger would, from the link you send.",
+                "Time how long it takes before real work appears on screen.",
+                "Remove any wording that frames the piece as practice or as a test.",
+                "Add one line above each explaining what changed and why it matters."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep It Current",
+              "bodyHtml": "<p>Once real jobs arrive, replace samples with paid work as soon as a client agrees. Ask at delivery, while they are pleased — «may I show this as an example?» is almost always answered yes in that moment.</p><p>Waiting a month to ask turns an easy yes into an awkward request about something they have stopped thinking about.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Package samples as deliveries, not practice: one link that opens instantly, work from the buyer's world, and a single line explaining the decision behind it. Send the closest match rather than a set, and swap in paid work by asking at delivery, while the client is pleased.",
+              "nextTeaser": "Next unit: where the work actually is, and how each platform treats a newcomer."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "freelance-basics",
       "title": "How Freelance Work Flows",
       "description": "Understand the shape of a freelance job from first message to final payment — without prior experience. Covers briefs, deadlines, revisions, and what «professional» actually looks like.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "what-a-job-looks-like",
+          "title": "What a Freelance Job Actually Looks Like",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>People imagine freelancing as a series of creative tasks with money attached. That is roughly ten per cent of it, and it is the part nobody struggles with.</p><p>The rest is a small, repeatable sequence: enquiry, agreement, work, delivery, payment. Knowing the shape of it removes most of the anxiety, because you stop being surprised by steps that were always going to happen.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Five Stages",
+              "bodyHtml": "<ul><li><strong>Enquiry</strong> — someone asks whether you can help; you find out what they actually need</li><li><strong>Agreement</strong> — scope, price, date and revision limit, written down</li><li><strong>Work</strong> — with one visible check-in if it runs longer than a few days</li><li><strong>Delivery</strong> — the files, plus a short note on what to look at</li><li><strong>Payment</strong> — invoiced immediately, chased politely if late</li></ul><p>Every job is this. The differences are in size, not structure.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Most freelance stress comes from skipping stage two and discovering it later."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where Beginners Lose Money",
+              "bodyHtml": "<p>Almost every painful first job traces back to the same shortcut:</p><p><s>«Sounds good, I'll get started and we can figure out the details as we go.»</s></p><p><strong>«Twelve descriptions, delivered Thursday, £180, one round of revisions. Shall I start?»</strong></p><p>The second sentence takes twenty seconds to write and prevents the argument that otherwise arrives in week three.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks you to start today and says you can «sort out the details later». What do you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Start straight away — showing enthusiasm early builds a better relationship."
+                },
+                {
+                  "id": "b",
+                  "label": "Send one short message with scope, price and date, then begin work."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask them to sign a formal contract drafted before any work happens."
+                },
+                {
+                  "id": "d",
+                  "label": "Decline politely, since clients who rush at the start are unreliable."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A three-line message covers you without slowing anything down. A full contract is often too heavy for a small first job, and starting with nothing written is how scope quietly doubles.",
+              "wrongHint": "Think about which option protects the work without adding a delay the client will resent."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Speed Beats Polish at the Start",
+              "bodyHtml": "<p>At the enquiry stage, the freelancer who replies within an hour wins a surprising share of jobs — often against people with better portfolios.</p><p>A buyer with a problem is looking for it to stop being their problem. Being reachable is the first evidence that it will, and it is the one advantage that costs you nothing to have.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the three-line agreement message you will reuse for every job.",
+                "Leave blanks for quantity, price, date and revision limit only.",
+                "Save it where you can paste it from your phone in under ten seconds.",
+                "Use it on the very next enquiry, even a small or informal one."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One Check-In, Not Silence",
+              "bodyHtml": "<p>For anything longer than three days, send one short update halfway through — a sentence and a fragment of the work.</p><p>It costs two minutes and removes the client's quiet worry that nothing is happening. That worry is what turns into anxious messages, unnecessary calls and, eventually, a client who does not come back.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Every job follows the same five stages, and almost every bad experience comes from skipping the agreement. Reply fast, write three lines covering quantity, price, date and revisions, send one check-in on longer work, and invoice the moment you deliver.",
+              "nextTeaser": "Next: how to run the conversation that turns a vague request into a clear brief."
+            }
+          ]
+        },
+        {
+          "slug": "brief-is-safety-net",
+          "title": "The Brief Is Your Safety Net",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Clients rarely know how to brief. They describe the outcome they picture and assume the rest is obvious, because to them it is.</p><p>Filling in the gaps yourself feels helpful and confident. It is also where most disputes begin — you deliver exactly what you understood, and they receive something that was never in their head.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Questions That Prevent Most Problems",
+              "bodyHtml": "<ul><li><strong>Who is this for?</strong> Their customer, described as a person</li><li><strong>What should it make happen?</strong> A sale, a reply, a booking</li><li><strong>What have you tried?</strong> Tells you what they already dislike</li><li><strong>What would make this a no?</strong> The fastest way to hear their real constraints</li></ul><p>Four questions, two minutes, and the answers usually contain the exact phrases you will use in the work.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every assumption you do not check is one you have quietly agreed to pay for."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Ask Before You Guess",
+              "bodyHtml": "<p>Beginners avoid questions because asking feels like admitting you do not know. It reads as the opposite.</p><p><s>«Got it, I'll put something together and you can tell me what you think.»</s></p><p><strong>«Before I start — is this aimed at first-time buyers or people who already know you?»</strong></p><p>The second one is what an experienced person sounds like. It also saves the rewrite that the first one guarantees.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client's brief is one line: «make it more engaging». What is the best response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Deliver a livelier version and let their reaction reveal what they meant."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask which recent piece of theirs felt engaging and what made it work."
+                },
+                {
+                  "id": "c",
+                  "label": "Explain that engagement depends on many factors outside your control."
+                },
+                {
+                  "id": "d",
+                  "label": "Add humour and questions, since that is what usually reads as engaging."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Vague words mean something specific to the person saying them. Asking for an example they already liked converts an adjective into a target you can actually hit, in their own words.",
+              "wrongHint": "Think about which option turns a subjective word into something concrete you can check against."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write It Back to Them",
+              "bodyHtml": "<p>After the questions, send a short summary: what you will produce, for whom, by when, and what success looks like.</p><p>Ask them to confirm. That message is the entire contract for a small job — and if their reply corrects something, you have just avoided a rewrite while it still costs nothing.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Save the four questions somewhere you can paste them into a message.",
+                "Add one question specific to what you sell, in the client's language.",
+                "Practise on a real job post: write the questions you would send today.",
+                "Draft the summary message you would send once they answered."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When They Cannot Answer",
+              "bodyHtml": "<p>Sometimes a client genuinely does not know who their customer is or what success looks like. That is not a bad client — it is a bigger job wearing a small one's clothes.</p><p>Say so plainly and offer a short paid first stage to work it out together. Doing that unpaid, inside a fixed fee, is the most common way a profitable job turns into an unprofitable one.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Clients brief in outcomes and leave the specifics to you. Ask who it is for, what it should make happen, what they have tried and what would make it a no — then write the answers back and ask them to confirm. If they cannot answer, that is a paid first stage, not free thinking.",
+              "nextTeaser": "Next: delivering in a way that makes rehiring you the obvious choice."
+            }
+          ]
+        },
+        {
+          "slug": "delivering-well",
+          "title": "Delivering Like Someone They Will Rehire",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Delivery looks like the end of the job. In practice it is the audition for the next one, and it is decided by things that have nothing to do with the quality of the work.</p><p>Two freelancers can send identical files. One gets «thanks» and silence; the other gets rehired next month. The difference is usually thirty seconds of framing.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Never Send Files Alone",
+              "bodyHtml": "<p>A bare attachment makes the client do the work of understanding what they received.</p><p><s>«Here you go, let me know if you need changes.»</s></p><p><strong>«Twelve descriptions attached. I kept the delivery promise in every one — that was the part missing from the originals. Anything you'd like adjusted, send it by Friday and it's included.»</strong></p><p>The second version tells them what to look at, why you did it, and when the door closes.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Delivery is not the end of the job. It is the audition for the next one."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Lines Worth Sending",
+              "bodyHtml": "<ul><li><strong>What is attached</strong>, in plain counts</li><li><strong>One decision you made</strong> and the reason for it</li><li><strong>What you would do next</strong>, if they wanted more</li><li><strong>The revision window</strong>, stated as a date</li></ul><p>The third line is the one almost nobody writes, and it is the one that turns a single job into repeat work without ever sounding like a pitch.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You deliver on time and the client replies «thanks». What is the strongest follow-up?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Say thank you as well and wait for them to come back with more work."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask whether you can show the piece as an example, and name what is next."
+                },
+                {
+                  "id": "c",
+                  "label": "Send a list of every other service you offer with your full price list."
+                },
+                {
+                  "id": "d",
+                  "label": "Offer a discount on their next order so they have a reason to return."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Asking at delivery, while they are pleased, is when permission is easiest to get — and naming one obvious next step costs nothing. A full price list asks them to make a decision they were not preparing to make.",
+              "wrongHint": "Think about which option uses the moment when the client is most satisfied with you."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Invoice Immediately",
+              "bodyHtml": "<p>Send the invoice with the delivery, not a few days later. Waiting feels polite but it detaches the payment from the moment the client is most pleased with the work.</p><p>Put a due date on it — «payable within 7 days» — because an invoice with no date is treated as no particular hurry, and that is how a two-week wait becomes a two-month one.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your standard delivery message with the four lines above.",
+                "Leave blanks only for the counts, the decision and the revision date.",
+                "Add one line asking permission to use the work as a sample.",
+                "Attach your invoice template to the same message so both go together."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When They Ask for More Than Agreed",
+              "bodyHtml": "<p>Extra requests after delivery are normal and not a sign of a difficult client. They are just testing where the edge is.</p><p>Point at the agreed limit without apology and price the extra: «that's outside the round we agreed — happy to do it for £40, or I can include it in the next batch». Calm and specific keeps the relationship and the fee at the same time.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Never send files alone. Say what is attached, one decision you made, what you would do next and when revisions close — then invoice immediately with a due date. Ask permission to use the work as a sample while the client is still pleased, and price extras calmly instead of absorbing them.",
+              "nextTeaser": "Next unit: where this work is actually bought, and how each platform treats a newcomer."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "where-the-work-is",
       "title": "Where the Work Actually Is",
       "description": "Find the platforms and channels where AI work is bought today. Covers Upwork, Fiverr, Contra and LinkedIn side by side, and which one fits the offer you picked.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "four-places-work-is-bought",
+          "title": "The Four Places AI Work Gets Bought",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>«Find clients» is advice that sounds actionable and is not. Clients are not in one place, and the four places they are in behave completely differently.</p><p>Picking the wrong one wastes months. Not because you are bad at selling, but because you are standing in a room where nobody is buying what you brought.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Bidding Marketplaces",
+              "bodyHtml": "<p>Upwork and similar sites work like a job board where you apply. Buyers post a task, dozens reply, one gets picked.</p><p>What this rewards: fast, specific replies to fresh posts and a narrow profile. What it punishes: generic applications and waiting a day to answer. Expect to send many messages for each job at the start — that ratio improves once you have reviews.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "text",
+              "heading": "Product Marketplaces",
+              "bodyHtml": "<p>Fiverr and its equivalents work the other way round. You publish a fixed offer and buyers come to you.</p><p>This suits a service you can define exactly — «twelve product descriptions, three days». It rewards a sharp title and a clear sample, and it punishes anything that needs a conversation before the price makes sense.</p>"
+            },
+            {
+              "id": "b4",
+              "type": "quote",
+              "text": "On one platform you chase the work. On another the work has to find you. Both are jobs."
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You sell a fixed, well-defined service and hate writing applications. Where should you start?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A bidding marketplace, because that is where the most work is posted."
+                },
+                {
+                  "id": "b",
+                  "label": "A product marketplace, where a fixed offer is listed and buyers come."
+                },
+                {
+                  "id": "c",
+                  "label": "A professional network, posting about your work to build an audience."
+                },
+                {
+                  "id": "d",
+                  "label": "Direct outreach, contacting local businesses one at a time by email."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A fixed, repeatable service is exactly what a product marketplace is built to sell. The other three channels all need you to write something new for every opportunity, which is the part you would avoid.",
+              "wrongHint": "Match the channel to the shape of your offer and to the work you will actually keep doing."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Professional Networks",
+              "bodyHtml": "<p>LinkedIn and similar places are slower and pay better. Nobody is browsing for a freelancer; they notice you over weeks and contact you when something breaks.</p><p>This rewards showing work in public and being visibly specific. It punishes impatience — the first month usually produces nothing, and most people quit inside that window.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "text",
+              "heading": "Direct Outreach",
+              "bodyHtml": "<p>The fourth channel is contacting businesses yourself. It has no competition, no fees and no algorithm, and it is the only one that works on day one.</p><p>It also has the lowest reply rate, so it only pays when the message is specific enough to be obviously about them. That is the subject of the next unit.</p>"
+            },
+            {
+              "id": "b8",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write down which of the four channels matches the offer you defined earlier.",
+                "Spend twenty minutes on it looking for live demand for your exact service.",
+                "Note how many relevant listings or targets you found in that time.",
+                "If you found fewer than five, try a second channel before writing anything."
+              ]
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "There are four channels and they reward different things: bidding sites reward speed and narrowness, product marketplaces reward a fixed offer, professional networks reward patience and visibility, direct outreach rewards specificity. Match the channel to your offer instead of trying all four badly.",
+              "nextTeaser": "Next: what these platforms actually do to someone with no reviews yet."
+            }
+          ]
+        },
+        {
+          "slug": "how-platforms-treat-newcomers",
+          "title": "How Platforms Treat a Newcomer",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every platform tells newcomers the same thing: complete your profile and start applying. Then nothing happens, and people conclude the market is saturated.</p><p>The market is fine. What is happening is that these systems are built to reduce risk for buyers, and a new account is unproven risk. Knowing exactly how that works changes what you do in the first month.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The First-Review Problem",
+              "bodyHtml": "<p>Ranking is driven by completed jobs and ratings. With none of either, you are shown last — so the first job is much harder than the tenth, and it is not a fair test of your ability.</p><p>The practical response is to treat job one as a cost of entry: smaller, quicker, priced to be an easy yes. Not free, and not underpriced forever — just small enough that a stranger risks it.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The first job is not a fair test of your work. It is a test of how little risk you ask for."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Actually Moves the Needle",
+              "bodyHtml": "<ul><li><strong>Speed.</strong> Replying within the first hour beats a better application sent tomorrow.</li><li><strong>Fit.</strong> Ten targeted applications outperform fifty copied ones, and cost less time.</li><li><strong>Completion.</strong> Two finished small jobs unlock more than one large unfinished one.</li><li><strong>Communication scores.</strong> Answering quickly is measured on most platforms.</li></ul><p>None of these require experience. All of them are available on your first day.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have no reviews. A small £60 job and a £900 project are both open. Which do you pursue?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The larger project, because one good job is worth more than several small."
+                },
+                {
+                  "id": "b",
+                  "label": "The smaller job, because a completed review makes the next one reachable."
+                },
+                {
+                  "id": "c",
+                  "label": "Both at once, so that whichever answers first becomes your starting point."
+                },
+                {
+                  "id": "d",
+                  "label": "Neither yet — build a stronger profile first, then apply to larger work."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "With no history, a buyer offering £900 has many safer options than you. A completed small job produces the review that makes the larger ones realistic, usually within a few weeks rather than months.",
+              "wrongHint": "Think about which choice changes your position on the platform rather than just your bank balance."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Fees Are Not the Enemy",
+              "bodyHtml": "<p>Platform fees look painful — a fifth of your first jobs can disappear. Beginners often try to move clients off-platform to avoid them, which risks the account that produced the client.</p><p>Think of the fee as paid distribution. You are buying access to buyers who already trust the payment system, which is the thing you cannot provide yourself yet.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find the smallest job on your chosen platform that matches your offer exactly.",
+                "Write an application that names something specific from their post in line one.",
+                "Send it within the hour, and note the time you sent it.",
+                "Repeat daily for a week and count replies rather than jobs won."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "What Changes After Three Reviews",
+              "bodyHtml": "<p>The shift is sharper than people expect. Around the third completed job, buyers start contacting you instead of the other way round, and your ranking stops burying you.</p><p>That is the real goal of month one — not income. Three small completed jobs are worth more than one lucky large one, because they change the system's opinion of you.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Platforms rank by completed work, so a new account is shown last. Answer fast, apply narrowly, and take the smallest job that fits until you have around three reviews — that is when buyers begin approaching you. Treat fees as paid distribution rather than a loss.",
+              "nextTeaser": "Next: choosing one channel and working it properly instead of spreading yourself thin."
+            }
+          ]
+        },
+        {
+          "slug": "pick-one-channel",
+          "title": "Pick One Channel and Work It",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Faced with four channels, the instinct is to try all of them. It feels thorough and it is the most common way people spend three months producing nothing.</p><p>Each channel has a warm-up cost — profile, samples, learning what gets answered. Split across four, none of them ever gets past the cold start, and each looks like it failed.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One Channel, Four Weeks",
+              "bodyHtml": "<p>Give a single channel four weeks of consistent effort before judging it.</p><p><s>«I tried Upwork, Fiverr and LinkedIn, none of them worked.»</s></p><p><strong>«I sent fifteen targeted applications a week on one site for a month, tracked replies, and changed the opening line twice.»</strong></p><p>Only the second one produced information you can act on.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Four channels tried for a week each teaches you nothing at all."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Measure Replies, Not Jobs",
+              "bodyHtml": "<p>Jobs won is a bad early metric — the numbers are too small to learn from. Reply rate is the one that tells you what to fix:</p><ul><li><strong>No replies at all</strong> — the opening line or the channel is wrong</li><li><strong>Replies but no jobs</strong> — price, samples or the follow-up is wrong</li><li><strong>Jobs but no repeat work</strong> — delivery is fine, the ending is weak</li></ul><p>Each symptom points at one thing to change, which is a much smaller problem than «it is not working».</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Three weeks in: people reply, ask questions, then go quiet after your price. What should you change?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The channel, since these buyers are clearly not able to pay properly."
+                },
+                {
+                  "id": "b",
+                  "label": "How the price is presented — its scope, its packaging and what is included."
+                },
+                {
+                  "id": "c",
+                  "label": "The opening line of your message, so that more people reply to you."
+                },
+                {
+                  "id": "d",
+                  "label": "Your samples, because the work is evidently not impressing them enough."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Replies prove the opening works and the samples were good enough to start a conversation. Losing people at the price means the number arrived without enough shape around it — scope, deliverables and a date.",
+              "wrongHint": "Look at which stage the conversation actually stops, and change only that stage."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "A Number You Can Hit",
+              "bodyHtml": "<p>Set a weekly action target rather than an outcome target. Fifteen targeted applications, or twenty direct messages, or three public posts plus ten comments.</p><p>Outcomes are not under your control and produce guilt. Actions are, and hitting the number for four weeks is what generates the data you need to make the next decision.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Choose one channel and write the weekly number you will hit.",
+                "Put it in your calendar as a repeating block, not a to-do item.",
+                "Track two columns only: messages sent and replies received.",
+                "Review after four weeks and change exactly one thing based on the pattern."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When to Actually Switch",
+              "bodyHtml": "<p>Switch channels when you have hit your weekly number for four weeks and the reply rate stayed near zero after two changes to the opening.</p><p>That is a real signal. Quitting in week two because it felt discouraging is not — and telling those two situations apart is most of what separates people who get there from people who conclude the market is full.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Trying four channels at once means none of them warms up. Pick one, set a weekly action number you control, and track replies rather than jobs — the stage where conversations stop tells you the single thing to fix. Switch only after four consistent weeks and two real changes.",
+              "nextTeaser": "Next unit: the outreach message that actually gets answered."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ai-foundations",
       "title": "Getting Real Output From AI",
       "description": "Stop getting generic answers and start getting usable drafts. Covers context, constraints, iteration, and the difference between asking and briefing.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "why-first-prompt-disappoints",
+          "title": "Why Your First Prompt Disappoints",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people try an AI tool, get a flat and generic answer, and quietly decide it is overrated. It feels like a fair conclusion — you asked a clear question and got something that reads like a brochure.</p><p>But the problem is almost never the model. The first prompt is a guess, and the answer you got is an accurate response to that guess. Vague input does not produce a vague answer. It produces a confident wrong one.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "You Are Briefing, Not Asking",
+              "bodyHtml": "<p>Think about handing a task to a freelancer. You would not write «make me a logo» and walk away.</p><p><s>«Write a post about productivity.»</s></p><p><strong>«Write a short post for freelancers who lose focus after lunch. One practical idea, no motivational language, under 120 words.»</strong></p><p>The second is not longer for the sake of it. Every extra phrase removes a decision the tool would otherwise have made badly.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The words you leave out are the words it has to invent."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Things Every Prompt Needs",
+              "bodyHtml": "<ul><li><strong>Who it is for</strong> — «shop owners selling handmade jewellery», not «customers»</li><li><strong>What it should achieve</strong> — «one idea they can use today», not «be engaging»</li><li><strong>What to avoid</strong> — «no exclamation marks, under 120 words»</li></ul><p>Miss one and the answer drifts. Include all three and the first draft is usually close enough to edit rather than rewrite.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your first answer comes back generic and bland. What is the most useful next step?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Try a different AI tool, since this one clearly handles writing poorly."
+                },
+                {
+                  "id": "b",
+                  "label": "Name what is wrong with the answer and add it as an instruction."
+                },
+                {
+                  "id": "c",
+                  "label": "Find a long prompt template online and paste it in place of yours."
+                },
+                {
+                  "id": "d",
+                  "label": "Send the same request again and hope the second attempt is better."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A weak first answer is a list of missing instructions. Naming what is wrong — too formal, too long, wrong example — and adding it is faster than switching tools or hunting for templates.",
+              "wrongHint": "Think about which option uses the information the bad answer just gave you."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Why This Matters for Paid Work",
+              "bodyHtml": "<p>A client is not paying for access to a tool. They are paying because you get usable output on the first or second attempt while they would spend an afternoon on it.</p><p>That gap is your entire margin. It comes from knowing what to specify, not from knowing a secret phrase — and it is the reason a clear brief is a professional skill rather than a trick.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a prompt you used recently and check it for the three elements above.",
+                "Add whatever is missing and run it again without changing anything else.",
+                "Compare the two answers side by side and note which phrase caused the change.",
+                "Save the improved version — it is the first entry in your own prompt library."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "A Test Before You Send",
+              "bodyHtml": "<p>Read your prompt and ask: could a competent stranger do this task with only these words?</p><p>If the answer is no, the model cannot either. This one question catches most weak prompts before you waste a round on them, and it costs about five seconds.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A disappointing answer is usually a well-executed vague request. Say who it is for, what it should achieve and what to avoid, then treat the first result as a draft you correct rather than a verdict on the tool. Your value to a client is the speed of that loop.",
+              "nextTeaser": "Next: giving the model a role and real constraints, so the output stops sounding like everyone else's."
+            }
+          ]
+        },
+        {
+          "slug": "role-and-constraints",
+          "title": "Give It a Role and Real Constraints",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Once your prompts contain the basics, the next complaint is different: the answers are correct but forgettable. Everything sounds like it came from the same polite, careful stranger.</p><p>That happens because you asked for a task without saying who is performing it. Given no role, the model picks the safest average one — and average is exactly what nobody pays for.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "A Role Is Not a Costume",
+              "bodyHtml": "<p>«Act as a world-class expert» does almost nothing, because it describes status rather than behaviour.</p><p><s>«You are an expert copywriter with 20 years of experience.»</s></p><p><strong>«Write like someone who has run this shop for ten years: plain words, no adjectives, mentions the delivery time in every description.»</strong></p><p>The second one is instructions disguised as a role. That is what actually changes the output.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A role only helps when it tells the model what to do differently."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Constraints That Do Real Work",
+              "bodyHtml": "<ul><li><strong>Length</strong> — «under 60 words» beats «keep it short»</li><li><strong>Banned words</strong> — «never use: unlock, elevate, seamless, journey»</li><li><strong>Structure</strong> — «one sentence of problem, three bullets, one closing line»</li><li><strong>Reference</strong> — «match the tone of the example below»</li></ul><p>The last one is the strongest. One real example teaches more about voice than a paragraph of adjectives ever will.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client says the drafts «don't sound like us». What fixes this fastest?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask the model to write in a warmer, friendlier and more human tone."
+                },
+                {
+                  "id": "b",
+                  "label": "Paste two pieces they wrote and ask it to match that exact voice."
+                },
+                {
+                  "id": "c",
+                  "label": "Tell it to act as a senior brand strategist with deep experience."
+                },
+                {
+                  "id": "d",
+                  "label": "Rewrite each sentence yourself until the text finally feels right."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Voice is easier to show than to describe. Two real examples give the model something concrete to match, while adjectives like warmer or more human mean different things to every reader.",
+              "wrongHint": "Think about which option gives the model information it does not already have."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Build the Brief Once",
+              "bodyHtml": "<p>For a repeat client, write the role and constraints once and reuse them at the top of every request: their voice rules, their banned words, their format, one strong example.</p><p>This is the quiet reason experienced freelancers are faster. Not better prompts in the moment — a standing brief they stopped rewriting weeks ago.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a company you would like to work with and find two things they published.",
+                "Write a six-line brief: who is speaking, length, structure, banned words.",
+                "Run the same task with and without that brief attached.",
+                "Keep the brief in a file — it becomes a deliverable clients will pay for on its own."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Know When to Stop Steering",
+              "bodyHtml": "<p>Constraints have a limit. Past a point, adding rules makes output stiff and repetitive, because you have removed every choice the model had.</p><p>If a draft has become mechanical, cut the newest three rules rather than adding a fourth. The goal is a narrow lane, not a locked cage.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Vague roles change nothing; roles that describe behaviour change everything. Add length, banned words, structure and — most powerfully — a real example to match. Write the brief once per client and reuse it, and remove rules when the output turns stiff.",
+              "nextTeaser": "Next: why the second prompt, not the first, is where the usable work appears."
+            }
+          ]
+        },
+        {
+          "slug": "second-prompt-is-real",
+          "title": "The Second Prompt Is the Real One",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>There is a belief that skilled users write one perfect prompt and receive finished work. It is comforting, because it suggests the skill is a phrase you could look up.</p><p>What actually happens is closer to editing. The first answer is information about your instructions; the second is where the work appears. People who expect this get results faster than people hunting for the perfect opening line.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Read the Draft as a Diagnosis",
+              "bodyHtml": "<p>Every flaw in the output points at a missing instruction.</p><p><s>«This isn't right, try again.»</s></p><p><strong>«Too formal, and the example is from retail — my reader runs a café. Rewrite with a café example and shorter sentences.»</strong></p><p>The first sends the model looking randomly. The second turns your reaction into a specification, which is the whole job.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Two rounds of correction beat any perfect prompt copied from the internet."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "A Loop That Ends",
+              "bodyHtml": "<ul><li><strong>Round one</strong> — brief, read, name the three biggest problems</li><li><strong>Round two</strong> — fix those three, nothing else</li><li><strong>Round three</strong> — polish by hand, because the last ten per cent is faster to do yourself</li></ul><p>If you are on round six, the brief was wrong rather than the answer. Stop and rewrite the brief instead of nudging the same draft again.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You are on the fifth attempt and the draft is still not usable. What is the right move?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Keep going — one more attempt is usually the one that finally works."
+                },
+                {
+                  "id": "b",
+                  "label": "Start again with a rewritten brief that includes what you have learnt."
+                },
+                {
+                  "id": "c",
+                  "label": "Accept the closest version and spend the evening rewriting it yourself."
+                },
+                {
+                  "id": "d",
+                  "label": "Switch to a different model and paste the same conversation into it."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Five failed attempts is not bad luck, it is evidence the brief is missing something. Restarting with what those attempts taught you is faster than pushing a conversation that has already drifted.",
+              "wrongHint": "Think about what five similar failures are telling you about the instructions rather than the output."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where the Client Money Is",
+              "bodyHtml": "<p>A client could run round one themselves. What they cannot do reliably is judge the draft — notice that the example is wrong for their audience, that the opening buries the point, that the tone will read as pushy.</p><p>You are being paid for that judgement. The tool produces text; you decide what is wrong with it. Nothing in this business is closer to the actual value you sell.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any draft you generated recently and list exactly three things wrong with it.",
+                "Write each as an instruction rather than a complaint.",
+                "Run one more round with only those three changes.",
+                "Note how long the whole loop took — that number is what you are selling."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Corrections",
+              "bodyHtml": "<p>The corrections you make repeatedly are your standing brief in disguise. If you have written «shorter sentences» three times, it belongs at the top of every prompt from now on.</p><p>Within a month this turns into a document that makes round one usable — and that document is genuinely worth more than any prompt collection you could buy.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Nobody gets finished work from a first prompt. Read the draft as a diagnosis, turn each reaction into an instruction, and keep the loop to two rounds plus a manual polish. When five attempts fail, rewrite the brief. The judgement in that loop is what a client is paying for.",
+              "nextTeaser": "Next unit: how a freelance job actually flows, from first message to final payment."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "ai-copywriting",
@@ -386,19 +1696,805 @@
       "slug": "pricing-and-offers",
       "title": "What to Charge",
       "description": "Set a price you can say out loud without flinching. Covers hourly versus fixed, packaging, deposits, and what to do when someone says it's too expensive.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "number-without-flinching",
+          "title": "The Number You Can Say Without Flinching",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Pricing feels like a maths problem, so people look for a formula. Then they find one, apply it, and still feel sick typing the number into a message.</p><p>That reaction is the actual signal. A price you cannot say calmly gets negotiated down, because your hesitation arrives in the message before the figure does.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Start From the Job, Not the Hour",
+              "bodyHtml": "<p>Beginners usually price by guessing an hourly rate and multiplying. The result is a number that describes your speed rather than the work.</p><p><s>«About six hours at £20, so £120.»</s></p><p><strong>«£180 for twelve descriptions, delivered Thursday, one revision round included.»</strong></p><p>The second one is judged against what the descriptions are worth, not against how quickly you happen to work.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A price you flinch at is a price you will be talked out of."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Checks Before You Send",
+              "bodyHtml": "<ul><li><strong>The calm test.</strong> Could you say this figure out loud without adding «but I'm flexible»?</li><li><strong>The floor test.</strong> Would you be annoyed to accept it if the job ran twice as long?</li><li><strong>The market test.</strong> Is it within range of what similar work is publicly listed at?</li></ul><p>Fail the first and raise it. Fail the second and either raise it or shrink the scope. Fail the third and check what the others include that you do not.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have quoted £180. The client goes quiet for two days, then asks «is that flexible?»",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Offer £140 straight away so the conversation does not stall any further."
+                },
+                {
+                  "id": "b",
+                  "label": "Hold the price and offer a smaller version of the job at a lower fee."
+                },
+                {
+                  "id": "c",
+                  "label": "Explain in detail how many hours the work takes to justify the figure."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask what budget they had in mind and then agree to match that number."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Dropping the price for the same work teaches the client that your figures are opening positions. Reducing the scope keeps the rate intact and still gives them a real yes to say.",
+              "wrongHint": "Think about what each answer teaches the client about how your prices work in future."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Never Price in the Reply",
+              "bodyHtml": "<p>When someone asks «how much?», the temptation is to answer immediately so you seem responsive. That is how low numbers get typed.</p><p>Answer within the hour, but answer with the scope first: what is included, by when, and then the figure. Ten minutes of shaping is what separates a price from a guess you will regret.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the price for your standard offer as a single figure with a scope.",
+                "Say it out loud and notice whether you want to soften it.",
+                "If you do, raise it by twenty per cent and say it again.",
+                "Write the smaller version of the same job, at a lower fee, as your fallback."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Raise It on the Sixth Client",
+              "bodyHtml": "<p>Do not wait to feel ready — you will not. Use a rule instead: after every fifth completed job, raise the price for new clients by a step.</p><p>Existing clients keep the old rate until a natural moment. New enquiries meet the new number. Nobody argues, because they have nothing to compare it to.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Price the job, not your hours, and test the number by saying it out loud — hesitation is what invites negotiation. When asked to be flexible, cut the scope rather than the rate, always lead with what is included before the figure, and raise your price every fifth completed job.",
+              "nextTeaser": "Next: why fixed packages close faster than custom quotes."
+            }
+          ]
+        },
+        {
+          "slug": "packages-beat-quotes",
+          "title": "Why Packages Close Faster Than Quotes",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Custom quotes feel professional. Each job is different, so each price should be worked out from scratch — that is what a serious person does.</p><p>It also means every enquiry costs you an hour of thinking, and every client waits a day for a number. Meanwhile the freelancer with a published package answered in ten minutes and is already starting.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "What a Package Removes",
+              "bodyHtml": "<p>A package is the same job, written down once, with a fixed shape.</p><p><s>«Depends on the scope — send me the details and I'll get back to you.»</s></p><p><strong>«Starter batch: 12 descriptions, 3 working days, one revision round, £180.»</strong></p><p>The second removes three separate delays: your thinking time, their waiting time, and the follow-up conversation that decides what «scope» meant.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every question your price does not answer becomes a day of waiting."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two Options, Never Five",
+              "bodyHtml": "<ul><li><strong>The entry package</strong> — small, fast, easy to approve alone</li><li><strong>The monthly version</strong> — the same work, repeated, at a better rate per unit</li></ul><p>Two is a choice a person makes in a minute. Five is a comparison exercise, and comparison exercises get postponed — usually forever. If you must add a third, make it obviously larger so it makes the middle one look sensible.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client's job is slightly bigger than your standard package. What is the cleanest response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Quote it fully from scratch, since this particular job does not fit."
+                },
+                {
+                  "id": "b",
+                  "label": "Offer the package plus a named add-on, priced as a separate small line."
+                },
+                {
+                  "id": "c",
+                  "label": "Include the extra work at no charge to win a first job with them."
+                },
+                {
+                  "id": "d",
+                  "label": "Suggest the monthly option instead, which covers everything they need."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "An add-on keeps the package intact and makes the extra work visible as a decision rather than a favour. Quoting from scratch throws away the speed advantage, and absorbing it teaches the client that scope is elastic.",
+              "wrongHint": "Think about which answer keeps your standard offer usable for the next client too."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write What Is Not Included",
+              "bodyHtml": "<p>The most useful line in a package is the exclusion. «Does not include product photography» or «text only, no publishing» prevents the most common disagreement.</p><p>It reads as confidence rather than meanness, because it shows you have done this before and know exactly where the edges are.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your entry package: quantity, timeframe, revisions, price.",
+                "Write the monthly version underneath in a single line.",
+                "Add one line saying what is not included.",
+                "Save both somewhere you can paste them into a reply in seconds."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Publish It Where People Look",
+              "bodyHtml": "<p>A package kept in a private document only saves you time. The same package on your profile does the selling while you sleep.</p><p>It also filters: people who cannot afford it stop contacting you, and the ones who do arrive already agreeing with the number. That single change removes most price conversations entirely.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Custom quotes cost you a day on every enquiry. Write one entry package and one monthly version, state what is not included, and handle bigger jobs with a named add-on rather than a fresh quote. Publish it where buyers look, so the price does the filtering before the conversation starts.",
+              "nextTeaser": "Next: what to actually say when someone tells you it is too expensive."
+            }
+          ]
+        },
+        {
+          "slug": "too-expensive",
+          "title": "When They Say It's Too Expensive",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>«That's more than we wanted to spend» arrives in almost every freelance career, usually early, and it feels like a judgement on your work.</p><p>It is rarely that. Most of the time it means the value is not visible yet, or the amount is genuinely outside a budget that was decided before you appeared. Those two situations need completely different answers.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Find Out Which One It Is",
+              "bodyHtml": "<p>One question separates them, and it costs nothing to ask.</p><p><s>«I can do it for less if that helps.»</s></p><p><strong>«Is it above the budget you had set, or is it that the scope looks bigger than you need?»</strong></p><p>The first answer discounts before knowing anything. The second one gets you the information that decides what to do next.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Discounting before you understand the objection solves a problem the client may not have had."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Honest Responses",
+              "bodyHtml": "<ul><li><strong>Reduce the scope.</strong> Same rate, smaller job: «six descriptions instead of twelve, £95».</li><li><strong>Split it in stages.</strong> Same total, spread out: a first batch now, the rest next month.</li><li><strong>Say no warmly.</strong> «That's below what I can do this properly for — if the budget changes, I'd be glad to.»</li></ul><p>All three keep your rate intact. Note that none of them is «lower the price for the same work», which is the only response that damages every future quote.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client loves your work but has half your fee available. What keeps the relationship and the rate?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Do the full job at half price this once, to get the relationship started."
+                },
+                {
+                  "id": "b",
+                  "label": "Offer half the deliverables now, with the rest available whenever they want."
+                },
+                {
+                  "id": "c",
+                  "label": "Explain how much time the work takes so the fee looks more reasonable."
+                },
+                {
+                  "id": "d",
+                  "label": "Suggest they come back later, once they have a larger budget available."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Halving the deliverables keeps your rate honest and still gives them something real to buy today. Halving the price for identical work sets the number they will expect every time afterwards.",
+              "wrongHint": "Look for the answer where the client pays less because they receive less."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Say the Number Once",
+              "bodyHtml": "<p>After stating a price, resist explaining it. Long justifications read as apology, and apology invites negotiation.</p><p>«£180 covers twelve descriptions and one revision round» is a complete sentence. Then stop. Silence after a price is uncomfortable for about four seconds and is one of the most useful habits in this business.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your reply to «that's too expensive» before you ever need it.",
+                "Include the clarifying question and your reduced-scope option.",
+                "Write the warm no as well, so declining does not require improvising.",
+                "Read all three aloud until they sound ordinary rather than tense."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Some Clients Are Not Yours",
+              "bodyHtml": "<p>A person who wants your work at a third of the price is not a client you have failed to convince. They are a client for someone else at this moment.</p><p>Letting them go politely leaves the door open, and it protects the hours you would otherwise spend resenting an underpriced job. Freelancers who last are the ones who learned to say that warmly and early.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "«Too expensive» usually means invisible value or a fixed budget, and one question tells you which. Respond by cutting scope, splitting into stages, or declining warmly — never by charging less for the same work. State the price once, then stop explaining.",
+              "nextTeaser": "Next unit: turning an interested enquiry into an agreed job."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "finding-clients",
       "title": "Finding Clients on Repeat",
       "description": "Replace hoping with a routine that produces conversations every week. Covers where to look, what to send, and how many attempts a real result takes.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "why-applying-feels-like-shouting",
+          "title": "Why Applying Feels Like Shouting",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>You write a careful application, send it, and nothing comes back. Do that fifteen times and it starts to feel like the messages are not arriving at all.</p><p>They are arriving. They are landing next to twenty others that open the same way, describe the same qualities and ask for the same chance — and the buyer is skimming, not reading.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "What the Buyer's Screen Looks Like",
+              "bodyHtml": "<p>Picture forty applications, each showing the first two lines. Almost all of them start with some version of «Hi, I saw your post and I would love to help».</p><p>At that point the buyer is not evaluating quality. They are looking for a reason to open one — anything that proves the sender read the specific post rather than sent the same paragraph to everybody.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "You are not competing on skill in the first two lines. You are competing on evidence that you read."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Openings That Fail",
+              "bodyHtml": "<ul><li><strong>«I hope this message finds you well»</strong> — five words of nothing at the top</li><li><strong>«I am the perfect fit for this role»</strong> — a claim before any evidence</li><li><strong>«With 3 years of experience in…»</strong> — starts with you, not them</li><li><strong>«Please check my portfolio»</strong> — hands work back to the busiest person</li></ul><p>Removing all four leaves a short message that has to say something real — which is the point.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which opening line is most likely to get an application opened and read?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Hello, I have read your project description and I would love to help."
+                },
+                {
+                  "id": "b",
+                  "label": "Your booking page asks for a phone number before it shows any prices."
+                },
+                {
+                  "id": "c",
+                  "label": "I am an experienced specialist in exactly the field you described here."
+                },
+                {
+                  "id": "d",
+                  "label": "I noticed your post today and believe my skills match your requirements."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Only one of these could not have been sent to anyone else. Naming something specific about their business proves you looked before writing, which is the exact thing the buyer is scanning for.",
+              "wrongHint": "Ask which line would still make sense if it were pasted into a completely different application."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Volume Without Aim Makes It Worse",
+              "bodyHtml": "<p>The usual response to silence is to send more. Fifty copied applications produce roughly the same result as five, and use up a week.</p><p>Ten messages that each name something real about the business will out-perform fifty generic ones — and take about the same total time, because the research is quick once you know what you are looking for.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open the last application you sent and delete every sentence about yourself.",
+                "Look at what is left — most people find one sentence or none.",
+                "Now spend three minutes on the client's site and write one observation.",
+                "Put that observation first and rebuild the message around it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Silence Is Not a Verdict",
+              "bodyHtml": "<p>Most non-replies are not rejections. Posts get filled internally, budgets vanish, buyers disappear for two weeks — none of which is about your message.</p><p>This matters because the alternative story, that you are not good enough, stops people at exactly the point where a follow-up would have worked. Treat silence as no information rather than as an answer.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Applications fail in the first two lines, where every sender looks identical. Cut the polite opener and the claims about yourself, lead with one specific observation about their business, and send ten researched messages rather than fifty copies. Silence usually means nothing at all.",
+              "nextTeaser": "Next: the exact shape of a message that gets answered."
+            }
+          ]
+        },
+        {
+          "slug": "message-that-gets-answered",
+          "title": "The Message That Gets Answered",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A good outreach message is shorter than most people expect and does less than they think it should. It is not trying to win the job — only to start a conversation.</p><p>Once you accept that, the writing becomes much easier, because you no longer have to fit your whole case into a paragraph a stranger will skim in four seconds.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Sentences, in Order",
+              "bodyHtml": "<ul><li><strong>The observation.</strong> One specific thing about their business.</li><li><strong>The offer.</strong> What you would do, with a quantity.</li><li><strong>The proof.</strong> One link, described in six words.</li><li><strong>The question.</strong> One easy question, answerable in a word.</li></ul><p>That is the whole message. Anything else you add is competing with those four for attention, and losing.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "End with a question that takes one word to answer, not a decision that takes a meeting."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Ending Most People Get Wrong",
+              "bodyHtml": "<p>The last line decides whether a reply is easy or effortful.</p><p><s>«Let me know if you would like to discuss this further and we can arrange a call.»</s></p><p><strong>«Are the descriptions something you write yourself at the moment?»</strong></p><p>The first asks for a meeting. The second asks for a word — and a reply of any kind is a conversation you did not have a minute ago.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which closing line is most likely to get a reply from a busy business owner?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Would you be free for a short call this week to discuss the details?"
+                },
+                {
+                  "id": "b",
+                  "label": "Is this something you currently handle in-house, or does someone help?"
+                },
+                {
+                  "id": "c",
+                  "label": "Let me know if you are interested and I will send over my full rates."
+                },
+                {
+                  "id": "d",
+                  "label": "I have attached my portfolio and would be glad to hear your thoughts."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "A question about their current situation costs the reader nothing and can be answered in a word. Everything else asks them to schedule something, evaluate something, or make a decision they were not preparing to make.",
+              "wrongHint": "Compare how much effort each line demands from someone with forty unread messages."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Attach the Work, Not the Promise",
+              "bodyHtml": "<p>The strongest version of this message includes something you already made for them — one rewritten paragraph, one screenshot, one fixed line.</p><p>It converts the whole message from a request into a demonstration. It costs you fifteen minutes, which is why almost nobody does it, which is exactly why it works.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick one business and write the four sentences in order.",
+                "Read it and delete anything that is not one of the four.",
+                "Make one small piece of work for them and attach it.",
+                "Send it, then write the follow-up you will send in four days."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The Follow-Up Does the Work",
+              "bodyHtml": "<p>Most replies arrive after the second message, not the first. Send one follow-up after three or four days: two lines, no guilt, one new piece of information.</p><p>«Adding one more example in case it is useful» is enough. One follow-up per person is the standard — a third message stops being persistence and starts being noise.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Four sentences: an observation, an offer with a quantity, one link, one easy question. Attach something you already made for them rather than promising what you could do. Send one follow-up after a few days, because that is where most replies actually come from.",
+              "nextTeaser": "Next: turning this into a weekly routine that keeps producing conversations."
+            }
+          ]
+        },
+        {
+          "slug": "weekly-routine",
+          "title": "A Routine That Keeps Producing Work",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Almost every freelancer discovers the same cycle. No work, so you send messages; work arrives, so you stop sending; the job ends, and you are back at nothing with no conversations running.</p><p>This is the feast-and-famine pattern, and it is not caused by a bad market. It is caused by outreach being something you do when worried rather than something that happens every week.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Why Stopping Is So Expensive",
+              "bodyHtml": "<p>There is a delay between a message and money — usually two to six weeks. So the empty month you experience in March was caused by the silence in February, when you were busy.</p><p>Ten minutes of outreach on a busy day is worth more than a frantic week on an empty one, because it lands in the gap you cannot see yet.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The quiet month you are having now was created by the busy month when you stopped writing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "A Week That Fits Around the Work",
+              "bodyHtml": "<ul><li><strong>Monday, 30 minutes.</strong> Find five targets and write five messages.</li><li><strong>Thursday, 15 minutes.</strong> Follow up with last week's five.</li><li><strong>Friday, 10 minutes.</strong> Update the tracker and note what got replies.</li></ul><p>Under an hour a week, kept up whether you are busy or not. That single habit is the difference between a pipeline and a panic.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have just landed a project that fills the next three weeks. What happens to outreach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Pause it until delivery, then restart with full attention afterwards."
+                },
+                {
+                  "id": "b",
+                  "label": "Keep the weekly slot, sending fewer messages but never sending none."
+                },
+                {
+                  "id": "c",
+                  "label": "Increase it now, while the confidence from winning work is still high."
+                },
+                {
+                  "id": "d",
+                  "label": "Replace it with time spent improving your portfolio and your profile."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Because replies arrive weeks later, the messages you send while busy are what fill the month after this project ends. Pausing entirely is exactly what creates the empty period that follows every good one.",
+              "wrongHint": "Think about when the results of this week's messages will actually arrive."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Track Three Columns",
+              "bodyHtml": "<p>A spreadsheet with who, when, and what happened is enough. No software, no system.</p><p>It does two things: it stops you contacting the same person twice, and it turns a discouraging month into readable data. «Twenty sent, three replies, one job» is a number you can improve. «It is not working» is not.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Put the three time blocks in your calendar as repeating events.",
+                "Create a sheet with four columns: name, date sent, follow-up, outcome.",
+                "Do this week's Monday block now, even if you are currently busy.",
+                "Set a reminder to review the sheet at the end of the month."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Warm Beats Cold, Always",
+              "bodyHtml": "<p>Before writing to strangers, go through people who already know you: past colleagues, former employers, anyone whose business you have used.</p><p>A message to someone who recognises your name has a reply rate several times higher than cold outreach. Most first jobs come from this list, and most people skip it because it feels less like real prospecting.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Feast and famine comes from doing outreach only when worried. Because replies lag by weeks, the fix is a small fixed slot — five messages on Monday, follow-ups on Thursday, ten minutes of tracking on Friday — kept up while you are busy. Start with people who already know your name.",
+              "nextTeaser": "Next unit: setting a price you can say out loud without flinching."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "winning-the-brief",
       "title": "Winning the Brief",
       "description": "Turn an enquiry into an agreed job. Covers proposals, first calls, questions that build trust, and the follow-up most freelancers skip.",
-      "lessons": []
+      "lessons": [
+        {
+          "slug": "proposal-nobody-reads",
+          "title": "The Proposal Nobody Reads",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>When an enquiry turns serious, the instinct is to write something substantial — background, approach, timeline, credentials. It feels proportionate to the opportunity.</p><p>Then it goes unanswered, and the job goes to someone who sent five lines. Length signals effort to the writer and reads as work to the reader, and only one of those two opinions decides anything.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "What the Decision Actually Needs",
+              "bodyHtml": "<p>A buyer approving a small job is checking four things, in this order:</p><ul><li><strong>Did they understand what I need?</strong></li><li><strong>What exactly will I receive, and when?</strong></li><li><strong>How much?</strong></li><li><strong>What happens if it is not right?</strong></li></ul><p>Four answers, four lines. Everything else in a long proposal is answering questions nobody asked.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A long proposal reads as work to write and as work to read."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Restate the Problem First",
+              "bodyHtml": "<p>Open by describing their situation in your own words before offering anything.</p><p><s>«Thank you for your enquiry. Please find my proposal below.»</s></p><p><strong>«As I understand it: the descriptions were written for the old catalogue and none of them mention delivery times, which is the question you keep getting by email.»</strong></p><p>That single sentence does more than three paragraphs about your experience, because it proves comprehension rather than claiming it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks for a proposal for a small, clearly defined job. What do you send?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A short document covering your background, approach, timeline and rates."
+                },
+                {
+                  "id": "b",
+                  "label": "Five lines: their problem restated, deliverables, date, price, revisions."
+                },
+                {
+                  "id": "c",
+                  "label": "A detailed plan showing each phase of the work broken into stages."
+                },
+                {
+                  "id": "d",
+                  "label": "A message asking to arrange a call before anything is written down."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "For a small job, five lines contain everything the decision needs and can be approved on a phone. A document requires a sitting, and a call requires a calendar — both add days to a yes that was available today.",
+              "wrongHint": "Match the weight of the response to the size of the decision being made."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Make Saying Yes One Click",
+              "bodyHtml": "<p>End with the smallest possible next action: «If that works, reply yes and I'll start Monday.»</p><p>No forms, no calls, no attachments to sign for a first small job. Every extra step between agreement and starting is a place where enthusiasm cools and other priorities arrive.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your five-line proposal template with blanks for the specifics.",
+                "Make line one their problem, in their words, not your services.",
+                "End with a yes that takes one reply to give.",
+                "Test it by reading it as someone with four minutes and forty emails."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When Longer Is Right",
+              "bodyHtml": "<p>Larger work, several stakeholders, or anything above a few thousand does need a document — because it will be forwarded and read without you there.</p><p>Even then, put the four answers on page one and the detail behind them. The person deciding reads the first half page; the rest exists to survive being passed around.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A proposal only needs to answer four questions: did you understand, what will I get and when, how much, and what if it is wrong. Open by restating their problem in your own words, keep small jobs to five lines, and end with a yes that takes one reply.",
+              "nextTeaser": "Next: getting through the first call without nerves doing the talking."
+            }
+          ]
+        },
+        {
+          "slug": "first-call",
+          "title": "The First Call, Without Nerves",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The first client call is where most beginners feel exposed. You are worried about being asked something you cannot answer, so you prepare to defend your ability.</p><p>The call is almost never about that. It is a compatibility check — the client is finding out whether working with you will be easy. Preparing for an exam is preparing for the wrong event.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask More Than You Answer",
+              "bodyHtml": "<p>The person who asks the questions is read as the professional in the room.</p><p><s>«So, a bit about me — I've been working with AI tools for about a year…»</s></p><p><strong>«Before I talk about how I'd approach it — what made you decide to sort this out now rather than six months ago?»</strong></p><p>The second one also gets you the reason behind the job, which is what you will build the whole proposal around.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The person asking the questions is the one being read as the professional."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions Worth Having Ready",
+              "bodyHtml": "<ul><li><strong>«What made this urgent now?»</strong> — the real reason behind the job</li><li><strong>«What have you already tried?»</strong> — what to avoid repeating</li><li><strong>«Who else needs to be happy with this?»</strong> — the hidden decision-maker</li><li><strong>«What would make this a success in a month?»</strong> — the actual standard</li></ul><p>Keep them on screen. Nobody has ever been marked down for referring to notes on a first call.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "On the call the client asks something you genuinely do not know. What is the best answer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Give your best guess confidently, since hesitation would look unprofessional."
+                },
+                {
+                  "id": "b",
+                  "label": "Say you will check properly and send the answer with the proposal today."
+                },
+                {
+                  "id": "c",
+                  "label": "Redirect the conversation to an area where you are more comfortable."
+                },
+                {
+                  "id": "d",
+                  "label": "Admit you are new to this and explain that you are still learning it."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "«I'll check and come back to you today» is what experienced people say, and it creates a natural reason to follow up. Guessing risks an answer you have to walk back once the work has started.",
+              "wrongHint": "Think about which reply protects both your credibility and the accuracy of the work."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Never Price on the Call",
+              "bodyHtml": "<p>The number said aloud under pressure is almost always lower than the one you would write down calmly an hour later.</p><p>Say instead: «Based on what you've described, I'll send a figure and scope this afternoon.» Nobody objects to that, and it moves the decision to writing, where the scope sits next to the price.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Put the four questions in a note you can keep open during a call.",
+                "Add one sentence you will use when you do not know something.",
+                "Write your close: what you will send, and by when.",
+                "Practise the whole thing once out loud — it takes four minutes."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Close by Naming the Next Step",
+              "bodyHtml": "<p>End every call by saying exactly what happens next and who does it: «I'll send scope and price by six today; if it works, reply and I start Monday.»</p><p>Calls that end with «great, I'll be in touch» are the ones that go quiet. Not because the client lost interest, but because nothing was scheduled to happen next.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A first call is a compatibility check, not an exam. Ask more than you answer, keep four questions on screen, say «I'll check and come back today» when you do not know, and never give a number under pressure. Close by naming exactly what happens next and when.",
+              "nextTeaser": "Next: turning agreement into a started job without applying pressure."
+            }
+          ]
+        },
+        {
+          "slug": "closing-without-pressure",
+          "title": "Closing Without Pressure",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Closing has a bad reputation because most people have only seen the pushy version — urgency, discounts that expire, following up until someone gives in.</p><p>For freelance work none of that is necessary or useful. Deals mostly stall for boring reasons: nobody said what happens next, or the yes required more effort than the client had spare.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Remove Steps, Do Not Add Pressure",
+              "bodyHtml": "<p>Look at what you are asking a person to do to say yes.</p><p><s>«Let me know if you'd like to proceed and we can arrange next steps.»</s></p><p><strong>«If that works, reply «yes» and I'll start Monday — invoice comes with delivery.»</strong></p><p>The first asks them to work out the process. The second removes every decision except the one that matters.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Most deals do not fail. They stall because nobody named what happens next."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Why Things Go Quiet",
+              "bodyHtml": "<ul><li><strong>Someone else has to approve it</strong> — ask early who that is</li><li><strong>The scope moved in their head</strong> — restate it in writing</li><li><strong>Money timing</strong> — offer a start date next month rather than a discount</li><li><strong>It stopped being urgent</strong> — the only one where letting go is right</li></ul><p>Three of the four are solved by a question, not by persistence.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Two weeks of silence after a proposal they seemed happy with. What is the best follow-up?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A discount valid this week only, to give them a reason to decide now."
+                },
+                {
+                  "id": "b",
+                  "label": "Two lines asking whether it is still on their list, with no pressure at all."
+                },
+                {
+                  "id": "c",
+                  "label": "A longer message explaining again why the work would be valuable now."
+                },
+                {
+                  "id": "d",
+                  "label": "Nothing further — chasing would only make you look desperate for work."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A short, easy question gets an honest answer, and an honest no is more useful than silence. A discount rewrites the value of your work, and a longer argument repeats what they already read.",
+              "wrongHint": "Think about which option gives you real information without changing what your work is worth."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask for the Boring Details",
+              "bodyHtml": "<p>A reliable close is to move straight to logistics: «Which day suits you for delivery — Thursday or the following Monday?»</p><p>You are not pressing for a decision, you are assuming the ordinary version of it. If they are not ready, the question surfaces the actual blocker, which is exactly what you wanted anyway.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Rewrite your closing line so it names one action and one date.",
+                "Write the two-line follow-up you will send after a week of silence.",
+                "Add a question that surfaces the real blocker without sounding like chasing.",
+                "Decide your rule: two follow-ups, then move on."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Let Go Cleanly",
+              "bodyHtml": "<p>After two follow-ups, stop and say so kindly: «I'll leave this with you — if it comes back around, just message me.»</p><p>This closes the loop without burning anything. A surprising share of these return months later, and they return to the person who was easy about it rather than the one who kept chasing.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Deals stall for practical reasons, not because you failed to persuade. Remove steps instead of adding pressure, close by naming one action and one date, and follow up twice with short, easy questions. Then let go warmly — that is what makes people come back.",
+              "nextTeaser": "Next unit: putting the agreement in writing so scope stays where you left it."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "contracts-and-scope",
