@@ -1,0 +1,428 @@
+{
+  "slug": "ai-freelance-plan",
+  "title": "From Zero to Your First Paid AI Project",
+  "description": "A personal plan that takes you from «I know some AI tools» to money in your account. Built from your answers: what you want to sell, how much time you have, and what is stopping you right now.",
+  "kind": "plan",
+  "shelf": null,
+  "sortOrder": 0,
+  "modules": [
+    {
+      "slug": "how-ai-freelancing-works",
+      "title": "How AI Freelancing Actually Works",
+      "description": "See how AI work is really bought and sold — without the hype or the six-figure screenshots. Covers what clients pay for, what they ignore, and the shortest honest path to a first paid task.",
+      "lessons": [
+        {
+          "slug": "why-skills-dont-sell",
+          "title": "Why Your AI Skills Aren't Getting You Paid",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people approach this in the same order: learn the tools first, then look for work. It sounds sensible. You would not apply for a driving job without knowing how to drive.</p><p>But the people getting paid right now are rarely the ones who know the most tools. They are the ones who can name a job a business already wants done, and say they will do it. The skill is the easy half. The hard half is the sentence you send.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Clients Don't Buy Tools",
+              "bodyHtml": "<p>A business owner does not wake up wanting AI. They wake up with a newsletter that has not gone out for three weeks.</p><p>Compare two replies to the same job post:</p><p><s>«I'm an AI specialist skilled in ChatGPT, Claude and Midjourney.»</s></p><p><strong>«I'll write your weekly newsletter in your voice and hand it over ready to send.»</strong></p><p>The first one asks the buyer to imagine what you might do. The second one describes their Tuesday without the problem in it.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody pays for access to a tool they could open themselves."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Gap Nobody Warns You About",
+              "bodyHtml": "<p>Here is where most beginners actually stall, and none of it is about skill:</p><ul><li>No named service — «I can do anything with AI» reads as «I have done nothing yet»</li><li>No proof — nothing a stranger can look at in ten seconds</li><li>No price — every conversation stops at «it depends»</li><li>No routine — five applications in a burst, then nothing for two weeks</li></ul><p>Each of these is a sentence you have not written yet. That is genuinely all. Nothing here requires another course.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A business owner posts: «Need help with our weekly newsletter.» Which first reply is strongest?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "I'm an AI specialist with experience in ChatGPT, Claude and Gemini."
+                },
+                {
+                  "id": "b",
+                  "label": "I'll write your weekly newsletter in your voice, ready to publish."
+                },
+                {
+                  "id": "c",
+                  "label": "I use advanced prompt engineering to produce content very fast."
+                },
+                {
+                  "id": "d",
+                  "label": "I've completed several courses on AI writing and content design."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "The buyer has a job to hand over, not a tool to learn. Naming the finished thing — a newsletter in their voice, ready to send — is what makes a reply feel like relief instead of homework.",
+              "wrongHint": "Think about what the person on the other side wants to stop doing themselves this week."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What a Buyer Checks First",
+              "bodyHtml": "<p>When someone reads your message, they are answering three questions in about eight seconds:</p><ul><li><strong>Did they understand my problem?</strong> Your first line should sound like their job post, not your CV.</li><li><strong>Have they done this before?</strong> One relevant example beats a list of ten unrelated ones.</li><li><strong>Will this be easy?</strong> A clear next step — a price, a timeline, one question — removes the work of deciding.</li></ul><p>Notice that none of the three asks which model you used.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open any freelance platform and read five job posts in a field that interests you.",
+                "Copy the exact words buyers use for the outcome they want — not the tools they name.",
+                "Write one sentence that offers that outcome, with no tool mentioned at all.",
+                "Read it out loud. If it sounds like a description of you rather than of their week, rewrite it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The Shortest Honest Path",
+              "bodyHtml": "<p>You do not need to be the best AI operator available. You need to be the person who removes one specific job from someone's week, reliably, for a price they can approve without a meeting.</p><p>That is a much smaller target than it first appears. And it is reachable in weeks, not years, because the bar is not talent — it is clarity.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "People are not buying AI skills; they are buying a task leaving their list. Skill gets you ready, but a named service, visible proof, a stated price and a weekly routine are what get you paid. Every one of those is a sentence you can write today.",
+              "nextTeaser": "Next: why charging for hours quietly caps what you can earn — and what to sell instead."
+            }
+          ]
+        },
+        {
+          "slug": "outcomes-not-hours",
+          "title": "Why Charging for Hours Holds You Back",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Hourly rates feel like the fair way to start. You are new, you do not want to overcharge, and time is something both sides understand.</p><p>But there is a trap inside it. AI makes you faster every month — and an hourly rate turns that speed into a pay cut. Finish in one hour what used to take four, and you have just charged yourself a quarter of the fee for the same result.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Same Job, Two Ways",
+              "bodyHtml": "<p>A client needs twelve product descriptions. Look at the difference in what you are actually selling:</p><p><s>«£20 per hour, roughly six hours.»</s></p><p><strong>«£180 for twelve product descriptions, delivered Thursday, one round of revisions included.»</strong></p><p>The first invites a negotiation about your speed. The second invites a decision about a result. Only one of them gets faster to answer as you get better.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Price the result, and speed becomes your profit instead of your penalty."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What a Fixed Price Needs",
+              "bodyHtml": "<p>A price is only safe when the shape of the job is decided. Three things do that:</p><ul><li><strong>A number.</strong> Twelve descriptions. Four posts. One landing page. Not «content support».</li><li><strong>A date.</strong> Thursday. Not «soon» — vagueness costs you the weekend.</li><li><strong>A limit.</strong> One round of revisions included, further rounds charged. This single line prevents most unpaid work.</li></ul><p>Miss one and the job expands quietly until the fee stops making sense.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You've quoted a fixed price. The client asks for a fifth round of edits. What's the professional move?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Do them quietly — arguing over edits will only damage the relationship."
+                },
+                {
+                  "id": "b",
+                  "label": "Point to the agreed limit and quote a small fee for the extra round."
+                },
+                {
+                  "id": "c",
+                  "label": "Explain that AI-assisted work cannot really be revised that many times."
+                },
+                {
+                  "id": "d",
+                  "label": "Switch this client to an hourly rate so the extra time gets covered."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "The limit you agreed is what makes a fixed price work for both sides. Naming it calmly and offering the extra round as a small paid add-on keeps the job profitable without turning it into a conflict.",
+              "wrongHint": "Think about which answer protects both the relationship and the fee at the same time."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Packaging Beats Guessing",
+              "bodyHtml": "<p>Once you have priced the same job three times, stop quoting from scratch. Write it down as a package with a name, a scope and a number.</p><p>Two effects follow immediately. Buyers decide faster, because there is nothing to work out. And you stop under-pricing on tired days, because the number is no longer a judgement call you make in the moment.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick one job you could deliver this week and write it as: quantity, deadline, revision limit.",
+                "Put a number on it — the one you would accept without hesitating, not the lowest you would tolerate.",
+                "Read the package back and ask whether a stranger could approve it without a call.",
+                "If they could not, the scope is still too vague — add the missing number or date."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When Hourly Still Makes Sense",
+              "bodyHtml": "<p>There is one honest exception: work whose shape genuinely cannot be known in advance. Ongoing support, exploratory research, sitting inside someone else's messy process.</p><p>For that, bill by time — but cap it. «Up to eight hours a month, reviewed together before we go over» keeps the openness without handing the client an unlimited claim on your week.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Hourly billing punishes the speed AI gives you. Price the result instead, and make the result safe to price with three details: a quantity, a date and a revision limit. Keep time-based billing only for work whose shape genuinely cannot be known, and cap it.",
+              "nextTeaser": "Next: the one-week route to a first paid task, starting from nothing."
+            }
+          ]
+        },
+        {
+          "slug": "first-paid-task",
+          "title": "Your First Paid Task in One Week",
+          "durationMin": 6,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The advice you usually get is to build a portfolio, then a website, then a brand, and eventually approach clients. It sounds responsible. It is also why most people are still preparing a year later.</p><p>There is a shorter route, and it is not a shortcut in the bad sense. It works because a first paid task teaches you more in three days than three months of preparing for one.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Start From the Task, Not the Career",
+              "bodyHtml": "<p>A first job does not need to fit your long-term plan. It needs to be small, describable and finishable.</p><p><s>«I'm building an AI content agency.»</s></p><p><strong>«I'll turn your ten blog posts into ten LinkedIn posts by Friday for £120.»</strong></p><p>The second one can be accepted by a real person today. The first one cannot be accepted at all — there is nothing in it to say yes to.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A career is built out of finished jobs, not out of plans for them."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Week, Day by Day",
+              "bodyHtml": "<ul><li><strong>Days 1–2.</strong> Choose one task you can already do well. Write it as quantity, deadline, price.</li><li><strong>Day 3.</strong> Make one sample of it — for a real company you admire, unpaid, unasked. This is your proof.</li><li><strong>Days 4–6.</strong> Send fifteen messages: platform posts, past colleagues, local businesses. Same offer, same sample.</li><li><strong>Day 7.</strong> Follow up with everyone who did not reply. Most first jobs come from the follow-up.</li></ul>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You've sent fifteen messages and received two polite refusals and no other replies. What does that mean?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The offer is wrong and should be rebuilt from scratch before sending more."
+                },
+                {
+                  "id": "b",
+                  "label": "This is a normal week — follow up, then send the next fifteen messages."
+                },
+                {
+                  "id": "c",
+                  "label": "The market is saturated and this kind of work is no longer worth selling."
+                },
+                {
+                  "id": "d",
+                  "label": "You need a finished website and brand before anyone will take you seriously."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Fifteen messages is a small sample, not a verdict. Replies usually arrive after a follow-up, and the second batch tends to be better written than the first — which is exactly how the offer gets sharper.",
+              "wrongHint": "Think about how many attempts it takes before you have enough information to judge anything."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Why the Sample Does the Selling",
+              "bodyHtml": "<p>An unrequested sample answers the only question that matters — can this person actually do the thing — before anyone has to trust you.</p><p>It also changes the tone of your message. You are no longer asking for a chance; you are showing something you already made and offering more of it. That difference is felt immediately by the person reading.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Name the task you could deliver this week, in one sentence a stranger would understand.",
+                "Pick one real company and make a small sample of that work for them today.",
+                "Write the message you'd attach it to — three sentences, no CV, one clear price.",
+                "Send it to five people before you allow yourself to edit it again."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "What Counts as Done",
+              "bodyHtml": "<p>The goal of this week is not a good income. It is one transaction: someone paid you, you delivered, both sides were fine with it.</p><p>That single event changes what you can say next. You stop describing what you could do and start describing what you have done — and every message after it is easier to write.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "The fastest route to a first paid task is a small, describable job, one unrequested sample and fifteen honest messages with a follow-up. Preparation feels safer, but a completed transaction teaches more and changes how you are able to describe yourself.",
+              "nextTeaser": "Next unit: choosing the one offer worth repeating, so the second job is easier than the first."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pick-your-offer",
+      "title": "Pick One Offer You Can Sell",
+      "description": "Turn scattered skills into one clear service you can describe in a sentence. Covers choosing a niche task, sizing it, and testing demand before you build anything.",
+      "lessons": []
+    },
+    {
+      "slug": "profile-that-converts",
+      "title": "A Profile That Wins Work",
+      "description": "Build a profile and portfolio that work with zero client history. Covers proof you can create yourself, the first three lines that decide everything, and samples that read as real work.",
+      "lessons": []
+    },
+    {
+      "slug": "freelance-basics",
+      "title": "How Freelance Work Flows",
+      "description": "Understand the shape of a freelance job from first message to final payment — without prior experience. Covers briefs, deadlines, revisions, and what «professional» actually looks like.",
+      "lessons": []
+    },
+    {
+      "slug": "where-the-work-is",
+      "title": "Where the Work Actually Is",
+      "description": "Find the platforms and channels where AI work is bought today. Covers Upwork, Fiverr, Contra and LinkedIn side by side, and which one fits the offer you picked.",
+      "lessons": []
+    },
+    {
+      "slug": "ai-foundations",
+      "title": "Getting Real Output From AI",
+      "description": "Stop getting generic answers and start getting usable drafts. Covers context, constraints, iteration, and the difference between asking and briefing.",
+      "lessons": []
+    },
+    {
+      "slug": "ai-copywriting",
+      "title": "Writing People Pay For",
+      "description": "Sell writing that keeps a client's voice instead of sounding like everyone else. Covers briefs, structure, editing AI drafts, and what buyers check first.",
+      "lessons": []
+    },
+    {
+      "slug": "content-systems",
+      "title": "Content Systems That Scale",
+      "description": "Build a repeatable content process you can sell as a monthly service. Covers calendars, repurposing, and handing over work a client can review quickly.",
+      "lessons": []
+    },
+    {
+      "slug": "ai-visuals",
+      "title": "Visuals With AI",
+      "description": "Produce images that look intentional instead of generated. Covers style consistency, revisions, and delivering files a client can actually use.",
+      "lessons": []
+    },
+    {
+      "slug": "brand-kit",
+      "title": "Brand Kits As a Service",
+      "description": "Package visual identity work into a fixed-price product. Covers what goes in a kit, how to present it, and how to keep revisions from eating the fee.",
+      "lessons": []
+    },
+    {
+      "slug": "no-code-automation",
+      "title": "Automation Without Code",
+      "description": "Sell time back to a business by connecting the tools it already pays for. Covers mapping a manual process, building it, and proving the hours saved.",
+      "lessons": []
+    },
+    {
+      "slug": "ai-agents-as-a-service",
+      "title": "AI Assistants As a Service",
+      "description": "Build a working assistant for one specific job a client does every week. Covers scoping, guardrails, handover, and pricing something that keeps running.",
+      "lessons": []
+    },
+    {
+      "slug": "data-with-ai",
+      "title": "Data Work With AI",
+      "description": "Turn messy spreadsheets into answers a business can act on. Covers cleaning, summarising, and checking AI output before it reaches a client.",
+      "lessons": []
+    },
+    {
+      "slug": "reports-that-sell",
+      "title": "Reports Clients Act On",
+      "description": "Deliver findings people read instead of file away. Covers structure, one-chart-one-point, and the recommendation that turns a report into more work.",
+      "lessons": []
+    },
+    {
+      "slug": "ai-video",
+      "title": "Video With AI",
+      "description": "Produce short video without a camera or an editing background. Covers script, assembly, captions, and delivering formats each platform accepts.",
+      "lessons": []
+    },
+    {
+      "slug": "short-form-systems",
+      "title": "Short-Form Systems",
+      "description": "Run short-form content as a repeatable service rather than one-off posts. Covers hooks, batching, and reporting what actually moved.",
+      "lessons": []
+    },
+    {
+      "slug": "ai-assistant-work",
+      "title": "AI-Powered Virtual Assistance",
+      "description": "Do assistant work in half the time using AI, and charge for the outcome. Covers the tasks worth automating and the ones you should never hand over.",
+      "lessons": []
+    },
+    {
+      "slug": "inbox-and-ops",
+      "title": "Inbox and Operations",
+      "description": "Take over the small recurring work that drains a business owner's week. Covers inbox triage, scheduling, documentation, and staying invisible in a good way.",
+      "lessons": []
+    },
+    {
+      "slug": "positioning-and-rates",
+      "title": "Positioning and Rates",
+      "description": "Move from «cheap and available» to «obvious choice» for one kind of buyer. Covers narrowing, wording, and raising rates without losing the client.",
+      "lessons": []
+    },
+    {
+      "slug": "pricing-and-offers",
+      "title": "What to Charge",
+      "description": "Set a price you can say out loud without flinching. Covers hourly versus fixed, packaging, deposits, and what to do when someone says it's too expensive.",
+      "lessons": []
+    },
+    {
+      "slug": "finding-clients",
+      "title": "Finding Clients on Repeat",
+      "description": "Replace hoping with a routine that produces conversations every week. Covers where to look, what to send, and how many attempts a real result takes.",
+      "lessons": []
+    },
+    {
+      "slug": "winning-the-brief",
+      "title": "Winning the Brief",
+      "description": "Turn an enquiry into an agreed job. Covers proposals, first calls, questions that build trust, and the follow-up most freelancers skip.",
+      "lessons": []
+    },
+    {
+      "slug": "contracts-and-scope",
+      "title": "Contracts and Scope",
+      "description": "Protect the work with a simple written agreement. Covers scope, revisions, deadlines missed by the client, and how to end a job that has gone wrong.",
+      "lessons": []
+    },
+    {
+      "slug": "client-data-and-ai",
+      "title": "Client Data and AI",
+      "description": "Handle other people's information without creating a problem. Covers what may go into a model, NDAs, disclosure, and the questions clients now ask.",
+      "lessons": []
+    },
+    {
+      "slug": "getting-paid",
+      "title": "Getting Paid",
+      "description": "Make money arrive on time from anywhere. Covers invoices, deposits, payment services, chasing late payers, and keeping records you can hand to an accountant.",
+      "lessons": []
+    },
+    {
+      "slug": "repeat-work",
+      "title": "Turning One Project Into Income",
+      "description": "Convert a finished job into ongoing work. Covers retainers, productised services, check-in cadence, and asking for the referral at the right moment.",
+      "lessons": []
+    }
+  ]
+}

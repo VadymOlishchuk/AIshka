@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/* Дизайн-токени. Значення зняті з живого продукту й задокументовані
+   в «Дизайн і контент LMS» (Частина 1). Два свідомі відхилення від
+   виміряного оригіналу позначені коментарем «виправлення». */
+@theme {
+  --color-accent: #a172ff; /* головна дія, прогрес, активний стан */
+  --color-accent-tint: #f8f5ff; /* підкладка вибраного варіанта */
+  --color-ink: #2e3234; /* дія всередині уроку */
+  --color-ink-strong: #161a1b; /* заголовки */
+  --color-ink-body: #464a4d; /* текст уроку */
+  --color-ink-muted: #7b8188; /* метадані, підписи */
+  --color-canvas: #f6f7f9; /* фон сторінки */
+  --color-surface: #ffffff; /* картки, панелі, шапка */
+  --color-line: #dfe1e5; /* межі й порожній трек прогресу */
+
+  --color-success: #4caf7d;
+  --color-success-tint: #eaf7ef;
+  --color-error: #e08a7d;
+  --color-error-tint: #fbeae7;
+  --color-pair-b: #e8a33c; /* друга складена пара в AI Task */
+
+  --radius-l: 16px; /* кнопки, великі картки, панелі */
+  --radius-m: 10px; /* картки курсів, варіанти квізу */
+  --radius-s: 8px;
+
+  --container-reading: 668px; /* колонка тексту в плеєрі уроку */
+  --container-action: 408px; /* приклеєна кнопка уроку */
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink-strong);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* виправлення: в оригіналі 1.3 — надто щільно для довгого читання */
+.lesson-prose {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--color-ink-body);
+  text-align: left; /* виправлення: в оригіналі місцями justify — «річки» в тексті */
+}
+
+.lesson-prose h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-ink-strong);
+  margin-bottom: 12px;
+  text-wrap: balance;
+}
+
+.lesson-prose p {
+  margin-bottom: 14px;
+}
+
+.lesson-prose ul,
+.lesson-prose ol {
+  margin: 0 0 14px 20px;
+  list-style: disc;
+}
+
+.lesson-prose ol {
+  list-style: decimal;
+}
+
+.lesson-prose li {
+  margin-bottom: 6px;
+}
+
+.lesson-prose strong {
+  font-weight: 700;
+  color: var(--color-ink-strong);
+}
+
+.lesson-prose s {
+  color: var(--color-ink-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

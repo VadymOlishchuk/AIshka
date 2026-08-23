@@ -1,0 +1,236 @@
+// Схема даних AIshka.
+// Рішення зафіксовані в «Плані збірки LMS», розділ 05.
+// Головне, що легко пропустити й дорого виправляти:
+//   1. Progress прив'язаний до трійки (user, lesson, course), а не до уроку глобально.
+//   2. Refresh-токени зберігаються хешами, з ланцюжком ротації (familyId).
+//   3. Порядок модулів і уроків унікальний — без дірок і без дублів.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─────────────────────────────── Люди ───────────────────────────────
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  passwordHash String
+  firstName    String
+  locale       String    @default("en")
+
+  // Керує маршрутом після входу: слаг наступного кроку онбордингу або 'completed'
+  onboardingStep String  @default("goal")
+  onboardingDone Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  sessions       Session[]
+  passwordTokens PasswordToken[]
+  answers        OnboardingAnswer[]
+  enrollments    Enrollment[]
+  progress       Progress[]
+  ratings        LessonRating[]
+  subscription   Subscription?
+}
+
+model Session {
+  id           String    @id @default(cuid())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash    String    @unique // sha256 від refresh-токена, не сам токен
+  familyId     String // ланцюжок ротації: викрита крадіжка вбиває всю родину
+  userAgent    String?
+  ip           String?
+  expiresAt    DateTime
+  revokedAt    DateTime?
+  replacedById String?
+  createdAt    DateTime  @default(now())
+
+  @@index([userId])
+  @@index([familyId])
+}
+
+model PasswordToken {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String    @unique
+  purpose   String // 'reset' | 'set'
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
+}
+
+// ────────────────────────── Онбординг і план ──────────────────────────
+
+model OnboardingAnswer {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  stepSlug  String
+  value     Json // рядок для single, масив рядків для multi
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, stepSlug])
+}
+
+model Enrollment {
+  id       String @id @default(cuid())
+  userId   String
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courseId String
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  // Персональний набір і порядок юнітів, зібраний правилами з відповідей
+  moduleOrder String[]
+  answers     Json // знімок відповідей на момент призначення
+  isPrimary   Boolean  @default(false) // активний персональний план на Home
+  createdAt   DateTime @default(now())
+
+  @@unique([userId, courseId])
+  @@index([userId])
+}
+
+// ─────────────────────────────── Контент ───────────────────────────────
+
+enum CourseKind {
+  plan
+  tool
+  challenge
+  mini
+}
+
+model Course {
+  id          String     @id @default(cuid())
+  slug        String     @unique
+  title       String
+  description String // обов'язковий: він продає курс у каталозі
+  coverUrl    String? // null → генерована обкладинка зі слага, а не бита картинка
+  kind        CourseKind
+  shelf       String? // динамічна полиця вітрини, а не окрема сутність
+  sortOrder   Int
+  isPublished Boolean    @default(false)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  modules     Module[]
+  enrollments Enrollment[]
+  progress    Progress[]
+}
+
+model Module {
+  id          String  @id @default(cuid())
+  courseId    String
+  course      Course  @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  slug        String
+  title       String
+  description String
+  coverUrl    String?
+  sortOrder   Int
+
+  lessons Lesson[]
+
+  @@unique([courseId, slug])
+  @@unique([courseId, sortOrder])
+}
+
+model Lesson {
+  id          String  @id @default(cuid())
+  moduleId    String
+  module      Module  @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  slug        String  @unique
+  title       String
+  durationMin Int // > 0, перевіряється гейтом публікації
+  sortOrder   Int
+  blocks      Json // Block[] — union-тип, див. src/core/content/blocks.ts
+  isPublished Boolean @default(false)
+
+  progress Progress[]
+  ratings  LessonRating[]
+
+  @@unique([moduleId, sortOrder])
+}
+
+// ─────────────────────────────── Прогрес ───────────────────────────────
+
+model Progress {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  courseId    String // критично: той самий урок у різних курсах — різні досягнення
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  completedAt DateTime @default(now())
+
+  @@unique([userId, lessonId, courseId])
+  @@index([userId, courseId])
+}
+
+model LessonRating {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId  String
+  lesson    Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  stars     Int
+  comment   String?
+  createdAt DateTime @default(now())
+
+  @@unique([userId, lessonId])
+}
+
+// ──────────────────── Оплата: готово до етапу 3, поки не вмикається ────────────────────
+
+enum SubStatus {
+  trialing
+  active
+  past_due
+  canceled
+}
+
+model Subscription {
+  id                String    @id @default(cuid())
+  userId            String    @unique
+  user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  stripeCustomerId  String    @unique
+  stripeSubId       String    @unique
+  planCode          String
+  status            SubStatus
+  priceCents        Int
+  currency          String
+  intervalDays      Int
+  trialEndsAt       DateTime?
+  currentPeriodEnd  DateTime
+  cancelAtPeriodEnd Boolean   @default(false)
+  canceledAt        DateTime?
+  cancelReason      String?
+
+  @@index([status, currentPeriodEnd])
+}
+
+model WebhookEvent {
+  id          String   @id // event.id зі Stripe — гарантія ідемпотентності
+  type        String
+  processedAt DateTime @default(now())
+}
+
+// ─────────────────────── Обмеження частоти ───────────────────────
+// Лічильники в тій самій БД: працює між інстансами, не потребує Redis.
+// Redis з'явиться тоді, коли впреться продуктивність, а не «про всяк випадок».
+
+model RateLimit {
+  key          String    @id
+  count        Int       @default(0)
+  resetAt      DateTime
+  blockedUntil DateTime?
+}

@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: aishka-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: aishka
+      POSTGRES_PASSWORD: aishka
+      POSTGRES_DB: aishka
+    ports:
+      - "5433:5432"
+    volumes:
+      - aishka-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aishka"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  aishka-pgdata:

@@ -1,0 +1,90 @@
+{
+  "title": "Build your AI freelance plan",
+  "steps": [
+    {
+      "slug": "goal",
+      "type": "single",
+      "title": "What would make the biggest difference right now?",
+      "subtitle": "This sets the shape of your plan.",
+      "autoAdvance": true,
+      "options": [
+        { "id": "first_income", "label": "Land my first paid project", "icon": "🎯" },
+        { "id": "more_clients", "label": "Get clients more steadily", "icon": "📈" },
+        { "id": "raise_rates", "label": "Charge more for what I already do", "icon": "💵" },
+        { "id": "go_full_time", "label": "Move into AI services full-time", "icon": "🚀" }
+      ],
+      "next": "experience"
+    },
+    {
+      "slug": "experience",
+      "type": "single",
+      "title": "How much freelance experience do you have?",
+      "subtitle": "There's no wrong answer here — most people start at zero.",
+      "autoAdvance": true,
+      "options": [
+        { "id": "none", "label": "None yet" },
+        { "id": "under_1", "label": "Less than a year" },
+        { "id": "one_to_three", "label": "1–3 years" },
+        { "id": "three_plus", "label": "3+ years" }
+      ],
+      "next": "field"
+    },
+    {
+      "slug": "field",
+      "type": "multi",
+      "title": "Which kind of work do you want to sell?",
+      "subtitle": "Pick everything that appeals — you can change this later.",
+      "autoAdvance": false,
+      "cta": "Continue",
+      "options": [
+        { "id": "writing", "label": "Writing & content", "icon": "✍️" },
+        { "id": "visual", "label": "Design & visuals", "icon": "🎨" },
+        { "id": "automation", "label": "Automation & workflows", "icon": "⚙️" },
+        { "id": "data", "label": "Data & reporting", "icon": "📊" },
+        { "id": "video", "label": "Video & audio", "icon": "🎬" },
+        { "id": "admin", "label": "Virtual assistance", "icon": "🗂️" }
+      ],
+      "next": "ai_usage"
+    },
+    {
+      "slug": "ai_usage",
+      "type": "single",
+      "title": "How often do you use AI tools today?",
+      "autoAdvance": true,
+      "options": [
+        { "id": "daily", "label": "Most days" },
+        { "id": "sometimes", "label": "Now and then" },
+        { "id": "tried", "label": "Tried it, didn't stick" },
+        { "id": "never", "label": "Never used it" }
+      ],
+      "next": "time"
+    },
+    {
+      "slug": "time",
+      "type": "single",
+      "title": "How much time can you give this?",
+      "subtitle": "We'll size the plan to fit, not the other way around.",
+      "autoAdvance": true,
+      "options": [
+        { "id": "15min", "label": "15 minutes a day" },
+        { "id": "30min", "label": "30 minutes a day" },
+        { "id": "60min", "label": "An hour or more" }
+      ],
+      "next": "blocker"
+    },
+    {
+      "slug": "blocker",
+      "type": "single",
+      "title": "What's stopping you most right now?",
+      "subtitle": "Whatever you pick goes first in your plan.",
+      "autoAdvance": true,
+      "options": [
+        { "id": "clients", "label": "I don't know where to find clients" },
+        { "id": "pricing", "label": "I don't know what to charge" },
+        { "id": "skills", "label": "I'm not sure my skills are good enough" },
+        { "id": "confidence", "label": "I keep putting it off" }
+      ],
+      "next": null
+    }
+  ]
+}

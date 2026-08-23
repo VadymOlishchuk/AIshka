@@ -1,0 +1,45 @@
+{
+  "course": "ai-freelance-plan",
+
+  "base": ["how-ai-freelancing-works", "pick-your-offer", "profile-that-converts"],
+
+  "rules": [
+    {
+      "when": { "experience": ["none", "under_1"] },
+      "add": ["freelance-basics", "where-the-work-is"],
+      "position": "start"
+    },
+    {
+      "when": { "ai_usage": ["never", "tried"] },
+      "add": ["ai-foundations"],
+      "position": "start"
+    },
+
+    { "when": { "field": ["writing"] }, "add": ["ai-copywriting", "content-systems"] },
+    { "when": { "field": ["visual"] }, "add": ["ai-visuals", "brand-kit"] },
+    { "when": { "field": ["automation"] }, "add": ["no-code-automation", "ai-agents-as-a-service"] },
+    { "when": { "field": ["data"] }, "add": ["data-with-ai", "reports-that-sell"] },
+    { "when": { "field": ["video"] }, "add": ["ai-video", "short-form-systems"] },
+    { "when": { "field": ["admin"] }, "add": ["ai-assistant-work", "inbox-and-ops"] },
+
+    { "when": { "goal": ["raise_rates"] }, "add": ["positioning-and-rates"] },
+    { "when": { "goal": ["go_full_time"] }, "add": ["repeat-work"] },
+
+    { "when": { "blocker": ["clients"] }, "promote": "finding-clients" },
+    { "when": { "blocker": ["pricing"] }, "promote": "pricing-and-offers" },
+    { "when": { "blocker": ["skills"] }, "promote": "pick-your-offer" },
+    { "when": { "blocker": ["confidence"] }, "promote": "how-ai-freelancing-works" }
+  ],
+
+  "tail": [
+    "pricing-and-offers",
+    "finding-clients",
+    "winning-the-brief",
+    "contracts-and-scope",
+    "client-data-and-ai",
+    "getting-paid",
+    "repeat-work"
+  ],
+
+  "length": { "15min": 12, "30min": 16, "60min": 20 }
+}
