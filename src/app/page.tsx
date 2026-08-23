@@ -2,13 +2,26 @@ import Link from "next/link";
 import { Button, Card, GeneratedCover } from "@/components/ui/primitives";
 import { db } from "@/lib/db";
 
+// Лендінг статичний заради швидкості, тому база потрібна під час збірки.
+// Якщо вона недоступна (CI без БД) — сторінка збирається без каталогу,
+// замість того щоб завалити весь білд.
+async function loadCourses() {
+  try {
+    return await db.course.findMany({
+      where: { isPublished: true },
+      orderBy: { sortOrder: "asc" },
+      include: { _count: { select: { modules: true } } },
+      take: 6,
+    });
+  } catch {
+    return [];
+  }
+}
+
+export const revalidate = 3600;
+
 export default async function LandingPage() {
-  const courses = await db.course.findMany({
-    where: { isPublished: true },
-    orderBy: { sortOrder: "asc" },
-    include: { _count: { select: { modules: true } } },
-    take: 6,
-  });
+  const courses = await loadCourses();
 
   return (
     <main className="mx-auto w-full max-w-[1080px] px-5 py-14">
