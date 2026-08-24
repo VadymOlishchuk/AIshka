@@ -316,7 +316,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🧭"
     },
     {
       "slug": "pick-your-offer",
@@ -620,7 +621,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🎯"
     },
     {
       "slug": "profile-that-converts",
@@ -888,7 +890,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🪪"
     },
     {
       "slug": "freelance-basics",
@@ -1192,7 +1195,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "📋"
     },
     {
       "slug": "where-the-work-is",
@@ -1460,7 +1464,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🗺️"
     },
     {
       "slug": "ai-foundations",
@@ -1772,7 +1777,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🤖"
     },
     {
       "slug": "ai-copywriting",
@@ -2064,7 +2070,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "✍️"
     },
     {
       "slug": "content-systems",
@@ -2332,7 +2339,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🔁"
     },
     {
       "slug": "ai-visuals",
@@ -2608,7 +2616,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🎨"
     },
     {
       "slug": "brand-kit",
@@ -2884,7 +2893,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🧰"
     },
     {
       "slug": "no-code-automation",
@@ -3160,7 +3170,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "⚙️"
     },
     {
       "slug": "ai-agents-as-a-service",
@@ -3428,7 +3439,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🦾"
     },
     {
       "slug": "data-with-ai",
@@ -3696,7 +3708,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "📊"
     },
     {
       "slug": "reports-that-sell",
@@ -3964,7 +3977,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "📈"
     },
     {
       "slug": "ai-video",
@@ -4240,7 +4254,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🎬"
     },
     {
       "slug": "short-form-systems",
@@ -4508,7 +4523,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "📱"
     },
     {
       "slug": "ai-assistant-work",
@@ -4784,7 +4800,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🗂️"
     },
     {
       "slug": "inbox-and-ops",
@@ -5052,7 +5069,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "📥"
     },
     {
       "slug": "positioning-and-rates",
@@ -5320,7 +5338,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🏷️"
     },
     {
       "slug": "pricing-and-offers",
@@ -5640,7 +5659,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "💵"
     },
     {
       "slug": "finding-clients",
@@ -5952,7 +5972,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🔍"
     },
     {
       "slug": "winning-the-brief",
@@ -6220,7 +6241,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🤝"
     },
     {
       "slug": "contracts-and-scope",
@@ -6488,7 +6510,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "📝"
     },
     {
       "slug": "client-data-and-ai",
@@ -6756,7 +6779,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🔒"
     },
     {
       "slug": "getting-paid",
@@ -7024,7 +7048,8 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "💳"
     },
     {
       "slug": "repeat-work",
@@ -7300,7 +7325,9 @@
             }
           ]
         }
-      ]
+      ],
+      "icon": "🔄"
     }
-  ]
+  ],
+  "icon": "🚀"
 }

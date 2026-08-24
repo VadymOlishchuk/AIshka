@@ -137,6 +137,7 @@ model Module {
   title       String
   description String
   coverUrl    String?
+  icon        String? // емодзі юніта в списках плану
   sortOrder   Int
 
   lessons Lesson[]

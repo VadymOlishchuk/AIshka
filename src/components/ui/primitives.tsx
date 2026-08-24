@@ -80,6 +80,37 @@ export function GeneratedCover({
   );
 }
 
+/**
+ * Плитка іконки юніта або курсу. Якщо іконки немає — падає на генеровану
+ * обкладинку зі слага, щоб на місці ніколи не лишався порожній сірий квадрат.
+ */
+export function IconTile({
+  icon,
+  seed,
+  muted = false,
+  size = "text-[30px]",
+  className = "",
+}: {
+  icon?: string | null;
+  seed: string;
+  muted?: boolean;
+  size?: string;
+  className?: string;
+}) {
+  if (!icon) return <GeneratedCover seed={seed} className={className} />;
+
+  return (
+    <span
+      aria-hidden
+      className={`flex items-center justify-center rounded-[12px] bg-canvas ${
+        muted ? "opacity-45" : ""
+      } ${className}`}
+    >
+      <span className={`${size} leading-none`}>{icon}</span>
+    </span>
+  );
+}
+
 export function Skeleton({ className = "" }: { className?: string }) {
   return <div className={`animate-pulse rounded-[10px] bg-line/70 ${className}`} />;
 }

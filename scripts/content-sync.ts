@@ -64,11 +64,13 @@ async function main() {
           slug: module.slug,
           title: module.title,
           description: module.description,
+          icon: module.icon,
           sortOrder: moduleIndex,
         },
         update: {
           title: module.title,
           description: module.description,
+          icon: module.icon,
           sortOrder: moduleIndex,
         },
       });

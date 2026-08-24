@@ -18,6 +18,7 @@ export const ModuleInput = z.object({
   slug: slugField,
   title: z.string().min(3).max(120),
   description: z.string().min(20, "Опис юніта продає його в каталозі — порожнім бути не може"),
+  icon: z.string().max(8).nullable().default(null),
   lessons: z.array(LessonInput).default([]),
 });
 

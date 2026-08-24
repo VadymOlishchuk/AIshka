@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { GeneratedCover, ProgressBar } from "@/components/ui/primitives";
+import { IconTile, ProgressBar } from "@/components/ui/primitives";
 import type { PlanUnit } from "@/core/progress/service";
 
 export function UnitAccordion({ unit, index, openByDefault }: { unit: PlanUnit; index: number; openByDefault: boolean }) {
@@ -12,9 +12,14 @@ export function UnitAccordion({ unit, index, openByDefault }: { unit: PlanUnit; 
   return (
     <article className="overflow-hidden rounded-[16px] border border-line bg-surface">
       <div className="flex gap-4 p-4 sm:p-5">
-        <GeneratedCover
+        {/* Заблокований юніт приглушений, але впізнаваний: сірий квадрат
+            читався як порожній стан, а не як «поки закрито». */}
+        <IconTile
+          icon={unit.icon}
           seed={unit.slug}
-          className={`h-20 w-20 flex-none rounded-[10px] ${unit.locked ? "opacity-40 grayscale" : ""}`}
+          muted={unit.locked}
+          size="text-[34px]"
+          className="h-20 w-20 flex-none"
         />
 
         <div className="min-w-0 flex-1">

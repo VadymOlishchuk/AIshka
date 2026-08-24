@@ -15,6 +15,7 @@ export type PlanUnit = {
   slug: string;
   title: string;
   description: string;
+  icon: string | null;
   lessons: PlanLesson[];
   completed: number;
   total: number;
@@ -97,6 +98,7 @@ export async function getUserPlan(userId: string): Promise<UserPlan | null> {
       slug: module.slug,
       title: module.title,
       description: module.description,
+      icon: module.icon,
       lessons,
       completed: unitCompleted,
       total: module.lessons.length,
@@ -280,11 +282,13 @@ export type CourseView = {
   title: string;
   description: string;
   kind: string;
+  icon: string | null;
   units: {
     id: string;
     slug: string;
     title: string;
     description: string;
+    icon: string | null;
     lessons: PlanLesson[];
   }[];
   totalLessons: number;
@@ -321,6 +325,7 @@ export async function getCourseForUser(userId: string, slug: string): Promise<Co
       slug: module.slug,
       title: module.title,
       description: module.description,
+      icon: module.icon,
       lessons: module.lessons.map((lesson) => {
         const completed = completedIds.has(lesson.id);
         totalLessons += 1;
@@ -338,6 +343,7 @@ export async function getCourseForUser(userId: string, slug: string): Promise<Co
     title: course.title,
     description: course.description,
     kind: course.kind,
+    icon: course.icon,
     units,
     totalLessons,
     completedLessons,

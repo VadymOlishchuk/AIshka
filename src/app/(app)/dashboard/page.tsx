@@ -2,7 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { requireActiveAccess } from "@/core/auth/guards";
 import { getUserPlan } from "@/core/progress/service";
-import { Button, Card, ProgressBar } from "@/components/ui/primitives";
+import { Button, Card, IconTile, ProgressBar } from "@/components/ui/primitives";
 import { plural } from "@/lib/format";
 
 export default async function DashboardHome() {
@@ -67,10 +67,20 @@ export default async function DashboardHome() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {plan.units.slice(0, 3).map((unit) => (
             <Card key={unit.id} className="p-5">
-              <h3 className="mb-1.5 text-[20px] font-semibold leading-snug text-ink-strong">
-                {unit.title}
-              </h3>
-              <p className="mb-4 text-[14px] leading-relaxed text-ink-muted">{unit.description}</p>
+              <div className="mb-3 flex items-center gap-3">
+                <IconTile
+                  icon={unit.icon}
+                  seed={unit.slug}
+                  size="text-[26px]"
+                  className="h-12 w-12 flex-none"
+                />
+                <h3 className="text-[20px] font-semibold leading-snug text-ink-strong">
+                  {unit.title}
+                </h3>
+              </div>
+              <p className="mb-4 line-clamp-3 text-[14px] leading-relaxed text-ink-muted">
+                {unit.description}
+              </p>
               <ProgressBar value={unit.total > 0 ? (unit.completed / unit.total) * 100 : 0} />
               <p className="mt-2 text-[13px] tabular-nums text-ink-muted">
                 {unit.completed}/{unit.total} lessons

@@ -4,7 +4,7 @@ import { db } from "@/lib/db";
 import { requireUser } from "@/core/auth/guards";
 import { readAnswers } from "@/core/plan/enroll";
 import { explainFirstUnit } from "@/core/plan/rules";
-import { Button, Card, GeneratedCover } from "@/components/ui/primitives";
+import { Button, Card, IconTile } from "@/components/ui/primitives";
 import { duration, plural } from "@/lib/format";
 
 export default async function PlanReadyPage() {
@@ -46,7 +46,7 @@ export default async function PlanReadyPage() {
       <div className="mb-8 flex flex-col gap-3">
         {units.slice(0, 3).map((unit, i) => (
           <Card key={unit.id} className="flex items-center gap-4 overflow-hidden p-3">
-            <GeneratedCover seed={unit.slug} className="h-16 w-16 flex-none rounded-[10px]" />
+            <IconTile icon={unit.icon} seed={unit.slug} size="text-[28px]" className="h-16 w-16 flex-none" />
             <div className="min-w-0">
               <p className="text-[12px] font-semibold uppercase tracking-wider text-ink-muted">
                 Unit {i + 1}

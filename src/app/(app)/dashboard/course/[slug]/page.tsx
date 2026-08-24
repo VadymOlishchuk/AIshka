@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireActiveAccess } from "@/core/auth/guards";
 import { getCourseForUser } from "@/core/progress/service";
-import { Button, Card, GeneratedCover, ProgressBar } from "@/components/ui/primitives";
+import { Button, Card, GeneratedCover, IconTile, ProgressBar } from "@/components/ui/primitives";
 
 export default async function CoursePage({ params }: { params: Promise<{ slug: string }> }) {
   const user = await requireActiveAccess();
@@ -24,7 +24,19 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
       </Link>
 
       <Card className="mb-8 overflow-hidden">
-        <GeneratedCover seed={course.slug} className="aspect-[21/9]" />
+        <div className="relative">
+          <GeneratedCover seed={course.slug} className="aspect-[21/9]" />
+          {course.icon ? (
+            // Та сама іконка, що на картці в полиці — сторінка впізнається як те,
+            // на що людина щойно натиснула.
+            <span
+              aria-hidden
+              className="absolute bottom-4 left-5 flex h-14 w-14 items-center justify-center rounded-[14px] bg-surface text-[30px] leading-none shadow-sm"
+            >
+              {course.icon}
+            </span>
+          ) : null}
+        </div>
         <div className="p-6">
           <h1 className="mb-2 text-[28px] font-semibold leading-tight text-ink-strong text-balance">
             {course.title}
@@ -53,10 +65,20 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
       {course.units.map((unit) => (
         <section key={unit.id} className="mb-6">
           {course.units.length > 1 ? (
-            <>
-              <h2 className="mb-1 text-[20px] font-semibold text-ink-strong">{unit.title}</h2>
-              <p className="mb-3 text-[14px] text-ink-muted">{unit.description}</p>
-            </>
+            <div className="mb-3 flex items-start gap-3">
+              <IconTile
+                icon={unit.icon}
+                seed={unit.slug}
+                size="text-[24px]"
+                className="h-11 w-11 flex-none"
+              />
+              <div className="min-w-0">
+                <h2 className="text-[20px] font-semibold leading-snug text-ink-strong">
+                  {unit.title}
+                </h2>
+                <p className="text-[14px] text-ink-muted">{unit.description}</p>
+              </div>
+            </div>
           ) : null}
 
           <Card className="divide-y divide-line">

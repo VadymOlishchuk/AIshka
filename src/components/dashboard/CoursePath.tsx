@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IconTile } from "@/components/ui/primitives";
 import type { CatalogCourse } from "@/core/progress/service";
 
 /**
@@ -37,12 +38,7 @@ export function CoursePath({ courses }: { courses: CatalogCourse[] }) {
                   : "border-line bg-surface hover:border-accent/40"
               }`}
             >
-              <span
-                aria-hidden
-                className="flex h-14 w-14 flex-none items-center justify-center rounded-[12px] bg-canvas text-[30px] leading-none"
-              >
-                {course.icon ?? "📘"}
-              </span>
+              <IconTile icon={course.icon} seed={course.slug} className="h-14 w-14 flex-none" />
 
               <span className="min-w-0 flex-1">
                 <span className="block text-[19px] font-semibold leading-snug text-ink-strong">
