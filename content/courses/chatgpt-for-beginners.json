@@ -1,0 +1,366 @@
+{
+  "slug": "chatgpt-for-beginners",
+  "title": "ChatGPT for Beginners",
+  "description": "What it actually is, how to ask so you get something usable, the five tasks worth starting with, and the four situations where you must check before you trust it.",
+  "kind": "mini",
+  "icon": "💬",
+  "shelf": "Text",
+  "sortOrder": 0,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons for someone who has never used it, or tried once and gave up.",
+      "lessons": [
+        {
+          "slug": "beg-what-it-is",
+          "title": "What It Actually Is",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most first attempts fail for the same reason: people expect either a search engine or a person, and it is neither.</p><p>It predicts what text should come next, extremely well. Everything useful and everything dangerous about it follows from that one sentence, and knowing it changes how you use it from day one.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Not a Search Engine",
+              "bodyHtml": "<p>A search engine finds a page someone wrote. This produces a new answer that has never existed before.</p><p><s>«What's the opening time of the library on Mill Street?»</s></p><p><strong>«Here are the opening hours from their site — rewrite them as a short notice for our newsletter.»</strong></p><p>The first invites a confident guess. The second gives it the facts and asks for the thing it is genuinely good at.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "It does not look anything up. It writes what an answer would probably look like."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What It Is Reliably Good At",
+              "bodyHtml": "<ul><li><strong>Rewriting</strong> — shorter, simpler, friendlier, in another language</li><li><strong>Structuring</strong> — turning notes into something readable</li><li><strong>Explaining</strong> — the same idea at five different levels</li><li><strong>Starting</strong> — the first draft you were avoiding</li></ul><p>Notice that all four begin with material you already have. That is the pattern worth learning first.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which task is it most reliably good at?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Telling you the current price of a product in your local shop."
+                },
+                {
+                  "id": "b",
+                  "label": "Turning your rough meeting notes into a readable summary."
+                },
+                {
+                  "id": "c",
+                  "label": "Remembering what you discussed with it three weeks ago."
+                },
+                {
+                  "id": "d",
+                  "label": "Confirming whether a statistic you read somewhere is correct."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Rewriting material you supply is the core strength — the facts come from you and the shaping comes from it. The other three all require it to know something it has no way of knowing.",
+              "wrongHint": "Look for the task where you supply the facts and it only changes the form."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "It Sounds Certain Either Way",
+              "bodyHtml": "<p>There is no difference in tone between an answer it is right about and one it invented. That is the single most important thing to internalise.</p><p>A wrong date, a made-up quote and a correct summary all arrive in the same calm, confident voice.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Ask it something you already know the answer to, in your own field.",
+                "Note anything it got subtly wrong — the details are usually where it slips.",
+                "Now give it a paragraph you wrote and ask for a shorter version.",
+                "Compare which of the two felt more useful."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Start Where the Cost of Error Is Low",
+              "bodyHtml": "<p>Your first week should be rewriting your own messages, summarising your own notes and drafting things you were going to write anyway.</p><p>Everything in this course builds on that. People who start with «tell me about X» form the habit of trusting output they cannot check.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "It predicts text rather than looking anything up, which is why it is excellent at rewriting, structuring, explaining and starting — and unreliable at facts. It sounds equally confident when right and wrong. Begin with your own material, where you can check the result.",
+              "nextTeaser": "Next: how to ask so you get something usable."
+            }
+          ]
+        },
+        {
+          "slug": "beg-how-to-ask",
+          "title": "How to Ask So You Get Something Useful",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The gap between a disappointing answer and a useful one is almost never the tool. It is how much of the task you left it to guess.</p><p>A short request gets an average answer, because an average is the safest response to a vague question.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Things Every Request Needs",
+              "bodyHtml": "<ul><li><strong>Who it is for</strong> — «my mum», «a new colleague», «customers who already bought»</li><li><strong>What it should do</strong> — reassure, explain, persuade, apologise</li><li><strong>What to avoid</strong> — length, tone, words you hate</li></ul><p>Adding all three takes about fifteen seconds and usually removes two rounds of correction.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every detail you leave out is a decision it makes for you, badly."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Same Task, Two Ways",
+              "bodyHtml": "<p><s>«Write an email apologising for a late delivery.»</s></p><p><strong>«Email to a customer whose order is four days late. She has ordered before. Apologise once, say when it will arrive, offer free delivery next time. Under 80 words, no corporate language.»</strong></p><p>The second is longer to type and shorter to fix, which is the trade you want.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your answer comes back sounding like a brochure. What is usually missing?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The length — you did not say how long the finished text should be."
+                },
+                {
+                  "id": "b",
+                  "label": "The reader — no specific person was named, so it wrote for everyone."
+                },
+                {
+                  "id": "c",
+                  "label": "The topic — you did not give enough background on the subject."
+                },
+                {
+                  "id": "d",
+                  "label": "The format — you did not say whether you wanted bullets or prose."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Brochure tone is what happens when there is no particular reader. Naming one real person fixes the tone without a single instruction about tone, which is why it is the first thing to add.",
+              "wrongHint": "Think about what makes writing feel like it was made for nobody in particular."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Correct, Do Not Restart",
+              "bodyHtml": "<p>When the first answer is wrong, most people rewrite the whole request. It is faster to say what is wrong with what you got.</p><p>«Too formal, and the example is from retail — my reader runs a café. Same again with a café example and shorter sentences.» That is the whole skill, and two rounds usually gets you there.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take something you need to write today and ask for it in one line.",
+                "Now add the reader, the purpose and one thing to avoid, and ask again.",
+                "Compare the two answers side by side.",
+                "Correct the better one twice rather than starting over."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Ask It to Ask You",
+              "bodyHtml": "<p>When you are not sure what you want, end with: «Ask me three questions before you start.»</p><p>The questions are usually the parts you had not decided yet. It is a surprisingly good way to think, and it prevents three rounds of confident, wrong output.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Say who it is for, what the text should do and what to avoid — that is fifteen seconds and removes two rounds. When the answer is wrong, correct it rather than restarting, and when the task is unclear, ask it to ask you three questions first.",
+              "nextTeaser": "Next: the five tasks worth starting with."
+            }
+          ]
+        },
+        {
+          "slug": "beg-five-tasks",
+          "title": "Five Tasks Worth Starting With",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>People who stick with this all started with something small that clearly worked. People who gave up usually started with something ambitious that half-worked.</p><p>These five are ordinary, low-risk, and save time on the first attempt.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Five",
+              "bodyHtml": "<ul><li><strong>Shorten something</strong> — your own long message, cut in half</li><li><strong>Explain something back to you</strong> — a document, in plain words</li><li><strong>Turn notes into a message</strong> — bullets to something sendable</li><li><strong>Rewrite for a different reader</strong> — the same news for a client and a colleague</li><li><strong>Start the thing you are avoiding</strong> — a bad first draft to react to</li></ul><p>Every one of them starts from material you already have, so you can immediately tell whether it worked.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A bad first draft you can react to beats an empty page you are avoiding."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Fifth One Matters Most",
+              "bodyHtml": "<p>Most writing time is not spent writing. It is spent not starting.</p><p><s>Staring at an empty document for twenty minutes.</s></p><p><strong>«Write a bad first draft of this. I'll fix it.»</strong></p><p>Reacting to something wrong is far easier than producing something right, and the draft only has to be good enough to disagree with.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have to write a difficult message and keep putting it off. What is the best use?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask it to write the final version so the task is finished quickly."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask for a rough first draft you can react to and rewrite yourself."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask it to explain how to structure difficult messages in general."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask for three different versions and pick whichever reads best."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The block is starting, not writing — and a rough draft removes exactly that. A finished version tempts you to send something you have not thought through, and general advice leaves you facing the same empty page.",
+              "wrongHint": "Ask which option removes the thing that is actually stopping you."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep What Works",
+              "bodyHtml": "<p>When a request produces something good, save the request — not just the result.</p><p>Within a fortnight you will have five you reuse constantly, and that small file is worth more than any list of tips you could read.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick one of the five and do it with something real from today.",
+                "Do a second one tomorrow, not all five at once.",
+                "Save any request that worked into a single notes file.",
+                "At the end of the week, count what you actually reused."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One New Thing a Week",
+              "bodyHtml": "<p>People who try to change their whole workflow in a day go back to their old one within a fortnight.</p><p>One new habit a week is slow and it survives. In two months that is eight things you do differently, which is more than almost anyone else around you.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Start with five ordinary tasks on material you already have: shorten, explain back, notes into a message, rewrite for another reader, and produce a bad first draft to react to. Save the requests that work, and add one new habit a week rather than changing everything at once.",
+              "nextTeaser": "Next: when not to trust it."
+            }
+          ]
+        },
+        {
+          "slug": "beg-when-not-to-trust",
+          "title": "When Not to Trust It",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The failures that matter are not the obvious ones. Obvious nonsense you spot immediately; the dangerous answers are the ones that look exactly like the correct version.</p><p>There are four situations where the risk is high enough to change what you do, and they are easy to recognise once named.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Times to Stop and Check",
+              "bodyHtml": "<ul><li><strong>Any specific number</strong> — a date, a price, a statistic, a measurement</li><li><strong>Any named source</strong> — quotes and studies are invented fluently</li><li><strong>Anything recent</strong> — the world moved after it stopped reading</li><li><strong>Anything with a consequence</strong> — medical, legal, financial, contractual</li></ul><p>Outside these four, the risk is a rewrite. Inside them, it is a real problem.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Invented facts arrive in exactly the same confident voice as correct ones."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Watch What Happens When You Push Back",
+              "bodyHtml": "<p>Tell it firmly that a correct answer is wrong, and it will often apologise and change it.</p><p><s>Treating agreement as confirmation that you were right.</s></p><p><strong>Treating agreement as evidence that agreement means nothing.</strong></p><p>It is built to be helpful, and helpfulness includes agreeing with you. That is worth testing once so you never forget it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A draft includes a striking statistic with a named source. What do you do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Keep it — a named source means the figure has been checked already."
+                },
+                {
+                  "id": "b",
+                  "label": "Find the original source and confirm the number before using it."
+                },
+                {
+                  "id": "c",
+                  "label": "Remove it, since any generated figure is unreliable by definition."
+                },
+                {
+                  "id": "d",
+                  "label": "Change it to «research suggests» so the claim is no longer specific."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Named sources are among the most confidently invented details, and a false statistic in something you published is your problem. Checking takes a minute; hedging hides the risk without removing it.",
+              "wrongHint": "Think about who is responsible if the number turns out not to exist."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What You Put In Matters Too",
+              "bodyHtml": "<p>Treat anything you paste as if it might be seen by someone else. Do not put in other people's personal details, passwords, or anything covered by an agreement at work.</p><p>You rarely need the real names to get the work done — replacing them with placeholders takes a minute and removes the whole question.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Ask it something you know well and count the small inaccuracies.",
+                "Tell it confidently that a correct answer was wrong and watch what happens.",
+                "Take something you would normally paste and remove the identifying details.",
+                "Write your own list of what you will never put in."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "You Are Responsible for What You Send",
+              "bodyHtml": "<p>Whatever produced the words, your name is on the message, the report or the post. «The AI wrote it» has never worked as an explanation and is not going to start.</p><p>That is not a reason to avoid it. It is the reason to read everything before it leaves your hands — which takes seconds and settles the entire question.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Check anything with a number, a named source, a recent date or a real consequence. Remember that it agrees with you when pushed, so agreement proves nothing. Strip personal details before pasting, and read everything before you send it — your name is on it either way.",
+              "nextTeaser": "That completes the course: what it is, how to ask, where to start, and when to stop trusting it."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

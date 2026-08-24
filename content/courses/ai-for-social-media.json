@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-social-media",
+  "title": "AI for Social Media",
+  "description": "Why generated posts read as generated, how writing for a feed differs from writing for a page, why the comment section is the most valuable thing you produce, and what actually differs between platforms.",
+  "kind": "mini",
+  "icon": "📱",
+  "shelf": "Text",
+  "sortOrder": 3,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on social text that people stop for.",
+      "lessons": [
+        {
+          "slug": "soc-why-posts-flat",
+          "title": "Why Generated Posts Read as Generated",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Generated social posts have a recognisable shape: a rhetorical question, three tidy points, a summarising line, and a call to engage. Readers scroll past all of it at identical speed.</p><p>The problem is not quality. It is that the post could have been written by anyone about anything.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Feeds Reward Specificity, Not Polish",
+              "bodyHtml": "<p><s>«Consistency is key to growing your audience. Here are three tips…»</s></p><p><strong>«I posted every day for six weeks and got nothing. Week seven I changed one thing — the first line — and the same content did four times the reach.»</strong></p><p>The second is a story with a number in it. The first is advice that everyone has already read.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody stops scrolling for something they could have predicted."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Markers Readers Recognise",
+              "bodyHtml": "<ul><li><strong>The rhetorical opener</strong> — «Ever wondered why…?»</li><li><strong>Exactly three tidy points</strong>, all the same length</li><li><strong>A summarising final line</strong> that adds nothing</li><li><strong>«What do you think? Comment below»</strong></li></ul><p>Removing all four leaves a shorter post that has to contain something real, which is the entire fix.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which post opening is most likely to stop someone scrolling?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ever wondered why some businesses grow faster than others do?"
+                },
+                {
+                  "id": "b",
+                  "label": "We lost two customers last month for the same avoidable reason."
+                },
+                {
+                  "id": "c",
+                  "label": "Here are five proven strategies for improving your online presence."
+                },
+                {
+                  "id": "d",
+                  "label": "Consistency and quality are the foundation of every strong brand."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "A specific admission with a number is something only this business could post, and it promises information the reader does not already have. The other three are recognisable as the opening of a post they have read many times.",
+              "wrongHint": "Ask which line could only have been written by someone with an actual experience to report."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Supply the Raw Material",
+              "bodyHtml": "<p>The useful split is the same as everywhere else: you supply what happened, it handles the arrangement.</p><p>A post generated from «write about customer service» is empty. A post generated from «a customer complained about X, we changed Y, here is what happened» is worth reading, and the difference took you thirty seconds to type.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write down three things that actually happened in your work this month.",
+                "Pick the one with a number attached.",
+                "Draft a post from that alone, with no advice in it.",
+                "Compare it to a post generated from the topic without the story."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Advice Is the Weakest Format",
+              "bodyHtml": "<p>Advice posts are the easiest to generate and the most ignored, because everyone is producing them.</p><p>What is scarce is what happened to you: the number, the mistake, the thing that did not work. That material cannot be generated, and it is the only durable advantage anyone has in a feed.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated posts read as generated because they could have been written by anyone. Cut the rhetorical opener, the three tidy points, the summarising line and the engagement bait — then build posts from things that actually happened, with numbers, rather than from topics.",
+              "nextTeaser": "Next: writing for a feed rather than a page."
+            }
+          ]
+        },
+        {
+          "slug": "soc-writing-for-feeds",
+          "title": "Writing for a Feed, Not a Page",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A feed is not a page. The reader is moving, the preview is cut off after two lines, and nothing is guaranteed to be read in order.</p><p>Most weak posts are well-written pages published in the wrong place.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Preview Is the Whole Post",
+              "bodyHtml": "<p>Most platforms show one or two lines before «more». That fragment decides everything else.</p><p><s>«I've been thinking a lot recently about how small businesses approach their pricing, and I wanted to share some thoughts…»</s></p><p><strong>«We raised our prices 20% and lost one customer out of forty.»</strong></p><p>The first spends the preview announcing that a post exists. The second spends it saying something.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The first two lines are not an introduction. They are the advert for the rest."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Rules for Feed Text",
+              "bodyHtml": "<ul><li><strong>No warm-up</strong> — start inside the idea</li><li><strong>Line breaks often</strong> — dense blocks are skipped on a phone</li><li><strong>One idea per post</strong> — a second idea halves both</li><li><strong>End on a line worth quoting</strong>, not a question</li></ul><p>These are formatting rules, not writing rules, which is why they are easy to apply and easy to forget.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your posts get impressions but very few people expand them. What should you change?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The posting time, so they appear when your audience is most active."
+                },
+                {
+                  "id": "b",
+                  "label": "The first two lines, since that fragment is all most people ever see."
+                },
+                {
+                  "id": "c",
+                  "label": "The length, making each post shorter so it fits without expanding."
+                },
+                {
+                  "id": "d",
+                  "label": "The hashtags, so the posts reach a more relevant set of readers."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Impressions without expansion means the post was shown and the preview did not earn a click. That is the first two lines and nothing else — timing and hashtags affect whether it appears at all.",
+              "wrongHint": "Think about which stage the reader actually stops at, and what they saw at that moment."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write the Ending Before the Middle",
+              "bodyHtml": "<p>Decide the one line you want remembered, then write towards it. Posts that end on a question usually end on the weakest sentence in them.</p><p>A quotable closing line is also what gets screenshotted and shared, which no engagement prompt has ever achieved.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take three of your posts and read only the first two lines of each.",
+                "Rewrite one so the first line contains the actual point.",
+                "Add line breaks so no block exceeds three lines on a phone.",
+                "Replace the closing question with a line you would want quoted."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Read It on a Phone",
+              "bodyHtml": "<p>Almost everything is read on a phone and almost everything is written on a desktop. A paragraph that looks tidy on a laptop is a wall of text on a screen half the width.</p><p>Preview every post on your phone before posting. It takes ten seconds and changes what you publish.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A feed is not a page: the preview is the whole advert, so start inside the idea rather than warming up. Break lines often, keep one idea per post, end on a quotable line rather than a question, and check every post on a phone before it goes out.",
+              "nextTeaser": "Next: the comment section."
+            }
+          ]
+        },
+        {
+          "slug": "soc-comments",
+          "title": "The Comment Section Is the Product",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people treat comments as a metric. They are actually the most useful thing social media produces, and the part that generated content handles worst.</p><p>What people say back is unfiltered market research that no survey would get you.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Reply Like a Person",
+              "bodyHtml": "<p>Generated replies are instantly recognisable: warm, generic and slightly too long.</p><p><s>«Thank you so much for your thoughtful comment! We really appreciate your support.»</s></p><p><strong>«That's the bit we got wrong for two years. What finally fixed it was doing the opposite.»</strong></p><p>The second continues a conversation. The first ends one politely.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A generic reply is worse than no reply — it tells the commenter nobody was there."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three Things Comments Give You",
+              "bodyHtml": "<ul><li><strong>The objection you had not thought of</strong> — free, and honest</li><li><strong>The phrasing your customers use</strong> — better than any wording you invent</li><li><strong>Your next five posts</strong> — every question is a post</li></ul><p>The third is the one people miss. A recurring question in your comments is a post that is guaranteed to land.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Someone leaves a sceptical comment disagreeing with your post. What is the best response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ignore it — arguing in public rarely reflects well on a business."
+                },
+                {
+                  "id": "b",
+                  "label": "Answer the substance directly and agree with whatever part is fair."
+                },
+                {
+                  "id": "c",
+                  "label": "Reply privately so the disagreement is not visible to other readers."
+                },
+                {
+                  "id": "d",
+                  "label": "Thank them for the perspective without engaging with the argument."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Everyone else reading is watching how you handle disagreement, and a direct answer that concedes a fair point builds more trust than the original post did. Deflection is visible and reads as having no answer.",
+              "wrongHint": "Think about what the silent readers learn from each of these responses."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Harvest Them Monthly",
+              "bodyHtml": "<p>Once a month, gather every question and objection from your comments and messages, and group them.</p><p>That list is your content plan, your sales page objections and your product feedback simultaneously — and it costs nothing but the reading.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Collect every question from your last month of comments.",
+                "Group them and find the one that keeps returning.",
+                "Write that post using the commenter's own wording.",
+                "Reply to three old comments you never answered."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Never Automate the Reply",
+              "bodyHtml": "<p>This is the one place to keep entirely human. An auto-reply in a comment section is visible to everyone, not just the person who wrote it, and it signals precisely what you would not want to signal.</p><p>Draft with a tool if you like. Send as yourself, and read every word first.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Comments are the most useful output of social media: the objections you missed, your customers' own phrasing, and your next five posts. Answer disagreement directly and concede what is fair, harvest questions monthly, and never automate a public reply.",
+              "nextTeaser": "Next: what differs between platforms and what does not."
+            }
+          ]
+        },
+        {
+          "slug": "soc-platforms",
+          "title": "What Actually Differs Between Platforms",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Advice about platforms is mostly folklore: post at this hour, use this many hashtags, the algorithm favours that. Most of it is stale within a season.</p><p>A few differences are structural, and those are worth knowing because they do not change.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Structural Differences",
+              "bodyHtml": "<ul><li><strong>Who sees it</strong> — your followers, or people who do not know you</li><li><strong>How long it lives</strong> — hours, or months of search traffic</li><li><strong>What the format rewards</strong> — text, image, video, or discussion</li></ul><p>Everything else — timing, hashtags, posting frequency — is tuning. These three decide whether a piece of content belongs there at all.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Ask what a platform rewards structurally, not what its algorithm reportedly likes this month."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Reshape, Do Not Repost",
+              "bodyHtml": "<p><s>Writing one post and pasting the identical text everywhere.</s></p><p><strong>Taking one idea and rebuilding it: a story where discussion is rewarded, a single image where scanning is, a short video where watching is.</strong></p><p>Same idea, three shapes, thirty minutes. Identical text in three places performs badly in at least two of them.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have one good idea. How should it be published across platforms?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Post the same text everywhere so the message stays perfectly consistent."
+                },
+                {
+                  "id": "b",
+                  "label": "Rebuild it in the format each platform rewards, keeping the same idea."
+                },
+                {
+                  "id": "c",
+                  "label": "Choose the single platform that performs best and publish only there."
+                },
+                {
+                  "id": "d",
+                  "label": "Post it first where it works best, then repost elsewhere a week later."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "The idea travels; the format does not. Rebuilding takes minutes and works everywhere, while identical text is optimised for whichever platform you wrote it for and mediocre on the rest.",
+              "wrongHint": "Think about what actually needs to change between platforms — the idea, or the shape it takes?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use Tools for the Reshaping",
+              "bodyHtml": "<p>This is exactly the repetitive work worth handing over: «here is the post, rewrite it as a short video script» or «as a single-image caption of under forty words».</p><p>You keep the idea and the specifics; it handles the shape. That is thirty minutes saved per idea, every time.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take one recent post and identify which format its platform rewards.",
+                "Rebuild the same idea for a second platform in a different shape.",
+                "Publish both and compare which parts of the idea survived.",
+                "Note which reshaping took longest — automate that one next time."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Pick Two, Not Five",
+              "bodyHtml": "<p>Being present everywhere with weak content beats being absent, but it loses badly to being good in two places.</p><p>Choose the two where your buyers actually are, do those properly, and ignore the rest until the first two are working.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Only three things differ structurally: who sees it, how long it lives, and what format it rewards. Everything else is tuning. Rebuild one idea into the shape each platform rewards rather than reposting identical text — and do two platforms well instead of five badly.",
+              "nextTeaser": "That completes the course: why posts read as generated, feeds, comments, and platforms."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

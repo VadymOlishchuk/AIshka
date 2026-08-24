@@ -1,0 +1,366 @@
+{
+  "slug": "editing-generated-text",
+  "title": "Editing Generated Text",
+  "description": "The tells readers now recognise, the cutting pass that improves almost any draft, putting back the specifics only you have, and the two-minute read-aloud that catches everything else.",
+  "kind": "mini",
+  "icon": "✏️",
+  "shelf": "Text",
+  "sortOrder": 5,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on the skill that decides whether text reads as yours.",
+      "lessons": [
+        {
+          "slug": "edt-the-tells",
+          "title": "The Tells Everyone Recognises",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Readers can now spot generated text, and they are increasingly annoyed by it. Not because it is bad — because it signals that nobody spent any attention on them.</p><p>The tells are consistent and short in number, which means they can be removed systematically rather than by instinct.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Eight Words and Phrases",
+              "bodyHtml": "<ul><li><strong>«delve», «leverage», «robust», «seamless»</strong></li><li><strong>«It's not just X, it's Y»</strong> — the most recognisable structure of all</li><li><strong>«In today's fast-paced world»</strong></li><li><strong>«Let's dive in»</strong> and «Here's the thing»</li><li><strong>Three adjectives</strong> where one would do</li></ul><p>A single find-and-replace pass on this list changes how a piece reads more than an hour of rewriting.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Readers are not annoyed that it was generated. They are annoyed that nobody looked at it."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Structural Tells Matter More",
+              "bodyHtml": "<p>Words are easy. The shape is what gives it away.</p><p><s>Three tidy points of equal length, then a paragraph summarising the three points.</s></p><p><strong>Two points of different weight, one of them with an example, and no summary because you already made it.</strong></p><p>Human writing is uneven. Perfectly balanced structure is the strongest tell there is.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which is the strongest signal to a reader that text was generated?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Occasional spelling mistakes and small inconsistencies in the wording."
+                },
+                {
+                  "id": "b",
+                  "label": "Perfectly balanced structure with a closing paragraph that summarises."
+                },
+                {
+                  "id": "c",
+                  "label": "A long piece of writing covering the subject in considerable detail."
+                },
+                {
+                  "id": "d",
+                  "label": "Formal vocabulary and complete sentences throughout the whole piece."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Even weighting and a tidy recap are the clearest structural tell, because people do not naturally write that way. Mistakes read as human, and length or formality are choices anyone might make.",
+              "wrongHint": "Think about what human writing looks like when nobody has tidied it — is it evenly balanced?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Fix the Shape First",
+              "bodyHtml": "<p>Removing banned words from a perfectly symmetrical piece leaves a perfectly symmetrical piece with different words.</p><p>Break the balance: delete the weakest point entirely, expand one, cut the summary. That single edit does more than every word substitution combined.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a generated draft and find the eight tells in it.",
+                "Delete the closing summary paragraph and see whether anything is lost.",
+                "Remove the weakest of the three points entirely.",
+                "Expand one remaining point with a real example."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep One Thing Only You Could Write",
+              "bodyHtml": "<p>The most reliable fix is to add something that could not have been generated: a real number, a specific mistake you made, the name of an actual client, what happened last Tuesday.</p><p>One such sentence makes an entire piece read as human, even if everything around it was drafted by a tool.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "The tells are a short list of words and, more importantly, a perfectly even structure with a summarising ending. Fix the shape before the vocabulary — delete the weakest point, expand another, cut the recap — and add at least one thing only you could have written.",
+              "nextTeaser": "Next: the cutting pass."
+            }
+          ]
+        },
+        {
+          "slug": "edt-cutting",
+          "title": "The Cutting Pass",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Generated text is almost always too long. Not padded exactly — every sentence is doing something — but doing it at a leisurely pace nobody asked for.</p><p>Cutting is the highest-value edit available and the one people are most reluctant to do, because deleting feels like waste.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Cut a Third and See",
+              "bodyHtml": "<p>The reliable experiment: remove a third of the words without removing any information, then compare.</p><p><s>«It's important to note that there are several factors which may contribute to this outcome.»</s></p><p><strong>«Three things cause this.»</strong></p><p>Fourteen words to four, and the second is clearer. That ratio is typical, not exceptional.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If cutting a third loses nothing, the third was never doing anything."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What to Delete First",
+              "bodyHtml": "<ul><li><strong>The opening paragraph</strong> — it is almost always a warm-up</li><li><strong>«It's important to note that»</strong> and every phrase like it</li><li><strong>The closing summary</strong> — you already said it</li><li><strong>The second and third adjective</strong></li><li><strong>Any sentence starting «Additionally» or «Moreover»</strong></li></ul><p>Delete all five and read what remains. It is usually the piece you wanted.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You cut a generated draft by a third and it reads better. What does that tell you?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The draft was unusually poor and should have been regenerated instead."
+                },
+                {
+                  "id": "b",
+                  "label": "Generated text runs long by default, so cutting should be routine."
+                },
+                {
+                  "id": "c",
+                  "label": "The original prompt was too vague and needs to be much more specific."
+                },
+                {
+                  "id": "d",
+                  "label": "You removed necessary detail and the piece is now incomplete."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Length is the default, not a fault of that particular draft, which is why cutting belongs in the process every time rather than being treated as a fix for a bad result.",
+              "wrongHint": "Ask whether this was a one-off problem or something you should expect every time."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask for the Short Version",
+              "bodyHtml": "<p>You can do half of this by asking: «same information, half the length, keep the example».</p><p>Then cut the short version by hand as well. Two passes, and the second one is where the piece actually becomes yours.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take any draft and delete the first paragraph.",
+                "Remove every sentence beginning with a transition word.",
+                "Ask for it at half the length and compare with your own cut.",
+                "Count the words you ended up with against where you started."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Length Is Not Value",
+              "bodyHtml": "<p>Longer output feels like more work and more value. Readers experience it as more time spent, which is the opposite.</p><p>The piece someone finishes is worth more than the thorough one they abandon halfway — and shorter is almost always the version they finish.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated text is long by default, so cutting belongs in the process every time. Delete the opening paragraph, the transition sentences, the closing summary and the extra adjectives, ask for a half-length version, then cut that by hand too.",
+              "nextTeaser": "Next: putting the specifics back in."
+            }
+          ]
+        },
+        {
+          "slug": "edt-specifics",
+          "title": "Putting the Specifics Back In",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Cutting removes what should not be there. It does not add what is missing — and what is missing is almost always the same thing.</p><p>Generated text drifts towards the general, because the general is the safest average of everything. Specifics are what you have to supply.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Replace Categories With Instances",
+              "bodyHtml": "<p><s>«Many businesses struggle to keep their content consistent.»</s></p><p><strong>«A bakery I worked with posted daily for three weeks, then stopped for two months.»</strong></p><p>The second is the same point made concrete. It is also unarguable, because it happened.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody remembers a category. Everybody remembers an instance."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Kinds Worth Adding",
+              "bodyHtml": "<ul><li><strong>A number</strong> — «three weeks», not «a while»</li><li><strong>A named thing</strong> — a tool, a place, a real example</li><li><strong>A quote</strong> — what someone actually said</li><li><strong>A failure</strong> — what did not work, and why</li></ul><p>The fourth is the most persuasive and the least used. Nobody generates admissions of failure, so they read as unmistakably real.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A generated paragraph is accurate but forgettable. What is most likely missing?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Stronger vocabulary to make the writing more vivid and memorable."
+                },
+                {
+                  "id": "b",
+                  "label": "A specific instance — a number, a name or something that happened."
+                },
+                {
+                  "id": "c",
+                  "label": "A clearer structure so the argument is easier for readers to follow."
+                },
+                {
+                  "id": "d",
+                  "label": "A stated conclusion, so the reader knows what to take away from it."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Forgettable almost always means general. One number or one real example makes a paragraph stick, while stronger words make a general statement sound more emphatic without becoming more memorable.",
+              "wrongHint": "Think about what you remember from things you read last week — the phrasing, or the details?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Only You Have This Material",
+              "bodyHtml": "<p>This is the part of writing no tool can do, and therefore the part worth your time. Your numbers, your clients, your mistakes.</p><p>Keep a running note of them — the odd figure, the thing that went wrong, the exact phrase a customer used. That file is what turns a competent draft into something worth reading.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a generated paragraph and find every general statement in it.",
+                "Replace one with something specific from your own experience.",
+                "Add one number, even an approximate one you can stand behind.",
+                "Start a note file for specifics as you come across them."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One Per Paragraph Is Enough",
+              "bodyHtml": "<p>You do not need to rewrite everything. One concrete detail per paragraph transforms a piece, and it is achievable in ten minutes.</p><p>Chasing more than that produces a different failure — a piece so dense with examples that the argument disappears underneath them.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Generated text drifts general, so add what it cannot know: a number, a named thing, a real quote, a failure. One specific per paragraph is enough to transform a piece, and keeping a running note of your own material is what makes that fast.",
+              "nextTeaser": "Next: reading it aloud."
+            }
+          ]
+        },
+        {
+          "slug": "edt-read-aloud",
+          "title": "Reading It Aloud",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The last pass takes two minutes, requires no skill, and catches more than every other technique in this course combined.</p><p>Read the whole thing out loud. Everything wrong with it becomes audible in a way it never is on screen.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "What Your Ear Catches",
+              "bodyHtml": "<ul><li><strong>Sentences you run out of breath in</strong> — too long</li><li><strong>Words you would never say</strong> — «utilise», «myriad», «furthermore»</li><li><strong>The place you stumble</strong> — a real ambiguity, every time</li><li><strong>Repetition</strong> — invisible on screen, obvious aloud</li><li><strong>Flat rhythm</strong> — every sentence the same length</li></ul><p>None of these are visible while reading silently, because your eye smooths over what your mouth cannot.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Where you stumble reading aloud, a reader stumbles silently and blames you for it."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Vary the Length on Purpose",
+              "bodyHtml": "<p><s>Every sentence between fifteen and twenty words, evenly, for three paragraphs.</s></p><p><strong>A long sentence that builds through several clauses and takes its time. Then a short one. That contrast is what rhythm is.</strong></p><p>Generated text is metrically even, and even rhythm reads as machine-made even when every individual sentence is fine.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Reading aloud, you stumble over the same sentence twice. What does that mean?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "You are reading too quickly and should slow down for that section."
+                },
+                {
+                  "id": "b",
+                  "label": "The sentence is genuinely ambiguous and needs rewriting, not rereading."
+                },
+                {
+                  "id": "c",
+                  "label": "The vocabulary is too advanced and should be simplified for readers."
+                },
+                {
+                  "id": "d",
+                  "label": "The sentence is too long and should simply be split into two parts."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A stumble is your own comprehension failing in real time, and a silent reader hits the same problem without noticing why. Splitting it may be the fix, but the diagnosis is ambiguity rather than length.",
+              "wrongHint": "Ask what your stumble is telling you about how the sentence will be read by someone else."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Read the First Line Twice",
+              "bodyHtml": "<p>If nothing else, read the opening aloud. It is the sentence most people never revisit and the one that decides whether the rest is read at all.</p><p>Generated openings are reliably the weakest part of a piece, because they were produced before the argument existed.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take something you are about to send and read it aloud fully.",
+                "Mark every place you stumble or run out of breath.",
+                "Rewrite only those sentences and nothing else.",
+                "Read it again and see how many remain."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The Whole Process, in Order",
+              "bodyHtml": "<p>Cut a third. Fix the structure. Add one specific per paragraph. Read aloud. Ship.</p><p>Ten minutes on a normal piece. That routine is the entire difference between text that reads as yours and text everyone recognises — and none of it requires being a good writer.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Reading aloud catches long sentences, unnatural words, real ambiguity, repetition and flat rhythm — none of which are visible on screen. Vary sentence length deliberately, always read the opening, and run the full routine: cut, restructure, add specifics, read aloud.",
+              "nextTeaser": "That completes the course: the tells, cutting, specifics and the read-aloud pass."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

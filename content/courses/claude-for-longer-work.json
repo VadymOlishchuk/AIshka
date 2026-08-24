@@ -1,0 +1,366 @@
+{
+  "slug": "claude-for-longer-work",
+  "title": "Claude for Longer Work",
+  "description": "Where a second tool genuinely differs: whole documents, careful rewriting, keeping context between sessions, and using it to edit your own writing rather than replace it.",
+  "kind": "mini",
+  "icon": "✳️",
+  "shelf": "Text",
+  "sortOrder": 1,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on the work that is too long or too careful for a quick answer.",
+      "lessons": [
+        {
+          "slug": "cla-where-it-differs",
+          "title": "Where Claude Is Different",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>People who try a second tool usually run the same short prompts through it, get similar answers, and conclude the choice does not matter.</p><p>The differences show up on longer, messier work — which is exactly the work most people are not yet giving it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Long Input Is the Real Difference",
+              "bodyHtml": "<p>Short questions produce broadly similar answers everywhere. The gap appears when you paste something substantial.</p><p><s>«Explain the difference between these two contracts.»</s></p><p><strong>«Both contracts are below. List every clause where the obligations differ, quoting each one.»</strong></p><p>The second is the kind of task worth choosing a tool for — a lot of text in, something specific out.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The tool choice matters on long, messy work. On short questions it barely does."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What It Suits",
+              "bodyHtml": "<ul><li><strong>Whole documents</strong> — reports, transcripts, contracts, long threads</li><li><strong>Careful rewriting</strong> — keeping meaning while changing register</li><li><strong>Work where being wrong matters</strong> — it hedges rather than guesses</li><li><strong>Extended back-and-forth</strong> — refining one piece over many turns</li></ul><p>The third is a genuine trade-off: more hedging is safer and occasionally more annoying.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which task best justifies choosing one tool over another?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Writing a two-line reply to a straightforward customer question."
+                },
+                {
+                  "id": "b",
+                  "label": "Extracting every differing clause from two long contracts, with quotes."
+                },
+                {
+                  "id": "c",
+                  "label": "Suggesting five subject lines for a newsletter you are sending out."
+                },
+                {
+                  "id": "d",
+                  "label": "Rewriting a paragraph to be a little shorter and slightly friendlier."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Long, precise work over substantial input is where tools genuinely diverge. Short rewrites and idea lists come back much the same everywhere, so the choice there is a matter of habit rather than result.",
+              "wrongHint": "Ask which task involves enough material that handling it well is actually difficult."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Give It Everything",
+              "bodyHtml": "<p>The instinct with long material is to trim it first. Usually that removes the context that made the answer good.</p><p>Paste the whole thing and narrow the question instead. «Here is the full transcript — find every commitment anyone made» beats a shortened transcript and a broad question.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a long document you actually need to work with.",
+                "Paste it whole and ask for one specific extraction with quotes.",
+                "Check three of the quotes against the source.",
+                "Then ask the same thing of a shortened version and compare."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Use Two, Not One",
+              "bodyHtml": "<p>There is no reason to pick a single tool permanently. Most people who work with this daily use one for long documents and another for quick turnaround, and switch without thinking about it.</p><p>What matters is knowing which kind of task you are doing, not which brand you are loyal to.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "The differences between tools show up on long, messy, precise work rather than short requests. Paste whole documents and narrow the question instead of trimming the input, expect more hedging where being wrong matters, and use more than one tool depending on the task.",
+              "nextTeaser": "Next: working with long documents properly."
+            }
+          ]
+        },
+        {
+          "slug": "cla-long-documents",
+          "title": "Working With Long Documents",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Pasting fifty pages and asking for a summary produces something accurate and useless — a description of what the document is about rather than what it says.</p><p>The fix is not a bigger tool. It is a narrower question.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Extraction Beats Summary",
+              "bodyHtml": "<p><s>«Summarise this report.»</s></p><p><strong>«List every commitment with a date attached, and quote the sentence each one comes from.»</strong></p><p>The second gives you something you can act on and check in seconds. The first gives you something you must read the document to evaluate.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A summary with no purpose is a table of contents in full sentences."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions That Work on Anything Long",
+              "bodyHtml": "<ul><li><strong>«Find every mention of X»</strong> — extraction rather than overview</li><li><strong>«What does this assume without saying?»</strong> — the hidden argument</li><li><strong>«Where does it contradict itself?»</strong> — genuinely hard by hand</li><li><strong>«What would a sceptic attack first?»</strong> — the review question</li></ul><p>All four produce answers you can verify against the source in under a minute.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A colleague sends a long meeting transcript. What produces the most value?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A clean summary of the discussion from beginning to end in order."
+                },
+                {
+                  "id": "b",
+                  "label": "Every decision and commitment, with the exact quote for each one."
+                },
+                {
+                  "id": "c",
+                  "label": "A list of the main topics covered in the order they came up."
+                },
+                {
+                  "id": "d",
+                  "label": "A shortened transcript with the small talk and repetition removed."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Decisions and commitments with quotes are what anyone actually needs afterwards, and they can be checked instantly. The other three reorganise the transcript without producing anything to act on.",
+              "wrongHint": "Think about what you would need from that meeting three weeks later."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Work in Sections",
+              "bodyHtml": "<p>On very long material, go section by section and keep the outputs. Quality drops when everything is processed at once, and the drop is invisible — it looks like a shorter answer, not a worse one.</p><p>Sectioning also lets you check as you go, which is far faster than finding a problem inside a finished forty-page summary.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a long document and ask for a plain summary.",
+                "Then ask for every claim it makes about one specific thing.",
+                "Compare which output you could actually use.",
+                "Repeat the second question on one section rather than the whole thing."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Spot-Check the Quotes",
+              "bodyHtml": "<p>The most common failure with long input is a detail quietly reassigned — the right number attached to the wrong year, the right statement to the wrong speaker.</p><p>Check three quotes at random before you rely on anything. It takes a minute and catches this class of error almost every time it happens.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Long documents reward extraction over summary: find every mention of one thing, the unstated assumptions, the contradictions, or what a sceptic would attack. Work section by section on very long material, and spot-check three quotes against the source before relying on the result.",
+              "nextTeaser": "Next: keeping context so you stop re-explaining."
+            }
+          ]
+        },
+        {
+          "slug": "cla-keeping-context",
+          "title": "Keeping Context Between Sessions",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The most common daily annoyance is re-explaining who you are and what you are working on, every single time.</p><p>It is entirely avoidable, and fixing it takes twenty minutes once.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Write the Standing Brief",
+              "bodyHtml": "<p>Anything you find yourself repeating belongs somewhere permanent rather than in the conversation.</p><p><s>Explaining your role, your audience and your preferences at the start of every chat.</s></p><p><strong>«I run a small bakery. Writing is for customers, not colleagues. Plain English, short sentences, never exclamation marks.»</strong></p><p>Written once, that removes the same three corrections from every conversation this month.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Anything you correct every time is a missing instruction, not a task to remember."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "One Space per Project",
+              "bodyHtml": "<ul><li><strong>Separate work from personal</strong> — instructions bleed otherwise</li><li><strong>One per client or project</strong>, with their material in it</li><li><strong>Keep the reference documents there</strong>, not pasted each time</li><li><strong>Name them by what they are for</strong>, not by date</li></ul><p>Switching context then takes one click instead of three paragraphs of re-explanation.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You correct the same thing in nearly every answer. Where does that correction belong?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "In a note to yourself, so you remember to fix it before sending."
+                },
+                {
+                  "id": "b",
+                  "label": "In the standing instructions, so it stops appearing in drafts at all."
+                },
+                {
+                  "id": "c",
+                  "label": "At the end of each request, so it is fresh in the conversation."
+                },
+                {
+                  "id": "d",
+                  "label": "In a checklist you run through before anything leaves your hands."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A correction you make every time is a missing instruction. Moving it into the permanent brief removes the work for good, while notes and checklists keep the work and merely make it reliable.",
+              "wrongHint": "Ask which option means you never have to make that correction again."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Watch What It Remembers",
+              "bodyHtml": "<p>Memory features carry details between conversations, which is convenient and occasionally awkward — a client name or a rate surfacing where you did not expect it.</p><p>Look at what is stored every month, delete anything belonging to someone else, and turn it off for work you would not want repeated elsewhere.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write four lines: who you are, who you write for, how you want answers, what to avoid.",
+                "Put them in your permanent instructions and start a fresh conversation.",
+                "Create one space for your main project and put its reference material there.",
+                "Note which corrections you no longer have to make."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Review It Monthly",
+              "bodyHtml": "<p>Once a month, look at what you have been correcting repeatedly and move it into the brief. Ten minutes.</p><p>Over a year this quietly becomes the most useful document you own — and it is yours, not tied to any one tool.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Stop re-explaining: write a standing brief covering who you are, who you write for, how you want answers and what to avoid. Keep one space per project with its reference material, check what memory is storing about other people, and move repeated corrections into the brief monthly.",
+              "nextTeaser": "Next: editing with it rather than generating."
+            }
+          ]
+        },
+        {
+          "slug": "cla-editing-not-generating",
+          "title": "Editing With It, Not Generating",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people use these tools to produce text. The more valuable use, and the one that improves your own writing, is the opposite: give it what you wrote and make it argue with you.</p><p>Generation replaces your thinking. Editing sharpens it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask for Problems, Not Praise",
+              "bodyHtml": "<p><s>«Can you improve this paragraph?»</s></p><p><strong>«Which sentence here is doing no work? Where would a sceptical reader stop believing me? What am I assuming they already know?»</strong></p><p>The first returns a smoother version of the same text. The second returns the three things you would have missed.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Improve this» returns your text, smoother. «What is wrong with this» returns something you can learn from."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Five Questions Worth Asking of Your Own Writing",
+              "bodyHtml": "<ul><li><strong>What is the point, in one sentence?</strong> If it cannot answer, neither can a reader</li><li><strong>Which sentence could be deleted with nothing lost?</strong></li><li><strong>Where does this assume knowledge?</strong></li><li><strong>What would the strongest objection be?</strong></li><li><strong>Which line is the one worth keeping?</strong></li></ul><p>Answer those five and the piece improves without a single generated sentence.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You want feedback on something you wrote. What produces the most useful response?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask it to rewrite the piece so that it reads better than the original."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask which sentence does no work and where a reader would stop believing."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask for a score out of ten with a short explanation of the reasoning."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask for three alternative versions written in different possible styles."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Specific diagnostic questions produce findings you can act on and learn from. Rewrites and alternatives hand back text without telling you what was wrong, and a score is an opinion with nothing attached.",
+              "wrongHint": "Look for the option that tells you something about your writing rather than replacing it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep Your Own Voice",
+              "bodyHtml": "<p>If you generate, you sound like everyone else. If you edit, you sound like yourself with the weak parts removed — and that difference is noticeable to readers even when they cannot name it.</p><p>It also compounds: the same three weaknesses come back every time, and after a month you stop making them.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take something you wrote recently, before it goes anywhere.",
+                "Ask the five questions in order and write down the answers.",
+                "Fix only what you agree with — you are allowed to disagree.",
+                "Note which weakness came up; it will come up again."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Disagree Out Loud",
+              "bodyHtml": "<p>It agrees readily when you push back, so its opinion is not evidence. But arguing with it forces you to articulate why you wrote something that way — and that is the moment you find out whether you had a reason.</p><p>Half the value of this exercise is discovering which of your choices were deliberate and which were habit.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Editing beats generating: ask what is doing no work, where a reader would stop believing, and what the strongest objection is. Fix only what you agree with, keep your own voice, and use the disagreement to find out which of your choices were actually deliberate.",
+              "nextTeaser": "That completes the course: where it differs, long documents, keeping context, and editing."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

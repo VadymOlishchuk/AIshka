@@ -1,0 +1,366 @@
+{
+  "slug": "ai-for-work",
+  "title": "AI at Work",
+  "description": "Emails that get answered, notes turned into something sendable, the weekly update a manager actually reads, and what you must never paste into a work tool.",
+  "kind": "mini",
+  "icon": "💼",
+  "shelf": "Text",
+  "sortOrder": 4,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons for using AI in an office job without creating a problem for yourself.",
+      "lessons": [
+        {
+          "slug": "wrk-emails",
+          "title": "Emails That Don't Waste People's Time",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most work email is longer than it needs to be, and the length is not politeness — it is uncertainty about what you are actually asking for.</p><p>The fastest improvement available to almost anyone is deciding the ask before writing the message.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask First, Explain After",
+              "bodyHtml": "<p><s>«Hi, hope you're well. I wanted to follow up on the conversation we had last week about the reporting process, as I've been thinking about how we might…»</s></p><p><strong>«Can you approve the new report format by Thursday? Two changes, both below. Background if you need it at the bottom.»</strong></p><p>The second respects the reader's time and gets answered faster, which is the same thing.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Long emails are usually a symptom of not having decided what you want."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things Every Work Email Needs",
+              "bodyHtml": "<ul><li><strong>The ask, in the first line</strong> — or «no action needed» if there is none</li><li><strong>A deadline</strong>, if there is one — «by Thursday», not «when you can»</li><li><strong>The minimum context</strong> to answer, and no more</li><li><strong>Detail below</strong>, for whoever wants it</li></ul><p>Say «no action needed» explicitly when that is true. It saves the reader working it out and it is the line people thank you for.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your emails often go several days without a reply. What is the most likely cause?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "You are sending them at times when people are least likely to read."
+                },
+                {
+                  "id": "b",
+                  "label": "The ask is buried, so the reader postpones working out what is needed."
+                },
+                {
+                  "id": "c",
+                  "label": "They are too short, so recipients do not have enough context to act."
+                },
+                {
+                  "id": "d",
+                  "label": "The subject lines are not specific enough to stand out in an inbox."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A message that requires decoding gets moved to «later», and later rarely comes. Putting the ask and the deadline in the first line is what converts a read into a reply.",
+              "wrongHint": "Think about what happens when a busy reader cannot immediately tell what is wanted."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Use It to Cut, Not to Expand",
+              "bodyHtml": "<p>The instinct is to ask for an email to be written. The better use is to write it badly yourself and ask for it at half the length.</p><p>«Same information, half the words, keep the deadline» is a reliable instruction and almost always improves the message — your version has the facts, and the pass removes the hedging.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a long email you sent and rewrite the first line as the ask.",
+                "Ask for the whole thing at half the length and compare.",
+                "Add «no action needed» to your next informational message.",
+                "Notice how much of the original was warm-up."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Difficult Emails Get Shorter, Not Longer",
+              "bodyHtml": "<p>When the message is awkward — a delay, a refusal, a mistake — the instinct is to explain more. Every extra sentence adds something to argue with and reads as defensiveness.</p><p>State it, say what happens next, stop. Three sentences on a bad situation is respected; three paragraphs is not.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Put the ask and the deadline in the first line, keep context to the minimum needed to answer, and say «no action needed» when that is true. Write badly yourself and ask for it at half the length — and make difficult messages shorter rather than longer.",
+              "nextTeaser": "Next: turning your own notes into something sendable."
+            }
+          ]
+        },
+        {
+          "slug": "wrk-notes",
+          "title": "Turning Your Notes Into Something Sendable",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people have the information and lose the time in the writing up. Notes exist, the thinking is done, and then an hour disappears turning shorthand into sentences.</p><p>This is the single most reliable time saving available in an office job, and it carries almost no risk because the substance is already yours.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Give It the Skeleton",
+              "bodyHtml": "<p><s>«Write a summary of the client meeting.»</s></p><p><strong>«My notes are below. Turn them into an email to the client confirming what we agreed. Keep my ordering, do not add anything I did not write.»</strong></p><p>The last clause matters more than the rest. Without it, plausible detail gets added that nobody said.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«Do not add anything I did not write» is the most useful clause in office work."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where This Works Best",
+              "bodyHtml": "<ul><li><strong>Meeting notes</strong> → a confirmation email</li><li><strong>Bullet points</strong> → a paragraph for a document</li><li><strong>A rough decision</strong> → a written rationale for the record</li><li><strong>Scattered thoughts</strong> → an agenda with an order</li></ul><p>All four start with material you produced, which means you can spot an invented detail immediately.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You dictate rough notes and ask for an email. What must you check before sending?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "That the tone is friendly enough for the relationship with the reader."
+                },
+                {
+                  "id": "b",
+                  "label": "That nothing was added — invented detail is the failure mode here."
+                },
+                {
+                  "id": "c",
+                  "label": "That the length is appropriate for the importance of the subject."
+                },
+                {
+                  "id": "d",
+                  "label": "That the formatting matches the conventions your team normally uses."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Expansion invents plausible specifics — a date, a name, a commitment nobody made — and in a confirmation email that becomes something you are held to. Tone and formatting are cosmetic by comparison.",
+              "wrongHint": "Think about which error would still cause a problem three weeks later."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Dictate While It Is Fresh",
+              "bodyHtml": "<p>Notes decay within hours. Speaking them straight after a meeting, then writing up from the transcript, produces far better material than trying to recall it in the evening.</p><p>Two minutes of talking beats twenty minutes of remembering, and it captures the phrasing people actually used.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "After your next meeting, dictate two minutes of notes immediately.",
+                "Turn them into a confirmation email with the «add nothing» clause.",
+                "Check every date, name and commitment against your notes.",
+                "Compare the time with your usual write-up."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Send It the Same Day",
+              "bodyHtml": "<p>A confirmation sent within the hour gets corrected while everyone remembers. One sent on Friday is accepted silently and disputed a month later.</p><p>Fast write-up makes same-day sending realistic, and that speed is worth more than the polish.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "You already have the substance; the write-up is the slow part. Supply your own notes, insist that nothing is added, and check every date, name and commitment. Dictate straight after the meeting and send the confirmation the same day.",
+              "nextTeaser": "Next: the update your manager actually reads."
+            }
+          ]
+        },
+        {
+          "slug": "wrk-updates",
+          "title": "The Update Your Manager Actually Reads",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most status updates list what someone did. Managers are not reading for activity — they are reading for whether anything requires them.</p><p>An update with nothing to act on gets skimmed, and after a few weeks it stops being read at all.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Lead With What Needs Them",
+              "bodyHtml": "<p><s>«This week I finished the audit, started on the migration plan and attended three meetings about the rollout.»</s></p><p><strong>«The migration will slip a week unless we get access to the test environment. Everything else is on track.»</strong></p><p>The first is a defence of your time. The second is the reason the update exists.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An update your manager cannot act on is an update they will stop reading."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Lines",
+              "bodyHtml": "<ul><li><strong>Anything blocked</strong>, and what would unblock it</li><li><strong>Anything at risk</strong>, with what you are doing about it</li><li><strong>What finished</strong> — one line, not a list</li><li><strong>What I need from you</strong>, with a date</li></ul><p>Four lines every week beats a page every month, and it is far easier to write.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Nothing is blocked and nothing is at risk this week. What should the update say?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A detailed list of everything completed, to show the work being done."
+                },
+                {
+                  "id": "b",
+                  "label": "One line saying it is on track, with what finished and nothing needed."
+                },
+                {
+                  "id": "c",
+                  "label": "Skip it entirely — an update with no issues is not worth anyone's time."
+                },
+                {
+                  "id": "d",
+                  "label": "Focus on next week's plan, since this week has nothing to report on."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A short «on track, nothing needed» is genuinely valuable — it is the absence of bad news, delivered reliably. Skipping creates uncertainty, and a completion list trains your manager to skim.",
+              "wrongHint": "Think about what a manager is actually checking for when they open your update."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write the Hard Version First",
+              "bodyHtml": "<p>Draft it honestly, then adjust the wording. Softening the assessment while writing is how a slipping project stays quietly on track in every report until the deadline arrives.</p><p>Raising a risk early reads as competence. Raising it late reads as concealment, whatever the wording.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Rewrite your last update into the four lines.",
+                "Put anything blocked or at risk in the first line.",
+                "Add one thing you need, with a date.",
+                "Send it and see whether it gets a faster response."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Same Day, Same Shape, Every Week",
+              "bodyHtml": "<p>The value of an update is partly the reliability. A manager who knows a short honest note arrives every Friday stops asking for status in meetings.</p><p>Same day, same four lines, no exceptions. That predictability buys you more autonomy than any amount of detail.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Managers read updates for what requires them, not for what you did. Lead with blocked and at-risk, keep completions to one line, name what you need with a date, and send the same four lines on the same day every week — including the weeks when the answer is «on track».",
+              "nextTeaser": "Next: what not to put into a work tool."
+            }
+          ]
+        },
+        {
+          "slug": "wrk-what-not-to-paste",
+          "title": "What Not to Put Into a Work Tool",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>This is the lesson people skip and then need. Using AI at work touches information that is not yours, and the rules are usually written somewhere nobody has read.</p><p>Finding out afterwards is the version of this that costs someone their job.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Questions to Settle First",
+              "bodyHtml": "<ul><li><strong>Is there a policy?</strong> Most organisations now have one — find it</li><li><strong>Which tools are approved?</strong> Personal accounts are usually not</li><li><strong>What is off limits?</strong> Customer data, HR records, anything unreleased</li></ul><p>Twenty minutes with your IT or compliance contact settles all three, and it is a conversation that reflects well on you.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "«I didn't know there was a policy» is not a defence anyone has successfully used."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Strip Before You Paste",
+              "bodyHtml": "<p><s>Pasting the customer spreadsheet to get a summary of the changes.</s></p><p><strong>Replacing names and account numbers with «Customer 1…12» first. The summary is identical.</strong></p><p>You almost never need the real identifiers for the work, and putting them back afterwards takes seconds. This habit removes most of the risk without any judgement call.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You want to summarise a customer complaint thread for your manager. What is the right approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Paste the thread as it is — it is internal, so nothing is being shared."
+                },
+                {
+                  "id": "b",
+                  "label": "Replace names and account details with placeholders, then summarise."
+                },
+                {
+                  "id": "c",
+                  "label": "Summarise it yourself, since customer data must never be processed."
+                },
+                {
+                  "id": "d",
+                  "label": "Remove only the email addresses, since names alone are not identifying."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "You need the substance of the complaint, not the identity behind it, and placeholders give an identical summary. «Internal» describes where the data came from, not where you are about to send it.",
+              "wrongHint": "Ask what you actually need to answer the question — the identities, or the content?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Approved Tools Exist for a Reason",
+              "bodyHtml": "<p>If your organisation provides a specific tool, use that one even if you prefer another. The approved version usually has an agreement about data handling that a personal account does not.</p><p>Convenience is not a defence, and «I used my own account because it works better» is a sentence you do not want to be saying in a review.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find your organisation's AI policy — ask if you cannot locate it.",
+                "List which tools are approved and whether your account is one.",
+                "Practise the placeholder swap on a real file.",
+                "Write your own list of what you will never paste."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say What You Use",
+              "bodyHtml": "<p>Being open with your manager about how you work is almost always fine and occasionally makes you the person others ask.</p><p>Quietly using it and being found out later is a much worse conversation than the one you were avoiding — and the first version usually ends with you being asked to show colleagues.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Find the policy, use the approved tools rather than personal accounts, and make placeholder-swapping a habit rather than a judgement each time. Then be open with your manager about how you work — discovered later is far worse than mentioned early.",
+              "nextTeaser": "That completes the course: emails, notes, updates and the rules at work."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

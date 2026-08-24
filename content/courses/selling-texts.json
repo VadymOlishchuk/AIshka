@@ -1,0 +1,366 @@
+{
+  "slug": "selling-texts",
+  "title": "Selling Texts",
+  "description": "Why sales copy gets skipped, how to write for one reader with one promise, proof that changes minds instead of adjectives that do not, and the structure that follows the reader's own questions.",
+  "kind": "mini",
+  "icon": "📣",
+  "shelf": "Text",
+  "sortOrder": 2,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on copy that gets read, for anyone who has to sell something in writing.",
+      "lessons": [
+        {
+          "slug": "sel-why-ignored",
+          "title": "Why Most Sales Copy Is Ignored",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Sales writing is the one kind everyone has learned to skip. Readers recognise the shape of it in half a second and their eyes move on before a single word is processed.</p><p>The reason is not that people hate being sold to. It is that almost all of it says the same four things.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Four Sentences Nobody Reads",
+              "bodyHtml": "<ul><li><strong>«We're passionate about quality»</strong> — every competitor says it too</li><li><strong>«Industry-leading solutions»</strong> — a claim with nothing behind it</li><li><strong>«In today's fast-paced world»</strong> — a warm-up nobody stays for</li><li><strong>«Contact us to learn more»</strong> — work handed back to the reader</li></ul><p>Cutting all four usually removes a third of a page and loses nothing at all.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If a competitor could put their logo on your copy and it would still be true, it says nothing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The Logo Test",
+              "bodyHtml": "<p>There is one test that catches almost every weak line.</p><p><s>«Trusted by businesses who value reliability and service.»</s></p><p><strong>«We answer the phone within three rings. If we don't, the call is free.»</strong></p><p>Nobody else can claim the second one without changing how they operate. That is what makes it worth reading.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which line is most likely to be read rather than skipped?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "We deliver high-quality service tailored to each of our customers."
+                },
+                {
+                  "id": "b",
+                  "label": "Most orders leave the same day; anything after 3pm goes tomorrow."
+                },
+                {
+                  "id": "c",
+                  "label": "Our experienced team is passionate about getting the details right."
+                },
+                {
+                  "id": "d",
+                  "label": "A trusted partner for businesses looking to grow with confidence."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Only one of these could be checked, argued with, or copied by a competitor at a cost. Specifics are read because they carry information; the others are read as decoration and skipped.",
+              "wrongHint": "Ask which line a competitor could paste onto their own site unchanged."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Generated Copy Drifts Straight Into It",
+              "bodyHtml": "<p>Asked for sales copy, most tools produce exactly these four sentences, because that is what most sales copy looks like.</p><p>The fix is to supply the specifics yourself — the real number, the real guarantee, the real complaint you fix — and let it handle the arrangement.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a page you own and mark every sentence that passes the logo test.",
+                "Count what percentage is left — usually under a quarter.",
+                "Write three specifics only your business could claim.",
+                "Rebuild the opening from those three alone."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Boring and True Beats Exciting and Empty",
+              "bodyHtml": "<p>«Ships in two days from Leeds» is not exciting. It converts better than any adjective you could put in its place, because it answers something the reader was actually wondering.</p><p>Most copy fails from vagueness rather than dullness, and vagueness is the easier of the two to fix.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Sales copy gets skipped because it says what every competitor says. Cut the four standard sentences, apply the logo test to every line, and supply real specifics yourself rather than asking for copy from nothing — arrangement is the part worth handing over.",
+              "nextTeaser": "Next: the one thing the reader has to believe."
+            }
+          ]
+        },
+        {
+          "slug": "sel-one-promise",
+          "title": "One Promise, One Reader",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The most common structural mistake in sales writing is trying to persuade several different people at once, in the same paragraph.</p><p>Copy written for everybody persuades nobody, because every additional audience forces the language a step further towards the general.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Name One Person",
+              "bodyHtml": "<p><s>«Perfect for businesses, freelancers, students and hobbyists.»</s></p><p><strong>«If you run a small shop and lose an evening a week to invoicing, this is for you.»</strong></p><p>The second excludes far more people, and that is the point — the person it does describe recognises themselves instantly.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every extra audience you address costs you the one you were describing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "One Promise, Repeated",
+              "bodyHtml": "<ul><li><strong>Say what changes</strong> for that person, in their words</li><li><strong>Say it in the first line</strong>, not after a paragraph of context</li><li><strong>Repeat it</strong> at the end, in different words</li><li><strong>Do not add a second promise</strong> — it halves the first</li></ul><p>A page selling three benefits equally sells none of them.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your product genuinely helps four different kinds of customer. What should the page do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Address all four, so nobody who could benefit feels excluded by it."
+                },
+                {
+                  "id": "b",
+                  "label": "Speak to one clearly, and make separate pages for the others later."
+                },
+                {
+                  "id": "c",
+                  "label": "Describe the product itself neutrally so each group can see the fit."
+                },
+                {
+                  "id": "d",
+                  "label": "Lead with the largest group and mention the others further down."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "One page speaking clearly to one person outperforms one page addressing four, and separate pages let you say something specific to each. Neutral descriptions leave the reader to do the work of recognising themselves.",
+              "wrongHint": "Think about what happens to the language when it must be true of four different readers."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Write the Objection Down First",
+              "bodyHtml": "<p>Before drafting, write the reason this person would not buy: too expensive, too complicated, tried something similar before.</p><p>Answer that objection directly in the copy. Most pages ignore it, and the reader supplies it themselves and leaves without ever telling you.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Describe your single most likely buyer in one sentence, as a person.",
+                "Write the one thing that changes for them, in their words.",
+                "Write their strongest reason not to buy.",
+                "Draft the opening so it names the change and answers the objection."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Give It the Person, Not the Product",
+              "bodyHtml": "<p>When you ask for copy, describe the reader rather than the features. «Write for a shop owner who has tried two accounting apps and abandoned both» produces something usable; a feature list produces the four sentences from the last lesson.</p><p>The reader is the input that changes everything, and it is the one most people leave out.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Copy written for everybody persuades nobody. Name one reader, make one promise about what changes for them, put it in the first line and repeat it at the end — and answer their strongest objection directly rather than hoping they miss it.",
+              "nextTeaser": "Next: proof, and why adjectives cannot replace it."
+            }
+          ]
+        },
+        {
+          "slug": "sel-proof",
+          "title": "Proof Beats Adjectives",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Readers do not disbelieve your claims so much as ignore them. Everyone claims quality, so claiming it carries no information either way.</p><p>What changes a reader's mind is something they can check, or something someone else said.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Kinds That Work",
+              "bodyHtml": "<ul><li><strong>Numbers you can stand behind</strong> — «412 orders last month», not «thousands of happy customers»</li><li><strong>Specific testimonials</strong> — naming the problem solved, not «great service!»</li><li><strong>A guarantee with teeth</strong> — one that would cost you if you failed</li><li><strong>Showing the work</strong> — before and after, a sample, a screenshot</li></ul><p>The fourth is the strongest and the least used, because it takes effort rather than words.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A guarantee that would never cost you anything is not a guarantee, it is a sentence."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Ask for Better Testimonials",
+              "bodyHtml": "<p>«Great to work with, highly recommend» proves nothing. The fix is in how you ask.</p><p><s>«Would you mind leaving a review?»</s></p><p><strong>«What was the problem before we started, and what changed? Two sentences is plenty.»</strong></p><p>The second produces a testimonial that does actual work, and people find it easier to answer.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which piece of proof is most persuasive to a cautious buyer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A five-star average rating displayed prominently at the top of the page."
+                },
+                {
+                  "id": "b",
+                  "label": "One customer describing the exact problem they had and what changed."
+                },
+                {
+                  "id": "c",
+                  "label": "A list of well-known company logos under the heading «trusted by»."
+                },
+                {
+                  "id": "d",
+                  "label": "A statement that you have over ten years of experience in the field."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A specific story lets the reader recognise their own situation, which is what actually converts. Ratings and logos are ignored as decoration, and years of experience is a claim about you rather than evidence about them.",
+              "wrongHint": "Ask which option lets the reader see themselves in someone else's situation."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Never Invent It",
+              "bodyHtml": "<p>Generated copy will happily produce plausible statistics, invented testimonials and confident claims about your business. All three are worse than having no proof at all.</p><p>Supply the real evidence and let it arrange the words. Anything you cannot source should not appear, however good it sounds.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Collect three real numbers about your business you would stand behind.",
+                "Rewrite your testimonial request as the two-sentence question.",
+                "Write a guarantee that would actually cost you something.",
+                "Add one before-and-after to the page and remove one adjective."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One Strong Piece Beats Five Weak Ones",
+              "bodyHtml": "<p>A page with one specific customer story and one real number outperforms a page with a wall of badges, ratings and logos.</p><p>Volume of proof reads as decoration; one checkable thing reads as evidence.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Claims are ignored, evidence is not. Use numbers you would stand behind, testimonials that name the problem, a guarantee that would cost you, and shown work. Never let anything be invented, and prefer one checkable piece to five decorative ones.",
+              "nextTeaser": "Next: the structure that does the work."
+            }
+          ]
+        },
+        {
+          "slug": "sel-structure",
+          "title": "The Structure That Does the Work",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most sales pages are written in the order they were thought of: who we are, what we do, why we are good, get in touch.</p><p>That is the order of the writer's thinking, not the reader's. Reversing it usually improves a page more than any rewriting of individual sentences.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Reader's Order",
+              "bodyHtml": "<ul><li><strong>Is this for me?</strong> — the named reader and the change</li><li><strong>What exactly is it?</strong> — plainly, in one line</li><li><strong>Why believe you?</strong> — the proof</li><li><strong>What is stopping me?</strong> — the objection, answered</li><li><strong>What happens next?</strong> — one action, no choices</li></ul><p>Five questions, in that sequence. Everything else on the page is optional.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Write in the reader's order of questions, not the order you thought of things."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "One Action, Not Three",
+              "bodyHtml": "<p><s>«Get in touch, book a call, download the guide, or follow us for updates.»</s></p><p><strong>«Send us the file and we'll tell you what it would cost. No call needed.»</strong></p><p>Every additional option makes the decision harder. Pages with one action outperform pages with four, consistently and by a lot.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Where should the strongest customer story sit on a sales page?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "At the very end, so the page finishes on a confident note."
+                },
+                {
+                  "id": "b",
+                  "label": "Straight after you explain what it is, before the objection."
+                },
+                {
+                  "id": "c",
+                  "label": "At the top, above everything, so it is the first thing seen."
+                },
+                {
+                  "id": "d",
+                  "label": "Spread throughout, with a sentence quoted in every section."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Proof answers «why believe you», which only becomes a question once the reader knows what it is. Before that it has nothing to attach to, and at the end most readers have already decided.",
+              "wrongHint": "Think about the order in which the reader's questions actually arrive."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Cut After Writing",
+              "bodyHtml": "<p>Generated pages run long, because more text looks like more effort. A reliable pass: delete the opening paragraph, remove every sentence containing «in today's», and cut the total by a third.</p><p>The page almost always improves, which tells you what those words were doing.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a page and mark which of the five questions each section answers.",
+                "Reorder the sections into the reader's sequence.",
+                "Remove every call to action except one.",
+                "Cut the length by a third and read it again."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Test One Thing at a Time",
+              "bodyHtml": "<p>When something underperforms, the instinct is to rewrite everything, which teaches you nothing.</p><p>Change the first line and leave the rest. That is the highest-impact element and the easiest to isolate — and after three such tests you know something real about your readers rather than about copywriting in general.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Structure the page around the reader's five questions in order: is this for me, what is it, why believe you, what is stopping me, what happens next. Keep one action, cut generated drafts by a third, and test one element at a time starting with the first line.",
+              "nextTeaser": "That completes the course: why copy is ignored, one promise, proof, and structure."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
