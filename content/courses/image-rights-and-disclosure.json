@@ -1,0 +1,366 @@
+{
+  "slug": "image-rights-and-disclosure",
+  "title": "Rights, Likeness and Disclosure",
+  "description": "Who owns generated images, why owning one does not mean you may use what is in it, where disclosure has become expected, and the four lines that belong in every client agreement.",
+  "kind": "mini",
+  "icon": "⚖️",
+  "shelf": "Images",
+  "sortOrder": 4,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on the questions clients ask and most freelancers guess at.",
+      "lessons": [
+        {
+          "slug": "rgt-who-owns-it",
+          "title": "Who Owns What You Generated",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>This is the question every client eventually asks and most freelancers answer with a guess. The honest answer is that it depends on where you are, which tool you used, and what you agreed.</p><p>You do not need to be a lawyer. You need to know which three things to check before you sell anything.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Separate Questions",
+              "bodyHtml": "<ul><li><strong>What does the tool's licence allow?</strong> Commercial use is not automatic on free tiers</li><li><strong>What does your local law say about authorship?</strong> This varies significantly by country</li><li><strong>What did you agree with the client?</strong> This is the one you control</li></ul><p>People conflate these constantly. A tool permitting commercial use says nothing about who owns the result.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Permission to use something commercially is not the same as owning it."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Check the Licence, Not the Forum Post",
+              "bodyHtml": "<p><s>«Someone said it's fine for commercial use.»</s></p><p><strong>«The terms for the plan I pay for say this, dated this month, and I saved a copy.»</strong></p><p>Terms differ between free and paid tiers of the same tool, and they change. A screenshot of the terms on the day you delivered is worth having.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks whether they own the images you generated for them. What is the sound answer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Yes — you made them, so the client owns them like any other deliverable."
+                },
+                {
+                  "id": "b",
+                  "label": "Explain what the tool's licence permits and what your contract assigns."
+                },
+                {
+                  "id": "c",
+                  "label": "No — generated images cannot be owned by anyone under current law."
+                },
+                {
+                  "id": "d",
+                  "label": "Say it is unclear and that nobody in the industry really knows yet."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "The useful answer separates what the tool permits from what your agreement assigns, because they are different questions. Confident yes or no answers overstate a position that genuinely varies, and «nobody knows» leaves the client with nothing.",
+              "wrongHint": "Think about which answer a client could actually act on when planning their own use."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Say What You Can Promise",
+              "bodyHtml": "<p>You can always promise what is in your control: that you have the right to supply the work, and that you have not knowingly infringed anything.</p><p>You cannot promise exclusivity over something generated, because a similar output may exist. Saying that plainly at the start avoids a difficult conversation later.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open the terms of the tool you use most and find the commercial-use section.",
+                "Note whether it differs between the free and paid tiers.",
+                "Save a dated copy of the relevant paragraph.",
+                "Write the two sentences you will use when a client asks."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "This Area Is Moving",
+              "bodyHtml": "<p>Courts and regulators in several countries are actively deciding these questions, and positions have changed more than once already.</p><p>Re-read your tools' terms once or twice a year, and take actual legal advice before anything high-value. A short conversation now costs less than a dispute later.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Separate three questions: what the tool licence permits, what local law says about authorship, and what your contract assigns. Check the terms yourself rather than trusting forums, promise only what you control, and revisit it yearly because the position keeps moving.",
+              "nextTeaser": "Next: faces, brands and places."
+            }
+          ]
+        },
+        {
+          "slug": "rgt-faces-brands",
+          "title": "Faces, Brands and Places",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Ownership of the image is one question. Whether you may use what is depicted in it is a completely separate one, and it catches people out more often.</p><p>A picture you fully own can still be unusable because of who or what is in it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three Things That Carry Their Own Rules",
+              "bodyHtml": "<ul><li><strong>Recognisable people</strong> — likeness rights exist in most places, generated or not</li><li><strong>Brands and logos</strong> — a trademark does not stop being one because a tool drew it</li><li><strong>Protected places and works</strong> — some buildings and artworks have restrictions</li></ul><p>The first is the one that produces actual complaints, especially when the resemblance is close enough that someone recognises themselves.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A tool drawing a logo does not make it stop being a trademark."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Real People Need Permission",
+              "bodyHtml": "<p><s>Generating an image resembling a public figure and using it in an advert.</s></p><p><strong>Generating an unremarkable person who resembles nobody in particular.</strong></p><p>Using someone's likeness to promote something almost always needs their agreement, and «it was generated» has not worked as a defence.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A generated image closely resembles a well-known person. Can you use it in an advert?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Yes — it is generated, so no actual person was photographed for it."
+                },
+                {
+                  "id": "b",
+                  "label": "No — using a recognisable likeness to advertise generally needs consent."
+                },
+                {
+                  "id": "c",
+                  "label": "Yes, provided you add a note saying the image is AI-generated."
+                },
+                {
+                  "id": "d",
+                  "label": "Yes, as long as you do not name the person anywhere in the advert."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Likeness rights attach to the person, not to the method of making the picture. A disclosure note explains how it was made without granting permission, and not naming them does not help if they are recognisable.",
+              "wrongHint": "Ask whether the person in question would have a say if you had photographed them instead."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Check What Slipped Into the Frame",
+              "bodyHtml": "<p>Generated images routinely include half-formed logos on clothing, recognisable buildings, and text on signage that is nearly a real brand.</p><p>Zoom in before delivering. These details are easy to remove and awkward to explain once published.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take three generated images and zoom in on clothing, signage and backgrounds.",
+                "Note anything resembling a real brand or a recognisable place.",
+                "Remove or replace those elements.",
+                "Write your own rule for images involving people."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "When in Doubt, Change It",
+              "bodyHtml": "<p>Regenerating with an exclusion is faster than establishing whether a specific use is permitted.</p><p>«No visible logos, no recognisable landmarks, no identifiable faces» in the prompt removes the entire question for most commercial work.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Owning an image does not mean you may use what is in it: recognisable people, trademarks and some protected places carry their own rules regardless of how the picture was made. Zoom in before delivering, and exclude logos, landmarks and identifiable faces in the prompt when the use is commercial.",
+              "nextTeaser": "Next: when you must say it was generated."
+            }
+          ]
+        },
+        {
+          "slug": "rgt-disclosure",
+          "title": "When You Must Say It Is Generated",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Disclosure is moving from good manners to a requirement in several markets, at different speeds and with different rules.</p><p>Rather than tracking every jurisdiction, it is easier to work out where disclosure matters and simply do it there.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Where It Matters Most",
+              "bodyHtml": "<ul><li><strong>Anything a buyer relies on</strong> — product images, property photos, listings</li><li><strong>Anything documentary</strong> — news, reports, evidence of something that happened</li><li><strong>Anything depicting a person</strong> — even an invented one, in some contexts</li><li><strong>Regulated advertising</strong> — where rules on misleading claims already apply</li></ul><p>Decorative and illustrative use — a header image, an abstract background — is rarely the concern.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Disclosure costs a line of text. Being caught not disclosing costs the relationship."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Label It Where It Is Seen",
+              "bodyHtml": "<p><s>Mentioning during a call that some of the imagery is generated.</s></p><p><strong>A line in the listing itself: «Room setting is a digital visualisation; the product is photographed.»</strong></p><p>A verbal mention protects nobody. The label has to travel with the image, because that is where the person who might be misled encounters it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which use most clearly requires disclosure that an image is generated?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "An abstract background behind the header text on a blog article."
+                },
+                {
+                  "id": "b",
+                  "label": "A room setting shown behind a real product in a shop listing."
+                },
+                {
+                  "id": "c",
+                  "label": "An illustration accompanying an opinion piece about the future."
+                },
+                {
+                  "id": "d",
+                  "label": "A decorative pattern used across a company's presentation slides."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A buyer uses the listing image to decide what they are getting, so anything staged there affects a purchase. The other three are decorative and nobody is relying on them as a record of something real.",
+              "wrongHint": "Ask which image someone is relying on when they make a decision."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep a Record Per Project",
+              "bodyHtml": "<p>Note which assets were generated, with which tool, and when. It takes a line per project.</p><p>If a question arrives a year later — from a client, a platform or a regulator — that note is the difference between an answer and a reconstruction.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List where your images end up and mark which uses people rely on.",
+                "Write the disclosure line you will use for those.",
+                "Add it to a live listing or page today.",
+                "Start a per-project note of which assets were generated."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Disclosing Is Rarely a Problem",
+              "bodyHtml": "<p>People worry that saying an image is generated damages trust. In practice the opposite is reported: audiences respond badly to discovering it, not to being told.</p><p>Being the one who mentioned it puts you in a completely different position from being the one who was found out.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Disclose wherever someone relies on the image — listings, documentary use, depictions of people, regulated advertising — and put the label with the image rather than mentioning it in conversation. Keep a per-project record of which assets were generated and when.",
+              "nextTeaser": "Next: client work and what to put in writing."
+            }
+          ]
+        },
+        {
+          "slug": "rgt-client-agreements",
+          "title": "Client Work and What to Put in Writing",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Almost every problem in this area becomes simple if it was written down before the work started, and expensive if it was not.</p><p>Four lines in an agreement cover nearly all of it, and adding them signals competence rather than caution.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four Lines Worth Having",
+              "bodyHtml": "<ul><li><strong>Whether AI may be used</strong>, and for which parts</li><li><strong>What is transferred</strong> on payment, and what is licensed rather than sold</li><li><strong>Which assets are generated</strong>, listed at delivery</li><li><strong>What you do not warrant</strong> — exclusivity over generated output</li></ul><p>The first line prevents the worst conversation: discovering after delivery that the client had a policy against it.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Ask about their AI policy at kickoff. Finding out afterwards is the expensive version."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Ask Before You Start",
+              "bodyHtml": "<p><s>Assuming it is fine because they never mentioned it.</s></p><p><strong>«Do you have a policy on AI-generated assets? Some clients do, and it changes how I quote.»</strong></p><p>One question at kickoff. Publishers, regulated industries and larger companies frequently have rules, and their own clients sometimes impose more.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "When should you ask a client about their policy on generated assets?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "At delivery, so the question does not complicate the initial pitch."
+                },
+                {
+                  "id": "b",
+                  "label": "At kickoff, because the answer changes the scope and the price."
+                },
+                {
+                  "id": "c",
+                  "label": "Only if they raise it, since most clients do not care either way."
+                },
+                {
+                  "id": "d",
+                  "label": "After the first draft, when they can see what the work looks like."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A policy against generated assets changes the method, the timeline and the price, so it belongs before the quote. Discovering it at delivery means redoing work you have already been paid for, or not being paid at all.",
+              "wrongHint": "Think about what would have to be redone if the answer turns out to be no."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "List the Generated Assets at Delivery",
+              "bodyHtml": "<p>A short line in the handover — which files were generated, which were photographed, which were edited — takes a minute and prevents every later dispute about it.</p><p>It also makes you noticeably easier to work with, because their legal or brand team can answer their own questions without coming back to you.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Add the AI-policy question to your standard kickoff list.",
+                "Write the four lines into your agreement template.",
+                "Prepare the delivery note listing asset provenance.",
+                "Check what your current contract says about ownership."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Price the Restriction",
+              "bodyHtml": "<p>If a client rules out generated assets, the work is slower and should cost more. That is not a penalty — it is an accurate quote for a different method.</p><p>Saying so plainly at kickoff is normal. Absorbing it silently and resenting it later is the common alternative, and it damages the relationship more than the price ever would.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Four lines in the agreement cover almost everything: whether AI may be used, what transfers on payment, which assets were generated, and what you do not warrant. Ask about their policy at kickoff, list provenance at delivery, and price a no-AI requirement as the different method it is.",
+              "nextTeaser": "That completes the course: ownership, what is depicted, disclosure and agreements."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

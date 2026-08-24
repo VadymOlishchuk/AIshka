@@ -1,0 +1,366 @@
+{
+  "slug": "prompting-for-images",
+  "title": "Prompting for Images",
+  "description": "Why prompts return someone else's picture, the five decisions every image needs, iterating instead of rerolling, and building a style you can reproduce forty times.",
+  "kind": "mini",
+  "icon": "🖼️",
+  "shelf": "Images",
+  "sortOrder": 0,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on getting the image you pictured rather than the average of everything.",
+      "lessons": [
+        {
+          "slug": "img-someone-elses-picture",
+          "title": "Why You Get Someone Else's Picture",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>You describe what you want, and something arrives that is technically correct and not what you pictured. Usually the reaction is to add more adjectives, which makes it worse.</p><p>The problem is that you described a subject and left every other decision to an average of everything ever photographed.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "A Subject Is Not a Picture",
+              "bodyHtml": "<p><s>«A coffee shop, professional photo.»</s></p><p><strong>«Morning light through a side window, one cup on a scratched wooden counter, shot from standing height, muted greens, nobody in frame.»</strong></p><p>The first names what is in the picture. The second names how it was taken — and that is what a picture actually is.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "You did not get the wrong picture. You got the average of every picture matching your description."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Gets Decided If You Do Not",
+              "bodyHtml": "<ul><li><strong>Where the light comes from</strong> — defaults to soft, even, from nowhere</li><li><strong>Where you are standing</strong> — defaults to eye level, centred</li><li><strong>How close</strong> — defaults to the whole subject, comfortably framed</li><li><strong>What is around it</strong> — defaults to tidy and empty</li></ul><p>Those four defaults are exactly what makes output recognisable. Deciding any one of them changes the result immediately.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your images look technically fine but generic. Which change helps most?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Adding words like professional, high quality and beautifully detailed."
+                },
+                {
+                  "id": "b",
+                  "label": "Naming where the light comes from and where the camera is standing."
+                },
+                {
+                  "id": "c",
+                  "label": "Generating at a higher resolution so the fine detail becomes sharper."
+                },
+                {
+                  "id": "d",
+                  "label": "Trying a different tool with a reputation for more realistic output."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Generic comes from unmade decisions, not from resolution or tooling. Light and viewpoint are the two that change an image most, and quality adjectives add nothing because every image already claims to be good.",
+              "wrongHint": "Think about what differs between two photographs of the same object."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "More Adjectives Is the Wrong Fix",
+              "bodyHtml": "<p>«Stunning, hyper-detailed, award-winning» adds nothing, because there is no version that was aiming to be dull.</p><p>Every word should remove a possibility rather than assert quality. «Nobody in frame» is worth ten quality adjectives, because it rules something out.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a prompt you used and count how many words describe the subject.",
+                "Count how many describe light, position, distance or surroundings.",
+                "Add one of each and generate again without changing anything else.",
+                "Note which single addition changed the image most — usually the light."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Describe What a Photographer Would Do",
+              "bodyHtml": "<p>The most useful mental shift is to stop describing the thing and start describing the shoot: where you stood, what time it was, what lens, what you deliberately left out.</p><p>You do not need photography knowledge for this. «From a chair, looking slightly up, late afternoon» is enough and is already more specific than most prompts.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "You get generic images because a subject is not a picture: light, viewpoint, distance and surroundings all get decided by default if you do not decide them. Add words that rule things out rather than assert quality, and describe the shoot rather than the object.",
+              "nextTeaser": "Next: the five things every prompt should decide."
+            }
+          ]
+        },
+        {
+          "slug": "img-five-decisions",
+          "title": "The Five Things a Prompt Decides",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>There is a short checklist that covers almost every image you will ever need. It is not a magic phrase — it is five decisions, and running through them takes twenty seconds.</p><p>Most weak prompts have made one or two of them and left the rest.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Five",
+              "bodyHtml": "<ul><li><strong>Subject</strong> — what it is, specifically</li><li><strong>Composition</strong> — where it sits in frame, what space is left</li><li><strong>Light</strong> — direction, time of day, hard or soft</li><li><strong>Treatment</strong> — photograph, illustration, flat graphic; and how detailed</li><li><strong>Exclusions</strong> — what must not appear</li></ul><p>The fifth is the one almost nobody uses and the one that fixes the most.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Saying what must not appear removes more wrong images than any amount of description."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Composition Is Where Usability Lives",
+              "bodyHtml": "<p><s>«A laptop on a desk.»</s></p><p><strong>«A laptop on a desk, positioned right of centre, the left third empty for a headline.»</strong></p><p>If the image is going anywhere real — a banner, a slide, a post — the empty space is not decoration. It is the difference between usable and not.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You need a header image with a headline over it. What must the prompt include?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A high resolution, so the text stays sharp when it is placed on top."
+                },
+                {
+                  "id": "b",
+                  "label": "Where the empty space is, so the headline has somewhere to sit."
+                },
+                {
+                  "id": "c",
+                  "label": "The brand colours, so the text and the image match each other well."
+                },
+                {
+                  "id": "d",
+                  "label": "A simple subject, so the image does not compete with the words."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A beautiful image with the subject dead centre cannot carry a headline, whatever its resolution or palette. Composition is the one thing that decides whether the image is usable for this job at all.",
+              "wrongHint": "Think about what makes an image usable for its actual purpose rather than nice on its own."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Treatment Before Style Names",
+              "bodyHtml": "<p>Naming a style — an artist, a movement, a studio — is a blunt instrument and often produces an imitation of the most famous thing they made.</p><p>Describing the treatment works better: «flat two-colour illustration, thick even lines, no shading» is reproducible, checkable and yours.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write a prompt using all five decisions for something you actually need.",
+                "Generate it, then remove the exclusions and generate again.",
+                "Compare how many unwanted elements appear without them.",
+                "Save the version that worked as your template."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Write It Once, Reuse the Shape",
+              "bodyHtml": "<p>The five decisions become a template: subject changes, everything else stays. That is how sets of images end up looking related rather than assembled.</p><p>It also turns twenty minutes of fiddling per image into two — which is the actual saving, not the generation itself.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Five decisions cover almost everything: subject, composition, light, treatment and exclusions. Composition decides whether an image is usable for its real job, exclusions remove more wrong output than description adds, and describing treatment beats naming a style.",
+              "nextTeaser": "Next: iterating instead of rerolling."
+            }
+          ]
+        },
+        {
+          "slug": "img-iterating",
+          "title": "Iterating Instead of Rerolling",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The common pattern is to generate, dislike it, and generate again with the same prompt hoping for better luck. That is rolling dice, and it is why people burn an hour on one image.</p><p>Each result is information about your prompt. Reading it is faster than rerolling.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Name What Is Wrong",
+              "bodyHtml": "<p><s>Pressing generate four more times.</s></p><p><strong>«Too dark, the subject is centred, and there are people in the background. Same but lit from the left, subject on the right third, nobody in frame.»</strong></p><p>Three specific corrections beat twenty attempts, and they teach you what your prompt was missing.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every image you dislike is telling you which decision you failed to make."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Change One Thing at a Time",
+              "bodyHtml": "<ul><li><strong>Change the light</strong> and keep everything else — see what it does</li><li><strong>Then the composition</strong>, then the treatment</li><li><strong>Keep what worked</strong> in a file as you go</li><li><strong>Stop when it is good enough to edit</strong>, not perfect</li></ul><p>The last one matters. A crop and a colour adjustment afterwards is faster than ten more generations chasing perfection.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "An image is close but the mood is wrong. What is the most efficient next step?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Regenerate several times and pick whichever version feels closest."
+                },
+                {
+                  "id": "b",
+                  "label": "Change only the light description and keep everything else identical."
+                },
+                {
+                  "id": "c",
+                  "label": "Rewrite the prompt completely with more descriptive mood language."
+                },
+                {
+                  "id": "d",
+                  "label": "Add several style references so the tone lands closer to what you want."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Mood is mostly light, and changing one variable tells you exactly what that variable does. Rewriting everything means you learn nothing, and rerolling is chance rather than control.",
+              "wrongHint": "Think about which approach teaches you something you can reuse next time."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Finish in an Editor",
+              "bodyHtml": "<p>Almost nothing should ship exactly as generated. A crop, a colour shift towards the palette, and removing the one strange detail takes five minutes.</p><p>That pass is most of the visible difference between paid work and something anyone could produce in a browser tab.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take an image that is nearly right and write down three specific problems.",
+                "Fix one per iteration rather than all at once.",
+                "Stop as soon as it is good enough to finish by hand.",
+                "Count total generations against your usual approach."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep a Record of What Worked",
+              "bodyHtml": "<p>Save the exact prompt of anything you were pleased with, not just the file. The image is disposable; the prompt reproduces it on a new subject.</p><p>Within a month that file is worth more than any collection of finished images, because it makes the next set fast.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Rerolling is chance; iterating is control. Name the three specific problems, change one variable at a time, keep what works, and stop once the image is good enough to finish in an editor. Save the prompts rather than only the pictures.",
+              "nextTeaser": "Next: building a style you can repeat."
+            }
+          ]
+        },
+        {
+          "slug": "img-repeatable-style",
+          "title": "Building a Style You Can Repeat",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Anyone can produce one good image now. What is still difficult, and therefore still valuable, is producing forty that look like they belong together.</p><p>That is not a talent problem. It is a documentation problem.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Write the Recipe After the First Good One",
+              "bodyHtml": "<p>Spend the first hour getting one image you are happy with. Then write down exactly what produced it, in order.</p><p><s>Keeping the good image and starting fresh for the next subject.</s></p><p><strong>Keeping the specification and changing only the subject line.</strong></p><p>The second is how a set stays coherent, and it turns each subsequent image into a two-minute job.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nobody is paying for your best image. They are paying for your fortieth to match your first."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Must Stay Fixed",
+              "bodyHtml": "<ul><li><strong>Palette</strong> — the same handful of colours, named</li><li><strong>Light direction and quality</strong> — soft from the left, every time</li><li><strong>Framing distance</strong> — how much of the frame the subject fills</li><li><strong>Level of realism</strong> — photographic or illustrated, never mixed in a set</li></ul><p>Change the subject freely. Change any of these four and the set stops reading as a set.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You need twenty images for one product range. What matters most?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "That each image is as striking and memorable as it can possibly be."
+                },
+                {
+                  "id": "b",
+                  "label": "That all twenty share the same light, palette, framing and realism."
+                },
+                {
+                  "id": "c",
+                  "label": "That every image is generated at the maximum available resolution."
+                },
+                {
+                  "id": "d",
+                  "label": "That the set covers as many different visual styles as it can."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A range is seen as a set, not as individual pictures. Twenty ordinary images that match look deliberate, while twenty striking unrelated ones look like a folder of experiments.",
+              "wrongHint": "Think about how the images will actually be seen — one at a time, or together on a page?"
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Test the Recipe on Something Awkward",
+              "bodyHtml": "<p>A specification that works on three easy subjects often collapses on the difficult one — the tall product, the dark item, the one with reflective surfaces.</p><p>Test the awkward case early. Discovering it at image eighteen means redoing seventeen.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Produce one image you are pleased with and write the full recipe.",
+                "Generate three more subjects using it unchanged.",
+                "Put all four side by side and look for the drift.",
+                "Now test the most awkward subject in the range."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The Recipe Is a Deliverable",
+              "bodyHtml": "<p>Handing over a documented style — the exact specification, with examples — is something clients value and almost nobody offers.</p><p>It does not remove future work; it usually creates it, because the client now has a standard they want maintained.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Consistency is documentation, not talent. Get one image right, write down exactly what produced it, then change only the subject. Fix palette, light, framing distance and realism, test the awkward subject early, and hand the recipe over as its own deliverable.",
+              "nextTeaser": "That completes the course: why images come out generic, the five decisions, iterating, and repeatable style."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

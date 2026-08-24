@@ -1,0 +1,366 @@
+{
+  "slug": "images-for-posts-and-ads",
+  "title": "Images for Posts and Ads",
+  "description": "Building images that read at thumbnail size, putting text on them without ruining them, producing every shape from one master, and settling image arguments with evidence.",
+  "kind": "mini",
+  "icon": "📐",
+  "shelf": "Images",
+  "sortOrder": 3,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on images that have to work in a feed rather than on a wall.",
+      "lessons": [
+        {
+          "slug": "ads-competing-with-thumb",
+          "title": "Competing With a Thumb",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>An image in a feed gets less than a second, at a size smaller than a playing card, next to something else that is also trying to be interesting.</p><p>Most images fail there for reasons unrelated to quality: they were designed to be looked at rather than glanced at.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Design for the Thumbnail First",
+              "bodyHtml": "<p><s>A detailed scene with several elements, beautifully balanced.</s></p><p><strong>One subject, high contrast, filling most of the frame, readable at the size of a stamp.</strong></p><p>Shrink any image to thumbnail size. If you cannot tell what it is in half a second, it will not work in a feed however good it looks full size.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If it does not read at the size of a stamp, it does not work in a feed."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things That Survive Being Small",
+              "bodyHtml": "<ul><li><strong>One subject</strong>, not a scene</li><li><strong>Strong contrast</strong> between subject and background</li><li><strong>Unusual colour</strong> — feeds are mostly white, blue and grey</li><li><strong>A face or a hand</strong> — the eye finds them automatically</li></ul><p>These are compositional decisions, which means they belong in the prompt or the shoot rather than in the edit.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your ad images get impressions but almost no clicks. What is the likeliest problem?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The targeting is wrong, so the images reach an unsuitable audience."
+                },
+                {
+                  "id": "b",
+                  "label": "The image does not read at thumbnail size, so nothing registers."
+                },
+                {
+                  "id": "c",
+                  "label": "The budget is too small for the images to be shown often enough."
+                },
+                {
+                  "id": "d",
+                  "label": "The colours do not match your brand palette closely enough here."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Impressions mean it was shown; no clicks means nothing registered in the moment it appeared. Targeting and budget affect whether it appears at all, and a stranger does not notice your brand palette.",
+              "wrongHint": "Think about what the viewer actually experienced in the second the image appeared."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Test It Properly",
+              "bodyHtml": "<p>Shrink the image to about two hundred pixels wide and look at it on your phone, in a bright room, for one second.</p><p>That is the real viewing condition. Judging images full size on a large monitor is why so many well-made ones underperform.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take three images you have used and view them at thumbnail size.",
+                "Time how long it takes to tell what each one is.",
+                "Rebuild the worst around a single high-contrast subject.",
+                "Compare both at thumbnail size again."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Beautiful and Invisible Is Common",
+              "bodyHtml": "<p>Images that perform in feeds are frequently not the ones a designer would pick. Simple, contrasty and slightly odd beats balanced and refined, consistently.</p><p>That is not an argument for ugly work. It is an argument for judging images in the conditions where they will be seen.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "A feed image gets under a second at thumbnail size, so build around one subject with strong contrast, unusual colour and a face or hand where possible. Judge every image shrunk on a phone rather than full size on a monitor.",
+              "nextTeaser": "Next: putting text on images."
+            }
+          ]
+        },
+        {
+          "slug": "ads-text-on-images",
+          "title": "Text on Images",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Text on an image is either the most effective element or the thing that ruins it, and the difference comes down to a few mechanical decisions.</p><p>Generated images make it harder, because they rarely leave anywhere for text to sit.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Plan the Space Before You Generate",
+              "bodyHtml": "<p><s>Generating a beautiful image and then hunting for somewhere to put the headline.</s></p><p><strong>Specifying that the left third stays empty, then placing the headline there.</strong></p><p>Text over a busy image is unreadable however good the typography. The space has to exist first.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Text on an image that had no room for it always looks like an afterthought, because it was one."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Five Rules for Readable Text",
+              "bodyHtml": "<ul><li><strong>One message</strong> — not a headline plus three benefits</li><li><strong>Six words or fewer</strong> at thumbnail size</li><li><strong>Hard contrast</strong> — a solid block behind it, not a soft shadow</li><li><strong>Off the edges</strong> — interfaces crop and overlay the corners</li><li><strong>Added in an editor</strong>, never generated inside the image</li></ul><p>The last matters most: lettering produced inside a generated image is frequently subtly wrong, and almost-right spelling is worse than none.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why should headline text be added in an editor rather than generated in the image?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Editors offer a much wider selection of fonts than image tools do."
+                },
+                {
+                  "id": "b",
+                  "label": "Generated lettering is often subtly misspelled and cannot be fixed."
+                },
+                {
+                  "id": "c",
+                  "label": "Adding the text later keeps the final image file noticeably smaller."
+                },
+                {
+                  "id": "d",
+                  "label": "It lets the same image be reused later with a different message."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Generated lettering produces almost-words that look fine until someone reads them, and the only fix is regenerating the whole image. Reuse is a genuine benefit too, but the misspelling is why this is a rule.",
+              "wrongHint": "Think about which failure would be most embarrassing to publish."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Six Words, Then Stop",
+              "bodyHtml": "<p>At feed size anything longer is a grey shape. The image and the six words are one unit — the image gets attention, the words give it meaning.</p><p>Everything else belongs in the caption, where there is space and where people who are already interested will read it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take an ad image and count the words on it.",
+                "Cut the message to six or fewer and view at thumbnail size.",
+                "Check nothing important sits in the outer tenth of the frame.",
+                "Replace any generated lettering with text added in an editor."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Same Image, Different Words",
+              "bodyHtml": "<p>Because text is added afterwards, one strong image supports five messages. That is the cheapest testing available — the words are the variable and everything else stays constant.</p><p>It is also why keeping the clean, text-free version of every image matters more than keeping the finished one.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Plan the empty space before generating, keep the message to six words, use a solid block rather than a soft shadow, stay off the edges, and always add text in an editor. Keep the clean version so one image can carry several messages.",
+              "nextTeaser": "Next: one image in every shape."
+            }
+          ]
+        },
+        {
+          "slug": "ads-every-shape",
+          "title": "One Image, Every Shape",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every placement wants a different aspect ratio, and an image cropped badly to fit is worse than no image at all.</p><p>This is pure production work, which makes it the part most worth systematising.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Decide the Crops Before You Create",
+              "bodyHtml": "<p><s>Creating each format separately and hoping they end up looking related.</s></p><p><strong>Making one wide master with the subject placed so square and vertical crops both work.</strong></p><p>Deciding the crops first is the whole technique. Afterwards you are only choosing between compromises.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Decide the crops before you make the image, not after."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Keep the Subject in the Safe Band",
+              "bodyHtml": "<ul><li><strong>Centre band</strong> — anything essential lives here, in every ratio</li><li><strong>Wide extras</strong> — context at the sides, expendable</li><li><strong>Top and bottom margin</strong> — interfaces cover these</li><li><strong>One master, three exports</strong> — square, wide, vertical</li></ul><p>Draw the three crop boxes over your master before finishing. If the subject survives all three, the job is done.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You need square, wide and vertical versions of one visual. What is the sound approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Generate three separate images, each designed for its own ratio."
+                },
+                {
+                  "id": "b",
+                  "label": "Make one wide master with the subject inside the safe centre band."
+                },
+                {
+                  "id": "c",
+                  "label": "Make the square version and extend or crop it into the other two."
+                },
+                {
+                  "id": "d",
+                  "label": "Stretch a single image to fit each of the required dimensions."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "One master keeps the three versions visibly related and takes a fraction of the time. Separate images drift apart, extending invents content at the sides, and stretching distorts everything in the frame.",
+              "wrongHint": "Think about which approach keeps the three versions looking like one campaign."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Export Everything in One Session",
+              "bodyHtml": "<p>Do all three crops while the file is open. It takes minutes then and half an hour once the project is closed and you have to reopen it.</p><p>Name them by placement rather than by dimensions, so whoever uploads them does not have to work it out.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a recent image and draw the three crop boxes over it.",
+                "Check whether the subject survives all three.",
+                "Rebuild it so that it does, then export all three at once.",
+                "Name the files by placement rather than by size."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Master",
+              "bodyHtml": "<p>Requests come back — a new size, a different placement, one more version for a partner. Keeping the wide master and the text-free version turns those into two-minute jobs.</p><p>Storage is cheap. Rebuilding a campaign visual from a flattened export is not.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Decide the crops before creating the image and keep everything essential inside the centre band that survives every ratio. Build one wide master, export square, wide and vertical in the same session, name files by placement, and keep the master and the text-free version.",
+              "nextTeaser": "Next: testing images instead of arguing about them."
+            }
+          ]
+        },
+        {
+          "slug": "ads-testing",
+          "title": "Testing Instead of Arguing",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Image choices generate more unproductive discussion than almost anything else in marketing, because everyone has an opinion and nobody has evidence.</p><p>The argument is usually cheaper to settle than to have.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Change One Thing",
+              "bodyHtml": "<p><s>Producing two completely different images and seeing which performs better.</s></p><p><strong>Producing the same image with two different first-line messages, or two different subjects, and nothing else changed.</strong></p><p>Two entirely different images tell you which one won and nothing about why. One variable tells you something you can reuse.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A test between two different images tells you which won. A test of one variable tells you why."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "What Is Worth Testing, in Order",
+              "bodyHtml": "<ul><li><strong>The message on the image</strong> — biggest effect, cheapest to change</li><li><strong>Subject</strong> — product alone versus product in use versus a person</li><li><strong>Colour</strong> — especially against the platform's own palette</li><li><strong>Everything else</strong> — rarely worth the time</li></ul><p>Most teams start with the fourth category and never get to the first.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Two ad images perform very differently. What should you do with that result?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Use the winner and drop the other from the campaign entirely."
+                },
+                {
+                  "id": "b",
+                  "label": "Work out which single difference caused it, then test that again."
+                },
+                {
+                  "id": "c",
+                  "label": "Produce five more variations of the winning image immediately."
+                },
+                {
+                  "id": "d",
+                  "label": "Increase the budget on the winner and leave the rest unchanged."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A result you cannot explain cannot be reused. Isolating the difference turns one lucky winner into a rule you can apply to every future image, which is the actual value of testing.",
+              "wrongHint": "Ask what you would be able to tell a colleague about why it won."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Give It Enough Time",
+              "bodyHtml": "<p>Judging an image after a few hundred impressions is reading noise. Small differences need far more data than people expect before they mean anything.</p><p>Set the duration before you start and do not look until it ends. Stopping early always favours whichever version happened to start well.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take your best-performing image and change only the message on it.",
+                "Run both for a fixed period decided in advance.",
+                "Write down what you expect to win before you see results.",
+                "Record the finding somewhere the whole team can read it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep a Record of What You Learned",
+              "bodyHtml": "<p>Findings evaporate. Six months later someone proposes the thing you already tested, and nobody remembers the result.</p><p>One shared page: what was tested, what won, by how much. It stops the same argument recurring and is the only lasting output of any test.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Settle image arguments with evidence rather than opinion: change one variable at a time, starting with the message, then subject, then colour. Set the duration in advance, resist stopping early, and record what won and by how much where the team can find it.",
+              "nextTeaser": "That completes the course: thumbnails, text, formats and testing."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

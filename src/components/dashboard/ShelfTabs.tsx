@@ -3,6 +3,7 @@ import Link from "next/link";
 const ICONS: Record<string, string> = {
   Careers: "💼",
   Text: "💬",
+  Images: "🖼️",
   Challenges: "📋",
   "Tool courses": "🛠️",
 };

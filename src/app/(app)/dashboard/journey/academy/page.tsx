@@ -15,11 +15,11 @@ const KIND_LABEL: Record<string, string> = {
 };
 
 // Порядок полиць фіксований: професії першими, бо це найширший вхід у каталог.
-const SHELF_ORDER = ["Careers", "Text", "Challenges", "Tool courses"];
+const SHELF_ORDER = ["Careers", "Text", "Images", "Challenges", "Tool courses"];
 
 // Полиці, які показуються вертикальним шляхом, а не сіткою:
 // коли курсів багато й вони однакового формату, список читається швидше.
-const PATH_SHELVES = new Set(["Careers", "Text"]);
+const PATH_SHELVES = new Set(["Careers", "Text", "Images"]);
 
 export default async function AcademyPage({
   searchParams,

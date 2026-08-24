@@ -1,0 +1,366 @@
+{
+  "slug": "product-photos-without-studio",
+  "title": "Product Photos Without a Studio",
+  "description": "What a product photo actually has to prove, three shots per item with one window for light, keeping a whole range consistent, and the edits that cross into misrepresentation.",
+  "kind": "mini",
+  "icon": "📸",
+  "shelf": "Images",
+  "sortOrder": 1,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on photographing things you sell, with a window and a phone.",
+      "lessons": [
+        {
+          "slug": "pph-what-it-has-to-do",
+          "title": "What a Product Photo Has to Do",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Product photography looks like an aesthetic problem and is mostly an information problem. A beautiful photo that leaves the buyer uncertain about size has failed at its actual job.</p><p>Returns, questions and abandoned baskets almost always trace back to something a photo did not show.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Answer the Questions, Then Look Good",
+              "bodyHtml": "<p><s>A moody, beautifully lit shot of a mug on a dark surface.</s></p><p><strong>The same mug held in a hand, so the size is unmistakable — plus the moody one as the second image.</strong></p><p>Both belong on the page. Only one of them prevents a return.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A photo that leaves the buyer guessing about size has failed, however good it looks."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Questions Every Photo Set Must Answer",
+              "bodyHtml": "<ul><li><strong>How big is it?</strong> Something familiar in frame, or a clear scale</li><li><strong>What is it made of?</strong> A close detail of the surface</li><li><strong>What does it look like in use?</strong> In a room, on a person, on a table</li><li><strong>What is the flaw?</strong> The seam, the join, the thing they will notice</li></ul><p>The fourth reduces returns more than the other three combined, and almost nobody includes it.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A shop gets frequent returns because items «looked bigger online». What fixes it?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Adding the exact measurements in the description under each product."
+                },
+                {
+                  "id": "b",
+                  "label": "Adding a photo with something familiar in frame for scale."
+                },
+                {
+                  "id": "c",
+                  "label": "Photographing the product from more angles so buyers see it fully."
+                },
+                {
+                  "id": "d",
+                  "label": "Improving the lighting so the product's proportions read more clearly."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "People do not convert centimetres into a mental image, but they read scale instantly from a hand or a familiar object. Measurements are already in most listings, which is why the returns are still happening.",
+              "wrongHint": "Think about how a buyer actually judges size when they cannot pick something up."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where Generation Fits — and Does Not",
+              "bodyHtml": "<p>The product itself must be a real photograph. A generated approximation of something a customer is buying is misleading, and no shop should ship it.</p><p>What generation does well is everything around the product: backgrounds, room settings, seasonal scenes. Shoot the item, place it in a generated context.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take one product page and check it answers all four questions.",
+                "Photograph the one that is missing, usually scale.",
+                "Add a close detail shot of the surface or the join.",
+                "Note which question your customer emails most often ask about."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Consistency Sells the Shop, Not the Item",
+              "bodyHtml": "<p>A grid where every product is photographed the same way looks like a real business. A grid of mixed backgrounds and angles looks like a market stall, whatever the individual quality.</p><p>The whole set is the first impression. Individual photos are the second.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Product photos are an information job first: show scale, material, use in context and the flaw people will notice. Photograph the actual product — generation belongs in the background, not the item — and make the whole grid consistent, because the grid is the first impression.",
+              "nextTeaser": "Next: backgrounds, light and the three shots."
+            }
+          ]
+        },
+        {
+          "slug": "pph-three-shots",
+          "title": "Backgrounds, Light and the Three Shots",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>You do not need a studio. You need a window, a surface and the same setup every time — and then three shots per product.</p><p>Repeatability matters more than equipment, and it is the part people skip in favour of buying lights.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The Three Shots",
+              "bodyHtml": "<ul><li><strong>Hero</strong> — the product alone, plain background, straight on</li><li><strong>Context</strong> — in a room or in use, so scale and purpose are obvious</li><li><strong>Detail</strong> — one close crop of the material, seam or finish</li></ul><p>Three per product, always in that order. It is enough for almost any listing and it makes a range look deliberate.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A window and the same surface every time beats a studio used inconsistently."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Light: One Source, From the Side",
+              "bodyHtml": "<p><s>Overhead room lights, product photographed at night on a kitchen counter.</s></p><p><strong>Daylight from a window to the left, a white card on the right to bounce it back, same time of day for the whole batch.</strong></p><p>Side light shows texture; overhead light flattens everything. That is the single biggest difference between amateur and competent product photos.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You are photographing thirty products over several days. What matters most for consistency?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Using the same camera and lens settings for every single photograph."
+                },
+                {
+                  "id": "b",
+                  "label": "Shooting at the same time of day, in the same spot, with one light source."
+                },
+                {
+                  "id": "c",
+                  "label": "Editing everything afterwards to match the colour of the first batch."
+                },
+                {
+                  "id": "d",
+                  "label": "Photographing all thirty products in one continuous long session."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Light changes through the day and across weather, and that is the variable people notice. A fixed spot, a fixed hour and one source keeps a batch matching even across days; editing afterwards can only partly recover it.",
+              "wrongHint": "Ask which variable is hardest to fix afterwards if it drifts."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Backgrounds: Plain, Then Generated",
+              "bodyHtml": "<p>Shoot on plain white or a single neutral surface. That gives you a clean cut-out, and a clean cut-out can be placed on any background afterwards.</p><p>Shooting directly against a busy background locks you into it. Plain first, context later, is the order that keeps options open.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find one spot with side daylight and mark it — that is your studio.",
+                "Photograph one product in the three shots.",
+                "Repeat with a second product without changing anything.",
+                "Put both sets side by side and check they match."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Write the Setup Down",
+              "bodyHtml": "<p>Note the spot, the time, the surface and the distance. In three weeks you will not remember, and a range photographed in two batches that do not match is worse than one photographed badly but consistently.</p><p>Five lines in a note, and every future batch matches the first.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Three shots per product — hero, context, detail — with one side light from a window, at the same time and spot every batch. Shoot on plain backgrounds so cut-outs stay flexible, and write down the setup so the next batch matches this one.",
+              "nextTeaser": "Next: keeping a whole range consistent."
+            }
+          ]
+        },
+        {
+          "slug": "pph-consistency",
+          "title": "Consistency Across a Whole Range",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Individual product photos are judged for a second. The grid is judged instantly, and it is what tells a visitor whether this is a real business.</p><p>Consistency across a range is a mechanical problem with a mechanical solution.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Fix the Frame, Not the Product",
+              "bodyHtml": "<p><s>Photographing each item so it fills the frame nicely.</s></p><p><strong>Fixing the distance and crop, so a small item looks small and a large one looks large.</strong></p><p>Filling every frame equally destroys the size relationships between products, which is exactly what a grid is supposed to communicate.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If every product fills its frame, your grid has quietly made them all the same size."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Things to Standardise",
+              "bodyHtml": "<ul><li><strong>Crop ratio</strong> — one shape for every product image</li><li><strong>Margin</strong> — the same space around each item</li><li><strong>Background tone</strong> — identical white or identical grey</li><li><strong>Shadow</strong> — present or absent, never mixed</li></ul><p>All four are set once and applied by batch. None requires judgement per photo.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A shop's product grid looks messy despite good individual photos. What is the likely cause?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The photographs vary in quality between the older and newer products."
+                },
+                {
+                  "id": "b",
+                  "label": "Crop, margin and background differ, so the products do not sit alike."
+                },
+                {
+                  "id": "c",
+                  "label": "There are too many products shown at once on a single page."
+                },
+                {
+                  "id": "d",
+                  "label": "The products themselves are too varied for a grid to look coherent."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A grid reads as messy when items sit differently in their frames, even when every photo is good. Crop, margin and background are what the eye compares, and they are fixable in a batch without reshooting.",
+              "wrongHint": "Think about what the eye is comparing when it sees twelve thumbnails at once."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Batch, Do Not Fiddle",
+              "bodyHtml": "<p>Editing photo by photo guarantees drift. Apply one set of adjustments to the whole batch, then fix only the outliers.</p><p>This is also where generated backgrounds are safe and useful: same background, applied to thirty clean cut-outs in one pass.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Screenshot your product grid and look at it small.",
+                "Mark which items sit differently in their frames.",
+                "Set one crop ratio and margin and reapply to all.",
+                "Compare the grid before and after at thumbnail size."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Add New Products to the Old Recipe",
+              "bodyHtml": "<p>The most common way a good range degrades is a new product photographed to a new standard six months later.</p><p>Keep the setup note with the product files. New items join the existing look rather than starting a second one.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "The grid is the first impression, so standardise crop ratio, margin, background tone and shadow — and keep true size relationships rather than filling every frame. Edit in batches, and photograph new products to the old recipe rather than a new one.",
+              "nextTeaser": "Next: what you must never fake."
+            }
+          ]
+        },
+        {
+          "slug": "pph-never-fake",
+          "title": "What You Must Never Fake",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Editing product photos is normal and expected. There is a line between presenting a product well and showing something the buyer will not receive, and it is worth knowing exactly where it sits.</p><p>Crossing it produces returns, chargebacks and, in several markets, a regulatory problem.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Presentation Versus Misrepresentation",
+              "bodyHtml": "<ul><li><strong>Fine</strong> — removing dust, straightening, adjusting exposure, clean backgrounds</li><li><strong>Fine</strong> — a generated room behind a real product, clearly a setting</li><li><strong>Not fine</strong> — changing colour, removing a real flaw, altering proportions</li><li><strong>Not fine</strong> — generating the product itself, in any form</li></ul><p>The test: would the buyer feel misled holding it? That question answers almost every case.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If the buyer would feel misled holding it, the edit went too far."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Colour Is the Most Common Failure",
+              "bodyHtml": "<p><s>Boosting saturation until the fabric looks richer than it is.</s></p><p><strong>Correcting the white balance so the colour matches what the eye sees.</strong></p><p>Colour is the single biggest driver of «not as pictured» returns, and it is usually done with no intent to mislead at all — just an editing preset applied to a whole batch.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which edit crosses the line on a product photo?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Removing dust and a stray thread from an otherwise clean garment."
+                },
+                {
+                  "id": "b",
+                  "label": "Increasing saturation so the colour looks richer than the real item."
+                },
+                {
+                  "id": "c",
+                  "label": "Replacing a cluttered background with a plain white one instead."
+                },
+                {
+                  "id": "d",
+                  "label": "Straightening the image and correcting the exposure to match reality."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Colour is what buyers compare on arrival, and richer-than-real is the most common cause of «not as pictured» returns. Dust, backgrounds and exposure corrections all present the same product accurately.",
+              "wrongHint": "Ask which edit changes something the buyer will hold in their hand and compare."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Label Staged and Generated Elements",
+              "bodyHtml": "<p>Where a setting is generated or a scene is staged, say so in the listing. Rules on this are tightening in most markets, and a small note costs nothing.</p><p>Put it in the listing rather than mentioning it if asked. Being the one who disclosed it is a completely different position from being the one who was caught.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Compare one product photo against the real item in daylight.",
+                "Check the colour first — that is where drift usually is.",
+                "Remove any edit that changes what the buyer will receive.",
+                "Add a line disclosing generated or staged settings."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Returns Tell You Where the Line Was",
+              "bodyHtml": "<p>Read your return reasons. «Not as pictured» is a photography problem, not a product problem, and it points at exactly which image is overselling.</p><p>Fixing that one photo is cheaper than every discount you could offer to compensate for it.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Edit to present accurately, not to improve the product: dust, exposure, backgrounds and straightening are fine; colour shifts, removed flaws and altered proportions are not. Never generate the product itself, disclose staged settings, and read your return reasons for where the line moved.",
+              "nextTeaser": "That completes the course: what a photo must do, the setup, consistency, and the line you do not cross."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

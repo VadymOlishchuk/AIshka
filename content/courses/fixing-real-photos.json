@@ -1,0 +1,366 @@
+{
+  "slug": "fixing-real-photos",
+  "title": "Fixing Real Photos",
+  "description": "Which photographs can be saved and which are missing the information entirely, what removal and canvas extension actually do, where upscaling invents facts, and how to process a batch without discovering the problem at image 140.",
+  "kind": "mini",
+  "icon": "✂️",
+  "shelf": "Images",
+  "sortOrder": 2,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The Course",
+      "description": "Four lessons on editing photographs you already have.",
+      "lessons": [
+        {
+          "slug": "fix-what-can-be-rescued",
+          "title": "What Can and Cannot Be Rescued",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Editing tools have got good enough that people now try to save photographs that were never savable, and spend an hour discovering it.</p><p>Knowing within ten seconds whether an image is worth working on is the most useful judgement in this whole area.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Two Kinds of Bad Photo",
+              "bodyHtml": "<p>Some photos are missing information. Others merely present it badly.</p><p><s>Trying to recover a face from a photo where it is four pixels wide.</s></p><p><strong>Fixing a photo that is sharp but underexposed, where everything is present and simply dark.</strong></p><p>Detail that was never captured cannot be recovered — only invented, which is a different thing entirely.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Nothing recovers detail that was never captured. It only invents something plausible."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Rescuable and Not",
+              "bodyHtml": "<ul><li><strong>Rescuable</strong> — dark, flat, crooked, cluttered, wrong white balance</li><li><strong>Sometimes</strong> — mild blur, small blown highlights, moderate noise</li><li><strong>Not</strong> — motion blur across the subject, heavy compression, a tiny source</li><li><strong>Never for real use</strong> — anything where the missing part is the point</li></ul><p>The last is where people waste most time. If the face, the label or the product detail is why the photo exists, invention is not an option.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client sends a small, blurry photo of their product and asks you to clean it up. What do you say?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Yes — upscaling and sharpening handle this kind of problem quite well."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask for a new photo; the detail is not there and would be invented."
+                },
+                {
+                  "id": "c",
+                  "label": "Do your best, and warn them the result may not be perfectly sharp."
+                },
+                {
+                  "id": "d",
+                  "label": "Recreate the product image so that it looks the way it should look."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "For something a customer will actually receive, invented detail is misrepresentation rather than enhancement. Asking for a new photo costs them five minutes and is the only route to something usable.",
+              "wrongHint": "Think about what happens when the buyer compares the image with the item in their hand."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Judge Before You Start",
+              "bodyHtml": "<p>Open the image at full size and look at the part that matters. If it is soft there, stop — no amount of processing changes that.</p><p>Ten seconds of looking saves an hour of increasingly desperate editing, and lets you tell a client something useful immediately.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take three photos you consider unusable and zoom to the important part.",
+                "Sort them into rescuable, maybe and not.",
+                "Fix the clearly rescuable one and time it.",
+                "Ask for a reshoot of the one that is not."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Reshooting Is Usually Cheaper",
+              "bodyHtml": "<p>People treat a new photo as failure and an hour of editing as work. Financially it is the other way round.</p><p>Five minutes with a phone and a window beats an hour of recovery, and produces something you can stand behind.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Photos that present information badly can be fixed; photos missing the information cannot — it can only be invented. Judge in ten seconds by looking at the part that matters at full size, and reshoot rather than rescue whenever that is possible.",
+              "nextTeaser": "Next: removing, extending and replacing."
+            }
+          ]
+        },
+        {
+          "slug": "fix-remove-extend",
+          "title": "Removing, Extending, Replacing",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>These three edits are where the tools genuinely earn their place: taking something out, adding canvas at the edges, swapping a background.</p><p>They are also where failure is most visible, because the eye is very good at spotting where a repair happened.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Removal Fails at Edges",
+              "bodyHtml": "<p>Taking an object out of an empty area works. Taking it out where it overlaps something structured does not.</p><p><s>Removing a person standing in front of a tiled wall and a doorway.</s></p><p><strong>Removing a bin from an empty patch of pavement.</strong></p><p>Straight lines, repeating patterns and edges are where invention becomes obvious — a doorframe that bends slightly, tiles that stop lining up.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The eye forgives a repaired sky. It never forgives a bent doorframe."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Extending Canvas Has a Limit",
+              "bodyHtml": "<ul><li><strong>Works</strong> — a little more sky, floor or wall to fit a new crop</li><li><strong>Works</strong> — changing aspect ratio by ten or twenty per cent</li><li><strong>Fails</strong> — doubling the frame, where invented architecture appears</li><li><strong>Fails</strong> — extending across anything with structure or perspective</li></ul><p>Use it to solve a crop problem, not to reframe a photograph you did not take.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You need a wide banner from a vertical photo. What is the sound approach?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Extend the image sideways as far as needed to reach the full width."
+                },
+                {
+                  "id": "b",
+                  "label": "Extend modestly and design around it, or reshoot for the wide format."
+                },
+                {
+                  "id": "c",
+                  "label": "Stretch the original image horizontally until it fills the space."
+                },
+                {
+                  "id": "d",
+                  "label": "Crop in tightly and accept losing most of the subject from frame."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Modest extension is reliable; large extension invents structure that looks wrong at a glance. Stretching distorts everything, and severe cropping usually removes the reason the image existed.",
+              "wrongHint": "Think about how much new content each option asks the tool to invent."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Check at Full Size, Then at Thumbnail",
+              "bodyHtml": "<p>Repairs that look fine at full size sometimes read as smudges when scaled down, and ones that look fine small fall apart when someone zooms.</p><p>Check both. Ten seconds, and it catches almost every visible failure before anyone else sees it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Remove an object from an empty area and check the edges at full size.",
+                "Try the same removal where it overlaps a straight line.",
+                "Extend one image by fifteen per cent, then by a hundred, and compare.",
+                "View both results at thumbnail size."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the Original",
+              "bodyHtml": "<p>Always work on a copy and keep the untouched file. Clients change their minds, edits get rejected, and rules about what may be altered sometimes arrive after the work.</p><p>An original you can return to is the difference between a five-minute revision and starting again.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Removal works in open areas and fails at straight lines and repeating patterns; canvas extension works for modest crop changes and invents architecture beyond that. Check every repair at full size and at thumbnail, and always keep the untouched original.",
+              "nextTeaser": "Next: upscaling and where it quietly lies."
+            }
+          ]
+        },
+        {
+          "slug": "fix-upscaling",
+          "title": "Upscaling and Where It Lies",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Upscaling is the most misunderstood tool in this set. It does not make a small photo bigger — it makes a plausible bigger photo based on a small one.</p><p>For most uses that distinction does not matter. For a few, it matters enormously.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Plausible Is Not Accurate",
+              "bodyHtml": "<p><s>Upscaling a low-resolution photo of a document and reading the numbers off it.</s></p><p><strong>Upscaling a landscape photo so that it can be printed larger.</strong></p><p>In the second, invented leaf detail is harmless. In the first, an invented digit is a serious problem — and it will look completely convincing.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Upscaling invents detail. Usually that is fine. Occasionally it is a fabricated fact."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where It Is Safe and Where It Is Not",
+              "bodyHtml": "<ul><li><strong>Safe</strong> — textures, foliage, fabric, skies, backgrounds</li><li><strong>Usually safe</strong> — product surfaces and general scenes</li><li><strong>Careful</strong> — faces, where features shift subtly and people notice</li><li><strong>Never</strong> — text, numbers, labels, documents, anything evidential</li></ul><p>The last category causes real trouble, because the output looks authoritative.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You upscale a photo containing a serial number and it becomes readable. What is the risk?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The image may look artificially sharp compared with the original."
+                },
+                {
+                  "id": "b",
+                  "label": "The number may have been invented and will look entirely convincing."
+                },
+                {
+                  "id": "c",
+                  "label": "The file will be larger, making the page slower to load for users."
+                },
+                {
+                  "id": "d",
+                  "label": "The colours may shift slightly away from the original photograph."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Text is reconstructed from what a plausible character would look like, not recovered. A readable but invented serial number is a fabricated fact that nobody would question from looking at it.",
+              "wrongHint": "Ask where the newly readable detail actually came from."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Upscale Last, Not First",
+              "bodyHtml": "<p>Do every other edit on the original and upscale at the end. Upscaling first bakes in artefacts that later edits then amplify.</p><p>It also keeps the working file small, which matters when you are producing a batch.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Upscale a photo containing small text and read what it produced.",
+                "Compare it against the original at the same zoom level.",
+                "Upscale a landscape and note how much less it matters there.",
+                "Write down the cases where you will never use it."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Say When You Used It",
+              "bodyHtml": "<p>If an upscaled image goes into anything documentary — a listing, a report, a news piece — say so. The alteration is invisible and the assumption is that a photo shows what was there.</p><p>One line costs nothing and puts you in a different position entirely if the image is ever questioned.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Upscaling produces a plausible larger image, not a recovered one. It is safe on textures and scenes, careful on faces, and never appropriate for text, numbers or anything evidential. Upscale last rather than first, and disclose it in documentary contexts.",
+              "nextTeaser": "Next: batch work without losing control."
+            }
+          ]
+        },
+        {
+          "slug": "fix-batch",
+          "title": "Batch Work Without Losing Control",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>One photo is a task. Two hundred is a process, and the difference is not effort — it is whether you set the rules before you start or discover them at photo 140.</p><p>Most batch disasters are the same disaster: an adjustment that suited the first ten and ruined the rest.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Sort Before You Edit",
+              "bodyHtml": "<p><s>Applying one preset to everything and fixing whatever looks wrong afterwards.</s></p><p><strong>Sorting into three groups by lighting condition first, then one preset per group.</strong></p><p>Ten minutes of sorting saves an hour of correcting, and prevents the batch where half the images are subtly too warm.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "One preset across mixed lighting gives you a batch that is half right and entirely inconsistent."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four Rules for Batches",
+              "bodyHtml": "<ul><li><strong>Sort by condition</strong> — light, background, subject type</li><li><strong>Test on five</strong>, including the most awkward one</li><li><strong>Never overwrite originals</strong> — output to a separate folder</li><li><strong>Review at thumbnail size</strong>, because that is how the set is seen</li></ul><p>The second is the one people skip. The awkward image teaches you more than the other four combined.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have two hundred photos to process. What do you do first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Apply your standard preset to all of them and review the results."
+                },
+                {
+                  "id": "b",
+                  "label": "Sort by lighting condition and test on five, including the worst."
+                },
+                {
+                  "id": "c",
+                  "label": "Process the first twenty carefully to establish the look you want."
+                },
+                {
+                  "id": "d",
+                  "label": "Upscale everything first so the batch is at a consistent size."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Sorting plus a five-image test surfaces the problem while it still costs nothing to fix. Processing twenty first establishes a look that may collapse at image sixty, and applying blind means reviewing two hundred results.",
+              "wrongHint": "Think about when you want to discover that your settings do not suit part of the batch."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Keep a Log of What You Applied",
+              "bodyHtml": "<p>Note the settings per batch alongside the files. Six weeks later a client asks for five more in the same style, and reconstructing from memory gives you something almost but not quite matching.</p><p>Three lines in a text file next to the folder is the difference between a ten-minute job and an afternoon.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take twenty mixed photos and sort them into lighting groups.",
+                "Test your settings on five, including the hardest one.",
+                "Process the rest and review the whole set at thumbnail size.",
+                "Write the settings down next to the output folder."
+              ]
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Spot-Check, Do Not Trust",
+              "bodyHtml": "<p>Automated edits fail silently on outliers — one image where removal took a chunk out of the product, one where the crop cut the label.</p><p>Open ten at random at full size before delivering. Two minutes, and it catches the one the client would otherwise have found.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Batches fail when the rules are discovered late. Sort by lighting condition, test on five including the most awkward, never overwrite originals, and review at thumbnail size. Log the settings beside the files, and spot-check ten at full size before delivery.",
+              "nextTeaser": "That completes the course: what can be rescued, repairs, upscaling and batch work."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
