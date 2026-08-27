@@ -8,6 +8,9 @@ export default defineConfig({
     seed: "tsx prisma/seed.ts",
   },
   datasource: {
-    url: env("DATABASE_URL"),
+    // Міграції ходять НАПРЯМУ, а не через пул: DDL і блокування Prisma
+    // не працюють через транзакційний пулер. Локально DIRECT_URL немає —
+    // тоді підходить звичайний DATABASE_URL.
+    url: process.env.DIRECT_URL ? env("DIRECT_URL") : env("DATABASE_URL"),
   },
 });

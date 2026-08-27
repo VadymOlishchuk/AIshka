@@ -2,8 +2,11 @@ node_modules/
 .next/
 out/
 dist/
+# Усі файли оточення поза git, крім прикладу.
+# Раніше тут було .env і .env*.local — .env.production під це не підпадав.
 .env
-.env*.local
+.env.*
+!.env.example
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
