@@ -15,9 +15,7 @@
     "db:studio": "prisma studio",
     "content:check": "tsx scripts/content-check.ts",
     "content:sync": "tsx scripts/content-sync.ts",
-    "postinstall": "prisma generate",
-    "db:deploy:prod": "DOTENV_CONFIG_PATH=.env.production prisma migrate deploy",
-    "content:sync:prod": "DOTENV_CONFIG_PATH=.env.production tsx scripts/content-sync.ts"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.1.0",
