@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Task to Whether the Tool Matters",
+              "subtitle": "Match each kind of work with how much the choice of tool affects it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Extracting differing clauses from two contracts"
+                  },
+                  "right": {
+                    "text": "The difference between tools is large here"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Suggesting five subject lines for an email"
+                  },
+                  "right": {
+                    "text": "Broadly the same wherever you ask"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Refining one piece across many turns"
+                  },
+                  "right": {
+                    "text": "Where handling long context starts to show"
+                  }
+                }
+              ],
+              "failHint": "Ask how much material each task involves, and how precise the answer has to be.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Use Two, Not One",

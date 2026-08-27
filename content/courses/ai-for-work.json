@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Structure to the Reply Time",
+              "subtitle": "Match each way of writing a work email with what happens to it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "The ask and the deadline in the first line"
+                  },
+                  "right": {
+                    "text": "Answered, because the decision is obvious"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Context first, request somewhere near the end"
+                  },
+                  "right": {
+                    "text": "Moved to later, and later rarely arrives"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A clear «no action needed» at the top"
+                  },
+                  "right": {
+                    "text": "Read quickly and appreciated"
+                  }
+                }
+              ],
+              "failHint": "Think about what a busy reader does when they cannot immediately tell what is wanted.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Difficult Emails Get Shorter, Not Longer",

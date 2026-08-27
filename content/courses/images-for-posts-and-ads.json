@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Choice to How It Survives Shrinking",
+              "subtitle": "Match each design decision with what happens at thumbnail size.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "One subject filling most of the frame"
+                  },
+                  "right": {
+                    "text": "Readable in the half-second it actually gets"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A balanced scene with several elements"
+                  },
+                  "right": {
+                    "text": "Becomes texture, and registers as nothing"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "An unusual colour against a blue-grey feed"
+                  },
+                  "right": {
+                    "text": "The eye stops before the brain decides why"
+                  }
+                }
+              ],
+              "failHint": "Picture the image at the size of a stamp, on a phone, in a bright room.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Beautiful and Invisible Is Common",

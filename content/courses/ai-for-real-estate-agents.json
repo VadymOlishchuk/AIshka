@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Line to What the Buyer Learns",
+              "subtitle": "Match each kind of sentence in a listing with what it tells a reader.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Nine minutes to the station, downhill"
+                  },
+                  "right": {
+                    "text": "Something they were genuinely wondering about"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A stunning home in a sought-after area"
+                  },
+                  "right": {
+                    "text": "Nothing that distinguishes it from any listing"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The third bedroom fits a desk, not a bed"
+                  },
+                  "right": {
+                    "text": "A drawback named before they waste an afternoon"
+                  }
+                }
+              ],
+              "failHint": "Ask which sentence could be copied onto the house next door unchanged.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Say the Drawback",

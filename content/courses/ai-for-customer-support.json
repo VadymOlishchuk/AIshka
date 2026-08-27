@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Reply to How It Lands",
+              "subtitle": "Match each kind of response with how the customer experiences it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Referencing what they already tried"
+                  },
+                  "right": {
+                    "text": "Evidence that somebody actually read the thread"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Suggesting the obvious first step again"
+                  },
+                  "right": {
+                    "text": "Confirmation that nobody read it at all"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A visible route to a person in every message"
+                  },
+                  "right": {
+                    "text": "Fewer escalations, because escalating is possible"
+                  }
+                }
+              ],
+              "failHint": "Think about what this customer is actually angry about by their third message.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Always Show the Door",

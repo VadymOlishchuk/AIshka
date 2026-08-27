@@ -85,6 +85,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Offer to Whether It Can Be Sold This Week",
+              "subtitle": "Match each way of describing what you do with what someone can do about it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Twelve product descriptions by Friday for a price"
+                  },
+                  "right": {
+                    "text": "A stranger can accept it before the weekend"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Building an AI content business"
+                  },
+                  "right": {
+                    "text": "There is nothing in it to say yes to"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Something you have done once, even unpaid"
+                  },
+                  "right": {
+                    "text": "Evidence exists, so the claim is checkable"
+                  }
+                }
+              ],
+              "failHint": "Ask which of these a real person could approve without arranging a meeting.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Commit for a Week",

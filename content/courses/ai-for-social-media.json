@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Post to Why It Is Skipped",
+              "subtitle": "Match each opening with how a reader in a feed responds.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A number and something that actually happened"
+                  },
+                  "right": {
+                    "text": "Information they could not have predicted"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A rhetorical question about growth"
+                  },
+                  "right": {
+                    "text": "The recognisable start of a post they have read"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Three tidy points of equal length"
+                  },
+                  "right": {
+                    "text": "A shape that signals nobody was involved"
+                  }
+                }
+              ],
+              "failHint": "Ask which post could only have been written by someone with a real experience.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Advice Is the Weakest Format",

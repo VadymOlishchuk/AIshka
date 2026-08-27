@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Tell to How Strong It Is",
+              "subtitle": "Match each feature of a draft with how clearly it signals its origin.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Three points of identical weight and a recap"
+                  },
+                  "right": {
+                    "text": "The strongest structural tell there is"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "An occasional typo or uneven sentence"
+                  },
+                  "right": {
+                    "text": "Reads as human rather than machine"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "One real number from your own experience"
+                  },
+                  "right": {
+                    "text": "Makes the whole piece read as yours"
+                  }
+                }
+              ],
+              "failHint": "Think about what unedited human writing actually looks like — is it evenly balanced?",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Keep One Thing Only You Could Write",

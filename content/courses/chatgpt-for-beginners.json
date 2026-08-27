@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Task to How Reliable It Is",
+              "subtitle": "Match each request with what you can expect back.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Turning your own notes into a summary"
+                  },
+                  "right": {
+                    "text": "Reliable — you supplied the facts yourself"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Asking for the opening hours of a local shop"
+                  },
+                  "right": {
+                    "text": "A confident guess that may be entirely wrong"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Rewriting your message for a different reader"
+                  },
+                  "right": {
+                    "text": "Reliable — only the form is changing"
+                  }
+                }
+              ],
+              "failHint": "Look for whether the facts came from you or from the tool.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Start Where the Cost of Error Is Low",

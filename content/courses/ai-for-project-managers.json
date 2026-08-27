@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Line to How It Is Read",
+              "subtitle": "Match each thing a status report can contain with what the reader does.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A decision needed, with a date attached"
+                  },
+                  "right": {
+                    "text": "It gets answered, because it created an obligation"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A list of what the team completed"
+                  },
+                  "right": {
+                    "text": "Read later, which usually means never"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A risk named before it becomes a problem"
+                  },
+                  "right": {
+                    "text": "You are trusted the next time you raise one"
+                  }
+                }
+              ],
+              "failHint": "Ask what the reader is supposed to do after finishing each version.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Different Audiences, Same Truth",

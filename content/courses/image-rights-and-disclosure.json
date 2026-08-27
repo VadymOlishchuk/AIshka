@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Question to Where the Answer Lives",
+              "subtitle": "Match each thing a client asks about with what actually settles it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "May this be used commercially at all"
+                  },
+                  "right": {
+                    "text": "The licence of the tool, on the plan you pay for"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Who owns the finished work"
+                  },
+                  "right": {
+                    "text": "Your contract, plus local law on authorship"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Can we be the only ones with this image"
+                  },
+                  "right": {
+                    "text": "Nothing — exclusivity is what you cannot promise"
+                  }
+                }
+              ],
+              "failHint": "These are three separate questions that people routinely treat as one.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "This Area Is Moving",

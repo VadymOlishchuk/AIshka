@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Problem to Whether It Is Fixable",
+              "subtitle": "Match each complaint about a layout with what would actually solve it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Everything on the page carries equal weight"
+                  },
+                  "right": {
+                    "text": "A decision about what matters most, not styling"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The typeface looks like a default"
+                  },
+                  "right": {
+                    "text": "Ten minutes of work, genuinely cosmetic"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The images are generic stock"
+                  },
+                  "right": {
+                    "text": "Different assets, same underlying structure"
+                  }
+                }
+              ],
+              "failHint": "Ask which problem would still be there after every visual detail was improved.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "This Is Now Part of the Pitch",

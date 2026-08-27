@@ -85,6 +85,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Instruction to Where It Belongs",
+              "subtitle": "Match each thing you keep repeating with where it should actually live.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Your role and who you write for"
+                  },
+                  "right": {
+                    "text": "Permanent settings, written once"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A client's brief and reference material"
+                  },
+                  "right": {
+                    "text": "That client's own project space"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The correction you make in every answer"
+                  },
+                  "right": {
+                    "text": "The settings, not your memory"
+                  }
+                }
+              ],
+              "failHint": "Anything you type more than twice belongs somewhere permanent.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Check What It Remembers",

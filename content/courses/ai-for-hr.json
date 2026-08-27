@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Approach to Its Consequence",
+              "subtitle": "Match each way of handling volume with what it produces.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Extracting evidence with the quote attached"
+                  },
+                  "right": {
+                    "text": "A shortlist a person still decides on"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Ranking applicants and taking the top few"
+                  },
+                  "right": {
+                    "text": "A decision nobody can explain to a candidate"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Rewriting the job ad before applications open"
+                  },
+                  "right": {
+                    "text": "A better pool rather than a trimmed one"
+                  }
+                }
+              ],
+              "failHint": "Ask which approach you could account for if a rejected candidate asked why.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Be Able to Explain Any Rejection",

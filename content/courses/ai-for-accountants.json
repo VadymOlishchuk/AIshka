@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Output to What It Hides",
+              "subtitle": "Match each kind of result with the assumption sitting underneath it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A total with no note about excluded rows"
+                  },
+                  "right": {
+                    "text": "Blank fields dropped without anyone deciding to"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A figure that differs from the client's accounts"
+                  },
+                  "right": {
+                    "text": "Duplicates, refunds or an overlapping period"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A summary listing what was left out and why"
+                  },
+                  "right": {
+                    "text": "Something you can review in two minutes"
+                  }
+                }
+              ],
+              "failHint": "Think about which of these you could defend if a client questioned the number.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "You Sign It, Not the Tool",

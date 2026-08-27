@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Detail to What It Changes",
+              "subtitle": "Match each thing you add to a request with what it fixes in the plan.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "The misconception this class had last time"
+                  },
+                  "right": {
+                    "text": "A lesson aimed at a real gap rather than a topic"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The time left after settling the class"
+                  },
+                  "right": {
+                    "text": "Activities that actually fit the period"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The equipment you do not have this week"
+                  },
+                  "right": {
+                    "text": "A plan you can run rather than adapt on the day"
+                  }
+                }
+              ],
+              "failHint": "Think about which details only you could supply about this particular class.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Keep the Bit That Is Yours",

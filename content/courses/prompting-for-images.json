@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Word to What It Removes",
+              "subtitle": "Match each addition to a prompt with the decision it takes away from the default.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Light from a side window, late afternoon"
+                  },
+                  "right": {
+                    "text": "The flat, even lighting that comes from nowhere"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Shot from standing height, subject on the right"
+                  },
+                  "right": {
+                    "text": "The centred, eye-level framing it defaults to"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Stunning, high quality, beautifully detailed"
+                  },
+                  "right": {
+                    "text": "Nothing — no version was aiming to be dull"
+                  }
+                }
+              ],
+              "failHint": "Ask whether each phrase rules something out or merely asserts that it is good.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Describe What a Photographer Would Do",

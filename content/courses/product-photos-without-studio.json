@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Photo to the Question It Answers",
+              "subtitle": "Match each shot with what the buyer stops wondering about.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "The item held in a hand"
+                  },
+                  "right": {
+                    "text": "How big is this actually going to be"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A close crop of the seam or surface"
+                  },
+                  "right": {
+                    "text": "What is it made of, and how well is it made"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The item in a real room"
+                  },
+                  "right": {
+                    "text": "Where would this go, and does it suit me"
+                  }
+                }
+              ],
+              "failHint": "Think about which uncertainty causes a return rather than a question.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Consistency Sells the Shop, Not the Item",

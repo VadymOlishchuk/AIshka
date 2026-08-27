@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Opening to the Reply Rate",
+              "subtitle": "Match each way of starting a message with what the buyer does.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A specific fact about how their business runs"
+                  },
+                  "right": {
+                    "text": "The message gets opened and read"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A compliment about their brand or growth"
+                  },
+                  "right": {
+                    "text": "Recognised as a template within two lines"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A meeting request in the first message"
+                  },
+                  "right": {
+                    "text": "Asking for a calendar entry from a stranger"
+                  }
+                }
+              ],
+              "failHint": "Ask which line would still make sense pasted into a different company's email.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Fewer, Better, Tracked",

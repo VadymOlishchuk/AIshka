@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Sentence to Whether It Says Anything",
+              "subtitle": "Match each line with what a competitor could do with it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Most orders leave the same day, 3pm cutoff"
+                  },
+                  "right": {
+                    "text": "Copying it would cost them something real"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "We are passionate about quality and service"
+                  },
+                  "right": {
+                    "text": "They could paste it unchanged tonight"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "If we do not answer in three rings, it is free"
+                  },
+                  "right": {
+                    "text": "A claim with a consequence attached to it"
+                  }
+                }
+              ],
+              "failHint": "Imagine a competitor putting their logo on the line — would it still be true?",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Boring and True Beats Exciting and Empty",

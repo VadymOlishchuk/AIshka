@@ -216,6 +216,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Pricing Choice to Its Effect",
+              "subtitle": "Match each way of charging with what it produces over time.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You quote a fixed fee with a revision limit"
+                  },
+                  "right": {
+                    "text": "Getting faster increases what you earn per hour"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You bill hourly for work you have got quicker at"
+                  },
+                  "right": {
+                    "text": "Every improvement quietly cuts your own pay"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You cap open-ended work at a monthly maximum"
+                  },
+                  "right": {
+                    "text": "They keep flexibility without an unlimited claim on you"
+                  }
+                }
+              ],
+              "failHint": "Think about what happens to each arrangement after six months of getting better at the work.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "When Hourly Still Makes Sense",
@@ -301,6 +337,42 @@
                 "Write the message you'd attach it to — three sentences, no CV, one clear price.",
                 "Send it to five people before you allow yourself to edit it again."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Move to the Outcome",
+              "subtitle": "Match each first-week action with what it actually produces.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You offer one job with a quantity and a date"
+                  },
+                  "right": {
+                    "text": "Someone can accept it today without arranging a call"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You describe the business you are building"
+                  },
+                  "right": {
+                    "text": "There is nothing concrete for anyone to say yes to"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You follow up four days after the silence"
+                  },
+                  "right": {
+                    "text": "Most first replies arrive here rather than at first contact"
+                  }
+                }
+              ],
+              "failHint": "Think about which of these a stranger could act on before the end of this week.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -521,6 +593,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Detail to What It Prevents",
+              "subtitle": "Match each thing you state up front with the problem it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name the exact quantity being delivered"
+                  },
+                  "right": {
+                    "text": "An argument later about how much was promised"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You give a weekday rather than saying soon"
+                  },
+                  "right": {
+                    "text": "A deadline that quietly moves into your weekend"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You state one revision round is included"
+                  },
+                  "right": {
+                    "text": "The fifth round of edits arriving unpaid"
+                  }
+                }
+              ],
+              "failHint": "Think about when each of these problems usually shows up, and what would have stopped it.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "When the Job Is Genuinely Big",
@@ -606,6 +714,42 @@
                 "Record the replies word for word — that phrasing becomes your offer text.",
                 "If nobody responds after a follow-up, change one thing: the buyer or the task."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Signal to What It Means",
+              "subtitle": "Match each reply you might get with what it is telling you.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "They describe the problem in more detail than you did"
+                  },
+                  "right": {
+                    "text": "It is real for them and worth continuing"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "They ask how much and how long it takes"
+                  },
+                  "right": {
+                    "text": "A question about logistics, not about interest"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "They agree politely and add nothing else"
+                  },
+                  "right": {
+                    "text": "The problem is not painful enough to pay for"
+                  }
+                }
+              ],
+              "failHint": "Look at how much effort each reply took to write, and what that effort tells you.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -703,6 +847,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Opening to the Reader's Reaction",
+              "subtitle": "Match each way of starting a profile with what the buyer does next.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You open with something specific about their situation"
+                  },
+                  "right": {
+                    "text": "They recognise themselves and keep reading"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You open with your years of experience"
+                  },
+                  "right": {
+                    "text": "It reads like every other profile on the page"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You ask them to look through your portfolio"
+                  },
+                  "right": {
+                    "text": "The busiest person is handed more work to do"
+                  }
+                }
+              ],
+              "failHint": "Think about what the reader is scanning for in the few seconds they give each profile.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "One Profile per Offer",
@@ -790,6 +970,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Evidence to Its Strength",
+              "subtitle": "Match each kind of proof with what it does for a cautious buyer.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You rework a page from their own site and show both"
+                  },
+                  "right": {
+                    "text": "Nothing is left for them to imagine"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You list the courses and certificates you hold"
+                  },
+                  "right": {
+                    "text": "It describes preparation rather than output"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You show a project you built for yourself"
+                  },
+                  "right": {
+                    "text": "The standard is visible even with no client history"
+                  }
+                }
+              ],
+              "failHint": "Ask how much the buyer still has to imagine after seeing each one.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Three Is Enough",
@@ -875,6 +1091,42 @@
                 "Remove any wording that frames the piece as practice or as a test.",
                 "Add one line above each explaining what changed and why it matters."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Presentation to the Result",
+              "subtitle": "Match each way of sending a sample with how it gets read.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You frame it as a rewrite of their live page"
+                  },
+                  "right": {
+                    "text": "It is judged as work, against real standards"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You call it a practice piece and invite feedback"
+                  },
+                  "right": {
+                    "text": "The reader lowers their expectations before looking"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You send one link that opens instantly"
+                  },
+                  "right": {
+                    "text": "Nearly everyone who received it actually looks"
+                  }
+                }
+              ],
+              "failHint": "Think about what the first sentence above a sample teaches the reader to expect.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -1095,6 +1347,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Question to What It Uncovers",
+              "subtitle": "Match each briefing question with the problem it prevents.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You ask who this is really for"
+                  },
+                  "right": {
+                    "text": "Work aimed at the wrong reader entirely"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You ask what they have already tried"
+                  },
+                  "right": {
+                    "text": "Repeating something that failed for them before"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You ask what would make this a no"
+                  },
+                  "right": {
+                    "text": "A constraint discovered only after delivery"
+                  }
+                }
+              ],
+              "failHint": "Think about which stage of the job each answer would have saved you from.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "When They Cannot Answer",
@@ -1180,6 +1468,42 @@
                 "Add one line asking permission to use the work as a sample.",
                 "Attach your invoice template to the same message so both go together."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Delivery Habit to Its Effect",
+              "subtitle": "Match each thing you do at handover with what follows from it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name one decision you made and why"
+                  },
+                  "right": {
+                    "text": "The work reads as considered rather than produced"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You attach the files with no message"
+                  },
+                  "right": {
+                    "text": "The client has to work out what they received"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say what you would do next if they wanted"
+                  },
+                  "right": {
+                    "text": "A second job becomes a decision rather than a pitch"
+                  }
+                }
+              ],
+              "failHint": "Think about which habit turns one finished job into the next one.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -1283,6 +1607,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Channel to What It Rewards",
+              "subtitle": "Match each place work is bought with the behaviour that wins there.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A marketplace where you publish a fixed offer"
+                  },
+                  "right": {
+                    "text": "A sharp title and a service you can define exactly"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A site where buyers post and you apply"
+                  },
+                  "right": {
+                    "text": "Replying fast and narrowly to fresh listings"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Contacting businesses directly yourself"
+                  },
+                  "right": {
+                    "text": "Saying something only someone who looked would know"
+                  }
+                }
+              ],
+              "failHint": "Think about who makes the first move in each of these places.",
+              "optional": true
+            },
+            {
               "id": "b9",
               "type": "summary",
               "body": "There are four channels and they reward different things: bidding sites reward speed and narrowness, product marketplaces reward a fixed offer, professional networks reward patience and visibility, direct outreach rewards specificity. Match the channel to your offer instead of trying all four badly.",
@@ -1362,6 +1722,42 @@
                 "Send it within the hour, and note the time you sent it.",
                 "Repeat daily for a week and count replies rather than jobs won."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Action to What It Changes",
+              "subtitle": "Match each early move with the effect it has on your position.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You take the smallest job that fits your offer"
+                  },
+                  "right": {
+                    "text": "A completed review, which changes your ranking"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You apply to the largest project available"
+                  },
+                  "right": {
+                    "text": "Competing against people the buyer can verify"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You answer within the first hour of a posting"
+                  },
+                  "right": {
+                    "text": "Being read before the list becomes overwhelming"
+                  }
+                }
+              ],
+              "failHint": "Think about which move changes your position on the platform rather than just your income.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -1449,6 +1845,42 @@
                 "Track two columns only: messages sent and replies received.",
                 "Review after four weeks and change exactly one thing based on the pattern."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Symptom to the Fix",
+              "subtitle": "Match each pattern in your results with the one thing to change.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Nobody replies to anything you send"
+                  },
+                  "right": {
+                    "text": "The opening line, or the channel itself"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "People reply, then go quiet at your price"
+                  },
+                  "right": {
+                    "text": "How the price is presented, not the number"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Jobs happen but nobody comes back"
+                  },
+                  "right": {
+                    "text": "The ending of the job, not the work itself"
+                  }
+                }
+              ],
+              "failHint": "Look at the exact stage where the conversation stops, and change only that stage.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -1677,6 +2109,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Instruction to Its Effect",
+              "subtitle": "Match each way of steering the output with what it actually changes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You paste two things the client published"
+                  },
+                  "right": {
+                    "text": "The voice becomes something checkable, not a guess"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You ask for a warmer and more human tone"
+                  },
+                  "right": {
+                    "text": "An adjective that means something different to everyone"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You list the words that must never appear"
+                  },
+                  "right": {
+                    "text": "A rule that holds even when the draft drifts"
+                  }
+                }
+              ],
+              "failHint": "Ask which instruction gives the model information it did not already have.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Know When to Stop Steering",
@@ -1762,6 +2230,42 @@
                 "Run one more round with only those three changes.",
                 "Note how long the whole loop took — that number is what you are selling."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Reaction to the Instruction",
+              "subtitle": "Match each thing you notice in a draft with what to do about it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "The example is from the wrong industry"
+                  },
+                  "right": {
+                    "text": "Name the reader's industry and ask again"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You have tried five times without improvement"
+                  },
+                  "right": {
+                    "text": "Rewrite the brief, not the request"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The last ten per cent still sounds off"
+                  },
+                  "right": {
+                    "text": "Finish it by hand — that part is faster manually"
+                  }
+                }
+              ],
+              "failHint": "Think about whether each problem is in the answer or in the instructions behind it.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -5559,6 +6063,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Offer Shape to the Delay It Removes",
+              "subtitle": "Match each way of presenting price with the waiting it prevents.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You publish a fixed package with a date"
+                  },
+                  "right": {
+                    "text": "Your thinking time and their waiting time both disappear"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You reply that it depends on the scope"
+                  },
+                  "right": {
+                    "text": "A day of silence and a second conversation"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You add a named extra as a separate line"
+                  },
+                  "right": {
+                    "text": "The bigger job stays priced without a fresh quote"
+                  }
+                }
+              ],
+              "failHint": "Think about where the days actually go between an enquiry and a start date.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Publish It Where People Look",
@@ -5644,6 +6184,42 @@
                 "Write the warm no as well, so declining does not require improvising.",
                 "Read all three aloud until they sound ordinary rather than tense."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Response to What It Teaches",
+              "subtitle": "Match each answer to «that's too expensive» with what the client learns.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You reduce the deliverables and hold the rate"
+                  },
+                  "right": {
+                    "text": "They pay less because they receive less"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You lower the price for identical work"
+                  },
+                  "right": {
+                    "text": "Your figures are an opening position to push"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say it is below what you can do it for"
+                  },
+                  "right": {
+                    "text": "The door stays open without the rate being damaged"
+                  }
+                }
+              ],
+              "failHint": "Ask what each answer teaches the client to expect from your next quote.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -5864,6 +6440,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Element to Its Job",
+              "subtitle": "Match each part of an outreach message with what it is there to do.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "One specific observation about their business"
+                  },
+                  "right": {
+                    "text": "Proves you looked before writing anything"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A question answerable in a single word"
+                  },
+                  "right": {
+                    "text": "Makes replying cheaper than ignoring"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A small piece of work made for them"
+                  },
+                  "right": {
+                    "text": "Turns a request into a demonstration"
+                  }
+                }
+              ],
+              "failHint": "Think about what each sentence asks the reader to do, and how much effort that costs them.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "The Follow-Up Does the Work",
@@ -5949,6 +6561,42 @@
                 "Do this week's Monday block now, even if you are currently busy.",
                 "Set a reminder to review the sheet at the end of the month."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Habit to What It Prevents",
+              "subtitle": "Match each part of the routine with the problem it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You keep the weekly slot while you are busy"
+                  },
+                  "right": {
+                    "text": "The empty month that follows every good one"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You track who you contacted and when"
+                  },
+                  "right": {
+                    "text": "Messaging the same person twice, and unreadable results"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You start with people who know your name"
+                  },
+                  "right": {
+                    "text": "Spending the highest-converting list last"
+                  }
+                }
+              ],
+              "failHint": "Remember how long it takes between sending a message and money arriving.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -6054,6 +6702,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Line to the Question It Answers",
+              "subtitle": "Match each part of a short proposal with the buyer's question behind it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You restate their problem in your own words"
+                  },
+                  "right": {
+                    "text": "Did this person actually understand my situation"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You give a quantity and a weekday"
+                  },
+                  "right": {
+                    "text": "What arrives, and when will it be here"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You state one revision round with a window"
+                  },
+                  "right": {
+                    "text": "What happens if it is not quite right"
+                  }
+                }
+              ],
+              "failHint": "Think about the questions a buyer is silently asking as they read.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "When Longer Is Right",
@@ -6141,6 +6825,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Move to How It Reads",
+              "subtitle": "Match each thing you do on a first call with how the client experiences it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You ask what made this urgent now"
+                  },
+                  "right": {
+                    "text": "You sound like someone who has done this before"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You give a number under pressure"
+                  },
+                  "right": {
+                    "text": "A figure lower than the one you would write calmly"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say you will check and reply today"
+                  },
+                  "right": {
+                    "text": "Credibility kept, plus a reason to follow up"
+                  }
+                }
+              ],
+              "failHint": "Think about which moves an experienced freelancer makes without thinking.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Close by Naming the Next Step",
@@ -6226,6 +6946,42 @@
                 "Add a question that surfaces the real blocker without sounding like chasing.",
                 "Decide your rule: two follow-ups, then move on."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Cause of Silence to the Fix",
+              "subtitle": "Match each reason a deal goes quiet with what actually resolves it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Someone else has to approve the spend"
+                  },
+                  "right": {
+                    "text": "Ask early who signs, before it stalls"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The scope has drifted in their head"
+                  },
+                  "right": {
+                    "text": "Restate what is included, in writing"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "They cannot fund it this month"
+                  },
+                  "right": {
+                    "text": "Offer a start date, not a discount"
+                  }
+                }
+              ],
+              "failHint": "Three of the usual causes are solved by a question rather than by persistence.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -6323,6 +7079,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Clause to the Dispute It Prevents",
+              "subtitle": "Match each line of a short agreement with the argument it avoids.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name what is not included"
+                  },
+                  "right": {
+                    "text": "Work expected that was never part of the fee"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say what you need from them and when"
+                  },
+                  "right": {
+                    "text": "A deadline missed because their input arrived late"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You take part of the fee before starting"
+                  },
+                  "right": {
+                    "text": "Delivering everything to someone who risked nothing"
+                  }
+                }
+              ],
+              "failHint": "Think about the moment each of these disagreements usually appears.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "When to Use a Real Contract",
@@ -6410,6 +7202,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Response to What It Costs You",
+              "subtitle": "Match each way of handling an extra request with its real cost.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name it as outside the agreement and price it"
+                  },
+                  "right": {
+                    "text": "The boundary stays visible and the fee stays intact"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You quietly absorb the extra work"
+                  },
+                  "right": {
+                    "text": "The fourth request feels normal to both of you"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You redo approved work without charging"
+                  },
+                  "right": {
+                    "text": "Approval stops meaning anything on future jobs"
+                  }
+                }
+              ],
+              "failHint": "Think about what each response teaches the client about the next request.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "The One You Should Refuse",
@@ -6495,6 +7323,42 @@
                 "Decide your personal limit — how many contradictory rounds you accept.",
                 "Save both where you can find them on a bad day, when writing is hardest."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Signal to What It Means",
+              "subtitle": "Match each thing you notice with what it is telling you about the job.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Feedback contradicts what was approved last week"
+                  },
+                  "right": {
+                    "text": "The brief was never actually settled"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Payment terms are renegotiated before delivery"
+                  },
+                  "right": {
+                    "text": "The end of this job will be worse than the middle"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You are avoiding opening their messages"
+                  },
+                  "right": {
+                    "text": "Data, not a mood — treat it as evidence"
+                  }
+                }
+              ],
+              "failHint": "Ask which of these is about the work and which is about the relationship.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -6592,6 +7456,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Material to the Right Handling",
+              "subtitle": "Match each kind of client material with what you should do with it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Their published prices and public pages"
+                  },
+                  "right": {
+                    "text": "Safe to use as it is"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A spreadsheet of customer names and emails"
+                  },
+                  "right": {
+                    "text": "Replace the details with placeholders first"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Draft copy they wrote but never published"
+                  },
+                  "right": {
+                    "text": "Fine once you have asked them the question"
+                  }
+                }
+              ],
+              "failHint": "Ask what you actually need in order to do the work — the identities, or the pattern?",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "When the Client Says No AI",
@@ -6679,6 +7579,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Worry to What Answers It",
+              "subtitle": "Match each thing a client is really asking about with what settles it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Will this sound like everyone else's writing"
+                  },
+                  "right": {
+                    "text": "A sample that is visibly specific to them"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Am I paying for something I could do free"
+                  },
+                  "right": {
+                    "text": "Naming the judgement you add to the draft"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Could there be something factually wrong"
+                  },
+                  "right": {
+                    "text": "Saying plainly what you verified and how"
+                  }
+                }
+              ],
+              "failHint": "Behind the question about tools there is a question about what the fee buys.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Let the Work Settle It",
@@ -6764,6 +7700,42 @@
                 "Start your invoice numbering at 0001 and never reuse a number.",
                 "Put the weekly five-minute money review in your calendar."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Record to the Moment It Saves You",
+              "subtitle": "Match each thing worth keeping with when you will need it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "The message where scope and price were agreed"
+                  },
+                  "right": {
+                    "text": "A dispute about what was actually promised"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Invoices numbered in sequence with dates"
+                  },
+                  "right": {
+                    "text": "Chasing a payment without ambiguity"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A note of who allowed you to show the work"
+                  },
+                  "right": {
+                    "text": "Building a portfolio without asking again"
+                  }
+                }
+              ],
+              "failHint": "Think about the conversation each record makes possible, and what happens without it.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -6861,6 +7833,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Detail to the Delay It Removes",
+              "subtitle": "Match each part of an invoice with the hold-up it prevents.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You attach it to the delivery message"
+                  },
+                  "right": {
+                    "text": "Payment stays linked to the moment they are pleased"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You put a due date rather than on receipt"
+                  },
+                  "right": {
+                    "text": "An invoice treated as no particular hurry"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You include full payment details in it"
+                  },
+                  "right": {
+                    "text": "A reply asking a question instead of paying"
+                  }
+                }
+              ],
+              "failHint": "Every missing detail turns a payment into a message, and a message into another week.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Make Paying Easy",
@@ -6948,6 +7956,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Step to What It Achieves",
+              "subtitle": "Match each stage of chasing with what it is actually for.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A neutral reminder the day after the due date"
+                  },
+                  "right": {
+                    "text": "Treats it as administration, which it usually is"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Asking who handles payments and when they run"
+                  },
+                  "right": {
+                    "text": "Moves it to someone who can actually release it"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Pausing further work until it clears"
+                  },
+                  "right": {
+                    "text": "Pressure that is a fact rather than a threat"
+                  }
+                }
+              ],
+              "failHint": "Think about who inside the company each step is really aimed at.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Prevention Beats Chasing",
@@ -7033,6 +8077,42 @@
                 "Set your rate in your own currency and note today's conversion.",
                 "Decide the share of each payment you will set aside, and where it goes."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Agreement to the Surprise It Prevents",
+              "subtitle": "Match each thing settled up front with what it stops happening later.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You state which currency the invoice is in"
+                  },
+                  "right": {
+                    "text": "A figure that shifts between sending and arriving"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say the sender covers transfer costs"
+                  },
+                  "right": {
+                    "text": "Less money landing than the amount agreed"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You set aside a share of each payment"
+                  },
+                  "right": {
+                    "text": "A tax bill that arrives with nothing behind it"
+                  }
+                }
+              ],
+              "failHint": "Each of these is one sentence written before the work, or a difficult conversation after it.",
+              "optional": true
             },
             {
               "id": "b8",
@@ -7130,6 +8210,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Follow-Up to Its Effect",
+              "subtitle": "Match each thing you do after delivery with what it produces.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You name one obvious next piece of work"
+                  },
+                  "right": {
+                    "text": "They make a decision instead of a plan"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You say to let you know if they need anything"
+                  },
+                  "right": {
+                    "text": "The thinking is handed back to the busiest person"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You ask how the work performed two weeks later"
+                  },
+                  "right": {
+                    "text": "You are the person still thinking about their business"
+                  }
+                }
+              ],
+              "failHint": "Think about how much work each message asks the client to do.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Keep a Short List",
@@ -7225,6 +8341,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Term to Why It Is There",
+              "subtitle": "Match each part of a monthly arrangement with the risk it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A capped quantity per month"
+                  },
+                  "right": {
+                    "text": "Being permanently on call for a fixed fee"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A fixed invoice date each month"
+                  },
+                  "right": {
+                    "text": "Payment drifting further each cycle"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A month's notice on either side"
+                  },
+                  "right": {
+                    "text": "An arrangement neither party can leave cleanly"
+                  }
+                }
+              ],
+              "failHint": "Ask what would go wrong for each side if that term were missing.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Do Not Fill Every Slot",
@@ -7310,6 +8462,42 @@
                 "Add both to your delivery routine so they are never improvised.",
                 "Send one of them today to a client who recently said something kind."
               ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Ask to How Easy It Is to Grant",
+              "subtitle": "Match each version of a request with how much work it costs the client.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Asking for one introduction, message written"
+                  },
+                  "right": {
+                    "text": "Ten seconds and a name they already thought of"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Asking them to keep you in mind generally"
+                  },
+                  "right": {
+                    "text": "A search they will never actually perform"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Asking to quote what they just wrote to you"
+                  },
+                  "right": {
+                    "text": "Permission to use words they have already said"
+                  }
+                }
+              ],
+              "failHint": "Think about how much effort each request demands from someone who is pleased but busy.",
+              "optional": true
             },
             {
               "id": "b8",

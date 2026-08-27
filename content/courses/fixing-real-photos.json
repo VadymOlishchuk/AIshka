@@ -86,6 +86,42 @@
               ]
             },
             {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the Fault to Whether It Can Be Fixed",
+              "subtitle": "Match each problem with what can honestly be done about it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A sharp photo that is far too dark"
+                  },
+                  "right": {
+                    "text": "Everything is present — this is recoverable"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Motion blur across the subject itself"
+                  },
+                  "right": {
+                    "text": "The detail was never captured, only invention remains"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A cluttered background behind the product"
+                  },
+                  "right": {
+                    "text": "Removable, because nothing needed is hidden"
+                  }
+                }
+              ],
+              "failHint": "Ask whether the information is present and badly shown, or absent altogether.",
+              "optional": true
+            },
+            {
               "id": "b8",
               "type": "text",
               "heading": "Reshooting Is Usually Cheaper",
