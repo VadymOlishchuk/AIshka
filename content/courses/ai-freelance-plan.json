@@ -74,6 +74,34 @@
               "bodyHtml": "<p>When someone reads your message, they are answering three questions in about eight seconds:</p><ul><li><strong>Did they understand my problem?</strong> Your first line should sound like their job post, not your CV.</li><li><strong>Have they done this before?</strong> One relevant example beats a list of ten unrelated ones.</li><li><strong>Will this be easy?</strong> A clear next step — a price, a timeline, one question — removes the work of deciding.</li></ul><p>Notice that none of the three asks which model you used.</p>"
             },
             {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A buyer is reading your message. Which of these removes the most work for them?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A list of every AI tool you are confident working with."
+                },
+                {
+                  "id": "b",
+                  "label": "A price, a timeline and one question they can answer."
+                },
+                {
+                  "id": "c",
+                  "label": "A paragraph about why you enjoy this kind of project."
+                },
+                {
+                  "id": "d",
+                  "label": "A link to your portfolio so they can browse your work."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly 🔥",
+              "successBody": "A clear next step removes the effort of deciding, which is the third thing a buyer checks. Tool lists and enthusiasm both leave that work with them.",
+              "wrongHint": "Think about which option leaves the reader with nothing left to work out."
+            },
+            {
               "id": "b7",
               "type": "try",
               "heading": "Try",
@@ -205,6 +233,34 @@
               "bodyHtml": "<p>Once you have priced the same job three times, stop quoting from scratch. Write it down as a package with a name, a scope and a number.</p><p>Two effects follow immediately. Buyers decide faster, because there is nothing to work out. And you stop under-pricing on tired days, because the number is no longer a judgement call you make in the moment.</p>"
             },
             {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You have priced the same kind of job three times now. What should happen next?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Keep quoting each one individually to stay accurate."
+                },
+                {
+                  "id": "b",
+                  "label": "Write it down as a package with a scope and a number."
+                },
+                {
+                  "id": "c",
+                  "label": "Raise the price a little on every subsequent quote."
+                },
+                {
+                  "id": "d",
+                  "label": "Offer a discount to clients who order it repeatedly."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A written package removes the quoting time and stops you under-pricing on tired days, because the number is no longer decided in the moment.",
+              "wrongHint": "Think about what you are still spending an hour on for every single enquiry."
+            },
+            {
               "id": "b7",
               "type": "try",
               "heading": "Try",
@@ -326,6 +382,34 @@
               "type": "text",
               "heading": "Why the Sample Does the Selling",
               "bodyHtml": "<p>An unrequested sample answers the only question that matters — can this person actually do the thing — before anyone has to trust you.</p><p>It also changes the tone of your message. You are no longer asking for a chance; you are showing something you already made and offering more of it. That difference is felt immediately by the person reading.</p>"
+            },
+            {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why does an unrequested sample work better than describing what you can do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "It shows the range of styles that you are able to produce."
+                },
+                {
+                  "id": "b",
+                  "label": "It answers whether you can do it, before anyone risks trust."
+                },
+                {
+                  "id": "c",
+                  "label": "It proves that you have enough free time to take the work."
+                },
+                {
+                  "id": "d",
+                  "label": "It shows you are willing to work without being paid first."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The only real question about someone with no track record is whether they can actually do it. A sample answers that before the buyer has to take any risk at all.",
+              "wrongHint": "Think about the one thing a buyer cannot verify about a stranger."
             },
             {
               "id": "b7",
@@ -459,6 +543,34 @@
               "bodyHtml": "<p>The strongest first offer usually sits where three things overlap:</p><ul><li><strong>Something you have already done</strong>, even unpaid, even for yourself</li><li><strong>Something businesses already buy</strong> — you can see it in job posts today</li><li><strong>Something finishable in days</strong>, not months</li></ul><p>If an idea fails the third test, it is a service for later. Long projects are hard to price, hard to trust and hard to finish while you are still learning how any of this works.</p>"
             },
             {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "An idea passes two of the three filters but would take three months. What is it?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A strong first offer, since longer projects pay much better."
+                },
+                {
+                  "id": "b",
+                  "label": "A service for later — it fails the finishable-in-days test."
+                },
+                {
+                  "id": "c",
+                  "label": "Worth offering if you split the payment into several stages."
+                },
+                {
+                  "id": "d",
+                  "label": "The right choice, because fewer freelancers can deliver it."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly 🔥",
+              "successBody": "Long projects are hard to price, hard for a stranger to trust, and hard to finish while you are still learning how any of this works. It is a service for later.",
+              "wrongHint": "Ask which filter it failed, and why that filter exists at all."
+            },
+            {
               "id": "b7",
               "type": "try",
               "heading": "Try",
@@ -582,6 +694,34 @@
               "bodyHtml": "<p>Once the small version works, add exactly one larger version — usually the same thing repeated monthly.</p><p>Two options is a choice. Five options is a research task, and people postpone research tasks. The small one gets you in the door; the larger one is what you offer once they already trust you, which is a much easier conversation.</p>"
             },
             {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your small package is working. How many options should sit alongside it?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Three or four, so different budgets are all covered here."
+                },
+                {
+                  "id": "b",
+                  "label": "Exactly one more — usually the same thing repeated monthly."
+                },
+                {
+                  "id": "c",
+                  "label": "None at all, because a single clear offer converts better."
+                },
+                {
+                  "id": "d",
+                  "label": "As many as you can deliver, so nobody is turned away."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Two options is a choice someone makes in a minute. Five is a comparison exercise, and comparison exercises get postponed indefinitely.",
+              "wrongHint": "Think about what happens to a decision when there are more things to weigh up."
+            },
+            {
               "id": "b7",
               "type": "try",
               "heading": "Try",
@@ -703,6 +843,34 @@
               "type": "text",
               "heading": "What a Good Signal Looks Like",
               "bodyHtml": "<p>You are not waiting for enthusiasm. You are watching for three quieter things:</p><ul><li>They describe the problem back to you in more detail than you used</li><li>They ask how much or how long — a question about logistics, not about interest</li><li>They mention who currently does it and why that is unsatisfying</li></ul><p>Any one of those means keep going. Polite agreement with no detail means the problem is not painful enough to pay for.</p>"
+            },
+            {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Which reply is the strongest signal that the problem is real for them?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "They say it sounds interesting and wish you good luck."
+                },
+                {
+                  "id": "b",
+                  "label": "They describe the problem in more detail than you did."
+                },
+                {
+                  "id": "c",
+                  "label": "They forward your message to a colleague to look at."
+                },
+                {
+                  "id": "d",
+                  "label": "They reply quickly and thank you for getting in touch."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Detail costs effort, and people spend effort only on things that matter to them. Polite agreement with no detail means it is not painful enough to pay for.",
+              "wrongHint": "Look at how much effort each of these replies took to write."
             },
             {
               "id": "b7",
@@ -1459,6 +1627,34 @@
               "bodyHtml": "<p>Send the invoice with the delivery, not a few days later. Waiting feels polite but it detaches the payment from the moment the client is most pleased with the work.</p><p>Put a due date on it — «payable within 7 days» — because an invoice with no date is treated as no particular hurry, and that is how a two-week wait becomes a two-month one.</p>"
             },
             {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "When should the invoice for a completed job actually be sent?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "With the delivery itself, carrying a stated due date."
+                },
+                {
+                  "id": "b",
+                  "label": "A few days later, once they have reviewed the work."
+                },
+                {
+                  "id": "c",
+                  "label": "At the end of the month, with any other invoices."
+                },
+                {
+                  "id": "d",
+                  "label": "After they confirm that they are happy with it."
+                }
+              ],
+              "correctId": "a",
+              "successTitle": "Exactly 🔥",
+              "successBody": "Sending it with the delivery keeps payment attached to the moment the client is most pleased. The due date is what stops it being treated as no particular hurry.",
+              "wrongHint": "Think about when the client feels best about the work, and how long that lasts."
+            },
+            {
               "id": "b7",
               "type": "try",
               "heading": "Try",
@@ -1711,6 +1907,34 @@
               "type": "text",
               "heading": "Fees Are Not the Enemy",
               "bodyHtml": "<p>Platform fees look painful — a fifth of your first jobs can disappear. Beginners often try to move clients off-platform to avoid them, which risks the account that produced the client.</p><p>Think of the fee as paid distribution. You are buying access to buyers who already trust the payment system, which is the thing you cannot provide yourself yet.</p>"
+            },
+            {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Platform fees take a fifth of your early jobs. What is the sound way to see that?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A loss to escape by moving clients off the platform."
+                },
+                {
+                  "id": "b",
+                  "label": "Paid distribution — access to buyers who already trust it."
+                },
+                {
+                  "id": "c",
+                  "label": "A reason to raise prices until the fee is covered fully."
+                },
+                {
+                  "id": "d",
+                  "label": "Unavoidable early, but worth avoiding once established."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "You are buying access to buyers who already trust the payment system, which is the one thing you cannot provide yourself yet. Moving them off risks the account that produced them.",
+              "wrongHint": "Ask what the fee is actually buying you at this particular stage."
             },
             {
               "id": "b7",
@@ -1973,6 +2197,34 @@
               "type": "text",
               "heading": "Why This Matters for Paid Work",
               "bodyHtml": "<p>A client is not paying for access to a tool. They are paying because you get usable output on the first or second attempt while they would spend an afternoon on it.</p><p>That gap is your entire margin. It comes from knowing what to specify, not from knowing a secret phrase — and it is the reason a clear brief is a professional skill rather than a trick.</p>"
+            },
+            {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client could open the same tool themselves. What are they actually paying for?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Access to a better or more expensive version of the tool."
+                },
+                {
+                  "id": "b",
+                  "label": "Usable output in two rounds instead of a lost afternoon."
+                },
+                {
+                  "id": "c",
+                  "label": "A secret phrasing that produces noticeably better answers."
+                },
+                {
+                  "id": "d",
+                  "label": "The time it takes to type out a sufficiently long request."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The gap between your two rounds and their afternoon is the entire margin. It comes from knowing what to specify, which is a professional skill rather than a trick.",
+              "wrongHint": "Think about what the client would actually spend if they did this themselves."
             },
             {
               "id": "b7",
@@ -7314,6 +7566,34 @@
               "bodyHtml": "<p>If it cannot be reset, end it in one short message: what is finished, what you are handing over, what is owed for work done, and no blame.</p><p>«I don't think I'm the right fit for this one. Everything completed so far is attached; the invoice covers those items only.» Short, calm, final — and it protects your reputation far better than a long explanation would.</p>"
             },
             {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You are ending a job that could not be reset. What should the message contain?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A full explanation of what went wrong and whose fault it was."
+                },
+                {
+                  "id": "b",
+                  "label": "What is finished, what is owed, and no blame attached to it."
+                },
+                {
+                  "id": "c",
+                  "label": "An apology and an offer to refund everything they have paid."
+                },
+                {
+                  "id": "d",
+                  "label": "A request to discuss it on a call before anything is final."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's the one 🔥",
+              "successBody": "Short, calm and factual protects your reputation better than any explanation. A long account of what went wrong invites a reply arguing with each part of it.",
+              "wrongHint": "Think about which version someone would be willing to forward to a colleague."
+            },
+            {
               "id": "b7",
               "type": "try",
               "heading": "Try",
@@ -8197,6 +8477,34 @@
               "type": "text",
               "heading": "Ask What Happened Next",
               "bodyHtml": "<p>Very few freelancers ask about results, which is why the ones who do are remembered.</p><p>«Did the new descriptions change anything on the slower products?» costs one sentence. If the answer is good, you have a case study. If it is bad, you have a reason to be involved again — and either way you are the person still thinking about their business.</p>"
+            },
+            {
+              "id": "q2",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Two weeks after delivery you ask how the work performed. What does that gain you?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A polite exchange that keeps you in their mind for later."
+                },
+                {
+                  "id": "b",
+                  "label": "A case study if it worked, and a reason to help if not."
+                },
+                {
+                  "id": "c",
+                  "label": "Reassurance that the client was satisfied with the job."
+                },
+                {
+                  "id": "d",
+                  "label": "A chance to point out what they should have done next."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly 🔥",
+              "successBody": "Either answer is useful: a good result is evidence you can show, and a poor one is a reason to be involved again. Almost nobody asks, which is why the ones who do are remembered.",
+              "wrongHint": "Think about what you have afterwards in each of the two possible answers."
             },
             {
               "id": "b7",
