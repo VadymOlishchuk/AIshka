@@ -16,7 +16,7 @@ export function ErrorPage({ notFound = false }: { notFound?: boolean }) {
             ? "The page you're looking for doesn't exist or has moved."
             : "Try again in a moment. If it keeps happening, we're already looking into it."}
         </p>
-        <Link to="/dashboard">
+        <Link to="/">
           <Button className="w-full">Back home</Button>
         </Link>
       </Card>

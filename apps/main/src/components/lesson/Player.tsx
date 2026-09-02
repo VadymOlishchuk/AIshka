@@ -111,11 +111,11 @@ export function Player({ slug, title, unitTitle, blocks, nextLessonSlug }: Props
 
         <div className="mt-3 flex w-full max-w-[var(--container-action)] flex-col gap-3">
           {nextLessonSlug ? (
-            <Link to={`/dashboard/lesson/${nextLessonSlug}`}>
+            <Link to={`/lessons/${nextLessonSlug}`}>
               <Button className="w-full">Next lesson ›</Button>
             </Link>
           ) : null}
-          <Link to="/dashboard/journey">
+          <Link to="/library">
             <Button variant="ghost" className="w-full">
               Back to my plan
             </Button>
@@ -136,7 +136,7 @@ export function Player({ slug, title, unitTitle, blocks, nextLessonSlug }: Props
             />
           </div>
           <Link
-            to="/dashboard/journey"
+            to="/library"
             aria-label="Exit lesson"
             className="text-[20px] leading-none text-ink-muted transition hover:text-ink-strong"
           >

@@ -55,14 +55,14 @@ export function Home() {
                   Next · {build.next.stageTitle} · {build.next.minutes} min
                 </p>
                 <p className="mb-5 text-[18px] font-bold">{build.next.title}</p>
-                <Link to="/dashboard/build">
+                <Link to="/build">
                   <Button variant="onDark" className="w-full sm:w-auto">
                     Open the build
                   </Button>
                 </Link>
               </>
             ) : (
-              <Link to="/dashboard/journey/academy">
+              <Link to="/library">
                 <Button variant="onDark" className="w-full sm:w-auto">
                   Browse the library
                 </Button>
@@ -90,7 +90,7 @@ export function Home() {
             const done = stage.slots.filter((s) => s.filled).length;
             const complete = done === stage.slots.length;
             return (
-              <Link key={stage.id} to="/dashboard/build" className="group">
+              <Link key={stage.id} to="/build" className="group">
                 <Card className="h-full p-5 transition group-hover:border-accent/40">
                   <div className="mb-3 flex items-center gap-3">
                     <span aria-hidden className="flex h-8 w-8 flex-none items-center justify-center">

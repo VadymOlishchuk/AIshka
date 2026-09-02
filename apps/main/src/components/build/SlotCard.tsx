@@ -79,7 +79,7 @@ export function SlotCard({ slot, open = false }: { slot: BuildSlot; open?: boole
       {/* Урок приходить у момент затику, а не наперед. */}
       {slot.lessonSlug ? (
         <Link
-          to={`/dashboard/lesson/${slot.lessonSlug}`}
+          to={`/lessons/${slot.lessonSlug}`}
           className="mb-4 inline-flex items-center gap-1.5 text-[14.5px] font-semibold text-accent hover:underline"
         >
           How do I do this? ›

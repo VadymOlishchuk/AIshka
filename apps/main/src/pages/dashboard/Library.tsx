@@ -23,7 +23,7 @@ const SHELF_NOTE: Record<string, string> = {
   "Tool courses": "One tool at a time: what it's good at, and where it falls apart.",
 };
 
-export function Academy() {
+export function Library() {
   useTitle("Library · AIshka");
   const courses = useLoaderData() as CatalogCourse[];
   const me = useRouteLoaderData("dashboard") as Me;

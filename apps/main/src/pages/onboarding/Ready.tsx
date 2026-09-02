@@ -48,7 +48,7 @@ export function PlanReady() {
         ))}
       </div>
 
-      <Link to="/dashboard">
+      <Link to="/">
         <Button className="w-full">Start learning</Button>
       </Link>
     </main>

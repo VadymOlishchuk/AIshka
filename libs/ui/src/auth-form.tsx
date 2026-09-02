@@ -59,7 +59,7 @@ export function AuthForm({
         return;
       }
 
-      const to = defaultNext ?? body.data?.next ?? "/dashboard";
+      const to = defaultNext ?? body.data?.next ?? "/";
       // Лендінг стоїть на піддомені й після реєстрації веде на платформу
       // абсолютною адресою — це вже не маршрут роутера, а перехід між застосунками.
       if (/^https?:\/\//.test(to)) {

@@ -105,7 +105,7 @@ export function LibraryHero({
         {/* Біла картка на темному: єдина яскрава пляма — і одразу зрозуміло, куди тиснути. */}
         {pick ? (
           <Link
-            to={`/dashboard/course/${pick.slug}`}
+            to={`/courses/${pick.slug}`}
             className="group block rounded-[22px] bg-surface p-5 text-ink-strong shadow-[0_24px_60px_rgba(0,0,0,.4)] transition duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:shadow-[0_30px_70px_rgba(0,0,0,.5)]"
           >
             <div className="mb-4 flex items-center justify-between gap-3">

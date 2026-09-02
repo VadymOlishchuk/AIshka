@@ -64,7 +64,7 @@ export function UnitAccordion({ unit, index, openByDefault }: { unit: PlanUnit; 
 
               {lesson.completed ? (
                 <Link
-                  to={`/dashboard/lesson/${lesson.slug}`}
+                  to={`/lessons/${lesson.slug}`}
                   className="text-[14px] font-semibold text-ink-muted underline-offset-2 hover:underline"
                 >
                   Repeat this lesson?
@@ -73,7 +73,7 @@ export function UnitAccordion({ unit, index, openByDefault }: { unit: PlanUnit; 
                 <span className="text-[14px] text-ink-muted">Available after previous</span>
               ) : (
                 <Link
-                  to={`/dashboard/lesson/${lesson.slug}`}
+                  to={`/lessons/${lesson.slug}`}
                   className="rounded-[10px] bg-accent px-4 py-2 text-[14px] font-bold text-white transition hover:brightness-95"
                 >
                   Start

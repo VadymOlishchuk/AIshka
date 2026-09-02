@@ -11,7 +11,7 @@ import { PlanReady, type ReadyView } from "./pages/onboarding/Ready";
 import { DashboardLayout } from "./pages/dashboard/Layout";
 import { Home } from "./pages/dashboard/Home";
 import { Build } from "./pages/dashboard/Build";
-import { Academy } from "./pages/dashboard/Academy";
+import { Library } from "./pages/dashboard/Library";
 import { Course } from "./pages/dashboard/Course";
 import { Lesson, type LessonView } from "./pages/dashboard/Lesson";
 import { Profile } from "./pages/dashboard/Profile";
@@ -22,9 +22,6 @@ import { Profile } from "./pages/dashboard/Profile";
  * а не в компонентах: сторінка або є, або людину вже повели далі.
  */
 export const router = createBrowserRouter([
-  // Лендінг і реєстрація — в apps/landing на своєму піддомені. Корінь платформи
-  // веде в дашборд; без сесії loader дашборду сам відправить на вхід.
-  { path: "/", loader: () => redirect("/dashboard") },
   { path: "/login", element: <Login />, errorElement: <ErrorPage /> },
   { path: "/reset", element: <Reset />, errorElement: <ErrorPage /> },
   { path: "/set-password", element: <SetPassword />, errorElement: <ErrorPage /> },
@@ -40,7 +37,7 @@ export const router = createBrowserRouter([
         index: true,
         loader: async ({ request }: LoaderFunctionArgs) => {
           const state = await load<OnboardingState>("/api/onboarding", request);
-          if (state.done) return redirect("/dashboard");
+          if (state.done) return redirect("/");
           const slug = state.steps.some((s) => s.slug === state.current)
             ? state.current
             : state.steps[0]!.slug;
@@ -64,9 +61,11 @@ export const router = createBrowserRouter([
     ],
   },
 
+  // Платформа живе на своєму домені, тому корінь — це і є головна: без префіксів
+  // і без проміжних редіректів. Без сесії loader сам відправить на вхід.
   {
     id: "dashboard",
-    path: "/dashboard",
+    path: "/",
     element: <DashboardLayout />,
     errorElement: <ErrorPage />,
     loader: ({ request }) => fetchMe(request),
@@ -81,7 +80,7 @@ export const router = createBrowserRouter([
             return { me, build: await api.get<BuildView>("/api/build") };
           } catch (error) {
             if (error instanceof ApiError && error.code === "not_found") {
-              return redirect("/dashboard/journey/academy");
+              return redirect("/library");
             }
             throw error;
           }
@@ -94,32 +93,30 @@ export const router = createBrowserRouter([
           try {
             return await load<BuildView>("/api/build", request);
           } catch (error) {
-            if (error instanceof Response && error.status === 404) return redirect("/dashboard");
+            if (error instanceof Response && error.status === 404) return redirect("/");
             throw error;
           }
         },
       },
-      // План із відсотком замінено Збіркою — Journey веде просто в бібліотеку.
-      { path: "journey", loader: () => redirect("/dashboard/journey/academy") },
       {
-        path: "journey/academy",
-        element: <Academy />,
+        path: "library",
+        element: <Library />,
         loader: ({ request }) => load<CatalogCourse[]>("/api/catalog", request),
       },
       {
-        path: "course/:slug",
+        path: "courses/:slug",
         element: <Course />,
         loader: ({ request, params }) => load<CourseView>(`/api/courses/${params.slug}`, request),
       },
       {
-        path: "lesson/:slug",
+        path: "lessons/:slug",
         element: <Lesson />,
         loader: async ({ request, params }: LoaderFunctionArgs) => {
           try {
             return await load<LessonView>(`/api/lessons/${params.slug}`, request);
           } catch (error) {
             // Урок замкнений, поки не пройдено попередній — ведемо назад у збірку.
-            if (error instanceof Response && error.status === 403) return redirect("/dashboard/build");
+            if (error instanceof Response && error.status === 403) return redirect("/build");
             throw error;
           }
         },

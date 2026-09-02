@@ -22,7 +22,7 @@ import {
 } from "../lib/auth";
 
 const landing = (user: { onboardingDone: boolean }) =>
-  user.onboardingDone ? "/dashboard" : "/onboarding";
+  user.onboardingDone ? "/" : "/onboarding";
 
 export const authRoutes: FastifyPluginAsync = async (app) => {
   app.post("/register", async (req, reply) => {

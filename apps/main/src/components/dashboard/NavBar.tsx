@@ -21,26 +21,19 @@ import { SignOutButton } from "@/components/dashboard/SignOutButton";
  * не міняють геометрію, коли активний перемикається: рухається лише він сам.
  */
 const LINKS = [
-  { href: "/dashboard", label: "Home", Icon: HomeIcon, match: "/dashboard" },
-  { href: "/dashboard/build", label: "Build", Icon: BuildIcon, match: "/dashboard/build" },
-  // href веде одразу в academy: /dashboard/journey — серверний redirect, і зайвий
-  // перехід змушував капсулу моргати. match лишається на корені розділу.
-  {
-    href: "/dashboard/journey/academy",
-    label: "Library",
-    Icon: LibraryIcon,
-    match: "/dashboard/journey",
-  },
+  { href: "/", label: "Home", Icon: HomeIcon, match: "/" },
+  { href: "/build", label: "Build", Icon: BuildIcon, match: "/build" },
+  { href: "/library", label: "Library", Icon: LibraryIcon, match: "/library" },
 ];
 
 /** Профіль потрібен лише на телефоні: на десктопі його місце — праворуч у капсулі. */
 const MOBILE_LINKS = [
   ...LINKS,
-  { href: "/dashboard/profile", label: "You", Icon: UserIcon, match: "/dashboard/profile" },
+  { href: "/profile", label: "You", Icon: UserIcon, match: "/profile" },
 ];
 
 function isActive(pathname: string, match: string) {
-  return match === "/dashboard" ? pathname === "/dashboard" : pathname.startsWith(match);
+  return match === "/" ? pathname === "/" : pathname.startsWith(match);
 }
 
 function NavItem({
@@ -84,7 +77,7 @@ export function NavBar({ firstName }: { firstName: string }) {
   const { pathname } = useLocation();
 
   // Плеєр навмисно позбавлений навігації: лише прогрес, контент і одна дія.
-  if (pathname.includes("/lesson/")) return null;
+  if (pathname.includes("/lessons/")) return null;
 
   return (
     <>
@@ -107,7 +100,7 @@ export function NavBar({ firstName }: { firstName: string }) {
           className="mx-auto grid max-w-[1290px] grid-cols-[1fr_auto_1fr] items-center gap-4 rounded-full border border-[rgba(18,20,43,.06)] bg-surface px-6 py-1.5 shadow-[0_14px_40px_rgba(18,20,43,.08)]"
         >
           <Link
-            to="/dashboard"
+            to="/"
             className="justify-self-start text-[17px] font-extrabold tracking-[-0.03em] text-ink-strong"
           >
             AIshka
@@ -121,10 +114,10 @@ export function NavBar({ firstName }: { firstName: string }) {
 
           <div className="flex items-center justify-end gap-2">
             <Link
-              to="/dashboard/profile"
-              aria-current={isActive(pathname, "/dashboard/profile") ? "page" : undefined}
+              to="/profile"
+              aria-current={isActive(pathname, "/profile") ? "page" : undefined}
               className={`flex items-center gap-2 rounded-full px-4 py-2 text-[15px] font-bold transition-colors duration-300 ${
-                isActive(pathname, "/dashboard/profile")
+                isActive(pathname, "/profile")
                   ? "bg-accent-tint text-accent"
                   : "text-ink-muted hover:text-ink-strong"
               }`}

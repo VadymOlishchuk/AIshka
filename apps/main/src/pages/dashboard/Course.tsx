@@ -14,7 +14,7 @@ export function Course() {
   return (
     <main className="mx-auto w-full max-w-[840px] px-5 py-8">
       <Link
-        to="/dashboard/journey/academy"
+        to="/library"
         className="mb-5 inline-block text-[14px] text-ink-muted transition hover:text-ink-strong"
       >
         ‹ Library
@@ -48,7 +48,7 @@ export function Course() {
           </p>
 
           {course.nextLessonSlug ? (
-            <Link to={`/dashboard/lesson/${course.nextLessonSlug}`}>
+            <Link to={`/lessons/${course.nextLessonSlug}`}>
               <Button>{course.completedLessons > 0 ? "Continue" : "Start the first lesson"}</Button>
             </Link>
           ) : (
@@ -80,7 +80,7 @@ export function Course() {
                 </div>
 
                 <Link
-                  to={`/dashboard/lesson/${lesson.slug}`}
+                  to={`/lessons/${lesson.slug}`}
                   className={
                     lesson.completed
                       ? "text-[14px] font-semibold text-ink-muted underline-offset-2 hover:underline"

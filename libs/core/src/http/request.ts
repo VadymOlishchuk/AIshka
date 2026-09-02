@@ -18,7 +18,7 @@ export function ctxOf(headers: IncomingHeaders, socketIp?: string) {
 }
 
 /** Дозволяємо редірект лише на власні відносні шляхи — інакше open redirect. */
-export function safeNextPath(value: string | null | undefined, fallback = "/dashboard") {
+export function safeNextPath(value: string | null | undefined, fallback = "/") {
   if (!value) return fallback;
   if (!value.startsWith("/") || value.startsWith("//")) return fallback;
   return value;

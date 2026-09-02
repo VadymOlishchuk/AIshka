@@ -49,7 +49,7 @@ export function CourseCard({
 
   return (
     <Link
-      to={`/dashboard/course/${course.slug}`}
+      to={`/courses/${course.slug}`}
       style={{ animationDelay: `${Math.min(index, 11) * 35}ms` }}
       className={`rise group flex h-full flex-col rounded-[24px] border bg-surface p-2.5 shadow-[0_14px_40px_rgba(18,20,43,.08)] transition duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:shadow-[0_22px_50px_rgba(18,20,43,.13)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
         highlighted ? "border-accent" : "border-[rgba(18,20,43,.06)]"
