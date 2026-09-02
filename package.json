@@ -8,11 +8,11 @@
     "node": ">=24"
   },
   "scripts": {
-    "dev:all": "nx run-many -t serve --parallel=3",
+    "dev:all": "pnpm db:up && nx run-many -t serve --parallel=3",
     "build": "nx run-many -t build",
     "typecheck": "nx run-many -t typecheck",
     "test": "nx run-many -t test",
-    "db:up": "docker compose up -d db",
+    "db:up": "docker compose up -d --wait db",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",
     "db:studio": "prisma studio",
@@ -22,7 +22,8 @@
     "project:sync": "tsx scripts/project-sync.ts",
     "emoji:sync": "tsx scripts/emoji-sync.ts",
     "docker:prod": "docker compose -f compose.yml up --build -d",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "db:down": "docker compose stop db"
   },
   "devDependencies": {
     "@types/node": "^26.4.1",

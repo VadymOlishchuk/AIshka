@@ -31,8 +31,9 @@ scripts/       content:check / content:sync / project:sync / emoji:sync
 ## Команди
 
 ```
-pnpm db:up                  # Postgres на localhost:5433
-pnpm dev:all                # backend :3001, main :5173, landing :5174; Vite проксіює /api
+pnpm dev:all                # піднімає Postgres у Docker, чекає healthcheck, далі backend :3001,
+                            # main :5173, landing :5174; Vite проксіює /api
+pnpm db:up / db:down        # лише база, коли треба окремо
 pnpm docker:prod            # прод: main :3000, landing :3100 (nginx) -> backend -> db
 pnpm db:migrate             # міграція після зміни schema.prisma
 pnpm content:check          # гейт публікації без запису в БД
