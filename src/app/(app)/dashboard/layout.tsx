@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { requireUser } from "@/core/auth/guards";
-import { TopBar } from "@/components/dashboard/TopBar";
+import { NavBar } from "@/components/dashboard/NavBar";
 import { DashboardFooter } from "@/components/dashboard/Chrome";
 
 export default async function DashboardLayout({ children }: { children: ReactNode }) {
@@ -8,7 +8,7 @@ export default async function DashboardLayout({ children }: { children: ReactNod
 
   return (
     <div className="min-h-dvh">
-      <TopBar firstName={user.firstName} />
+      <NavBar firstName={user.firstName} />
       {children}
       <DashboardFooter />
     </div>

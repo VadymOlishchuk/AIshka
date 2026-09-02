@@ -8,7 +8,7 @@ export function DashboardFooter() {
   if (pathname.includes("/lesson/")) return null;
 
   return (
-    <footer className="px-5 pb-10 pt-16 text-center text-[13px] text-ink-muted">
+    <footer className="px-5 pb-[calc(74px+env(safe-area-inset-bottom))] pt-16 text-center text-[13px] text-ink-muted sm:pb-10">
       © {new Date().getFullYear()} AIshka
     </footer>
   );

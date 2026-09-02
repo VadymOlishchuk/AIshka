@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { requireUser } from "@/core/auth/guards";
 import { Card } from "@/components/ui/primitives";
+import { SignOutButton } from "@/components/dashboard/SignOutButton";
 
 export default async function ProfilePage() {
   const user = await requireUser();
@@ -37,6 +38,11 @@ export default async function ProfilePage() {
         Your plan gets rebuilt from the new answers. Lessons you&apos;ve already finished stay
         finished.
       </p>
+
+      {/* Вихід тут, бо нижня капсула на телефоні тримає лише навігацію. */}
+      <Card className="mt-5 overflow-hidden">
+        <SignOutButton variant="row" />
+      </Card>
     </main>
   );
 }

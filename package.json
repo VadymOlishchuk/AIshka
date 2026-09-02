@@ -16,7 +16,8 @@
     "content:check": "tsx scripts/content-check.ts",
     "content:sync": "tsx scripts/content-sync.ts && tsx scripts/project-sync.ts",
     "postinstall": "prisma generate",
-    "project:sync": "tsx scripts/project-sync.ts"
+    "project:sync": "tsx scripts/project-sync.ts",
+    "emoji:sync": "tsx scripts/emoji-sync.ts"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.1.0",

@@ -1,4 +1,5 @@
 import type { ComponentProps, ReactNode } from "react";
+import { Emoji } from "@/components/ui/emoji";
 
 /**
  * Кнопка — єдине місце, де живе насичений індиго. Тінь кольорова, не чорна:
@@ -168,7 +169,8 @@ export function IconTile({
         muted ? "opacity-45" : ""
       } ${className}`}
     >
-      <span className={`${size} leading-none`}>{icon}</span>
+      {/* 72% плитки: об'ємний значок має власне поле, впритул він виглядає тісно. */}
+      <Emoji symbol={icon} className="h-[72%] w-[72%] object-contain" fallbackSize={size} />
     </span>
   );
 }
