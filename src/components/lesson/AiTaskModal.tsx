@@ -6,7 +6,7 @@ import type { AiTaskBlock } from "@/core/content/blocks";
 
 // Кожна складена пара отримує власний колір замість єдиного «вибраного» стану.
 // Так видно, що з чим зв'язано, без ліній і стрілок — дешево й дуже читабельно.
-const PAIR_COLORS = ["#4caf7d", "#e8a33c", "#a172ff"] as const;
+const PAIR_COLORS = ["#4f3fff", "#0c7a54", "#191545"] as const;
 
 type Props = {
   block: AiTaskBlock;

@@ -20,7 +20,7 @@ export function ShelfTabs({ shelves, active }: { shelves: string[]; active: stri
             aria-current={current ? "page" : undefined}
             className={`flex min-w-[112px] flex-none flex-col items-center gap-1.5 rounded-[16px] border px-4 py-3 transition ${
               current
-                ? "border-accent bg-accent-tint"
+                ? "border-accent bg-accent text-white shadow-[0_8px_22px_rgba(79,63,255,.28)]"
                 : "border-line bg-surface hover:border-accent/40"
             }`}
           >
@@ -29,7 +29,7 @@ export function ShelfTabs({ shelves, active }: { shelves: string[]; active: stri
             </span>
             <span
               className={`text-[14px] leading-tight ${
-                current ? "font-semibold text-ink-strong" : "text-ink-muted"
+                current ? "font-bold text-white" : "text-ink-muted"
               }`}
             >
               {shelf}

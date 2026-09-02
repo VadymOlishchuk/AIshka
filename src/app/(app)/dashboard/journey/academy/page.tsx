@@ -4,6 +4,7 @@ import { getAcademyCatalog } from "@/core/progress/service";
 import { JourneyTabs } from "@/components/dashboard/JourneyTabs";
 import { ShelfTabs } from "@/components/dashboard/ShelfTabs";
 import { CoursePath } from "@/components/dashboard/CoursePath";
+import Image from "next/image";
 import { Card, GeneratedCover, ProgressBar } from "@/components/ui/primitives";
 import { duration, plural } from "@/lib/format";
 
@@ -50,7 +51,7 @@ export default async function AcademyPage({
     <main className="mx-auto w-full max-w-[1100px] px-5 py-8">
       <JourneyTabs />
 
-      <h1 className="mb-2 text-[28px] font-semibold leading-tight text-ink-strong">Academy</h1>
+      <h1 className="mb-2 text-[34px] font-extrabold leading-[1.1] text-ink-strong">Academy</h1>
       <p className="mb-8 max-w-[64ch] text-[15px] text-ink-muted">
         Everything here is open from the start — take what you need, in any order. Progress is
         counted separately from your plan.
@@ -72,13 +73,24 @@ export default async function AcademyPage({
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {items.map((course) => (
                 <Link key={course.id} href={`/dashboard/course/${course.slug}`} className="group">
-                  <Card className="h-full overflow-hidden transition group-hover:border-accent/60">
-                    <GeneratedCover seed={course.slug} className="aspect-[16/9]" />
+                  <Card className="h-full overflow-hidden transition group-hover:border-accent">
+                    {/* Обкладинки квадратні — це плитки в стилі іконок, не банери. */}
+                    {course.coverUrl ? (
+                      <Image
+                        src={course.coverUrl}
+                        alt=""
+                        width={800}
+                        height={800}
+                        className="aspect-square w-full object-cover"
+                      />
+                    ) : (
+                      <GeneratedCover seed={course.slug} className="aspect-square" />
+                    )}
                     <div className="p-4">
                       <p className="mb-1 text-[12px] font-semibold uppercase tracking-wider text-ink-muted">
                         {KIND_LABEL[course.kind] ?? "Course"}
                       </p>
-                      <h3 className="mb-1.5 text-[20px] font-semibold leading-snug text-ink-strong">
+                      <h3 className="mb-1.5 text-[19px] font-bold leading-snug text-ink-strong">
                         {course.title}
                       </h3>
                       <p className="mb-3 line-clamp-3 text-[14px] leading-relaxed text-ink-muted">

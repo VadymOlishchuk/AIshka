@@ -11,7 +11,7 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
   // кнопку в інтерфейсі недостатньо, каталог викачується скриптом.
   const found = await getLessonForUser(user.id, slug);
   if (!found) notFound();
-  if (found.locked) redirect("/dashboard/journey");
+  if (found.locked) redirect("/dashboard/build");
 
   return (
     <Player

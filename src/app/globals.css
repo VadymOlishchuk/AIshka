@@ -4,24 +4,38 @@
    в «Дизайн і контент LMS» (Частина 1). Два свідомі відхилення від
    виміряного оригіналу позначені коментарем «виправлення». */
 @theme {
-  --color-accent: #a172ff; /* головна дія, прогрес, активний стан */
-  --color-accent-tint: #f8f5ff; /* підкладка вибраного варіанта */
-  --color-ink: #2e3234; /* дія всередині уроку */
-  --color-ink-strong: #161a1b; /* заголовки */
-  --color-ink-body: #464a4d; /* текст уроку */
-  --color-ink-muted: #7b8188; /* метадані, підписи */
-  --color-canvas: #f6f7f9; /* фон сторінки */
-  --color-surface: #ffffff; /* картки, панелі, шапка */
-  --color-line: #dfe1e5; /* межі й порожній трек прогресу */
+  /* Колірна система «варіант B». Одна теза: чорнило читає, індиго вимагає дії,
+     решта мовчить. Кожен колір має рівно одну роботу. Пропорція на сторінці —
+     60% поверхня, 30% чорнило, 10% індиго. */
 
-  --color-success: #4caf7d;
-  --color-success-tint: #eaf7ef;
-  --color-error: #e08a7d;
-  --color-error-tint: #fbeae7;
-  --color-pair-b: #e8a33c; /* друга складена пара в AI Task */
+  /* Поверхня. Не бере участі в комунікації — лише розділяє смуги. */
+  --color-canvas: #f7f8fc; /* paper: основне тло, холодний білий */
+  --color-paper-alt: #edeff9; /* смуга через одну, неактивні таби */
+  --color-surface: #ffffff; /* card: тільки те, що «лежить зверху» */
 
-  --radius-l: 16px; /* кнопки, великі картки, панелі */
-  --radius-m: 10px; /* картки курсів, варіанти квізу */
+  /* Чорнило. Несе весь зміст. Рівно два тони, третього немає. */
+  --color-ink-strong: #12142b; /* ink: заголовки й текст уроку */
+  --color-ink-body: #12142b; /* свідомо той самий — система забороняє третій тон */
+  --color-ink-muted: #5d6480; /* muted: описи, метадані, підписи */
+  --color-ink-panel: #191545; /* темна панель — рівно одна на сторінку */
+  --color-muted-on-dark: #a9a6d0; /* приглушений усередині панелі; сірий тут брудниться */
+
+  /* Акцент. Індиго — це дія, і тільки дія. */
+  --color-accent: #4f3fff; /* pen: кнопки, активні стани, номери, галочки */
+  --color-accent-tint: #e7e4ff; /* mark: слід індиго, завжди з індиговим текстом */
+
+  /* Функціональні стани. Не декорація — лише правильно/помилка у квізі. */
+  --color-success: #0c7a54; /* затемнено проти системи: #0e8a5f давав 4.11 як текст */
+  --color-success-tint: #e6f4ee;
+  --color-error: #b4541a;
+  --color-error-tint: #f7ece4;
+  --color-pair-b: #0e8a5f; /* друга складена пара в AI Task */
+
+  --color-line: rgba(18, 20, 43, 0.09);
+  --color-line-strong: rgba(18, 20, 43, 0.18);
+
+  --radius-l: 20px; /* картки й панелі */
+  --radius-m: 14px; /* варіанти квізу, дрібні картки */
   --radius-s: 8px;
 
   --container-reading: 668px; /* колонка тексту в плеєрі уроку */
@@ -48,7 +62,8 @@ body {
 
 .lesson-prose h2 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   color: var(--color-ink-strong);
   margin-bottom: 12px;
@@ -88,4 +103,28 @@ body {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Надзаголовок секції: «— ONE MEMBERSHIP». Підпис капсом через тире —
+   найпомітніша дрібниця головного сайту, тому винесена в утиліту. */
+/* Надзаголовок — плашка «слід індиго»: лавандове тло, індиговий текст. */
+.eyebrow {
+  display: inline-block;
+  border-radius: 100px;
+  background: var(--color-accent-tint);
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+/* Великі заголовки скрізь щільні й важкі, як на сайті. */
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
 }

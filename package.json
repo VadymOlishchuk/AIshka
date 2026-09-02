@@ -14,8 +14,9 @@
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
     "content:check": "tsx scripts/content-check.ts",
-    "content:sync": "tsx scripts/content-sync.ts",
-    "postinstall": "prisma generate"
+    "content:sync": "tsx scripts/content-sync.ts && tsx scripts/project-sync.ts",
+    "postinstall": "prisma generate",
+    "project:sync": "tsx scripts/project-sync.ts"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.1.0",
@@ -41,5 +42,12 @@
     "tsx": "^4.23.12",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@prisma/engines",
+      "esbuild",
+      "prisma"
+    ]
   }
 }

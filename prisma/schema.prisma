@@ -37,6 +37,7 @@ model User {
   progress       Progress[]
   ratings        LessonRating[]
   subscription   Subscription?
+  builds       Build[]
 }
 
 model Session {
@@ -161,6 +162,7 @@ model Lesson {
   ratings  LessonRating[]
 
   @@unique([moduleId, sortOrder])
+  slots       Slot[]
 }
 
 // ─────────────────────────────── Прогрес ───────────────────────────────
@@ -236,4 +238,105 @@ model RateLimit {
   count        Int       @default(0)
   resetAt      DateTime
   blockedUntil DateTime?
+}
+
+// ─────────────────────────────────────────────────────────────────────────
+// ЗБІРКА. Прогрес — не відсоток, а річ, яка росте.
+//
+// Конкуренти влаштовані однаково: впорядкований список контейнерів, які
+// відкриваєш по одному, і смужка «68%». Тут інакше — користувач збирає один
+// справжній проєкт, а порожні слоти видно фізично. Курси й уроки лишаються,
+// але вже як довідник «як це зробити», а не як самоціль.
+// ─────────────────────────────────────────────────────────────────────────
+
+enum SlotKind {
+  image
+  text
+  video
+  doc
+  profile
+}
+
+model Project {
+  id          String  @id @default(cuid())
+  slug        String  @unique
+  title       String
+  description String
+  outcome     String // що буде в руках наприкінці, людською мовою
+  estimate    String // «орієнтовно 3 тижні по 15 хвилин»
+  coverUrl    String?
+  isPublished Boolean @default(false)
+  sortOrder   Int     @default(0)
+
+  stages Stage[]
+  builds Build[]
+}
+
+model Stage {
+  id        String  @id @default(cuid())
+  projectId String
+  project   Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  slug      String
+  title     String
+  intent    String // навіщо ця стадія — показується, коли вона активна
+  icon      String?
+  sortOrder Int     @default(0)
+
+  slots Slot[]
+
+  @@unique([projectId, slug])
+  @@index([projectId])
+}
+
+model Slot {
+  id      String   @id @default(cuid())
+  stageId String
+  stage   Stage    @relation(fields: [stageId], references: [id], onDelete: Cascade)
+  slug    String
+  title   String // «Рекламний банер під сезонну пропозицію»
+  kind    SlotKind
+  format  String? // «9:16», «три варіанти» — конкретика, не категорія
+  minutes Int
+  brief   String // що саме має вийти, щоб слот вважався заповненим
+
+  // Урок, який пояснює як це зробити. Доставляється в момент затику,
+  // а не наперед — це друге зламане припущення.
+  lessonId String?
+  lesson   Lesson? @relation(fields: [lessonId], references: [id], onDelete: SetNull)
+
+  sortOrder Int        @default(0)
+  artifacts Artifact[]
+
+  @@unique([stageId, slug])
+  @@index([stageId])
+}
+
+/// Збірка конкретного користувача. Один проєкт можна збирати лише раз.
+model Build {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  projectId String
+  project   Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  startedAt DateTime @default(now())
+
+  artifacts Artifact[]
+
+  @@unique([userId, projectId])
+  @@index([userId])
+}
+
+/// Те, чим користувач заповнив слот. Наявність запису = слот заповнений.
+model Artifact {
+  id       String   @id @default(cuid())
+  buildId  String
+  build    Build    @relation(fields: [buildId], references: [id], onDelete: Cascade)
+  slotId   String
+  slot     Slot     @relation(fields: [slotId], references: [id], onDelete: Cascade)
+  note     String? // короткий підпис від користувача
+  url      String? // завантажений файл або посилання
+  filledAt DateTime @default(now())
+
+  @@unique([buildId, slotId])
+  @@index([buildId])
 }

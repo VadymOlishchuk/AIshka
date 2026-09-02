@@ -78,7 +78,7 @@ export function BlockView({ block, answer, checked, onSelect, aiTask }: Props) {
           <ul className="flex flex-col gap-2.5">
             {block.items.map((item, i) => (
               <li key={i} className="flex gap-3 text-[16px] leading-relaxed text-ink-body">
-                <span className="mt-0.5 flex h-5 w-5 flex-none items-center justify-center rounded-full bg-accent-tint text-[12px] font-bold text-accent">
+                <span className="mt-0.5 flex h-5 w-5 flex-none items-center justify-center rounded-full bg-accent-tint text-[12px] font-bold text-ink-strong">
                   {i + 1}
                 </span>
                 {item}

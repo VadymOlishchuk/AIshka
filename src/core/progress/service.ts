@@ -26,6 +26,7 @@ export type UserPlan = {
   courseId: string;
   courseSlug: string;
   courseTitle: string;
+  coverUrl: string | null;
   courseDescription: string;
   units: PlanUnit[];
   totalLessons: number;
@@ -110,6 +111,7 @@ export async function getUserPlan(userId: string): Promise<UserPlan | null> {
     courseId: enrollment.courseId,
     courseSlug: enrollment.course.slug,
     courseTitle: enrollment.course.title,
+    coverUrl: enrollment.course.coverUrl,
     courseDescription: enrollment.course.description,
     units,
     totalLessons,
@@ -173,7 +175,14 @@ export async function getLessonForUser(
   let locked = false;
   let nextLessonSlug: string | null = null;
 
-  if (inPlan) {
+  // Урок, на який посилається слот збірки, ніколи не замкнений. Збірка —
+  // головна структура, і теорія в ній доставляється в момент затику, а не
+  // після того, як пройдено все попереднє. Послідовний гейт плану тут
+  // означав би «спершу вчишся, потім робиш» — саме те, від чого йдемо.
+  const isSlotLesson =
+    (await db.slot.count({ where: { lessonId: lesson.id } })) > 0;
+
+  if (inPlan && !isSlotLesson) {
     // Персональний план — послідовний: урок відкривається після попереднього.
     const flat = inPlan.units.flatMap((u) => u.lessons);
     const index = flat.findIndex((l) => l.id === lesson.id);
@@ -233,6 +242,7 @@ export type CatalogCourse = {
   description: string;
   kind: string;
   icon: string | null;
+  coverUrl: string | null;
   shelf: string | null;
   lessons: number;
   minutes: number;
@@ -268,6 +278,7 @@ export async function getAcademyCatalog(userId: string): Promise<CatalogCourse[]
       description: course.description,
       kind: course.kind,
       icon: course.icon,
+      coverUrl: course.coverUrl,
       shelf: course.shelf,
       lessons: lessons.length,
       minutes: lessons.reduce((n, l) => n + l.durationMin, 0),

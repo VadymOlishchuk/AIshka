@@ -1,0 +1,249 @@
+{
+  "slug": "first-account-first-client",
+  "title": "Launch an AI account and land the first job",
+  "description": "One real thing, built piece by piece. Every practice fills a slot, and what you end up with is an account you can send to a client — not a certificate.",
+  "outcome": "A working profile, a body of posted work, a price list you are not afraid to send, and one proposal in front of a real client.",
+  "estimate": "about 3 weeks at 20 minutes a day",
+  "coverUrl": null,
+  "sortOrder": 0,
+  "stages": [
+    {
+      "slug": "brand-face",
+      "title": "The face of it",
+      "icon": "🪪",
+      "intent": "Before anything can be posted, someone has to be able to tell in three seconds what you do and for whom.",
+      "slots": [
+        {
+          "slug": "name-and-promise",
+          "title": "A name and a one-line promise",
+          "kind": "doc",
+          "format": "under 12 words",
+          "minutes": 15,
+          "brief": "One line, under 12 words, naming who you help and what changes for them. No adjectives like «creative» or «passionate».",
+          "lessonSlug": "why-anything-wins-nothing"
+        },
+        {
+          "slug": "logo-mark",
+          "title": "A simple mark you can reuse",
+          "kind": "image",
+          "format": "1:1, square",
+          "minutes": 20,
+          "brief": "One square mark, 1:1, readable at 48 pixels. Flat colours only — gradients fall apart at small sizes.",
+          "lessonSlug": "what-goes-in-a-kit"
+        },
+        {
+          "slug": "profile-image",
+          "title": "A profile image that is not generic",
+          "kind": "image",
+          "format": "1:1",
+          "minutes": 15,
+          "brief": "One image, 1:1, that would not fit any other account. If it could belong to 100 other profiles, it does not count.",
+          "lessonSlug": "why-images-look-generated"
+        },
+        {
+          "slug": "bio-that-says-what-you-do",
+          "title": "A bio someone can act on",
+          "kind": "text",
+          "format": "3 lines",
+          "minutes": 15,
+          "brief": "Three lines: what you do, who for, how to start. First line under 60 characters — the rest gets cut off.",
+          "lessonSlug": "first-three-lines"
+        }
+      ]
+    },
+    {
+      "slug": "first-posts",
+      "title": "The first posts",
+      "icon": "📮",
+      "intent": "An empty account reads as abandoned. Five pieces of real work is the point where a stranger takes you seriously.",
+      "slots": [
+        {
+          "slug": "introduction-post",
+          "title": "A post that introduces you",
+          "kind": "text",
+          "format": "~120 words",
+          "minutes": 15,
+          "brief": "Around 120 words saying what you do and why you started. One specific detail nobody else could write.",
+          "lessonSlug": "writing-people-pay-for"
+        },
+        {
+          "slug": "explainer-carousel",
+          "title": "A carousel that explains one thing",
+          "kind": "image",
+          "format": "4–6 frames, 4:5",
+          "minutes": 25,
+          "brief": "Four to six frames, 4:5, each carrying one idea. Consistent colours across every frame.",
+          "lessonSlug": "consistency-is-the-job"
+        },
+        {
+          "slug": "before-after",
+          "title": "A before and after of real work",
+          "kind": "image",
+          "format": "2 images",
+          "minutes": 20,
+          "brief": "Two images side by side showing one thing you improved. Label what changed in under 10 words.",
+          "lessonSlug": "proof-you-can-make"
+        },
+        {
+          "slug": "short-intro-video",
+          "title": "A short video introducing you",
+          "kind": "video",
+          "format": "20–40 sec, 9:16",
+          "minutes": 30,
+          "brief": "Between 20 and 40 seconds, 9:16, with captions. No camera needed — screen and voice is enough.",
+          "lessonSlug": "assembling-without-camera"
+        },
+        {
+          "slug": "pinned-post",
+          "title": "A pinned post that tells people what to ask for",
+          "kind": "text",
+          "format": "~80 words",
+          "minutes": 15,
+          "brief": "Around 80 words listing exactly what you take on and one sentence on how to start. This is the post that converts.",
+          "lessonSlug": "writing-that-gets-read"
+        }
+      ]
+    },
+    {
+      "slug": "content-that-sells",
+      "title": "Content that sells",
+      "icon": "📣",
+      "intent": "Posting is not selling. This stage is the work that makes someone ask what you charge.",
+      "slots": [
+        {
+          "slug": "seasonal-banner",
+          "title": "A banner for one seasonal offer",
+          "kind": "image",
+          "format": "9:16",
+          "minutes": 20,
+          "brief": "One image, 9:16, product recognisable, warm natural light, no text baked into the image.",
+          "lessonSlug": "delivering-usable-files"
+        },
+        {
+          "slug": "three-ad-captions",
+          "title": "Three captions for the same offer",
+          "kind": "text",
+          "format": "3 × under 40 words",
+          "minutes": 20,
+          "brief": "Three versions under 40 words each, in the same voice, opening three different ways.",
+          "lessonSlug": "capturing-a-voice"
+        },
+        {
+          "slug": "one-case-study",
+          "title": "A case study of one piece of work",
+          "kind": "doc",
+          "format": "~200 words",
+          "minutes": 25,
+          "brief": "Around 200 words: what they wanted, what you did, what changed. One number in it, even a small one.",
+          "lessonSlug": "samples-that-read-real"
+        },
+        {
+          "slug": "process-reel",
+          "title": "A short video showing the process",
+          "kind": "video",
+          "format": "15–30 sec, 9:16",
+          "minutes": 30,
+          "brief": "Between 15 and 30 seconds, 9:16, first 3 seconds showing the finished result before the process.",
+          "lessonSlug": "first-three-seconds"
+        },
+        {
+          "slug": "content-calendar",
+          "title": "A calendar you will actually keep",
+          "kind": "doc",
+          "format": "4 weeks × 3 posts",
+          "minutes": 20,
+          "brief": "Four weeks planned, 3 posts a week, each with a topic and a format. Nothing vaguer than a named topic.",
+          "lessonSlug": "calendar-that-survives"
+        }
+      ]
+    },
+    {
+      "slug": "packaging",
+      "title": "Packaging the work",
+      "icon": "📦",
+      "intent": "Nobody buys an hourly rate. This stage turns what you do into three things with prices on them.",
+      "slots": [
+        {
+          "slug": "price-list",
+          "title": "A price list with three options",
+          "kind": "doc",
+          "format": "3 packages",
+          "minutes": 25,
+          "brief": "Three packages with a number on each. The middle one is what most people should choose.",
+          "lessonSlug": "packages-beat-quotes"
+        },
+        {
+          "slug": "service-one-pager",
+          "title": "A one-page description of what you sell",
+          "kind": "doc",
+          "format": "under 300 words",
+          "minutes": 20,
+          "brief": "Under 300 words: what is included, what is not, how long it takes, what it costs.",
+          "lessonSlug": "presenting-a-kit"
+        },
+        {
+          "slug": "proposal-template",
+          "title": "A proposal you can send in ten minutes",
+          "kind": "doc",
+          "format": "under 250 words",
+          "minutes": 25,
+          "brief": "Under 250 words with blanks to fill. Opens with their problem, not with your background.",
+          "lessonSlug": "proposal-nobody-reads"
+        },
+        {
+          "slug": "scope-note",
+          "title": "An agreement in three lines",
+          "kind": "doc",
+          "format": "3 lines",
+          "minutes": 15,
+          "brief": "Three lines naming the deliverable, the number of revisions, and the payment terms.",
+          "lessonSlug": "agreement-in-three-lines"
+        }
+      ]
+    },
+    {
+      "slug": "first-client",
+      "title": "The first client",
+      "icon": "🤝",
+      "intent": "Everything above exists for this. The last stage is the one people skip, and skipping it is why nothing happens.",
+      "slots": [
+        {
+          "slug": "marketplace-profile",
+          "title": "A profile on one platform",
+          "kind": "profile",
+          "format": "1 platform, 3 samples",
+          "minutes": 25,
+          "brief": "One platform only, filled completely, with 3 samples from the work above attached.",
+          "lessonSlug": "how-platforms-treat-newcomers"
+        },
+        {
+          "slug": "fifteen-messages-sent",
+          "title": "Fifteen messages actually sent",
+          "kind": "doc",
+          "format": "15 × under 90 words",
+          "minutes": 30,
+          "brief": "15 messages to real prospects, each under 90 words and naming something specific about them.",
+          "lessonSlug": "message-that-gets-answered"
+        },
+        {
+          "slug": "reply-script",
+          "title": "A script for the replies you get",
+          "kind": "text",
+          "format": "3 answers",
+          "minutes": 15,
+          "brief": "Three short answers: for «how much», for «can you do X», and for silence after 4 days.",
+          "lessonSlug": "first-call"
+        },
+        {
+          "slug": "sent-proposal",
+          "title": "One proposal in front of a real client",
+          "kind": "doc",
+          "format": "1 sent",
+          "minutes": 20,
+          "brief": "One proposal sent, built from the template, with a price and a date on it. Sent, not drafted.",
+          "lessonSlug": "closing-without-pressure"
+        }
+      ]
+    }
+  ]
+}
