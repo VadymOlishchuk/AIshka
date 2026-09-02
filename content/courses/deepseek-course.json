@@ -1,0 +1,511 @@
+{
+  "slug": "deepseek-course",
+  "title": "DeepSeek, honestly",
+  "description": "A reasoning engine that happens to chat, priced far below the alternatives. Covers when cost per request actually decides, why open weights matter for confidential work, reading the working rather than the conclusion, and the questions to ask about where your data goes.",
+  "kind": "mini",
+  "icon": "🐋",
+  "shelf": "Tool courses",
+  "sortOrder": 5,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The course",
+      "description": "Two lessons on cheap step-by-step reasoning and using it for thinking rather than writing.",
+      "icon": "🐋",
+      "lessons": [
+        {
+          "slug": "dsk-what-it-is-for",
+          "title": "The cheap reasoner",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>DeepSeek matters for two reasons that have nothing to do with polish: it is strong at working through problems step by step, and it costs a fraction of the alternatives.</p><p>For anyone paying per use rather than per month, that second point changes the arithmetic entirely.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Reasoning, not prose",
+              "bodyHtml": "<p>Its strength is problems with a chain of steps — logic, mathematics, code, working through a decision where the reasoning matters as much as the answer.</p><p>It shows its working, which makes it genuinely useful for checking your own thinking rather than just producing a conclusion you have to trust.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An answer you can inspect the reasoning of is worth more than a confident conclusion."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where it fits",
+              "bodyHtml": "<ul><li><strong>Step-by-step problems</strong> — where the working matters</li><li><strong>High volume</strong> — when cost per request is the constraint</li><li><strong>Technical work</strong> — code and structured logic</li><li><strong>Open weights</strong> — it can be run on infrastructure you control</li></ul><p>That last point matters for organisations that cannot send data to an outside service, and it is rare among the leading models.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "When does its low cost genuinely change your decision?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "When you use an assistant occasionally for everyday writing tasks."
+                },
+                {
+                  "id": "b",
+                  "label": "When you run many requests and pay for each one separately."
+                },
+                {
+                  "id": "c",
+                  "label": "When the work involves long documents that need summarising."
+                },
+                {
+                  "id": "d",
+                  "label": "When you want the strongest available model for difficult work."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "For occasional personal use, a flat monthly subscription makes the price difference irrelevant. It becomes decisive when something you built makes thousands of calls and the per-request cost is the whole budget.",
+              "wrongHint": "Ask who is actually paying per request rather than per month."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where the data goes",
+              "bodyHtml": "<p>Using the hosted service means your text goes to servers operated by the company. That is true of every hosted assistant, and where those servers sit differs.</p><p>Check your employer's policy and your client agreements before sending anything confidential — the answer varies by organisation and it is a legitimate question to ask.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a problem with several reasoning steps and ask it here.",
+                "Read the working, not just the conclusion.",
+                "Check one step you can verify independently.",
+                "Check your employer's policy on which services may be used."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the situation to what decides it",
+              "subtitle": "Match each situation with the factor that should drive your choice.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Something you built makes thousands of calls"
+                  },
+                  "right": {
+                    "text": "Cost per request becomes the deciding factor"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The material cannot leave your organisation"
+                  },
+                  "right": {
+                    "text": "Whether the model can run on your own infrastructure"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You need the reasoning checked, not just the answer"
+                  },
+                  "right": {
+                    "text": "A model that shows its working step by step"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what would make the other options unusable rather than merely worse.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Judge it on reasoning",
+              "bodyHtml": "<p>Test it on a problem where you can verify the steps, not on writing style. Style is where it is least distinctive.</p><p>If the reasoning holds on something you know the answer to, that tells you far more than a polished paragraph would.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "DeepSeek is strong at step-by-step reasoning and costs a fraction of the alternatives, which matters when you pay per request rather than per month. Its open weights allow running on infrastructure you control. Check where your data goes and what your employer permits before sending anything confidential.",
+              "nextTeaser": "Next: using it well and knowing its weak spots."
+            }
+          ]
+        },
+        {
+          "slug": "dsk-using-it-well",
+          "title": "Using it well",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A model that shows its reasoning invites a different way of working. Used as a normal chatbot, most of its advantage is wasted.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Ask it to disagree",
+              "bodyHtml": "<p><s>«Is this a good plan?» — which invites agreement, as it does from every assistant.</s></p><p><strong>«Work through what would have to be true for this plan to fail, step by step.»</strong></p><p>The second uses the thing it is actually good at, and produces something you can argue with rather than a compliment.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Do not ask whether your plan is good. Ask what would have to be true for it to fail."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three habits worth forming",
+              "bodyHtml": "<ul><li><strong>Read the working</strong> — the reasoning is the product, not the conclusion</li><li><strong>Check one step</strong> — a wrong step with a right answer is a warning</li><li><strong>Give it real numbers</strong> — vague inputs produce vague reasoning</li></ul><p>The second habit catches the failure people miss: correct conclusions reached by faulty reasoning, which fall apart on the next question.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "The conclusion is right but one reasoning step is clearly wrong. What does that mean?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The step is a presentation issue and the conclusion still holds."
+                },
+                {
+                  "id": "b",
+                  "label": "Treat the answer as unreliable — it arrived there by accident."
+                },
+                {
+                  "id": "c",
+                  "label": "The reasoning needs rephrasing but the logic is fundamentally sound."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask it to redo the working and compare the two explanations."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A correct answer reached by faulty reasoning will not survive a change in the inputs. The visible working exists precisely so you can catch this, and ignoring it wastes the model's main advantage.",
+              "wrongHint": "Ask whether that answer would still be right if one number changed."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Where it is weaker",
+              "bodyHtml": "<p>It is less polished for everyday writing, and the surrounding product has fewer conveniences than the established alternatives.</p><p>It is a reasoning engine that happens to chat, rather than a general assistant. Judging it as the latter produces an unfair and unhelpful verdict.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a decision you are weighing and give it the real numbers.",
+                "Ask what would have to be true for it to fail.",
+                "Read the working and verify one step yourself.",
+                "Note whether the reasoning changed your view."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the habit to what it catches",
+              "subtitle": "Match each habit with the failure it exposes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Reading the working, not the conclusion"
+                  },
+                  "right": {
+                    "text": "A right answer reached by faulty reasoning"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Asking what would make the plan fail"
+                  },
+                  "right": {
+                    "text": "An assistant simply agreeing with you"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Giving it real numbers"
+                  },
+                  "right": {
+                    "text": "Reasoning too vague to act on"
+                  }
+                }
+              ],
+              "failHint": "For each habit, ask what you would never notice without it.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Two tools, one decision",
+              "bodyHtml": "<p>A workable pattern: reason here, write elsewhere. Use it to think through the problem, then take the conclusion to a general assistant to express it well.</p><p>Splitting thinking from writing produces better results with any pair of tools, and it is a habit worth having regardless of which you use.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Use it for reasoning rather than prose: ask what would have to be true for a plan to fail, give it real numbers, read the working and verify one step. A right conclusion from faulty reasoning will not survive changed inputs. Reason here, write elsewhere — splitting thinking from writing improves both.",
+              "nextTeaser": "That completes the course: what it is for, and how to use the reasoning well."
+            }
+          ]
+        },
+        {
+          "slug": "dsk-three-real-uses",
+          "title": "Three jobs worth using it for",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Three jobs where a cheap model that shows its working beats a polished one that does not.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — checking a decision you have already made",
+              "bodyHtml": "<p>You have chosen something. Before committing, ask it to work through what would have to be true for the choice to be wrong.</p><p>Because it lays out the steps, you can argue with a specific link in the chain rather than with a verdict you either accept or ignore.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An argument you can attack step by step is more useful than a verdict you can only accept."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two and three",
+              "bodyHtml": "<p><strong>Anything you built that runs often.</strong> A script, a form, an assistant handling routine questions. Per-request cost is the whole budget, and this is where it wins outright.</p><p><strong>Technical work.</strong> Reading code, explaining what a script does, working through a structured problem where each step can be checked.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why is a visible chain of reasoning useful when checking a decision?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Because it makes the final recommendation considerably more accurate."
+                },
+                {
+                  "id": "b",
+                  "label": "Because you can disagree with one step instead of the whole verdict."
+                },
+                {
+                  "id": "c",
+                  "label": "Because longer explanations tend to contain fewer outright mistakes."
+                },
+                {
+                  "id": "d",
+                  "label": "Because it shows how much the model actually knows about the topic."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A verdict leaves you either trusting it or not. A chain lets you find the one assumption that does not hold in your situation, which is usually where the real disagreement lives.",
+              "wrongHint": "Think about what you can actually do with a conclusion versus with its steps."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The shared property",
+              "bodyHtml": "<p>All three reward inspectable reasoning over fluent prose. None of them care how well written the answer is.</p><p>If the output is going to a client, this is the wrong tool. If it is going into your own thinking, it is often the right one.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a decision you have already made but not yet acted on.",
+                "Ask what would have to be true for it to be wrong.",
+                "Find the one step you disagree with and say why.",
+                "Note whether the exercise changed anything."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the job to why it suits this tool",
+              "subtitle": "Match each job with the reason a cheap reasoner fits it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Stress-testing a decision before committing"
+                  },
+                  "right": {
+                    "text": "You can attack one step rather than the verdict"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Something you built that runs constantly"
+                  },
+                  "right": {
+                    "text": "Cost per request is the entire budget"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Working through code or structured logic"
+                  },
+                  "right": {
+                    "text": "Every step can be checked independently"
+                  }
+                }
+              ],
+              "failHint": "For each, ask whether polish or inspectable reasoning matters more.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Write down what changed your mind",
+              "bodyHtml": "<p>When a reasoning chain shifts your view, note which step did it. That note is worth more than the conclusion.</p><p>It tells you what you had not considered, and that gap tends to repeat across future decisions.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Three jobs suit it: stress-testing a decision by attacking one step rather than the verdict, anything you built that runs at volume where per-request cost decides, and technical work where each step is checkable. All reward inspectable reasoning over fluent prose — if the output goes to a client, use something else.",
+              "nextTeaser": "Next: when a different tool is the better answer."
+            }
+          ]
+        },
+        {
+          "slug": "dsk-when-not-to-use",
+          "title": "When something else is better",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Four situations where reaching for the cheap reasoner is the wrong call, and one question worth settling before you use it at work at all.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — anything going to a client",
+              "bodyHtml": "<p>Its writing is functional rather than distinctive. For proposals, newsletters and anything carrying your name, a general assistant produces better material with less editing.</p><p>Reason here if you like, then move the conclusion somewhere else to be written properly.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Reason where the reasoning is good. Write where the writing is good. They are rarely the same place."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three more",
+              "bodyHtml": "<ul><li><strong>Anything needing sources</strong> — that is a search tool's job</li><li><strong>Questions about your own documents</strong> — a grounded tool is safer</li><li><strong>Confidential material on a hosted service</strong> — settle the policy question first</li></ul><p>The last one is not optional in an employed setting, and the answer differs by organisation.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Before using any hosted assistant for work material, what settles it?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Whether the service publishes a clear and detailed privacy policy."
+                },
+                {
+                  "id": "b",
+                  "label": "What your employer and client agreements actually permit you to send."
+                },
+                {
+                  "id": "c",
+                  "label": "Whether the material would cause harm if it were ever made public."
+                },
+                {
+                  "id": "d",
+                  "label": "Whether the service offers a paid tier with stronger data protection."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Your obligation comes from what you agreed with your employer and your clients, not from what the service promises. Those agreements differ between organisations, and only one of them is binding on you.",
+              "wrongHint": "Ask who you actually made a promise to about this material."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Running it yourself",
+              "bodyHtml": "<p>Because the weights are open, an organisation that cannot send data outside can run the model on its own infrastructure. That is a genuine and unusual option.</p><p>It needs real technical capacity, so it is not a personal choice — but knowing it exists is useful when a client says their data cannot leave the building.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List what you have sent to hosted assistants in the last month.",
+                "Check your employer's policy and any client agreements.",
+                "Mark anything you should not have sent.",
+                "Decide what changes in your habits from now on."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the requirement to the right tool",
+              "subtitle": "Match each requirement with what actually satisfies it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A proposal carrying your name"
+                  },
+                  "right": {
+                    "text": "A general assistant, for the writing"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A claim the client may challenge"
+                  },
+                  "right": {
+                    "text": "A search tool that shows its sources"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Data that cannot leave the building"
+                  },
+                  "right": {
+                    "text": "A model run on your own infrastructure"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what would go wrong if you used the cheap reasoner instead.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Cheap is a reason, not a strategy",
+              "bodyHtml": "<p>Cost matters when volume is high. For a handful of daily requests, a flat subscription makes the difference irrelevant.</p><p>Choose on what the job needs — reasoning, sources, grounding or prose — and let price decide only when the job itself does not.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Use something else for client-facing writing, for anything needing sources, and for questions about your own documents. Settle what your employer and client agreements permit before sending work material to any hosted service. Open weights make self-hosting possible for organisations whose data cannot leave — and cheap only decides when the job itself does not.",
+              "nextTeaser": "That completes the course: what it is for, using the reasoning well, three jobs, and its limits."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "slug": "ai-for-sales-managers",
-  "title": "AI for Sales Managers",
+  "title": "AI for sales managers",
   "description": "Outreach that still gets replies, research worth fifteen minutes, notes that keep a CRM current, and a forecast built on facts rather than optimism.",
   "kind": "career",
   "icon": "📈",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in sales without training buyers to ignore you.",
       "lessons": [
         {
           "slug": "sal-personalised-spam",
-          "title": "Why «Personalised at Scale» Reads as Spam",
+          "title": "Why «personalised at scale» reads as spam",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Mentioning Is Not Knowing",
+              "heading": "Mentioning is not knowing",
               "bodyHtml": "<p><s>«Loved what you're doing at Bellworth — as a leader in your space, you're probably focused on growth.»</s></p><p><strong>«Your careers page has eleven open roles in support. Usually that means the ticket backlog got ahead of the team.»</strong></p><p>The first inserted a name into a template. The second says something only someone who looked would know.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What Buyers Screen Out",
+              "heading": "What buyers screen out",
               "bodyHtml": "<ul><li><strong>Compliments about their brand</strong> — the clearest template marker there is</li><li><strong>«I noticed…» followed by something public and obvious</strong></li><li><strong>A meeting request in the first message</strong></li><li><strong>Three paragraphs about you</strong> before anything about them</li></ul><p>Removing all four leaves a short message that has to say something real, which is exactly the point.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Use It for Research, Not for Writing",
+              "heading": "Use it for research, not for writing",
               "bodyHtml": "<p>The split that works: let the tool read — their site, their reviews, their job ads, their last quarter — and write the message yourself from what it found.</p><p>Reading twenty companies properly used to cost a morning. That is the part worth automating; the four sentences at the end are not the slow bit.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Opening to the Reply Rate",
+              "title": "Match the opening to the reply rate",
               "subtitle": "Match each way of starting a message with what the buyer does.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Fewer, Better, Tracked",
+              "heading": "Fewer, better, tracked",
               "bodyHtml": "<p>Twenty researched messages beat two hundred generated ones on replies, on meetings and on your domain reputation — which is the cost nobody counts until it is already damaged.</p><p>Volume is the easiest thing to increase and the only lever that makes every future message worse.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "sal-research-first",
-          "title": "Research Before the First Message",
+          "title": "Research before the first message",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Five Signals Worth Finding",
+              "heading": "Five signals worth finding",
               "bodyHtml": "<ul><li><strong>Hiring</strong> — where they are adding people is where the pressure is</li><li><strong>Recent change</strong> — funding, a new market, a leadership move</li><li><strong>Their own words</strong> — how they describe the problem you solve</li><li><strong>Public complaints</strong> — reviews and support threads</li><li><strong>What they already use</strong> — the tool your product sits beside</li></ul><p>Any one of these gives you a first line. Two gives you a conversation.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Ask for Evidence, Not Opinions",
+              "heading": "Ask for evidence, not opinions",
               "bodyHtml": "<p><s>«Tell me about this company and what they might need.»</s></p><p><strong>«From these pages, list only what they state about their support process, and quote each line.»</strong></p><p>The first invites invention, and invented details about a prospect are the fastest way to lose credibility in the reply.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Fifteen Minutes, Not an Hour",
+              "heading": "Fifteen minutes, not an hour",
               "bodyHtml": "<p>Research has a ceiling. Past about fifteen minutes per account you are learning things that will never appear in a message.</p><p>Set the limit deliberately: five signals, one usable fact, write. Depth beyond that is procrastination wearing a productive costume.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Keep It Where the Team Can See",
+              "heading": "Keep it where the team can see",
               "bodyHtml": "<p>Research done once and left in a personal document gets redone by the next person who calls that account. Put the fact and its source in the CRM record.</p><p>It also protects the relationship: nothing damages a deal like two people from the same company asking the same discovery question.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "sal-notes-and-crm",
-          "title": "Notes, Follow-Ups and a Current CRM",
+          "title": "Notes, follow-ups and a current CRM",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Extract the Four Things",
+              "heading": "Extract the four things",
               "bodyHtml": "<p><s>«Summarise this call.»</s></p><p><strong>«List: what they said their problem is, in their words; who else has to approve; what happens next and when; and any objection raised.»</strong></p><p>Those four fields are what the next conversation actually needs. A narrative summary is read by nobody, including you.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Their Words, Not Yours",
+              "heading": "Their words, not yours",
               "bodyHtml": "<p>The single most valuable thing to capture is the buyer's own phrasing of the problem.</p><ul><li>It is what you repeat back in the proposal</li><li>It is what convinces their colleagues who were not on the call</li><li>It is the copy your marketing team has been guessing at for a year</li></ul><p>Paraphrasing loses exactly the thing that made it persuasive.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Draft the Follow-Up Immediately",
+              "heading": "Draft the follow-up immediately",
               "bodyHtml": "<p>The follow-up that lands is the one sent within the hour, quoting their words back and naming the next step with a date.</p><p>Generate it from the extracted notes, read it, fix the one thing that is off, send. Ten minutes, and it is the difference between a deal that moves and one that goes quiet.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Read Before It Goes",
+              "heading": "Read before it goes",
               "bodyHtml": "<p>Extraction sometimes attaches the right statement to the wrong person, which in a deal with three stakeholders is a real problem.</p><p>Spot-check the quotes against the recording before the follow-up leaves. It takes a minute and prevents the correction that makes a buyer wonder what else you misheard.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "sal-forecasting",
-          "title": "Forecasting Honestly",
+          "title": "Forecasting honestly",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Facts, Not Feelings",
+              "heading": "Facts, not feelings",
               "bodyHtml": "<p><s>«Q3 pipeline: £840k weighted, 68% confidence.»</s></p><p><strong>«Four deals have a named approver and an agreed next step. Six have neither. The £840k assumes all ten close.»</strong></p><p>The second is uncomfortable and correct, and it tells you exactly what to work on this week.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Questions Per Deal",
+              "heading": "Four questions per deal",
               "bodyHtml": "<ul><li><strong>Who signs?</strong> Named, not a job title</li><li><strong>What is the next step, and when?</strong> In the buyer's calendar, not yours</li><li><strong>What happens if they do nothing?</strong> If the answer is «nothing», it will not close</li><li><strong>Has budget been confirmed by someone who controls it?</strong></li></ul><p>Ask these of every deal and most pipelines shrink by a third — which is the useful part, not the painful one.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Use It to Find the Gaps",
+              "heading": "Use it to find the gaps",
               "bodyHtml": "<p>The sound use of AI here is auditing, not predicting: «Which of these deals is missing a named approver, an agreed next step, or a confirmed budget?»</p><p>That produces a work list. A confidence score produces a conversation about whether the score is right, which helps nobody.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Report the Honest Number",
+              "heading": "Report the honest number",
               "bodyHtml": "<p>An optimistic forecast buys one comfortable meeting and costs the next three. It also removes the chance of getting help while there is still time to use it.</p><p>The number with the gaps named is the one that makes you trusted — and it is far easier to defend, because you can say exactly what would change it.</p>"
             },
             {

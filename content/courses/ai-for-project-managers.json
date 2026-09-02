@@ -1,6 +1,6 @@
 {
   "slug": "ai-for-project-managers",
-  "title": "AI for Project Managers",
+  "title": "AI for project managers",
   "description": "Reports people read, notes that turn into action, and estimates that survive contact with reality. Covers what to hand over, what to keep with the team, and the questions worth asking before a date is committed.",
   "kind": "career",
   "icon": "📊",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in project work without letting a plausible document replace a shared plan.",
       "lessons": [
         {
           "slug": "pm-why-reports-unread",
-          "title": "Why Nobody Reads Your Status Report",
+          "title": "Why nobody reads your status report",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Report Decisions, Not Activity",
+              "heading": "Report decisions, not activity",
               "bodyHtml": "<p><s>«This week the team completed 14 tickets, continued integration work and held two workshops.»</s></p><p><strong>«We'll miss the 12th unless we drop the export feature or add a developer. I need a decision by Thursday.»</strong></p><p>The first describes effort. The second is the only sentence that required a report to exist at all.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Lines Is Enough",
+              "heading": "Four lines is enough",
               "bodyHtml": "<ul><li><strong>Are we on track?</strong> One word, then the caveat</li><li><strong>What changed</strong> since last week</li><li><strong>What I need from you</strong> — a decision, with a date</li><li><strong>What I'm watching</strong> — the risk that is not yet a problem</li></ul><p>Detail belongs underneath for anyone who wants it. The top four lines are what actually gets read.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Let It Write the Version, Not the Judgement",
+              "heading": "Let it write the version, not the judgement",
               "bodyHtml": "<p>Deciding whether the project is on track is your job and takes two minutes of thinking. Turning that judgement into a clear paragraph for three different audiences is the part that took an hour.</p><p>That is the split worth automating: your assessment, its wording, three versions.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Line to How It Is Read",
+              "title": "Match the line to how it is read",
               "subtitle": "Match each thing a status report can contain with what the reader does.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Different Audiences, Same Truth",
+              "heading": "Different audiences, same truth",
               "bodyHtml": "<p>A sponsor, a team and a client need different levels of detail — never different facts. Generating three versions from one honest assessment is fine; softening the assessment for one of them is where projects quietly go wrong.</p><p>Write the hard version first, then adapt the length.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "pm-notes-to-decisions",
-          "title": "Turning Notes Into Decisions",
+          "title": "Turning notes into decisions",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Extract, Do Not Summarise",
+              "heading": "Extract, do not summarise",
               "bodyHtml": "<p><s>«Summarise this meeting.»</s></p><p><strong>«List every decision made, every action with an owner and a date, and every question left open. Quote the exact words for each.»</strong></p><p>The first returns a paragraph about what was discussed. The second returns something you can send round and act on this afternoon.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Where the Gaps Show Up",
+              "heading": "Where the gaps show up",
               "bodyHtml": "<ul><li><strong>Actions with no owner</strong> — the most common failure, and always fatal</li><li><strong>Decisions nobody stated</strong> — everyone left with a different one</li><li><strong>Dates that were never agreed</strong> — «soon» recorded as a commitment</li><li><strong>The unanswered question</strong> that everyone hoped someone else would raise</li></ul><p>Extraction surfaces these immediately, which is uncomfortable and useful in exactly equal measure.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Send It Within the Hour",
+              "heading": "Send it within the hour",
               "bodyHtml": "<p>Notes sent the same day get corrected while memories are fresh. Notes sent on Friday are accepted silently and then disputed a month later.</p><p>Fast extraction makes same-hour sending realistic, and that speed is worth more than the polish of the document.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Check the Quotes",
+              "heading": "Check the quotes",
               "bodyHtml": "<p>Extraction occasionally attaches the right decision to the wrong person, which is a much bigger problem than a vague summary.</p><p>Spot-check two or three quotes against the source before sending. Two minutes, and it prevents the awkward correction that undermines every set of notes you send afterwards.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "pm-estimates-and-risk",
-          "title": "Estimates, Risks and Better Questions",
+          "title": "Estimates, risks and better questions",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Ask for the Assumptions",
+              "heading": "Ask for the assumptions",
               "bodyHtml": "<p><s>«How long should this feature take?»</s></p><p><strong>«Here is the scope. List every assumption someone would have to make to estimate this, and every question I should ask before committing.»</strong></p><p>The first returns a number with no basis. The second returns the list of things you had not thought of, which is what actually improves an estimate.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Where Estimates Actually Break",
+              "heading": "Where estimates actually break",
               "bodyHtml": "<ul><li><strong>The dependency</strong> on a team that has not been asked yet</li><li><strong>Review and approval time</strong>, which is calendar time, not effort</li><li><strong>The unstated scope</strong> — migration, training, documentation</li><li><strong>Holidays and part-time reality</strong> versus a full-time plan</li></ul><p>Every one of these is a question, not a calculation — and they are the four that sink dates.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Use It as a Devil's Advocate",
+              "heading": "Use it as a devil's advocate",
               "bodyHtml": "<p>The most valuable prompt in project work is adversarial: «Here is the plan. What is most likely to go wrong, and what have I not considered?»</p><p>Most of what comes back you will already know. The one or two you had not thought of are worth the whole exercise, and they arrive before the project rather than after.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Own the Number",
+              "heading": "Own the number",
               "bodyHtml": "<p>Whatever helped you produce it, the estimate you give is yours. «The analysis suggested twelve weeks» is not a position anyone can defend in a steering meeting.</p><p>Use the tool to find what you missed, then commit to a number you are personally willing to argue for.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "pm-team-in-charge",
-          "title": "Keeping the Team in Charge",
+          "title": "Keeping the team in charge",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Documents Are Not Agreement",
+              "heading": "Documents are not agreement",
               "bodyHtml": "<p><s>Generating a project plan, circulating it, and treating silence as approval.</s></p><p><strong>Generating a draft, walking the team through it, and changing the three things they push back on.</strong></p><p>The document looks identical afterwards. Only the second one is a plan anyone will follow when it gets difficult.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Where to Keep People In",
+              "heading": "Where to keep people in",
               "bodyHtml": "<ul><li><strong>Estimating</strong> — the people doing the work own the number</li><li><strong>Prioritising</strong> — trade-offs are a judgement about value</li><li><strong>Retrospectives</strong> — the point is the conversation, not the summary</li><li><strong>Anything about performance</strong> — never, in any form</li></ul><p>The safe uses are drafting, extracting and rewriting. The unsafe ones all involve deciding.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Say What You Used",
+              "heading": "Say what you used",
               "bodyHtml": "<p>Teams work this out quickly, and finding out indirectly damages trust more than the practice ever would.</p><p>«I draft status updates and meeting notes with AI; estimates and priorities come from us» takes ten seconds to say and settles the question permanently.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Watch for Fluent Nonsense",
+              "heading": "Watch for fluent nonsense",
               "bodyHtml": "<p>The specific danger in project documents is a risk register full of plausible generic risks, or a plan whose phases sound right and match nothing your team does.</p><p>Read every generated artefact and ask: is this true of <em>us</em>? Anything that could belong to any project belongs in no project.</p>"
             },
             {

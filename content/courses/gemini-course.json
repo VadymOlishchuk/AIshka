@@ -1,0 +1,511 @@
+{
+  "slug": "gemini-course",
+  "title": "Gemini, honestly",
+  "description": "Google's assistant, judged on where your work actually lives rather than on prose quality. Covers the proximity argument, fixing bland first answers, the three uses that survive daily work, and the four situations where a different tool is the right call.",
+  "kind": "mini",
+  "icon": "✦",
+  "shelf": "Tool courses",
+  "sortOrder": 1,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The course",
+      "description": "Four lessons on using Gemini well and knowing when not to.",
+      "icon": "✦",
+      "lessons": [
+        {
+          "slug": "gem-what-it-is-for",
+          "title": "What Gemini is actually for",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every general assistant can write an email. Choosing between them is not about which writes better prose — it is about where your work already lives.</p><p>Gemini's real argument is proximity: it sits inside the documents, mail and files you already have.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The argument is location",
+              "bodyHtml": "<p>If your company runs on Google Docs, Gmail and Drive, a competing assistant makes you copy text out, paste it in, then paste the result back.</p><p>That round trip is small once and enormous forty times a week. Removing it is the entire case, and it has almost nothing to do with model quality.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Pick the assistant that is closest to your files, not the one that writes the prettiest paragraph."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where it genuinely leads",
+              "bodyHtml": "<ul><li><strong>Long documents</strong> — it holds a great deal of text at once</li><li><strong>Mixed material</strong> — text, images and audio in the same request</li><li><strong>Your own files</strong> — reading straight from Drive</li><li><strong>A generous free tier</strong> — enough to work daily without paying</li></ul><p>The last matters more than people admit: you can test it properly before spending anything.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your team keeps everything in Google Docs. Why does that favour Gemini?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Because it writes noticeably better text than the alternatives do."
+                },
+                {
+                  "id": "b",
+                  "label": "Because it removes the copy-paste round trip out of your files."
+                },
+                {
+                  "id": "c",
+                  "label": "Because Google models are trained on far more recent information."
+                },
+                {
+                  "id": "d",
+                  "label": "Because it is the only assistant able to read long documents well."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Proximity to your files is the whole argument. Writing quality across the major assistants is close enough that friction, not prose, usually decides which one you actually keep using.",
+              "wrongHint": "Think about what you do forty times a week, not about which writes better."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What it is not",
+              "bodyHtml": "<p>It is not automatically the strongest reasoner, and it is not a research tool with sources — that is a different job covered later in this shelf.</p><p>Treating a general assistant as a search engine is where most wrong answers come from, whichever brand is on it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Count how many times this week you pasted text out of a Google Doc.",
+                "Multiply by the seconds each round trip costs you.",
+                "Open one long document and ask Gemini to summarise it in place.",
+                "Note whether the answer was good enough to skip the round trip."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the situation to the right choice",
+              "subtitle": "Match each working situation with what should decide your assistant.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Your whole team lives in Google Drive"
+                  },
+                  "right": {
+                    "text": "Proximity to the files wins over prose quality"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You need a claim you can show a source for"
+                  },
+                  "right": {
+                    "text": "A search-based tool, not a general assistant"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You are drafting inside a Word document"
+                  },
+                  "right": {
+                    "text": "Whichever assistant sits inside that editor"
+                  }
+                }
+              ],
+              "failHint": "Ask where the work already lives, and whether the answer needs a source.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Test it on a real task",
+              "bodyHtml": "<p>Do not evaluate an assistant with clever puzzles. Give it the boring thing you actually did last Tuesday and compare the output to what you produced.</p><p>That comparison tells you something the marketing pages never will, and it takes twenty minutes.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Gemini's real argument is proximity: it reads your Docs, Gmail and Drive without a copy-paste round trip, holds long documents, handles mixed material and has a free tier generous enough for daily use. It is not a sourced research tool — test it on a boring real task, not a puzzle.",
+              "nextTeaser": "Next: getting something useful out of it in ten minutes."
+            }
+          ]
+        },
+        {
+          "slug": "gem-first-ten-minutes",
+          "title": "Your first ten minutes",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people open an assistant, type «help me write something», get a bland paragraph and quietly conclude it is overrated.</p><p>The tool is not the problem. The first request is.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The one change that fixes most requests",
+              "bodyHtml": "<p><s>«Write a summary of this document.»</s></p><p><strong>«Summarise this for someone who missed the meeting and needs to know only what was decided and what they must do.»</strong></p><p>The second names a reader and a purpose. Without those, the model guesses — and its guess is always the safest, blandest option.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A vague request does not produce a wrong answer. It produces an average one, which is worse."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four things worth naming",
+              "bodyHtml": "<ul><li><strong>Who reads it</strong> — a client, your boss, a stranger</li><li><strong>What it is for</strong> — a decision, a record, a reply</li><li><strong>How long</strong> — in sentences, not «short»</li><li><strong>What to leave out</strong> — the part people forget</li></ul><p>Naming all four takes fifteen extra seconds and changes the output more than any clever phrasing.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You get a bland, generic first answer. What is the most reliable fix?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask again using more forceful and detailed instruction wording."
+                },
+                {
+                  "id": "b",
+                  "label": "Name the reader, the purpose, the length and what to omit."
+                },
+                {
+                  "id": "c",
+                  "label": "Switch to a different assistant that handles this task better."
+                },
+                {
+                  "id": "d",
+                  "label": "Break the request into several smaller ones and combine them."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Blandness is the model hedging because it does not know who it is writing for. Supplying the reader and the purpose removes the need to hedge, and the difference is usually dramatic.",
+              "wrongHint": "Ask what the model had to guess at, then stop making it guess."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Give it your own material",
+              "bodyHtml": "<p>The fastest useful result comes from pointing it at a document you already have rather than asking it to invent one.</p><p>Editing, summarising and reformatting your real work is where it is strongest. Inventing from nothing is where it is weakest and where the errors live.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open a real document you wrote in the last month.",
+                "Ask for a summary naming reader, purpose, length and what to omit.",
+                "Compare it to the summary you would have written yourself.",
+                "Rewrite the request once and note how much the second answer improves."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the missing piece to the bad result",
+              "subtitle": "Match each thing left unsaid with the flaw it produces.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "You did not say who will read it"
+                  },
+                  "right": {
+                    "text": "A tone that fits nobody in particular"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You did not say how long it should be"
+                  },
+                  "right": {
+                    "text": "Three paragraphs where one line was needed"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "You did not say what to leave out"
+                  },
+                  "right": {
+                    "text": "Everything included, nothing prioritised"
+                  }
+                }
+              ],
+              "failHint": "Read a disappointing answer and ask which piece of context you never supplied.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the requests that worked",
+              "bodyHtml": "<p>When a request produces something genuinely good, save it. You will need the same thing next month and will not remember how you phrased it.</p><p>A file of six working requests is worth more than any list of a hundred prompts written by a stranger for a job that is not yours.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Blandness comes from the model guessing. Name the reader, the purpose, the length in sentences and what to leave out. Point it at your own documents rather than asking it to invent, and save the handful of requests that actually worked — those are worth more than any borrowed prompt list.",
+              "nextTeaser": "Next: three things it does well enough to rely on."
+            }
+          ]
+        },
+        {
+          "slug": "gem-three-real-uses",
+          "title": "Three things worth using it for",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>An assistant is worth keeping when it does three specific things reliably, not when it does forty things adequately.</p><p>These three survive daily use. Everything else is optional.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — the long document nobody read",
+              "bodyHtml": "<p>Contracts, reports, meeting transcripts, forty-page policies. It holds enough text to answer questions about the whole thing rather than a fragment.</p><p>Ask targeted questions — «what are the payment terms», «what changed from the previous version» — rather than requesting a summary of everything.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Ask a long document specific questions. A summary of everything is a summary of nothing."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two — the inbox and three — the rewrite",
+              "bodyHtml": "<p><strong>Mail:</strong> drafting replies to messages already in your inbox, where the context is right there and does not need explaining.</p><p><strong>Rewriting:</strong> turning something you wrote into a different length, register or format. The thinking is yours, the reshaping is not.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "What is the better way to use it on a forty-page report?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask for a full summary covering everything the report contains."
+                },
+                {
+                  "id": "b",
+                  "label": "Ask targeted questions about the parts your decision depends on."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask it to rewrite the entire report in simpler, shorter language."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask which sections of the report are the most important overall."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "A summary of everything flattens the document and hides exactly what you needed. Targeted questions are also checkable — you can open the page and verify, which a summary never lets you do.",
+              "wrongHint": "Think about which answer you could actually verify afterwards."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The common thread",
+              "bodyHtml": "<p>All three start from material that already exists. You supply the substance and it handles the shape.</p><p>The moment you ask it to supply the substance — facts, figures, recommendations from nowhere — reliability drops sharply, and it will not warn you.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find the longest document you have avoided reading.",
+                "Write three specific questions your decision actually depends on.",
+                "Ask those instead of requesting a summary.",
+                "Verify one answer against the original page."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the task to why it works",
+              "subtitle": "Match each reliable use with the reason it holds up.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Questions about a long contract"
+                  },
+                  "right": {
+                    "text": "The material is present and the answer is checkable"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Drafting a reply in your inbox"
+                  },
+                  "right": {
+                    "text": "The context is already in the thread"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Reshaping something you wrote"
+                  },
+                  "right": {
+                    "text": "The thinking is yours, only the form changes"
+                  }
+                }
+              ],
+              "failHint": "Ask who supplied the substance in each case — you, or the model.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Verify the thing that matters",
+              "bodyHtml": "<p>You do not need to check every sentence. Check the number, the date and the name — the three things that carry consequences.</p><p>That habit takes seconds and catches almost everything that would embarrass you later.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Three uses hold up daily: targeted questions about long documents, drafting replies where context is already in the thread, and reshaping your own writing. All three start from material that exists — you supply the substance, it supplies the form. Verify numbers, dates and names every time.",
+              "nextTeaser": "Next: when a different tool is the right answer."
+            }
+          ]
+        },
+        {
+          "slug": "gem-when-not-to-use",
+          "title": "When something else is better",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Knowing when a tool is the wrong choice is worth more than knowing forty of its features. It is also the part no product page will tell you.</p><p>Four situations where reaching for a general assistant is a mistake.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — when you need a source",
+              "bodyHtml": "<p>If the answer will be shown to a client, quoted in a report or used to make a decision, you need something that cites where it came from.</p><p>A general assistant states things confidently without showing its working. That is fine for a draft and dangerous for a claim.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Confidence is not evidence. If someone might ask «where did that come from», you needed a different tool."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two, three and four",
+              "bodyHtml": "<ul><li><strong>Confidential material</strong> — check what your employer permits before pasting anything client-related</li><li><strong>Only your own documents matter</strong> — a grounded tool that refuses to wander is safer</li><li><strong>You are inside Word or Excel</strong> — use the assistant that lives in that editor</li></ul><p>Each of these is a different tool later on this shelf, not a limitation to work around.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You must produce a claim a client may challenge. What do you reach for?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A general assistant, then check the important facts afterwards."
+                },
+                {
+                  "id": "b",
+                  "label": "A search-based tool that shows the source behind each claim."
+                },
+                {
+                  "id": "c",
+                  "label": "A general assistant with a request to include its sources too."
+                },
+                {
+                  "id": "d",
+                  "label": "Whichever tool you already have open and are fastest with."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Asking a general assistant for sources often produces plausible-looking references that do not hold up. A tool built on search shows what it actually read, which is a different thing entirely.",
+              "wrongHint": "Ask which tool can show you what it actually read, rather than describe it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The honest summary",
+              "bodyHtml": "<p>Gemini earns its place if your work lives in Google's tools and you mostly reshape material you already have.</p><p>If you need sources, work inside Microsoft's editors, or handle material that cannot leave your organisation, the right answer is a different tool — and using it is not a compromise.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List the five AI tasks you did most recently.",
+                "Mark each one: reshaping, or needing a source.",
+                "Check your employer's policy on what may be pasted in.",
+                "Note which of your five belongs to a different tool."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the job to the right kind of tool",
+              "subtitle": "Match each requirement with the kind of tool that suits it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A claim the client may challenge"
+                  },
+                  "right": {
+                    "text": "A search tool that shows its sources"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Answers only from your own files"
+                  },
+                  "right": {
+                    "text": "A grounded tool that refuses to wander"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Drafting inside a Word document"
+                  },
+                  "right": {
+                    "text": "The assistant built into that editor"
+                  }
+                }
+              ],
+              "failHint": "For each job, ask what would go wrong if you used a general assistant instead.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "One tool is not the goal",
+              "bodyHtml": "<p>People waste months looking for the single assistant that does everything. There is not one, and the search costs more than learning three.</p><p>Knowing which to open is the actual skill, and it takes an afternoon rather than a year.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Reach for something else when you need a citable source, when material is confidential, when only your own documents should be used, or when you are working inside Microsoft's editors. Gemini earns its place for reshaping material that already lives in Google's tools — knowing which tool to open is the real skill.",
+              "nextTeaser": "That completes the course: what it is for, the first ten minutes, three reliable uses, and its limits."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

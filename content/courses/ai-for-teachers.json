@@ -1,6 +1,6 @@
 {
   "slug": "ai-for-teachers",
-  "title": "AI for Teachers",
+  "title": "AI for teachers",
   "description": "Where AI saves real hours in a teaching week and where it costs more than it saves. Covers planning, differentiated materials, marking that pupils still trust, and what to tell students about their own use.",
   "kind": "career",
   "icon": "📚",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in teaching without handing over the judgement that makes a lesson work.",
       "lessons": [
         {
           "slug": "tea-why-plans-feel-empty",
-          "title": "Why Generated Lesson Plans Feel Empty",
+          "title": "Why generated lesson plans feel empty",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "The Class Is the Missing Input",
+              "heading": "The class is the missing input",
               "bodyHtml": "<p><s>«Write a lesson plan on photosynthesis for Year 8.»</s></p><p><strong>«Year 8, mixed ability, forty minutes, no lab access this week. Six students read well below level. They did respiration last term and confused the two.»</strong></p><p>The second produces something you could actually run on Tuesday, because the constraints that shape a real lesson are finally in the room.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What to Put in Every Request",
+              "heading": "What to put in every request",
               "bodyHtml": "<ul><li><strong>Time you really have</strong> — after registration and settling</li><li><strong>What they already met</strong>, and what they got wrong last time</li><li><strong>The spread</strong> — the range you are planning for, not the average</li><li><strong>Your constraints</strong> — no printer, no lab, shared equipment</li></ul><p>Four lines. They are the difference between a template and a plan.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Use It for the Second Version",
+              "heading": "Use it for the second version",
               "bodyHtml": "<p>The strongest use is not writing a plan from nothing. It is adapting one you already trust: same lesson, lower reading level; same lesson, twenty minutes; same lesson, no equipment.</p><p>That work is genuinely slow by hand and genuinely fast with a tool, and it keeps your judgement in the plan.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Detail to What It Changes",
+              "title": "Match the detail to what it changes",
               "subtitle": "Match each thing you add to a request with what it fixes in the plan.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Keep the Bit That Is Yours",
+              "heading": "Keep the bit that is yours",
               "bodyHtml": "<p>Whatever the plan says, the parts that make a lesson land are the example that fits this class, the question you know will start an argument, and the pupil you plan to ask first.</p><p>None of that can be generated. It is also, reliably, the part that takes five minutes rather than fifty.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "tea-materials-that-work",
-          "title": "Materials You Can Use Tomorrow",
+          "title": "Materials you can use tomorrow",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Ask for Variants, Not Content",
+              "heading": "Ask for variants, not content",
               "bodyHtml": "<p><s>«Make a worksheet about fractions.»</s></p><p><strong>«Here are my six questions. Make three versions: same numbers with more scaffolding, same difficulty with different contexts, and a harder extension using the same method.»</strong></p><p>The second keeps your material and your judgement about difficulty, and produces exactly what a mixed class needs.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Materials Worth Generating",
+              "heading": "Four materials worth generating",
               "bodyHtml": "<ul><li><strong>Differentiated versions</strong> of a sheet you already use</li><li><strong>Extra practice</strong> in the same format as your examples</li><li><strong>Plain-language explanations</strong> for a pupil who missed the lesson</li><li><strong>Parent-facing summaries</strong> of what is being covered and why</li></ul><p>All four are repetitive, low-risk and immediately checkable by reading them once.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Check the Answers Yourself",
+              "heading": "Check the answers yourself",
               "bodyHtml": "<p>Generated answer keys are wrong often enough to matter, and a wrong key in front of a class costs more than the sheet saved.</p><p>Work through the questions yourself before printing. For most sheets that is three minutes, and it is not optional.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Build a Bank, Not a One-Off",
+              "heading": "Build a bank, not a one-off",
               "bodyHtml": "<p>Save the request that produced good material, not just the material. Next year the same prompt with a new topic gives you the same standard in one step.</p><p>Over a couple of terms this quietly becomes the most useful file you own, and it belongs to you rather than to any particular tool.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "tea-feedback",
-          "title": "Feedback Without Losing the Pupil",
+          "title": "Feedback without losing the pupil",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Draft the Frame, Write the Substance",
+              "heading": "Draft the frame, write the substance",
               "bodyHtml": "<p><s>Pasting a pupil's essay and sending back whatever comes out.</s></p><p><strong>Marking it yourself in three notes, then asking for those notes to be turned into feedback in your usual tone, at their reading level.</strong></p><p>The judgement stays yours; the rewriting into kind, clear sentences is the part that took forty minutes across a class.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What Must Stay Human",
+              "heading": "What must stay human",
               "bodyHtml": "<ul><li><strong>The judgement</strong> — what is good, what is wrong, what grade</li><li><strong>Anything personal</strong> — effort, progress, a hard term at home</li><li><strong>The next step</strong> — you know what this pupil can do next</li><li><strong>Anything a parent may see</strong> — read every word before it leaves</li></ul><p>What can be handed over is phrasing, length and consistency across thirty scripts.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Watch for Sameness",
+              "heading": "Watch for sameness",
               "bodyHtml": "<p>Thirty comments generated the same way start to read identically, and pupils notice faster than adults expect. They compare.</p><p>Vary the opening line yourself, and make sure at least one sentence in each could only have been written about that pupil's work.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Tell Them What You Do",
+              "heading": "Tell them what you do",
               "bodyHtml": "<p>Being open with pupils and parents about how feedback is produced costs nothing and prevents the conversation you would least like to have.</p><p>«I write the judgements; a tool helps me write them up clearly» is honest, easy to say, and most people find it entirely reasonable.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "tea-talking-to-students",
-          "title": "What to Tell Students About AI",
+          "title": "What to tell students about AI",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Name What Is Actually Lost",
+              "heading": "Name what is actually lost",
               "bodyHtml": "<p>«It's cheating» is a rule. Rules get worked around when nobody explains them.</p><p><s>«Don't use AI for your homework.»</s></p><p><strong>«If it writes your first draft, you skip the part where you find out what you actually think. That struggle is the lesson — the essay is just evidence of it.»</strong></p><p>The second is arguable, which is exactly why it works better than an instruction.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Three Rules Students Can Follow",
+              "heading": "Three rules students can follow",
               "bodyHtml": "<ul><li><strong>Say what you used and where</strong> — a line at the end, no penalty for honesty</li><li><strong>You must be able to explain every sentence</strong> — if you cannot, it is not yours</li><li><strong>Never for the thinking step</strong> — planning and arguing are the work</li></ul><p>These are checkable in conversation, which matters because detection tools are unreliable and accusing a student wrongly does lasting harm.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Show Them Where It Fails",
+              "heading": "Show them where it fails",
               "bodyHtml": "<p>The most convincing lesson is a demonstration. Ask it something in your subject where it is confidently wrong, and take the class through the error together.</p><p>Ten minutes of that does more for their scepticism than a term of warnings, and it teaches a habit they will need long after school.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Agree It Across the Department",
+              "heading": "Agree it across the department",
               "bodyHtml": "<p>Different rules in different classrooms produce confusion and resentment, and students will point out the inconsistency before you do.</p><p>One shared line, even an imperfect one, is worth more than five carefully considered individual policies.</p>"
             },
             {

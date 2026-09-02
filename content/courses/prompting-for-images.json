@@ -1,6 +1,6 @@
 {
   "slug": "prompting-for-images",
-  "title": "Prompting for Images",
+  "title": "Prompting for images",
   "description": "Why prompts return someone else's picture, the five decisions every image needs, iterating instead of rerolling, and building a style you can reproduce forty times.",
   "kind": "mini",
   "icon": "🖼️",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on getting the image you pictured rather than the average of everything.",
       "lessons": [
         {
           "slug": "img-someone-elses-picture",
-          "title": "Why You Get Someone Else's Picture",
+          "title": "Why you get someone else's picture",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "A Subject Is Not a Picture",
+              "heading": "A subject is not a picture",
               "bodyHtml": "<p><s>«A coffee shop, professional photo.»</s></p><p><strong>«Morning light through a side window, one cup on a scratched wooden counter, shot from standing height, muted greens, nobody in frame.»</strong></p><p>The first names what is in the picture. The second names how it was taken — and that is what a picture actually is.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What Gets Decided If You Do Not",
+              "heading": "What gets decided if you do not",
               "bodyHtml": "<ul><li><strong>Where the light comes from</strong> — defaults to soft, even, from nowhere</li><li><strong>Where you are standing</strong> — defaults to eye level, centred</li><li><strong>How close</strong> — defaults to the whole subject, comfortably framed</li><li><strong>What is around it</strong> — defaults to tidy and empty</li></ul><p>Those four defaults are exactly what makes output recognisable. Deciding any one of them changes the result immediately.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "More Adjectives Is the Wrong Fix",
+              "heading": "More adjectives is the wrong fix",
               "bodyHtml": "<p>«Stunning, hyper-detailed, award-winning» adds nothing, because there is no version that was aiming to be dull.</p><p>Every word should remove a possibility rather than assert quality. «Nobody in frame» is worth ten quality adjectives, because it rules something out.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Word to What It Removes",
+              "title": "Match the Word to what it removes",
               "subtitle": "Match each addition to a prompt with the decision it takes away from the default.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Describe What a Photographer Would Do",
+              "heading": "Describe what a photographer would do",
               "bodyHtml": "<p>The most useful mental shift is to stop describing the thing and start describing the shoot: where you stood, what time it was, what lens, what you deliberately left out.</p><p>You do not need photography knowledge for this. «From a chair, looking slightly up, late afternoon» is enough and is already more specific than most prompts.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "img-five-decisions",
-          "title": "The Five Things a Prompt Decides",
+          "title": "The five things a prompt decides",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "The Five",
+              "heading": "The five",
               "bodyHtml": "<ul><li><strong>Subject</strong> — what it is, specifically</li><li><strong>Composition</strong> — where it sits in frame, what space is left</li><li><strong>Light</strong> — direction, time of day, hard or soft</li><li><strong>Treatment</strong> — photograph, illustration, flat graphic; and how detailed</li><li><strong>Exclusions</strong> — what must not appear</li></ul><p>The fifth is the one almost nobody uses and the one that fixes the most.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Composition Is Where Usability Lives",
+              "heading": "Composition is where usability lives",
               "bodyHtml": "<p><s>«A laptop on a desk.»</s></p><p><strong>«A laptop on a desk, positioned right of centre, the left third empty for a headline.»</strong></p><p>If the image is going anywhere real — a banner, a slide, a post — the empty space is not decoration. It is the difference between usable and not.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Treatment Before Style Names",
+              "heading": "Treatment before style names",
               "bodyHtml": "<p>Naming a style — an artist, a movement, a studio — is a blunt instrument and often produces an imitation of the most famous thing they made.</p><p>Describing the treatment works better: «flat two-colour illustration, thick even lines, no shading» is reproducible, checkable and yours.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Write It Once, Reuse the Shape",
+              "heading": "Write it once, reuse the shape",
               "bodyHtml": "<p>The five decisions become a template: subject changes, everything else stays. That is how sets of images end up looking related rather than assembled.</p><p>It also turns twenty minutes of fiddling per image into two — which is the actual saving, not the generation itself.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "img-iterating",
-          "title": "Iterating Instead of Rerolling",
+          "title": "Iterating instead of rerolling",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Name What Is Wrong",
+              "heading": "Name what is wrong",
               "bodyHtml": "<p><s>Pressing generate four more times.</s></p><p><strong>«Too dark, the subject is centred, and there are people in the background. Same but lit from the left, subject on the right third, nobody in frame.»</strong></p><p>Three specific corrections beat twenty attempts, and they teach you what your prompt was missing.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Change One Thing at a Time",
+              "heading": "Change one thing at a time",
               "bodyHtml": "<ul><li><strong>Change the light</strong> and keep everything else — see what it does</li><li><strong>Then the composition</strong>, then the treatment</li><li><strong>Keep what worked</strong> in a file as you go</li><li><strong>Stop when it is good enough to edit</strong>, not perfect</li></ul><p>The last one matters. A crop and a colour adjustment afterwards is faster than ten more generations chasing perfection.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Finish in an Editor",
+              "heading": "Finish in an editor",
               "bodyHtml": "<p>Almost nothing should ship exactly as generated. A crop, a colour shift towards the palette, and removing the one strange detail takes five minutes.</p><p>That pass is most of the visible difference between paid work and something anyone could produce in a browser tab.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Keep a Record of What Worked",
+              "heading": "Keep a record of what worked",
               "bodyHtml": "<p>Save the exact prompt of anything you were pleased with, not just the file. The image is disposable; the prompt reproduces it on a new subject.</p><p>Within a month that file is worth more than any collection of finished images, because it makes the next set fast.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "img-repeatable-style",
-          "title": "Building a Style You Can Repeat",
+          "title": "Building a style you can repeat",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Write the Recipe After the First Good One",
+              "heading": "Write the recipe after the first good one",
               "bodyHtml": "<p>Spend the first hour getting one image you are happy with. Then write down exactly what produced it, in order.</p><p><s>Keeping the good image and starting fresh for the next subject.</s></p><p><strong>Keeping the specification and changing only the subject line.</strong></p><p>The second is how a set stays coherent, and it turns each subsequent image into a two-minute job.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What Must Stay Fixed",
+              "heading": "What must stay fixed",
               "bodyHtml": "<ul><li><strong>Palette</strong> — the same handful of colours, named</li><li><strong>Light direction and quality</strong> — soft from the left, every time</li><li><strong>Framing distance</strong> — how much of the frame the subject fills</li><li><strong>Level of realism</strong> — photographic or illustrated, never mixed in a set</li></ul><p>Change the subject freely. Change any of these four and the set stops reading as a set.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Test the Recipe on Something Awkward",
+              "heading": "Test the recipe on something awkward",
               "bodyHtml": "<p>A specification that works on three easy subjects often collapses on the difficult one — the tall product, the dark item, the one with reflective surfaces.</p><p>Test the awkward case early. Discovering it at image eighteen means redoing seventeen.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "The Recipe Is a Deliverable",
+              "heading": "The recipe is a deliverable",
               "bodyHtml": "<p>Handing over a documented style — the exact specification, with examples — is something clients value and almost nobody offers.</p><p>It does not remove future work; it usually creates it, because the client now has a standard they want maintained.</p>"
             },
             {

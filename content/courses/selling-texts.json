@@ -1,6 +1,6 @@
 {
   "slug": "selling-texts",
-  "title": "Selling Texts",
+  "title": "Selling texts",
   "description": "Why sales copy gets skipped, how to write for one reader with one promise, proof that changes minds instead of adjectives that do not, and the structure that follows the reader's own questions.",
   "kind": "mini",
   "icon": "📣",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on copy that gets read, for anyone who has to sell something in writing.",
       "lessons": [
         {
           "slug": "sel-why-ignored",
-          "title": "Why Most Sales Copy Is Ignored",
+          "title": "Why most sales copy is ignored",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "The Four Sentences Nobody Reads",
+              "heading": "The four sentences nobody reads",
               "bodyHtml": "<ul><li><strong>«We're passionate about quality»</strong> — every competitor says it too</li><li><strong>«Industry-leading solutions»</strong> — a claim with nothing behind it</li><li><strong>«In today's fast-paced world»</strong> — a warm-up nobody stays for</li><li><strong>«Contact us to learn more»</strong> — work handed back to the reader</li></ul><p>Cutting all four usually removes a third of a page and loses nothing at all.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "The Logo Test",
+              "heading": "The logo test",
               "bodyHtml": "<p>There is one test that catches almost every weak line.</p><p><s>«Trusted by businesses who value reliability and service.»</s></p><p><strong>«We answer the phone within three rings. If we don't, the call is free.»</strong></p><p>Nobody else can claim the second one without changing how they operate. That is what makes it worth reading.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Generated Copy Drifts Straight Into It",
+              "heading": "Generated copy drifts straight into it",
               "bodyHtml": "<p>Asked for sales copy, most tools produce exactly these four sentences, because that is what most sales copy looks like.</p><p>The fix is to supply the specifics yourself — the real number, the real guarantee, the real complaint you fix — and let it handle the arrangement.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Sentence to Whether It Says Anything",
+              "title": "Match the sentence to whether it says anything",
               "subtitle": "Match each line with what a competitor could do with it.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Boring and True Beats Exciting and Empty",
+              "heading": "Boring and true beats exciting and empty",
               "bodyHtml": "<p>«Ships in two days from Leeds» is not exciting. It converts better than any adjective you could put in its place, because it answers something the reader was actually wondering.</p><p>Most copy fails from vagueness rather than dullness, and vagueness is the easier of the two to fix.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "sel-one-promise",
-          "title": "One Promise, One Reader",
+          "title": "One promise, one reader",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Name One Person",
+              "heading": "Name one person",
               "bodyHtml": "<p><s>«Perfect for businesses, freelancers, students and hobbyists.»</s></p><p><strong>«If you run a small shop and lose an evening a week to invoicing, this is for you.»</strong></p><p>The second excludes far more people, and that is the point — the person it does describe recognises themselves instantly.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "One Promise, Repeated",
+              "heading": "One promise, repeated",
               "bodyHtml": "<ul><li><strong>Say what changes</strong> for that person, in their words</li><li><strong>Say it in the first line</strong>, not after a paragraph of context</li><li><strong>Repeat it</strong> at the end, in different words</li><li><strong>Do not add a second promise</strong> — it halves the first</li></ul><p>A page selling three benefits equally sells none of them.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Write the Objection Down First",
+              "heading": "Write the objection down first",
               "bodyHtml": "<p>Before drafting, write the reason this person would not buy: too expensive, too complicated, tried something similar before.</p><p>Answer that objection directly in the copy. Most pages ignore it, and the reader supplies it themselves and leaves without ever telling you.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Give It the Person, Not the Product",
+              "heading": "Give it the person, not the product",
               "bodyHtml": "<p>When you ask for copy, describe the reader rather than the features. «Write for a shop owner who has tried two accounting apps and abandoned both» produces something usable; a feature list produces the four sentences from the last lesson.</p><p>The reader is the input that changes everything, and it is the one most people leave out.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "sel-proof",
-          "title": "Proof Beats Adjectives",
+          "title": "Proof beats adjectives",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Four Kinds That Work",
+              "heading": "Four kinds that work",
               "bodyHtml": "<ul><li><strong>Numbers you can stand behind</strong> — «412 orders last month», not «thousands of happy customers»</li><li><strong>Specific testimonials</strong> — naming the problem solved, not «great service!»</li><li><strong>A guarantee with teeth</strong> — one that would cost you if you failed</li><li><strong>Showing the work</strong> — before and after, a sample, a screenshot</li></ul><p>The fourth is the strongest and the least used, because it takes effort rather than words.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Ask for Better Testimonials",
+              "heading": "Ask for better testimonials",
               "bodyHtml": "<p>«Great to work with, highly recommend» proves nothing. The fix is in how you ask.</p><p><s>«Would you mind leaving a review?»</s></p><p><strong>«What was the problem before we started, and what changed? Two sentences is plenty.»</strong></p><p>The second produces a testimonial that does actual work, and people find it easier to answer.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Never Invent It",
+              "heading": "Never invent it",
               "bodyHtml": "<p>Generated copy will happily produce plausible statistics, invented testimonials and confident claims about your business. All three are worse than having no proof at all.</p><p>Supply the real evidence and let it arrange the words. Anything you cannot source should not appear, however good it sounds.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "One Strong Piece Beats Five Weak Ones",
+              "heading": "One strong piece beats five weak ones",
               "bodyHtml": "<p>A page with one specific customer story and one real number outperforms a page with a wall of badges, ratings and logos.</p><p>Volume of proof reads as decoration; one checkable thing reads as evidence.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "sel-structure",
-          "title": "The Structure That Does the Work",
+          "title": "The structure that does the work",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "The Reader's Order",
+              "heading": "The reader's order",
               "bodyHtml": "<ul><li><strong>Is this for me?</strong> — the named reader and the change</li><li><strong>What exactly is it?</strong> — plainly, in one line</li><li><strong>Why believe you?</strong> — the proof</li><li><strong>What is stopping me?</strong> — the objection, answered</li><li><strong>What happens next?</strong> — one action, no choices</li></ul><p>Five questions, in that sequence. Everything else on the page is optional.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "One Action, Not Three",
+              "heading": "One action, not three",
               "bodyHtml": "<p><s>«Get in touch, book a call, download the guide, or follow us for updates.»</s></p><p><strong>«Send us the file and we'll tell you what it would cost. No call needed.»</strong></p><p>Every additional option makes the decision harder. Pages with one action outperform pages with four, consistently and by a lot.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Cut After Writing",
+              "heading": "Cut after writing",
               "bodyHtml": "<p>Generated pages run long, because more text looks like more effort. A reliable pass: delete the opening paragraph, remove every sentence containing «in today's», and cut the total by a third.</p><p>The page almost always improves, which tells you what those words were doing.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Test One Thing at a Time",
+              "heading": "Test one thing at a time",
               "bodyHtml": "<p>When something underperforms, the instinct is to rewrite everything, which teaches you nothing.</p><p>Change the first line and leave the rest. That is the highest-impact element and the easiest to isolate — and after three such tests you know something real about your readers rather than about copywriting in general.</p>"
             },
             {

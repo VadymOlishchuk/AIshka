@@ -1,6 +1,6 @@
 {
   "slug": "ai-for-designers",
-  "title": "AI for Designers",
+  "title": "AI for designers",
   "description": "Why generated layouts feel flat, how to get from a vague brief to a direction quickly, production and handoff, and how to answer clients who ask whether the work is really yours.",
   "kind": "career",
   "icon": "🎨",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in design while keeping the decision that makes design work.",
       "lessons": [
         {
           "slug": "des-why-generated-looks-generated",
-          "title": "Why Generated Design Looks Generated",
+          "title": "Why generated design looks generated",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Style Without Decisions",
+              "heading": "Style without decisions",
               "bodyHtml": "<p>Generated layouts have a recognisable quality: everything is centred, spacing is even, nothing has priority.</p><p><s>A page where every element is beautifully arranged and equally weighted.</s></p><p><strong>A page where one thing is obviously first, and everything else got smaller so it could be.</strong></p><p>Design is the decision about what matters most. An average of everything cannot make that decision.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Things It Cannot Know",
+              "heading": "Four things it cannot know",
               "bodyHtml": "<ul><li><strong>What the page is for</strong> — a sale, a signup, a reassurance</li><li><strong>Who is looking</strong>, and what they already believe</li><li><strong>What the business cannot change</strong> — the logo, the photos, the CMS</li><li><strong>What happened last time</strong> they tried something similar</li></ul><p>Every one of these is a constraint, and constraints are what turn arrangement into design.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Where It Genuinely Helps",
+              "heading": "Where it genuinely helps",
               "bodyHtml": "<p>The useful uses are all upstream or downstream of the decision: exploring directions quickly, generating placeholder imagery, producing variants of something you already chose, and writing the rationale you always struggle to word.</p><p>None of them is «make me a design». All of them save real hours.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Problem to Whether It Is Fixable",
+              "title": "Match the problem to whether it is fixable",
               "subtitle": "Match each complaint about a layout with what would actually solve it.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "This Is Now Part of the Pitch",
+              "heading": "This is now part of the pitch",
               "bodyHtml": "<p>Clients who have tried it themselves are not harder to sell to — they are easier, because they have felt the gap without being able to name it.</p><p>Naming it clearly, in one sentence about priority rather than taste, is the most persuasive thing you can say in a first meeting this year.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "des-brief-to-direction",
-          "title": "From Brief to Direction, Fast",
+          "title": "From brief to direction, fast",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Interrogate the Brief First",
+              "heading": "Interrogate the brief first",
               "bodyHtml": "<p><s>«Modern, clean, professional, but with personality.»</s></p><p><strong>«Which of these five sites feels closest, and what specifically about it? What would make your board reject this immediately?»</strong></p><p>The second gets you constraints instead of adjectives, and constraints are what a direction is built from.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Explore Wide, Then Commit",
+              "heading": "Explore wide, then commit",
               "bodyHtml": "<ul><li><strong>Generate references</strong>, not deliverables — mood, not layout</li><li><strong>Three deliberately different directions</strong>, not three variations of one</li><li><strong>One sentence each</strong> explaining the thinking</li><li><strong>Then stop generating</strong> and design the chosen one properly</li></ul><p>The fourth is the discipline that matters. Continuing to generate past the decision produces drift, not refinement.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Write the Rationale as You Go",
+              "heading": "Write the rationale as you go",
               "bodyHtml": "<p>Most designers can defend a decision out loud and struggle to write it down, which is why presentations get thin.</p><p>Dictate the reasoning while you work and have it written up cleanly. It is faster than composing it afterwards, and it is more honest, because it captures why you actually did it.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Never Present a Generated Image as Final",
+              "heading": "Never present a generated image as final",
               "bodyHtml": "<p>If a direction contains generated imagery, say so and say what will replace it. Clients fall in love with placeholders, and discovering later that the hero image cannot be reproduced is a painful conversation.</p><p>Label it in the file itself, not just in the meeting where you said it once.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "des-production",
-          "title": "Production, Variants and Handoff",
+          "title": "Production, variants and handoff",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Variants Are the Real Win",
+              "heading": "Variants are the real win",
               "bodyHtml": "<p><s>Manually rebuilding one layout for six placements over an afternoon.</s></p><p><strong>Defining the rules once — what moves, what shrinks, what gets cut — and producing the set.</strong></p><p>The value is in stating the rules explicitly. That is a design decision, and writing it down improves the original as well as the variants.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Placeholder Copy Costs You Later",
+              "heading": "Placeholder copy costs you later",
               "bodyHtml": "<ul><li><strong>Realistic length</strong> — real headlines run longer than filler Latin</li><li><strong>Real edge cases</strong> — the product with a 60-character name</li><li><strong>Actual tone</strong> — so the client reacts to the design, not the words</li><li><strong>Empty and error states</strong> — the screens nobody designs until they break</li></ul><p>Generating plausible copy for all four takes minutes and prevents the layout that only works with perfect content.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Write the Handoff Notes",
+              "heading": "Write the handoff notes",
               "bodyHtml": "<p>Handoff documentation is genuinely tedious and genuinely important: spacing rules, behaviour at breakpoints, what happens when the text is twice as long.</p><p>Dictate it from the file and have it written up. Developers read a clear one-pager; they do not read a forty-page spec, and both take you the same amount of care to produce.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Check Every Asset You Ship",
+              "heading": "Check every asset you ship",
               "bodyHtml": "<p>Generated imagery carries specific risks in production: an extra finger, a warped logo, text in an image that says something almost right.</p><p>Zoom in on everything that ships. This class of error is embarrassing precisely because it is obvious once someone else spots it.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "des-talking-to-clients",
-          "title": "Talking to Clients About Your Process",
+          "title": "Talking to clients about your process",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Describe the Split",
+              "heading": "Describe the split",
               "bodyHtml": "<p><s>«I use AI a bit, like everyone does.»</s></p><p><strong>«Exploration and production use AI. Direction, hierarchy and every decision about what matters most are mine — that's what you're paying for.»</strong></p><p>The second answers the real question, which is not about tools but about what the fee buys.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Answer «Can't I Just Generate It?» Properly",
+              "heading": "Answer «can't i just generate it?» properly",
               "bodyHtml": "<p>The honest answer is yes, they can generate something — and then they will have the flat page from lesson one.</p><ul><li>Show them a generated version and your version side by side</li><li>Point at what is first on each, and why</li><li>Let them see the difference rather than describing it</li></ul><p>This is the most persuasive five minutes available in a new-business meeting.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Know the Rules on What You Ship",
+              "heading": "Know the rules on what you ship",
               "bodyHtml": "<p>Rights around generated imagery vary by tool and are still shifting. Some clients — publishers, regulated industries, anyone with a strict brand policy — have hard rules.</p><p>Ask at the start of the project, put the answer in the agreement, and keep a note of which assets are generated. Finding out afterwards is the expensive version of this conversation.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Charge for the Decision",
+              "heading": "Charge for the decision",
               "bodyHtml": "<p>If production is faster, the temptation is to lower prices. That prices the typing rather than the thinking, and it is a trap you cannot easily reverse.</p><p>Your fee covers judgement about priority, and that has not got faster. Speed is your margin, not a discount to hand over.</p>"
             },
             {

@@ -19,6 +19,7 @@ export const ModuleInput = z.object({
   title: z.string().min(3).max(120),
   description: z.string().min(20, "Опис юніта продає його в каталозі — порожнім бути не може"),
   icon: z.string().max(8).nullable().default(null),
+  coverUrl: z.string().nullable().default(null),
   lessons: z.array(LessonInput).default([]),
 });
 
@@ -28,6 +29,7 @@ export const CourseInput = z.object({
   description: z.string().min(20, "Опис курсу продає його в каталозі — порожнім бути не може"),
   kind: z.enum(["plan", "tool", "challenge", "mini", "career"]),
   icon: z.string().max(8).nullable().default(null),
+  coverUrl: z.string().nullable().default(null),
   shelf: z.string().nullable().default(null),
   sortOrder: z.number().int().nonnegative().default(0),
   modules: z.array(ModuleInput).min(1),
@@ -40,6 +42,28 @@ export type CourseInput = z.infer<typeof CourseInput>;
 export type Issue = { where: string; problem: string };
 
 const PLACEHOLDER = /welcome to lesson|lorem ipsum|\btodo\b|\btbd\b|coming soon/i;
+
+/** Власні назви й абревіатури, яким велика літера всередині речення дозволена. */
+const PROPER = new Set(
+  `AI HR PM CRM CV PDF URL API SEO B2B UK US EU
+   ChatGPT Claude Gemini Perplexity NotebookLM Copilot DeepSeek Midjourney Canva
+   Sora Runway HeyGen Descript ElevenLabs Suno Notion Gamma Zapier Ideogram Leonardo
+   Google Microsoft Word Excel Outlook Teams Drive Docs Gmail Sheets PowerPoint
+   LinkedIn Instagram Facebook TikTok YouTube Slack Stripe Photoshop Figma
+   Monday Tuesday Wednesday Thursday Friday Saturday Sunday I`.split(/\s+/),
+);
+
+/**
+ * Заголовки пишемо як речення, а не Title Case. «How AI Freelancing Actually
+ * Works» читається як рекламний банер; «How AI freelancing actually works» —
+ * як текст, якому можна вірити. Перше слово й власні назви — з великої.
+ */
+function titleCaseWords(text: string): string[] {
+  return text
+    .split(/[\s—–-]+/)
+    .slice(1) // перше слово речення завжди з великої
+    .filter((w) => /^[A-Z][a-z]+$/.test(w) && !PROPER.has(w));
+}
 
 /**
  * Гейт публікації. Одна причина пояснює вісім із дванадцяти контентних
@@ -64,7 +88,19 @@ export function checkLesson(lesson: LessonInput, where: string): Issue[] {
     add(`тривалість ${lesson.durationMin} хв не відповідає обсягу (${words} слів ≈ ${realistic} хв)`);
   }
 
+  const titleOffenders = titleCaseWords(lesson.title);
+  if (titleOffenders.length > 0) {
+    add(`заголовок «${lesson.title}»: Title Case — з малої мають бути ${titleOffenders.join(", ")}`);
+  }
+
   for (const block of lesson.blocks) {
+    if ((block.type === "text" || block.type === "try") && block.heading) {
+      const offenders = titleCaseWords(block.heading);
+      if (offenders.length > 0) {
+        add(`підзаголовок «${block.heading}»: Title Case — з малої мають бути ${offenders.join(", ")}`);
+      }
+    }
+
     if (block.type === "text" && countWords([block]) > 110) {
       add(`текстовий блок «${block.heading ?? block.id}» довший за 110 слів`);
     }

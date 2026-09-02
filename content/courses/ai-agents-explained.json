@@ -1,0 +1,635 @@
+{
+  "slug": "ai-agents-explained",
+  "title": "AI agents, honestly",
+  "description": "Three different things get called «an agent», and buying the wrong one is expensive. Covers what each actually is, defining a job narrow enough to test, connecting data without granting too much, the four predictable failures, and how the work is priced.",
+  "kind": "mini",
+  "icon": "🤖",
+  "shelf": "Agents",
+  "sortOrder": 0,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The course",
+      "description": "Five lessons on building and selling assistants that survive contact with real customers.",
+      "icon": "🤖",
+      "lessons": [
+        {
+          "slug": "agt-what-it-is",
+          "title": "What an agent actually is",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>«AI agent» is currently used for three different things, and the confusion costs people real money — they buy one and receive another.</p><p>Being able to say precisely what you mean is the first commercial skill here, because the scope, the price and the risk are different for each.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three things people mean",
+              "bodyHtml": "<ul><li><strong>A configured chatbot</strong> — answers questions from your documents. No actions.</li><li><strong>An automation</strong> — runs a fixed sequence on a trigger. No judgement.</li><li><strong>An agent</strong> — decides which steps to take to reach a goal, and can act.</li></ul><p>Most business requests for «an agent» are satisfied by one of the first two, which are cheaper, safer and finishable.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Most people asking for an agent need a configured chatbot or a fixed automation."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "The line that matters",
+              "bodyHtml": "<p><s>«Build us an AI agent to handle customer enquiries.»</s></p><p><strong>«Answer the eleven delivery questions from our policy document, and hand anything else to a person.»</strong></p><p>The second can be tested, corrected and priced. The first cannot even be evaluated — there is no standard to hold it to.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client wants «an agent» that answers questions from their price list. What is that really?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "A true agent, since it decides how to answer each question."
+                },
+                {
+                  "id": "b",
+                  "label": "A configured chatbot — one source, no actions, no decisions."
+                },
+                {
+                  "id": "c",
+                  "label": "An automation, because it runs whenever a message arrives."
+                },
+                {
+                  "id": "d",
+                  "label": "None of these — answering questions is a separate category."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Reading one source and replying is a chatbot. Nothing is decided and nothing happens in the world, which makes it far cheaper to build and far safer to run than what «agent» implies.",
+              "wrongHint": "Ask whether anything is decided, and whether anything happens outside the conversation."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Why the distinction is commercial",
+              "bodyHtml": "<p>A chatbot is a few days and carries almost no risk. An automation is a week and fails visibly. An agent that acts on real systems can do real damage and needs supervision, testing and a rollback plan.</p><p>Quoting agent prices for chatbot work loses the job. Quoting chatbot prices for agent work loses money and, eventually, the client.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a request you have heard and sort it into one of the three.",
+                "Write what it would need to decide, and what it would change in the world.",
+                "If neither, it is a chatbot — say so plainly to the client.",
+                "Note how the price you would quote changes with each answer."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the request to what it actually needs",
+              "subtitle": "Match each thing a business asks for with the right build.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Answer questions from our returns policy"
+                  },
+                  "right": {
+                    "text": "A configured chatbot: one source, no actions"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Copy new orders into the sheet every morning"
+                  },
+                  "right": {
+                    "text": "A fixed automation: same steps, every time"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Work out which supplier to reorder from"
+                  },
+                  "right": {
+                    "text": "A true agent: it has to decide something"
+                  }
+                }
+              ],
+              "failHint": "Ask two questions of each: is anything decided, and does anything change outside the chat?",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Start at the cheap end",
+              "bodyHtml": "<p>Almost every successful project in this area started as the simplest of the three and grew. Almost every failed one started as the most ambitious.</p><p>Build the chatbot, prove it works, then propose the next step with evidence. That sequence is also how you get paid twice instead of once.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "«Agent» means three different things: a configured chatbot with one source, a fixed automation, or something that genuinely decides and acts. Most requests are satisfied by the first two, which are cheaper, safer and finishable — and starting there is how the project succeeds.",
+              "nextTeaser": "Next: scoping the one job an assistant will actually do."
+            }
+          ]
+        },
+        {
+          "slug": "agt-first-assistant",
+          "title": "Your first working assistant",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The difference between an assistant used daily and one opened twice is decided before any configuration happens — in how narrowly the job was defined.</p><p>General assistants get abandoned because nobody can tell whether they are working.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Write it like a job advert",
+              "bodyHtml": "<p><s>«An assistant that helps the team with customer emails.»</s></p><p><strong>«Drafts replies to the eleven delivery questions we get weekly, using our shipping policy, and passes anything else to a person.»</strong></p><p>The second names a task, a source and a boundary. Those three make it testable, and testable is what makes it trustworthy.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "If you would not hire a person on this description, it is not defined well enough to build."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four sections that define the job",
+              "bodyHtml": "<ul><li><strong>Tasks</strong> — countable, nothing vague</li><li><strong>Sources</strong> — exactly which documents it may use</li><li><strong>Refusals</strong> — what it must never answer or promise</li><li><strong>Escalation</strong> — the words it uses to hand over</li></ul><p>Writing this document is most of the work. Configuration afterwards is usually an afternoon.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Before configuring anything, what should you ask the client for?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Access to their systems so you can begin connecting things up."
+                },
+                {
+                  "id": "b",
+                  "label": "The last fifty real enquiries, to see what actually gets asked."
+                },
+                {
+                  "id": "c",
+                  "label": "A list of features they would like the assistant to eventually have."
+                },
+                {
+                  "id": "d",
+                  "label": "Their budget, so the scope can be matched to what they can spend."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Fifty real enquiries usually show that a handful of questions cover most of the volume. That is the scope of version one, and it turns a vague project into a small finishable one.",
+              "wrongHint": "Think about what would tell you which questions actually matter to this business."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Sell the definition separately",
+              "bodyHtml": "<p>That one-page description is a paid first stage. Two hours of work, genuinely useful even if they stop there, and it protects you from building against a moving target.</p><p>It also filters. A client who will not pay for two hours of definition was not going to be a good client for the twenty hours after it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Pick a business you know and name one job an assistant could do there.",
+                "Ask for or imagine the last fifty enquiries and count the recurring ones.",
+                "Write the four sections in one page.",
+                "Read it as a job advert — would you hire someone on it?"
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the section to what it prevents",
+              "subtitle": "Match each part of the definition with the failure it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "A countable list of tasks"
+                  },
+                  "right": {
+                    "text": "An assistant nobody can judge as working or not"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Named documents it may use"
+                  },
+                  "right": {
+                    "text": "Confident answers invented from nowhere"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Words it uses to hand over"
+                  },
+                  "right": {
+                    "text": "A customer stuck in a loop with no way out"
+                  }
+                }
+              ],
+              "failHint": "Ask what would go wrong if that one section were missing from the page.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Version one should feel too small",
+              "bodyHtml": "<p>If the first version does not feel almost trivially narrow, it is too big. Narrow ships, gets used, and earns the second version.</p><p>Broad gets built, gets tested vaguely, and gets quietly abandoned — usually without anyone telling you why.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Define one job as if writing a job advert: tasks, permitted sources, hard refusals, escalation wording. Scope version one from fifty real enquiries, sell the definition as a paid first stage, and make the first version narrow enough that it feels almost too small.",
+              "nextTeaser": "Next: giving it tools and data without giving it too much."
+            }
+          ]
+        },
+        {
+          "slug": "agt-tools-and-data",
+          "title": "Giving it tools and data",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>An assistant becomes useful when it can reach real information, and dangerous at exactly the same moment. Both come from the same change.</p><p>The question is never «what can we connect» but «what is the least it needs to do this job».</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Read before write",
+              "bodyHtml": "<p><s>Connecting the assistant to the system with full permissions so it can do whatever is needed.</s></p><p><strong>Read-only access to the two documents the job requires, and nothing else.</strong></p><p>Reading is recoverable. Writing changes someone's data, and a confident mistake becomes a real problem rather than a wrong answer.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Reading is recoverable. Writing is not. Start with read-only and stay there as long as possible."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four rules for access",
+              "bodyHtml": "<ul><li><strong>Least access</strong> — only the sources named in the definition</li><li><strong>Read-only first</strong> — add writing only with a human approving each one</li><li><strong>Its own credentials</strong> — never a person's login</li><li><strong>A log</strong> — what it read, what it did, when</li></ul><p>The fourth is what lets you answer «what happened» later. Without it, an incident becomes a guess.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "The assistant needs to check order status. What access should it have?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Full access to the orders system, so nothing blocks it later."
+                },
+                {
+                  "id": "b",
+                  "label": "Read-only access to order status, and nothing beyond that."
+                },
+                {
+                  "id": "c",
+                  "label": "The same account a support agent uses, for simplicity."
+                },
+                {
+                  "id": "d",
+                  "label": "Write access too, so it can update orders when asked."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Checking status needs reading, not writing, and nothing else in the system. Shared logins also make every action untraceable, which matters the first time someone asks what happened.",
+              "wrongHint": "Ask what the job literally requires, then refuse to grant anything beyond it."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Give it the right documents, not all of them",
+              "bodyHtml": "<p>Pointing an assistant at an entire shared drive produces confident answers from outdated files. Someone's draft from two years ago is indistinguishable from current policy.</p><p>Name the documents. Check their dates. Agree with the client who keeps them current — that person, not you, owns the answers afterwards.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "List everything the assistant would need to read for its one job.",
+                "Cut anything not strictly required and note why.",
+                "Check the date on every source document.",
+                "Write down who is responsible for keeping each one current."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the access choice to its consequence",
+              "subtitle": "Match each decision about permissions with what it produces later.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Read-only on two named documents"
+                  },
+                  "right": {
+                    "text": "A wrong answer at worst, and it is correctable"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Write access to the live system"
+                  },
+                  "right": {
+                    "text": "A confident mistake that changes real data"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Pointing it at the whole shared drive"
+                  },
+                  "right": {
+                    "text": "Current-sounding answers from outdated files"
+                  }
+                }
+              ],
+              "failHint": "Ask what the worst realistic outcome of each choice looks like on a bad day.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Write access needs a human",
+              "bodyHtml": "<p>When the job genuinely requires changing something, put a person between the decision and the action: the assistant proposes, someone approves, then it executes.</p><p>Clients accept this readily — it is how they would supervise a new employee — and it removes almost all of the risk while keeping most of the speed.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Connect the least it needs: read-only, named documents, its own credentials, and a log of what it did. Never point it at an entire drive, check the dates on every source, agree who keeps them current, and put a person between any decision and any write.",
+              "nextTeaser": "Next: what goes wrong, and how to catch it before a customer does."
+            }
+          ]
+        },
+        {
+          "slug": "agt-when-it-goes-wrong",
+          "title": "When it goes wrong",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every assistant that runs long enough will say something wrong. Planning for that is not pessimism — it is the difference between an incident and a crisis.</p><p>The failures are predictable, which means most of them can be designed out before launch.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Four failures you should expect",
+              "bodyHtml": "<ul><li><strong>Confident invention</strong> — an answer that sounds like policy and is not</li><li><strong>Outdated source</strong> — correct answer from a document nobody updated</li><li><strong>Scope creep in use</strong> — people asking it things it was never meant to handle</li><li><strong>Silent breakage</strong> — it stops working and nobody notices</li></ul><p>The last is the worst, because there is no complaint to alert you. It just quietly stops.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The dangerous failure is not the wrong answer. It is the wrong answer nobody reports."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Design the refusals first",
+              "bodyHtml": "<p><s>Instructing it to be careful and accurate when discussing refunds.</s></p><p><strong>Making refunds a topic it never answers, routed to a person every time.</strong></p><p>Asking a model to be careful is a preference. A hard topic ban is a rule, and rules survive the model behaving unpredictably next month.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "During testing it invents a delivery time not present in any document. What is the fix?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Add more documents so the correct information is available to it."
+                },
+                {
+                  "id": "b",
+                  "label": "Make delivery a banned topic, routed to a person every time."
+                },
+                {
+                  "id": "c",
+                  "label": "Instruct it to be more careful and precise about delivery times."
+                },
+                {
+                  "id": "d",
+                  "label": "Accept it as rare, since most customers will not ask about it."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Anything the business would be held to — dates, prices, promises — belongs behind a hard route to a human. Instruction quality is not a guarantee, and this is the class of error that reaches customers.",
+              "wrongHint": "Ask which fix still holds if the model behaves differently after an update."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Launch quietly",
+              "bodyHtml": "<p>Do not switch it on for every customer on day one. Run it internally, or have it draft replies a person approves, for two weeks.</p><p>Real questions are never the ones you tested for. A soft launch surfaces them while every mistake is still private and cheap.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write the three topics your assistant will always refuse.",
+                "Spend twenty minutes trying to make a test version say something wrong.",
+                "Write down everything that worked — those are your test cases.",
+                "Plan the two-week soft launch and who approves during it."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the failure to its safeguard",
+              "subtitle": "Match each predictable failure with the thing that prevents it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "It invents a price that sounds official"
+                  },
+                  "right": {
+                    "text": "A hard topic ban routed to a person"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It answers from a document nobody updated"
+                  },
+                  "right": {
+                    "text": "A named owner and a date on every source"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It stops working and nobody notices"
+                  },
+                  "right": {
+                    "text": "An alert to a named person when it fails"
+                  }
+                }
+              ],
+              "failHint": "For each failure, ask what would have caught it before a customer did.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Agree the incident procedure before launch",
+              "bodyHtml": "<p>Decide in advance who is told, how quickly it is corrected, and who speaks to the affected customer.</p><p>Having that conversation before launch turns an alarming event into a procedure. Having it afterwards, under pressure, is how a good project ends badly.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Expect four failures: confident invention, outdated sources, use beyond scope, and silent breakage. Design hard refusals rather than careful instructions, launch softly with human approval for two weeks, alert a named person on failure, and agree the incident procedure before anyone goes live.",
+              "nextTeaser": "Next: pricing and selling this as a service."
+            }
+          ]
+        },
+        {
+          "slug": "agt-selling-agents",
+          "title": "Selling it as a service",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>This is the most valuable thing in this whole catalogue to be able to sell, and the easiest to price wrong — because the build is only part of what the client is buying.</p><p>An assistant is not a file you hand over. It keeps running, on live inputs, in a business that changes.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Three things to charge for",
+              "bodyHtml": "<ul><li><strong>The definition</strong> — the one-page job description, paid separately</li><li><strong>The build</strong> — priced against the work it replaces, not your hours</li><li><strong>The care</strong> — a monthly fee for review, fixes and updates</li></ul><p>Most freelancers charge for the middle one only, then do the other two free. That is how a profitable project becomes an unpaid support job.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An assistant is not delivered. It is handed over and then kept alive."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Price the replacement, not the hours",
+              "bodyHtml": "<p><s>«It took me eleven hours, so that is eleven hours at my rate.»</s></p><p><strong>«This handles about sixty enquiries a week that a person answers now. £900 to build, £150 a month to keep current.»</strong></p><p>The second is judged against what it replaces. The first prices your typing speed and gets cheaper every time you improve.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A client asks why there is a monthly fee when the assistant already works. What is the honest answer?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "It covers hosting costs and the tools the assistant runs on."
+                },
+                {
+                  "id": "b",
+                  "label": "Sources go stale, questions change, and tools update — it needs review."
+                },
+                {
+                  "id": "c",
+                  "label": "It is standard practice for this kind of software project."
+                },
+                {
+                  "id": "d",
+                  "label": "It guarantees you will be available if anything ever breaks."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The business changes and the assistant does not notice. Policies shift, new questions appear, tools update — without review it drifts from correct to confidently outdated, which is worse than not existing.",
+              "wrongHint": "Think about what actually changes in the months after launch, and who would notice."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Hand over more than access",
+              "bodyHtml": "<p>Give the client a one-page note: what it does, what it refuses, how to update its sources, how to switch it off.</p><p>Keeping that vague does not protect your income. A client who cannot see how it works becomes nervous, and nervous clients stop using things — then stop paying for them.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Write your three-part price: definition, build, monthly care.",
+                "Anchor the build on enquiries or hours it replaces per week.",
+                "Write the one-page operating note in plain language.",
+                "Draft the sentence explaining why care is not optional."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the charge to what it buys",
+              "subtitle": "Match each part of the price with what the client actually receives.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "The paid definition stage"
+                  },
+                  "right": {
+                    "text": "A description precise enough to build and test against"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The build fee anchored on replaced work"
+                  },
+                  "right": {
+                    "text": "A price judged against value rather than your speed"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "The monthly care fee"
+                  },
+                  "right": {
+                    "text": "Someone noticing when it drifts out of date"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what the client would lose if that part were not paid for.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "The monthly review is the product",
+              "bodyHtml": "<p>Read a sample of conversations, fix the misses, add new facts — and report what customers are actually asking.</p><p>That last part is worth more than the assistant. A monthly summary of real customer questions is business intelligence the client has never had, and it makes the retainer obviously worth keeping.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Charge three times: the definition, the build anchored on the work it replaces, and monthly care. Hand over an operating note rather than just access, and make the monthly review the product — the summary of what customers actually ask is worth more than the assistant itself.",
+              "nextTeaser": "That completes the course: what an agent is, defining one, connecting it safely, handling failure, and selling it."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coverUrl": "/covers/course-ai-agents-explained.jpg"
+}

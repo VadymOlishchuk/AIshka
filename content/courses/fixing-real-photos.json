@@ -1,6 +1,6 @@
 {
   "slug": "fixing-real-photos",
-  "title": "Fixing Real Photos",
+  "title": "Fixing real photos",
   "description": "Which photographs can be saved and which are missing the information entirely, what removal and canvas extension actually do, where upscaling invents facts, and how to process a batch without discovering the problem at image 140.",
   "kind": "mini",
   "icon": "✂️",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on editing photographs you already have.",
       "lessons": [
         {
           "slug": "fix-what-can-be-rescued",
-          "title": "What Can and Cannot Be Rescued",
+          "title": "What can and cannot be rescued",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Two Kinds of Bad Photo",
+              "heading": "Two kinds of bad photo",
               "bodyHtml": "<p>Some photos are missing information. Others merely present it badly.</p><p><s>Trying to recover a face from a photo where it is four pixels wide.</s></p><p><strong>Fixing a photo that is sharp but underexposed, where everything is present and simply dark.</strong></p><p>Detail that was never captured cannot be recovered — only invented, which is a different thing entirely.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Rescuable and Not",
+              "heading": "Rescuable and not",
               "bodyHtml": "<ul><li><strong>Rescuable</strong> — dark, flat, crooked, cluttered, wrong white balance</li><li><strong>Sometimes</strong> — mild blur, small blown highlights, moderate noise</li><li><strong>Not</strong> — motion blur across the subject, heavy compression, a tiny source</li><li><strong>Never for real use</strong> — anything where the missing part is the point</li></ul><p>The last is where people waste most time. If the face, the label or the product detail is why the photo exists, invention is not an option.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Judge Before You Start",
+              "heading": "Judge before you start",
               "bodyHtml": "<p>Open the image at full size and look at the part that matters. If it is soft there, stop — no amount of processing changes that.</p><p>Ten seconds of looking saves an hour of increasingly desperate editing, and lets you tell a client something useful immediately.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Fault to Whether It Can Be Fixed",
+              "title": "Match the fault to whether it can be fixed",
               "subtitle": "Match each problem with what can honestly be done about it.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Reshooting Is Usually Cheaper",
+              "heading": "Reshooting is usually cheaper",
               "bodyHtml": "<p>People treat a new photo as failure and an hour of editing as work. Financially it is the other way round.</p><p>Five minutes with a phone and a window beats an hour of recovery, and produces something you can stand behind.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "fix-remove-extend",
-          "title": "Removing, Extending, Replacing",
+          "title": "Removing, extending, replacing",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Removal Fails at Edges",
+              "heading": "Removal fails at edges",
               "bodyHtml": "<p>Taking an object out of an empty area works. Taking it out where it overlaps something structured does not.</p><p><s>Removing a person standing in front of a tiled wall and a doorway.</s></p><p><strong>Removing a bin from an empty patch of pavement.</strong></p><p>Straight lines, repeating patterns and edges are where invention becomes obvious — a doorframe that bends slightly, tiles that stop lining up.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Extending Canvas Has a Limit",
+              "heading": "Extending canvas has a limit",
               "bodyHtml": "<ul><li><strong>Works</strong> — a little more sky, floor or wall to fit a new crop</li><li><strong>Works</strong> — changing aspect ratio by ten or twenty per cent</li><li><strong>Fails</strong> — doubling the frame, where invented architecture appears</li><li><strong>Fails</strong> — extending across anything with structure or perspective</li></ul><p>Use it to solve a crop problem, not to reframe a photograph you did not take.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Check at Full Size, Then at Thumbnail",
+              "heading": "Check at full size, then at thumbnail",
               "bodyHtml": "<p>Repairs that look fine at full size sometimes read as smudges when scaled down, and ones that look fine small fall apart when someone zooms.</p><p>Check both. Ten seconds, and it catches almost every visible failure before anyone else sees it.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Keep the Original",
+              "heading": "Keep the original",
               "bodyHtml": "<p>Always work on a copy and keep the untouched file. Clients change their minds, edits get rejected, and rules about what may be altered sometimes arrive after the work.</p><p>An original you can return to is the difference between a five-minute revision and starting again.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "fix-upscaling",
-          "title": "Upscaling and Where It Lies",
+          "title": "Upscaling and where it lies",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Plausible Is Not Accurate",
+              "heading": "Plausible is not accurate",
               "bodyHtml": "<p><s>Upscaling a low-resolution photo of a document and reading the numbers off it.</s></p><p><strong>Upscaling a landscape photo so that it can be printed larger.</strong></p><p>In the second, invented leaf detail is harmless. In the first, an invented digit is a serious problem — and it will look completely convincing.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Where It Is Safe and Where It Is Not",
+              "heading": "Where it is safe and where it is not",
               "bodyHtml": "<ul><li><strong>Safe</strong> — textures, foliage, fabric, skies, backgrounds</li><li><strong>Usually safe</strong> — product surfaces and general scenes</li><li><strong>Careful</strong> — faces, where features shift subtly and people notice</li><li><strong>Never</strong> — text, numbers, labels, documents, anything evidential</li></ul><p>The last category causes real trouble, because the output looks authoritative.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Upscale Last, Not First",
+              "heading": "Upscale last, not first",
               "bodyHtml": "<p>Do every other edit on the original and upscale at the end. Upscaling first bakes in artefacts that later edits then amplify.</p><p>It also keeps the working file small, which matters when you are producing a batch.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Say When You Used It",
+              "heading": "Say when you used it",
               "bodyHtml": "<p>If an upscaled image goes into anything documentary — a listing, a report, a news piece — say so. The alteration is invisible and the assumption is that a photo shows what was there.</p><p>One line costs nothing and puts you in a different position entirely if the image is ever questioned.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "fix-batch",
-          "title": "Batch Work Without Losing Control",
+          "title": "Batch work without losing control",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Sort Before You Edit",
+              "heading": "Sort before you edit",
               "bodyHtml": "<p><s>Applying one preset to everything and fixing whatever looks wrong afterwards.</s></p><p><strong>Sorting into three groups by lighting condition first, then one preset per group.</strong></p><p>Ten minutes of sorting saves an hour of correcting, and prevents the batch where half the images are subtly too warm.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Rules for Batches",
+              "heading": "Four rules for batches",
               "bodyHtml": "<ul><li><strong>Sort by condition</strong> — light, background, subject type</li><li><strong>Test on five</strong>, including the most awkward one</li><li><strong>Never overwrite originals</strong> — output to a separate folder</li><li><strong>Review at thumbnail size</strong>, because that is how the set is seen</li></ul><p>The second is the one people skip. The awkward image teaches you more than the other four combined.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Keep a Log of What You Applied",
+              "heading": "Keep a log of what you applied",
               "bodyHtml": "<p>Note the settings per batch alongside the files. Six weeks later a client asks for five more in the same style, and reconstructing from memory gives you something almost but not quite matching.</p><p>Three lines in a text file next to the folder is the difference between a ten-minute job and an afternoon.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Spot-Check, Do Not Trust",
+              "heading": "Spot-check, do not trust",
               "bodyHtml": "<p>Automated edits fail silently on outliers — one image where removal took a chunk out of the product, one where the crop cut the label.</p><p>Open ten at random at full size before delivering. Two minutes, and it catches the one the client would otherwise have found.</p>"
             },
             {

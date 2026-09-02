@@ -1,6 +1,6 @@
 {
   "slug": "ai-for-real-estate-agents",
-  "title": "AI for Real Estate Agents",
+  "title": "AI for real estate agents",
   "description": "Listings that get read, fields that get you found, follow-up with something to say, and the claims that put an agent at risk. Written for the parts of the job where the wording is regulated.",
   "kind": "career",
   "icon": "🏠",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in property work without publishing a claim you cannot support.",
       "lessons": [
         {
           "slug": "re-why-listings-same",
-          "title": "Why Every Listing Sounds the Same",
+          "title": "Why every listing sounds the same",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Adjectives Are Invisible",
+              "heading": "Adjectives are invisible",
               "bodyHtml": "<p><s>«Stunning three-bedroom property boasting spacious accommodation in a sought-after location.»</s></p><p><strong>«The kitchen gets sun until about four. The third bedroom fits a desk but not a double bed. Station is nine minutes on foot, downhill.»</strong></p><p>The second answers what people actually wonder, and it could not have been written from a floor plan.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What Buyers Are Actually Asking",
+              "heading": "What buyers are actually asking",
               "bodyHtml": "<ul><li><strong>Will my furniture fit?</strong> Real dimensions, in context</li><li><strong>What is it like at 8am?</strong> Light, noise, traffic</li><li><strong>What is the catch?</strong> They assume there is one</li><li><strong>How far, really?</strong> Walking minutes, not «convenient for»</li></ul><p>A listing that answers all four gets fewer enquiries and far better viewings.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Use It to Draft, Not to Invent",
+              "heading": "Use it to draft, not to invent",
               "bodyHtml": "<p>Give it your own notes from the viewing — the light, the noise, the awkward corner — and let it write them up cleanly.</p><p>Asking it to describe a property from a bullet list of features produces exactly the copy buyers ignore, because there was nothing specific to work from.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Line to What the Buyer Learns",
+              "title": "Match the line to what the buyer learns",
               "subtitle": "Match each kind of sentence in a listing with what it tells a reader.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Say the Drawback",
+              "heading": "Say the drawback",
               "bodyHtml": "<p>Naming the obvious flaw — the small third bedroom, the busy road — builds more trust than any amount of praise, and it filters out the viewings that were never going to convert.</p><p>Buyers find the drawback anyway, in person, having taken an afternoon off. Whether they hear it from you first decides how the rest of that conversation goes.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "re-what-buyers-search",
-          "title": "What Buyers Actually Search For",
+          "title": "What buyers actually search for",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Fields First, Prose Second",
+              "heading": "Fields first, prose second",
               "bodyHtml": "<ul><li><strong>Every filterable field filled</strong> — a blank field removes you from that search entirely</li><li><strong>The first two lines carry the hook</strong> — that is all the preview shows</li><li><strong>Local names spelled as locals spell them</strong></li><li><strong>Numbers as digits</strong> — they stop the eye in a list</li></ul><p>The first point costs more listings than bad writing ever has, and it is entirely avoidable.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Write the Preview Deliberately",
+              "heading": "Write the preview deliberately",
               "bodyHtml": "<p><s>«Situated in a popular location, this well-presented home offers…»</s></p><p><strong>«Nine minutes to the station, south-facing garden, no chain.»</strong></p><p>The first two lines are the whole advert in a list of forty. Everything else is read only by people the preview already convinced.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Photos Carry More Than Words",
+              "heading": "Photos carry more than words",
               "bodyHtml": "<p>Order matters more than count: the strongest exterior first, then the room that sells the property, then layout in a logical walk.</p><p>Never enhance beyond what the eye would see. A buyer who arrives at a property that looks worse than its photos has already decided about you before the door opens.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Match the Listing to the Buyer",
+              "heading": "Match the listing to the buyer",
               "bodyHtml": "<p>The same property sells differently to a first-time buyer and to a downsizer. You usually know which is most likely from the street and the layout.</p><p>Writing two versions and using the right one on the right channel takes ten minutes and is the cheapest targeting available to an agent.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "re-follow-up",
-          "title": "Follow-Up That Does Not Feel Automated",
+          "title": "Follow-up that does not feel automated",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Give Them Something, Not a Nudge",
+              "heading": "Give them something, not a nudge",
               "bodyHtml": "<p><s>«Just checking in to see if you had any further thoughts on the property?»</s></p><p><strong>«You asked about the loft — the vendor confirmed the conversion was signed off in 2019, certificate attached.»</strong></p><p>The first asks the buyer to do the work. The second gives them a reason to reply and quietly answers the objection that was holding them.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Note the Question, Answer It Later",
+              "heading": "Note the question, answer it later",
               "bodyHtml": "<ul><li><strong>Write down every question asked at the viewing</strong>, in their words</li><li><strong>Answer one per follow-up</strong>, not all at once</li><li><strong>Attach something</strong> — a certificate, a plan, a photo they asked for</li><li><strong>Say what happens next</strong>, with a date</li></ul><p>Three unanswered questions is three natural, welcome follow-ups over two weeks.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Keep the Notes Where You Can Use Them",
+              "heading": "Keep the notes where you can use them",
               "bodyHtml": "<p>Viewing notes decay fast, and after eight viewings in a week nobody remembers who asked about the boiler.</p><p>Record and extract the questions immediately. It takes two minutes and turns the following fortnight from guesswork into a plan.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Say When You Will Stop",
+              "heading": "Say when you will stop",
               "bodyHtml": "<p>After two or three follow-ups with no response, say plainly that you will leave it with them and are there if anything changes.</p><p>It ends the awkwardness for both sides, and buyers frequently come back to the agent who made stepping away easy rather than the one who kept pushing.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "re-claims-and-compliance",
-          "title": "Claims and Not Overpromising",
+          "title": "Claims and not overpromising",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Four Claims That Cause Trouble",
+              "heading": "Four claims that cause trouble",
               "bodyHtml": "<ul><li><strong>Measurements</strong> — never repeat a figure you have not verified</li><li><strong>Permissions and conversions</strong> — «potential to extend» implies more than it says</li><li><strong>Catchments and schools</strong> — boundaries change and are not yours to promise</li><li><strong>Running costs</strong> — a band or a bill from the last owner is not a forecast</li></ul><p>Generated copy produces all four fluently, because they are the kinds of things listings usually say.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Check Every Number Against a Document",
+              "heading": "Check every number against a document",
               "bodyHtml": "<p><s>Accepting the room dimensions that appeared in the drafted description.</s></p><p><strong>Checking each figure against the floor plan or your own measurement before it is published.</strong></p><p>Numbers are the single most likely thing to be quietly wrong, and the easiest for a buyer to check with a tape measure on the day.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Keep a Record of What You Verified",
+              "heading": "Keep a record of what you verified",
               "bodyHtml": "<p>Note where each factual claim came from: the floor plan, the vendor, a certificate you have seen.</p><p>If a listing is ever questioned, that record is the difference between a correction and a complaint — and it takes a line per property to keep.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Disclose Generated Imagery",
+              "heading": "Disclose generated imagery",
               "bodyHtml": "<p>Staged or enhanced images must be labelled as such, and rules on this are tightening in most markets.</p><p>Label it in the listing itself rather than mentioning it at the viewing. A buyer who feels misled by a photograph does not become a buyer who trusts the survey.</p>"
             },
             {

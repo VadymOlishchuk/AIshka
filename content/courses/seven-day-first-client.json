@@ -1,6 +1,6 @@
 {
   "slug": "seven-day-first-client",
-  "title": "7-Day First Client Challenge",
+  "title": "7-Day first client challenge",
   "description": "Seven days from nothing to a real proposal sent to a real business. One decision a day: what you sell, who needs it, the sample, the message, the sending, the replies, the proposal.",
   "kind": "challenge",
   "shelf": "Challenges",
@@ -8,12 +8,12 @@
   "modules": [
     {
       "slug": "the-week",
-      "title": "The Week",
+      "title": "The week",
       "description": "Seven days, one step each. Each day is short and produces something you can point at by the evening.",
       "lessons": [
         {
           "slug": "d1-choose-what-to-sell",
-          "title": "Day 1 — Choose What You Are Selling",
+          "title": "Day 1 — choose what you are selling",
           "durationMin": 6,
           "blocks": [
             {
@@ -25,7 +25,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "One Task, Not a Career",
+              "heading": "One task, not a career",
               "bodyHtml": "<p>The goal today is not to define what you do forever. It is to pick one thing you could deliver by Friday.</p><p><s>«I'm building an AI content business.»</s></p><p><strong>«I turn ten blog posts into ten social posts, delivered in three days.»</strong></p><p>The second can be sold this week. The first cannot be sold at all, because there is nothing in it to accept.</p>"
             },
             {
@@ -36,7 +36,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Three Filters",
+              "heading": "Three filters",
               "bodyHtml": "<ul><li><strong>Have you done it once?</strong> Paid, unpaid, for yourself — anything counts.</li><li><strong>Can you finish it in days?</strong> Anything longer is a project for later.</li><li><strong>Can you see people buying it?</strong> Live job posts, or businesses doing it badly.</li></ul><p>If an idea fails any of the three, take the next one. There is no prize for choosing the most ambitious option today.</p>"
             },
             {
@@ -70,7 +70,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Write It as One Sentence",
+              "heading": "Write it as one sentence",
               "bodyHtml": "<p>Use this shape: <strong>I help [specific business] with [specific task] so they [specific outcome]</strong>.</p><p>If any bracket still says «businesses» or «content», it is not ready. «Independent coffee roasters» is specific. «Product descriptions» is specific. «Stop answering the same delivery question by email» is an outcome.</p>"
             },
             {
@@ -89,7 +89,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Offer to Whether It Can Be Sold This Week",
+              "title": "Match the offer to whether it can be sold this week",
               "subtitle": "Match each way of describing what you do with what someone can do about it.",
               "pairs": [
                 {
@@ -123,7 +123,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Commit for a Week",
+              "heading": "Commit for a week",
               "bodyHtml": "<p>You will want to change this by Wednesday. Do not — a week is too short to test two things, and switching resets the whole challenge.</p><p>Whatever you learn about the offer belongs to the next round. This week is about completing the loop once, all the way to a sent proposal.</p>"
             },
             {
@@ -136,7 +136,7 @@
         },
         {
           "slug": "d2-find-twenty",
-          "title": "Day 2 — Find Twenty Real Businesses",
+          "title": "Day 2 — find twenty real businesses",
           "durationMin": 6,
           "blocks": [
             {
@@ -148,7 +148,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Look Where Money Is Already Moving",
+              "heading": "Look where money is already moving",
               "bodyHtml": "<p>You are not looking for businesses that might one day want this. You are looking for evidence they are dealing with it right now.</p><p><s>Listing companies you admire and hope will be interested.</s></p><p><strong>Listing companies that posted a job for this, or are visibly doing it badly on their own site.</strong></p><p>The second list converts several times better and takes the same hour to build.</p>"
             },
             {
@@ -159,7 +159,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Places to Look",
+              "heading": "Four places to look",
               "bodyHtml": "<ul><li><strong>Live job posts</strong> — someone is paying for this today</li><li><strong>Their own site</strong> — the page that is visibly weak</li><li><strong>Local businesses</strong> — a directory, a high street, a map</li><li><strong>People who know you</strong> — colleagues, former employers, anyone</li></ul><p>The fourth is the highest-converting and the most avoided, because it feels like asking for a favour rather than doing business.</p>"
             },
             {
@@ -193,7 +193,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Twenty Is the Number",
+              "heading": "Twenty is the number",
               "bodyHtml": "<p>Fewer than twenty and one polite refusal feels like a verdict. Twenty gives you a sample that can teach you something.</p><p>Keep it simple: name, contact, and one line about why you picked them. That last column becomes the first line of the message, so writing it now saves time later.</p>"
             },
             {
@@ -210,7 +210,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Do Not Judge the List Yet",
+              "heading": "Do not judge the list yet",
               "bodyHtml": "<p>You will be tempted to remove names that feel too big, too small or too unlikely. Do not — your guesses about who will reply are unreliable at this stage.</p><p>Some of the least promising names answer first. Filtering the list now is just a way of sending fewer messages, which is the opposite of what this week needs.</p>"
             },
             {
@@ -223,7 +223,7 @@
         },
         {
           "slug": "d3-make-the-sample",
-          "title": "Day 3 — Make the Sample Nobody Asked For",
+          "title": "Day 3 — make the sample nobody asked for",
           "durationMin": 6,
           "blocks": [
             {
@@ -235,7 +235,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Show, Do Not Offer",
+              "heading": "Show, do not offer",
               "bodyHtml": "<p>Every applicant claims they can do the job. Almost none arrive having already done a piece of it.</p><p><s>«I could rewrite your product descriptions to sound more natural.»</s></p><p><strong>«I rewrote three of your descriptions — original on the left, new version on the right.»</strong></p><p>The first asks for imagination and trust. The second asks only for an opinion, which people give freely.</p>"
             },
             {
@@ -246,7 +246,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Keep It Small and Real",
+              "heading": "Keep it small and real",
               "bodyHtml": "<ul><li><strong>One piece, not a portfolio</strong> — three descriptions, one page, one workflow</li><li><strong>Their actual content</strong> — not a generic example in their industry</li><li><strong>Before and after</strong> — the comparison is the argument</li><li><strong>One line of reasoning</strong> — what changed and why it matters</li></ul><p>That last line is what separates «nice writing» from «this person knows what they are doing».</p>"
             },
             {
@@ -280,7 +280,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "It Is Not Wasted If They Say No",
+              "heading": "It is not wasted if they say no",
               "bodyHtml": "<p>The sample survives the conversation. It becomes a portfolio piece, a template for the next business, and proof of your standard for everyone else on the list.</p><p>One hour produces an asset you will reuse all week — which is why this is not the same thing as working for free.</p>"
             },
             {
@@ -297,7 +297,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Do Not Apologise for It",
+              "heading": "Do not apologise for it",
               "bodyHtml": "<p>When you send it, frame it as work rather than as practice. «Here's a rewrite of three of your descriptions» is confident and accurate.</p><p>«I hope you don't mind, I had a go at this as practice» invites the reader to judge it gently — and to hire someone else.</p>"
             },
             {
@@ -310,7 +310,7 @@
         },
         {
           "slug": "d4-write-the-message",
-          "title": "Day 4 — Write the Message That Gets Answered",
+          "title": "Day 4 — write the message that gets answered",
           "durationMin": 6,
           "blocks": [
             {
@@ -322,7 +322,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Four Sentences",
+              "heading": "Four sentences",
               "bodyHtml": "<ul><li><strong>The observation</strong> — one specific thing about their business</li><li><strong>The offer</strong> — what you would do, with a quantity</li><li><strong>The proof</strong> — the sample, described in six words</li><li><strong>The question</strong> — answerable in one word</li></ul><p>That is the entire message. Anything else you add competes with those four for a reader's four seconds.</p>"
             },
             {
@@ -333,7 +333,7 @@
             {
               "id": "b5",
               "type": "text",
-              "heading": "The Ending Decides the Reply",
+              "heading": "The ending decides the reply",
               "bodyHtml": "<p>Most messages end by asking for something effortful.</p><p><s>«Let me know if you'd like to jump on a call to discuss this further.»</s></p><p><strong>«Do you write the descriptions yourself at the moment?»</strong></p><p>The first asks for a calendar entry. The second asks for a word — and any reply is a conversation you did not have a minute ago.</p>"
             },
             {
@@ -367,7 +367,7 @@
             {
               "id": "b7",
               "type": "text",
-              "heading": "Personalise the First Line Only",
+              "heading": "Personalise the first line only",
               "bodyHtml": "<p>Twenty messages with the same three sentences and a different opening line will outperform twenty entirely custom messages — because you will actually send all twenty.</p><p>The first line proves you looked. The rest can be identical, and nobody will ever know.</p>"
             },
             {
@@ -391,7 +391,7 @@
         },
         {
           "slug": "d5-send-fifteen",
-          "title": "Day 5 — Send Fifteen",
+          "title": "Day 5 — send fifteen",
           "durationMin": 6,
           "blocks": [
             {
@@ -403,7 +403,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Volume Is the Experiment",
+              "heading": "Volume is the experiment",
               "bodyHtml": "<p>One message tells you nothing. Fifteen tells you whether the offer, the opening and the audience are roughly right.</p><p><s>Sending three carefully perfected messages and waiting to see what happens.</s></p><p><strong>Sending fifteen good-enough messages and reading the pattern in the replies.</strong></p><p>Three replies of silence is noise. Fifteen is a signal you can act on next week.</p>"
             },
             {
@@ -414,7 +414,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What to Expect",
+              "heading": "What to expect",
               "bodyHtml": "<ul><li><strong>Most will not reply</strong> — normal, and mostly not about you</li><li><strong>A few will say no</strong> — often politely and quickly</li><li><strong>One or two will ask something</strong> — that is the whole point</li><li><strong>Some replies arrive next week</strong> — the list stays live</li></ul><p>If you get one real conversation from fifteen messages, the week has worked. That is a realistic rate, not a disappointing one.</p>"
             },
             {
@@ -448,7 +448,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Send Them Today",
+              "heading": "Send them today",
               "bodyHtml": "<p>Do not spread this across the week. Fifteen in one sitting takes about ninety minutes and keeps you in the same frame of mind, which makes each one faster than the last.</p><p>Spread over five days, the messages get slower, more anxious and fewer — and the pattern in the replies becomes impossible to read.</p>"
             },
             {
@@ -465,7 +465,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Silence Is Not a Verdict",
+              "heading": "Silence is not a verdict",
               "bodyHtml": "<p>Posts get filled, budgets vanish, people go on holiday. Almost none of that is about your message.</p><p>The story that you were not good enough is the one that stops people at exactly the point where a follow-up would have worked. Treat no reply as no information.</p>"
             },
             {
@@ -478,7 +478,7 @@
         },
         {
           "slug": "d6-handle-replies",
-          "title": "Day 6 — Handle the Replies",
+          "title": "Day 6 — handle the replies",
           "durationMin": 6,
           "blocks": [
             {
@@ -490,7 +490,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Reply Fast, Price Slowly",
+              "heading": "Reply fast, price slowly",
               "bodyHtml": "<p>Speed wins work; speed also produces bad numbers. Those two facts are not in conflict, because they apply to different parts of the answer.</p><p><s>«Yes I can do that — probably around £80?»</s></p><p><strong>«Yes — happy to. Two quick questions so the quote is accurate, then I'll send scope and price this afternoon.»</strong></p><p>Answer within the hour. Send the number when you have thought about it, not while typing.</p>"
             },
             {
@@ -501,7 +501,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "The Three Replies You Will Get",
+              "heading": "The three replies you will get",
               "bodyHtml": "<ul><li><strong>«What would it cost?»</strong> — ask two scoping questions, then quote in writing</li><li><strong>«We handle it in-house»</strong> — ask what the annoying part is; that is the real offer</li><li><strong>«Not right now»</strong> — ask when to come back, and write the date down</li></ul><p>None of the three is a rejection. The second and third are where most of next month's work comes from.</p>"
             },
             {
@@ -535,7 +535,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Ask Before You Quote",
+              "heading": "Ask before you quote",
               "bodyHtml": "<p>Two questions are enough: how many, and by when. Those two answers turn a guess into a quote you can defend.</p><p>They also signal that you have done this before — most applicants quote immediately, and the difference is noticeable to anyone who has hired a freelancer previously.</p>"
             },
             {
@@ -552,7 +552,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Follow Up Today",
+              "heading": "Follow up today",
               "bodyHtml": "<p>Most replies come after the second message, not the first. Send one short follow-up to everyone still silent: two lines, no guilt, one new piece of information.</p><p>«Adding one more example in case it's useful» is enough. One follow-up per person is the standard; a third stops being persistence.</p>"
             },
             {
@@ -565,7 +565,7 @@
         },
         {
           "slug": "d7-send-the-proposal",
-          "title": "Day 7 — Send the Proposal",
+          "title": "Day 7 — send the proposal",
           "durationMin": 6,
           "blocks": [
             {
@@ -577,7 +577,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Five Lines, Not Five Pages",
+              "heading": "Five lines, not five pages",
               "bodyHtml": "<p>For a small job, a proposal is a message.</p><p><s>A three-page document covering your background, approach and process.</s></p><p><strong>«As I understand it: [their problem]. I'll deliver [quantity] by [date] for [price], with one revision round. Reply yes and I'll start Monday.»</strong></p><p>The second can be approved on a phone in ten seconds. The first requires a sitting that may never be scheduled.</p>"
             },
             {
@@ -588,7 +588,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What It Must Answer",
+              "heading": "What it must answer",
               "bodyHtml": "<ul><li><strong>Did you understand?</strong> Their problem, in your words, first</li><li><strong>What arrives, and when?</strong> A quantity and a weekday</li><li><strong>How much?</strong> One number, stated once</li><li><strong>What if it is wrong?</strong> One revision round, with a window</li></ul><p>Four answers. Anything else is you reassuring yourself rather than informing them.</p>"
             },
             {
@@ -622,7 +622,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "What to Do Next Week",
+              "heading": "What to do next week",
               "bodyHtml": "<p>Run it again. Same offer, next fifteen names, with the opening line improved by what you learned.</p><p>The second week is always better: the sample exists, the template exists, and the messages take an hour instead of an afternoon. Most people who get a first client do it in round two or three, not round one.</p>"
             },
             {
@@ -639,7 +639,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "What You Have Now",
+              "heading": "What you have now",
               "bodyHtml": "<p>Whatever happens with this proposal, you finished something most people never start: an offer, a list, a sample, a message that has been tested on real people, and a proposal that exists.</p><p>That is a working system, not a plan for one. Everything from here is repetition with small improvements — which is a much easier problem than the one you had seven days ago.</p>"
             },
             {

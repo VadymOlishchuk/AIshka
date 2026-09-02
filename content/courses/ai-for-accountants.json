@@ -1,6 +1,6 @@
 {
   "slug": "ai-for-accountants",
-  "title": "AI for Accountants",
+  "title": "AI for accountants",
   "description": "Where AI is genuinely useful in an accounting week and where it quietly gets things wrong. Covers the tasks worth handing over, a two-minute checking routine, and what you may safely put into a tool.",
   "kind": "career",
   "icon": "🧮",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in accounting without putting your name to a number you have not checked.",
       "lessons": [
         {
           "slug": "acc-why-numbers-go-wrong",
-          "title": "Why It Gets Numbers Wrong",
+          "title": "Why it gets numbers wrong",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Fluent Is Not Verified",
+              "heading": "Fluent is not verified",
               "bodyHtml": "<p>A generated reconciliation summary reads exactly like a correct one. That is the whole problem.</p><p><s>«Total expenses for Q2 were £48,200, up 12% on Q1.»</s></p><p><strong>«Total from the 412 rows supplied: £48,200. Excludes 6 blank-date rows and 3 refunds — confirm how you want those treated.»</strong></p><p>The second is the same work with its assumptions on the surface, where you can check them.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Where It Actually Breaks",
+              "heading": "Where it actually breaks",
               "bodyHtml": "<ul><li><strong>Silent exclusions</strong> — blank fields dropped without mention</li><li><strong>Date formats</strong> — 06/07 read as June or July depending on nothing</li><li><strong>Duplicates</strong> — the same invoice counted twice</li><li><strong>Sign conventions</strong> — credits treated as debits</li></ul><p>None of these announce themselves, and all of them survive into a total that looks perfectly reasonable.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Ask for the Working, Not the Answer",
+              "heading": "Ask for the working, not the answer",
               "bodyHtml": "<p>Change what you request and most of this risk disappears: ask for the steps and the exclusions alongside the figure.</p><p>«List every row you ignored and why» takes one extra line to ask and turns an opaque total into something you can review in two minutes.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Output to What It Hides",
+              "title": "Match the output to what it hides",
               "subtitle": "Match each kind of result with the assumption sitting underneath it.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "You Sign It, Not the Tool",
+              "heading": "You sign it, not the tool",
               "bodyHtml": "<p>Professional responsibility does not move. Whatever produced the figure, the person who sends it to a client or a tax authority owns it.</p><p>That is not a reason to avoid the tool. It is the reason to use it for the parts where checking is fast, and to keep judgement where it belongs.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "acc-tasks-worth-handing",
-          "title": "The Tasks Worth Handing Over",
+          "title": "The tasks worth handing over",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Sort the Week by Risk",
+              "heading": "Sort the week by risk",
               "bodyHtml": "<ul><li><strong>Safe and slow</strong> — drafting client emails, explaining a rule in plain words, summarising a long thread</li><li><strong>Useful with checking</strong> — categorising transactions, drafting reconciliation notes, first-pass variance commentary</li><li><strong>Keep to yourself</strong> — final figures, filings, advice with a liability attached</li></ul><p>The first group is where to start, because a mistake costs a rewrite rather than a client.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "The Best First Task",
+              "heading": "The best first task",
               "bodyHtml": "<p>Client communication is the highest-value, lowest-risk place to begin.</p><p><s>Writing the same «we need your receipts» email for the eleventh time this month.</s></p><p><strong>Drafting it once with your usual tone, then adapting it in ten seconds per client.</strong></p><p>Nothing here is a judgement call, and the worst outcome is an email you rewrite.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Explaining Is a Service",
+              "heading": "Explaining is a service",
               "bodyHtml": "<p>Clients rarely need more figures. They need to understand the ones they have — why the bill is what it is, what changed, what to do differently.</p><p>Turning a variance into three plain sentences is quick with a tool and is exactly the part clients remember. It is also what separates an accountant they keep from one they compare on price.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Keep a Line You Do Not Cross",
+              "heading": "Keep a line you do not cross",
               "bodyHtml": "<p>Write down which tasks never leave your hands — filings, final figures, anything advisory. Put it in your own notes, not just in your head.</p><p>The line matters most when you are busy, which is exactly when it gets crossed by accident.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "acc-checking-first",
-          "title": "Checking Before It Reaches a Client",
+          "title": "Checking before it reaches a client",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Four Checks, Two Minutes",
+              "heading": "Four checks, two minutes",
               "bodyHtml": "<ul><li><strong>Do the parts add to the whole?</strong> Sub-totals against the total</li><li><strong>Recalculate one line by hand</strong> — if one is right, the method usually is</li><li><strong>Is the biggest number plausible?</strong> Outliers are often data errors</li><li><strong>Does the direction match what you know?</strong> Your instinct about the client is evidence</li></ul><p>The last one catches the most. You know the business; the tool does not.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Write the Assumptions Down",
+              "heading": "Write the assumptions down",
               "bodyHtml": "<p>Every summary you pass on should carry its own footnotes.</p><p><s>«Q2 marketing spend: £11,400.»</s></p><p><strong>«Q2 marketing spend: £11,400. Excludes the two disputed invoices; includes the annual software renewal in full rather than pro-rated.»</strong></p><p>Those two clauses are the difference between a number and a defensible number.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Keep the Steps",
+              "heading": "Keep the steps",
               "bodyHtml": "<p>Save the sequence that produced the output: the export, the cleaning, the question you asked.</p><p>Next quarter it takes minutes instead of an hour, and when someone asks how a figure was reached, you can show them rather than reconstruct it from memory.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Say What You Checked",
+              "heading": "Say what you checked",
               "bodyHtml": "<p>Adding one line — «figures reconciled to the bank export; the accrual estimate is mine» — costs nothing and raises trust noticeably.</p><p>It also protects you: it separates what you verified from what you estimated, before anyone has to ask.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "acc-client-data",
-          "title": "Client Data and What You Can Paste",
+          "title": "Client data and what you can paste",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Three Buckets",
+              "heading": "Three buckets",
               "bodyHtml": "<ul><li><strong>Public</strong> — filed accounts, published rates, general rules. Safe.</li><li><strong>Identifiable but ordinary</strong> — a client's category totals with the name removed</li><li><strong>Never</strong> — names with figures, bank details, payroll records, anything with a person attached</li></ul><p>Almost every real decision is working out which bucket something is in. When unsure, treat it as the third.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Strip Before You Send",
+              "heading": "Strip before you send",
               "bodyHtml": "<p>The habit that solves most of this is mechanical rather than a judgement each time.</p><p><s>Pasting the payroll sheet to get a summary of the changes.</s></p><p><strong>Replacing names with «Employee 1…12» first, then pasting. The summary is identical.</strong></p><p>You rarely need the real identifiers to get the work done. Putting them back afterwards takes seconds.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Ask Your Client Once",
+              "heading": "Ask your client once",
               "bodyHtml": "<p>One line in your engagement conversation covers everything afterwards: «I use AI tools in parts of my process — is there anything here you'd rather I didn't put through them?»</p><p>Some clients will say no to everything. Take that at face value, price for the slower work, and do not argue about whether their concern is technically justified.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Rules Change, So Check Yearly",
+              "heading": "Rules change, so check yearly",
               "bodyHtml": "<p>Professional guidance on AI use is being written and rewritten right now, and it differs by jurisdiction and body.</p><p>Put a yearly reminder to re-read yours. Being the person who already knew the current position is a small thing that clients and regulators both notice.</p>"
             },
             {

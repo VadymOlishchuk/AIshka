@@ -1,0 +1,511 @@
+{
+  "slug": "notebooklm-course",
+  "title": "NotebookLM, honestly",
+  "description": "The assistant that answers only from documents you supply, which makes it traceable and narrow in equal measure. Covers why that restriction is the feature, building a notebook worth trusting, the three jobs it wins, and why grounded never means correct.",
+  "kind": "mini",
+  "icon": "📓",
+  "shelf": "Tool courses",
+  "sortOrder": 3,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The course",
+      "description": "Four lessons on grounded answers and the difference between traceable and true.",
+      "icon": "📓",
+      "lessons": [
+        {
+          "slug": "nlm-what-it-is-for",
+          "title": "The tool that refuses to wander",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Every other assistant on this shelf will answer from what it absorbed in training. NotebookLM will not. It reads only what you gave it.</p><p>That restriction sounds like a weakness and is the entire point.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Why the restriction is the feature",
+              "bodyHtml": "<p><s>Asking a general assistant about your company policy and receiving a plausible answer assembled from every policy it ever saw.</s></p><p><strong>Asking a grounded tool the same thing and receiving an answer that points at the paragraph in your own document.</strong></p><p>The first sounds right and may describe someone else's company. The second can be checked against the page.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "An answer that can only come from your documents is an answer you can verify."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where it belongs",
+              "bodyHtml": "<ul><li><strong>Your own policies and contracts</strong> — answers grounded in the actual text</li><li><strong>Research you collected</strong> — many documents, one place to ask</li><li><strong>Meeting transcripts</strong> — what was decided, by whom</li><li><strong>Study material</strong> — a subject you must genuinely learn</li></ul><p>Everything here shares one property: being wrong has consequences, and the source must be traceable.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why is refusing to answer beyond your documents an advantage?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Because it makes the answers noticeably shorter and easier to read."
+                },
+                {
+                  "id": "b",
+                  "label": "Because every answer can be traced back to a page you supplied."
+                },
+                {
+                  "id": "c",
+                  "label": "Because it means the tool needs far less material to work well."
+                },
+                {
+                  "id": "d",
+                  "label": "Because documents you upload are more recent than its training."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "Traceability is the whole product. A general assistant blends your document with everything else it knows and the seam is invisible — here there is no seam, because there is nothing else to blend in.",
+              "wrongHint": "Ask what you gain when the tool cannot draw on anything but your files."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What it is not",
+              "bodyHtml": "<p>It is not a general assistant. Do not ask it to write your newsletter, brainstorm names or explain a topic you gave it nothing about.</p><p>Give it nothing and it has nothing to say — correctly. That is the tool working, not failing.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find a document your team asks questions about repeatedly.",
+                "Upload it and ask the three questions people actually ask.",
+                "Check each answer against the paragraph it points to.",
+                "Note whether it ever answered something the document did not cover."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the question to the tool that suits it",
+              "subtitle": "Match each question with where it should be asked.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "What does our contract say about late payment"
+                  },
+                  "right": {
+                    "text": "A grounded tool reading only your documents"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "What are the current rules on late payment"
+                  },
+                  "right": {
+                    "text": "A search tool that shows public sources"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Rewrite this clause in plainer language"
+                  },
+                  "right": {
+                    "text": "A general assistant doing the reshaping"
+                  }
+                }
+              ],
+              "failHint": "Ask whether the answer lives in your files, in the world, or in the phrasing.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Upload quality decides everything",
+              "bodyHtml": "<p>The answers are exactly as good as the documents. An outdated policy produces confident, outdated answers with no warning attached.</p><p>Check dates before uploading, and remove superseded versions. This is the single habit that determines whether the tool helps or misleads.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "NotebookLM answers only from documents you supply, which makes every answer traceable to a page you can open. That suits policies, contracts, collected research, transcripts and study material — anywhere being wrong has consequences. It is not a general assistant, and its answers are exactly as good as the files you upload.",
+              "nextTeaser": "Next: setting one up so the answers are worth trusting."
+            }
+          ]
+        },
+        {
+          "slug": "nlm-setting-up",
+          "title": "Building a notebook worth trusting",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most disappointing results come from the upload stage, not the asking stage. Ten minutes of care here changes everything downstream.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One notebook, one subject",
+              "bodyHtml": "<p><s>A single notebook holding contracts, marketing plans, meeting notes and research.</s></p><p><strong>A notebook per subject: one for client contracts, one for the project you are researching.</strong></p><p>Mixing subjects produces answers that blend unrelated documents, and the blend is invisible in the reply.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "One notebook, one subject. Mixed sources produce blended answers you cannot untangle."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three rules for what goes in",
+              "bodyHtml": "<ul><li><strong>Current versions only</strong> — delete the superseded ones</li><li><strong>Whole documents</strong> — not fragments that drop the exceptions</li><li><strong>Nothing confidential you lack permission to upload</strong></li></ul><p>The third is a real professional obligation, not a formality. Check before uploading anything belonging to a client.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "You upload both the old and the new version of a policy. What happens?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "It uses the newer document because that file was uploaded last."
+                },
+                {
+                  "id": "b",
+                  "label": "It may answer from either, and the reply will not say which."
+                },
+                {
+                  "id": "c",
+                  "label": "It notices the conflict and asks you which version to rely on."
+                },
+                {
+                  "id": "d",
+                  "label": "It merges them into one answer covering both sets of rules."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "It treats every uploaded document as equally valid. Two contradicting versions produce answers that quietly draw on whichever passage matched, which is why removing superseded files matters more than adding new ones.",
+              "wrongHint": "Ask how the tool would know which of two documents you consider authoritative."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask it what it has",
+              "bodyHtml": "<p>Before relying on a notebook, ask what topics its documents cover and where they are thin.</p><p>That single question exposes gaps immediately and stops you trusting a notebook that is missing the document you assumed was in it.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Create a notebook for one subject only.",
+                "Upload current versions and delete anything superseded.",
+                "Ask what the documents cover and where they are thin.",
+                "Ask one question you already know the answer to, as a test."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the upload habit to the problem it prevents",
+              "subtitle": "Match each rule with the failure it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "One notebook per subject"
+                  },
+                  "right": {
+                    "text": "Answers blended from unrelated documents"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Current versions only"
+                  },
+                  "right": {
+                    "text": "Confident replies drawn from superseded rules"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Whole documents, not extracts"
+                  },
+                  "right": {
+                    "text": "Answers missing the exception that applied"
+                  }
+                }
+              ],
+              "failHint": "For each habit, imagine skipping it and ask what the first wrong answer looks like.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Test with a known answer",
+              "bodyHtml": "<p>Always ask one question you already know the answer to. If it gets that wrong, the problem is the uploads, not the questions.</p><p>This takes thirty seconds and tells you whether anything else it says is worth trusting.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Build one notebook per subject, upload only current whole documents, and never upload client material you lack permission to share. Ask what the notebook covers before relying on it, and always test with a question you already know the answer to — a wrong answer there means the uploads are the problem.",
+              "nextTeaser": "Next: three jobs where it clearly wins."
+            }
+          ]
+        },
+        {
+          "slug": "nlm-three-real-uses",
+          "title": "Three jobs where it wins",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Three situations where a grounded tool is clearly the right choice, and where using anything else would be a mistake.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — the document everyone asks about",
+              "bodyHtml": "<p>Every organisation has one: the policy, the handbook, the specification that generates the same eleven questions forever.</p><p>A notebook holding it answers those questions with the paragraph attached. This is also the easiest paid project on this shelf to sell.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Every business has one document that generates the same questions forever. That is a paid project."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two and three",
+              "bodyHtml": "<p><strong>Research across many sources.</strong> Twenty papers, reports or articles collected for one decision. Ask across all of them at once rather than remembering which said what.</p><p><strong>Learning something properly.</strong> Upload the material and ask it to question you. Being tested beats being told, and the material is the actual syllabus rather than a general summary.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why is this a good tool for genuinely learning a subject?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Because it explains difficult topics more simply than others do."
+                },
+                {
+                  "id": "b",
+                  "label": "Because it works from your real material and can question you."
+                },
+                {
+                  "id": "c",
+                  "label": "Because it covers more of any subject than a general assistant."
+                },
+                {
+                  "id": "d",
+                  "label": "Because it organises material into a structured study timetable."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "It works from the exact material you must know rather than a general version of the topic, and answering its questions reveals the gaps far faster than rereading does.",
+              "wrongHint": "Think about what makes studying effective — reading again, or being asked."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The shared property",
+              "bodyHtml": "<p>All three involve a fixed body of material that matters. Not the open web, not general knowledge — a specific set of documents where accuracy is the whole point.</p><p>When that describes your problem, this is the tool. When it does not, it is the wrong one.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Identify the document your team asks about most.",
+                "Build a notebook and answer three real questions from it.",
+                "Upload material for something you are learning.",
+                "Ask it to question you on that material and note the gaps."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the job to why grounding helps",
+              "subtitle": "Match each job with the reason a grounded tool suits it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Answering questions about a handbook"
+                  },
+                  "right": {
+                    "text": "The answer must come from that exact document"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Working across twenty collected papers"
+                  },
+                  "right": {
+                    "text": "One place to ask, with each claim traceable"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Studying a subject properly"
+                  },
+                  "right": {
+                    "text": "It tests you on the real material, not a summary"
+                  }
+                }
+              ],
+              "failHint": "For each, ask why a general assistant would be worse rather than merely different.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Selling the first one",
+              "bodyHtml": "<p>Ask a business which document generates the most repeated questions. They always know, and they usually laugh when they say it.</p><p>That answer is a scoped, finishable project you can price and deliver in days — and it is the easiest first sale in this whole area.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Three jobs suit it: the document that generates endless repeated questions, research spread across many sources, and learning material you must genuinely know. All involve a fixed body of documents where accuracy matters. The first is also the easiest paid project on this shelf — every business knows which document it is.",
+              "nextTeaser": "Next: the limits of working only from your files."
+            }
+          ]
+        },
+        {
+          "slug": "nlm-limits",
+          "title": "The cost of grounding",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The restriction that makes it trustworthy also makes it narrow. Four limits, and what to do about each.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — it knows nothing you did not give it",
+              "bodyHtml": "<p>Ask about anything outside the uploads and it has nothing useful to say. That is correct behaviour, and it surprises people.</p><p>It cannot tell you the current rules, only what your document claims the rules are — which may be two years out of date.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "It reports what your documents say. It cannot tell you whether they are still true."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three more",
+              "bodyHtml": "<ul><li><strong>Bad uploads, bad answers</strong> — with no warning that a source is stale</li><li><strong>Weak at producing</strong> — it answers about material rather than creating new work</li><li><strong>Permission is your responsibility</strong> — check before uploading client material</li></ul><p>The last one carries real professional risk, and no tool will check it for you.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Your uploaded policy is two years out of date. What does it do?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "It flags that the document appears old and may be superseded."
+                },
+                {
+                  "id": "b",
+                  "label": "It answers confidently from the old policy without any warning."
+                },
+                {
+                  "id": "c",
+                  "label": "It searches for a newer version to compare the document against."
+                },
+                {
+                  "id": "d",
+                  "label": "It refuses to answer until a current version has been uploaded."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "It reports faithfully what the document says, and faithfulness to a stale source looks identical to faithfulness to a current one. Keeping uploads current is your job, and nothing in the tool does it for you.",
+              "wrongHint": "Ask what the tool can actually know about a document's age or status."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Pair it with a search tool",
+              "bodyHtml": "<p>The strong combination: use a grounded tool for what your documents say, and a search tool for whether that is still correct.</p><p>Neither answers the other's question. Together they cover both halves, and the gap between them is where most costly mistakes live.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Check the date on every document in your main notebook.",
+                "Pick the oldest and verify externally whether it still holds.",
+                "Remove or update anything superseded.",
+                "Write down who is responsible for keeping each source current."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the limit to what covers it",
+              "subtitle": "Match each limit with the thing that compensates for it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "It cannot know if a document is outdated"
+                  },
+                  "right": {
+                    "text": "A search tool checking the current position"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It answers about material rather than creating"
+                  },
+                  "right": {
+                    "text": "A general assistant for the drafting"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It has no view on upload permissions"
+                  },
+                  "right": {
+                    "text": "Your own check before anything is uploaded"
+                  }
+                }
+              ],
+              "failHint": "For each limit, ask which other tool or habit fills that particular gap.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Grounded, not correct",
+              "bodyHtml": "<p>Grounding guarantees the answer came from your documents. It guarantees nothing about whether those documents are right.</p><p>Holding both ideas at once is the whole skill, and it is what separates someone using this tool well from someone quoting a stale policy with total confidence.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Grounding costs you reach: it knows nothing outside the uploads, cannot tell that a source is stale, produces little new work, and takes no view on whether you had permission to upload. Pair it with a search tool for currency and a general assistant for drafting — grounded means traceable, not correct.",
+              "nextTeaser": "That completes the course: why it refuses to wander, building a notebook, three strong uses, and the cost."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

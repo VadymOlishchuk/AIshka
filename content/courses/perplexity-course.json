@@ -1,0 +1,511 @@
+{
+  "slug": "perplexity-course",
+  "title": "Perplexity, honestly",
+  "description": "A research tool rather than a chatbot, and the difference decides when to use it. Covers why visible sources matter most where you cannot spot an error, framing questions that find facts instead of advertising, three jobs it does best, and the four limits behind its air of rigour.",
+  "kind": "mini",
+  "icon": "🔎",
+  "shelf": "Tool courses",
+  "sortOrder": 2,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The course",
+      "description": "Four lessons on researching with sources and knowing what the sources do not prove.",
+      "icon": "🔎",
+      "lessons": [
+        {
+          "slug": "plx-what-it-is-for",
+          "title": "Why it is not a chatbot",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Perplexity looks like the other assistants and answers a different question. Missing that distinction is why people either dismiss it or misuse it.</p><p>A general assistant answers from what it absorbed in training. This searches first, then answers from what it found — and shows you the pages.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "The difference that matters",
+              "bodyHtml": "<p><s>Asking a general assistant «what are the current rules on X» and receiving a confident paragraph.</s></p><p><strong>Asking a search-based tool the same thing and receiving a paragraph with four links you can open.</strong></p><p>The second can be checked in thirty seconds. The first cannot be checked at all, and confidence reads identically in both.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "The value is not the answer. It is the ability to open the page the answer came from."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where this wins",
+              "bodyHtml": "<ul><li><strong>Anything current</strong> — prices, rules, recent events</li><li><strong>Claims you must defend</strong> — anything a client might question</li><li><strong>Unfamiliar territory</strong> — where you cannot spot a wrong answer</li><li><strong>Comparisons</strong> — several options with evidence for each</li></ul><p>The third is the important one. You catch mistakes in your own field and miss them everywhere else.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "When does the source-showing matter most?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "When the topic is complicated and needs a detailed explanation."
+                },
+                {
+                  "id": "b",
+                  "label": "When you know too little to notice that an answer is wrong."
+                },
+                {
+                  "id": "c",
+                  "label": "When you need the answer written in a more formal register."
+                },
+                {
+                  "id": "d",
+                  "label": "When the question has several possible reasonable answers."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Inside your own field you spot errors instinctively. Outside it you have no such alarm, and a confident wrong answer passes straight through — which is exactly where visible sources earn their keep.",
+              "wrongHint": "Think about where your own judgement would fail to catch a mistake."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "It is not a writer",
+              "bodyHtml": "<p>Do not use it to draft your newsletter or rewrite your report. It is built to find and attribute, not to produce polished prose in your voice.</p><p>Use it to gather, then move the material to a general assistant to shape. Two tools, one workflow.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a question you recently asked a general assistant.",
+                "Ask it here and open every source it offers.",
+                "Check whether the sources actually support the claim.",
+                "Note any claim that no source really backed."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the question to the right tool",
+              "subtitle": "Match each question with the tool built to answer it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "What are the current rules on this"
+                  },
+                  "right": {
+                    "text": "A search tool: the answer must be current and checkable"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Rewrite this in a warmer tone"
+                  },
+                  "right": {
+                    "text": "A general assistant: shaping, not finding"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "What does our own policy document say"
+                  },
+                  "right": {
+                    "text": "A grounded tool reading only your files"
+                  }
+                }
+              ],
+              "failHint": "Ask whether the answer must be found, shaped, or taken from your own material.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Sources are not automatically good",
+              "bodyHtml": "<p>Showing a link proves it read that page. It does not prove the page was right.</p><p>A confident summary of a bad blog post is still wrong. Glance at where the link goes before you rely on it — that habit is the whole skill.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Perplexity searches first and shows the pages it used, which makes its answers checkable — most valuable in unfamiliar territory where you cannot spot an error yourself. It is not a writer: gather here, shape elsewhere. And a visible source proves it read the page, not that the page was right.",
+              "nextTeaser": "Next: asking questions that produce good sources."
+            }
+          ]
+        },
+        {
+          "slug": "plx-asking-well",
+          "title": "Questions that find good sources",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>The quality of what comes back depends almost entirely on how the question is framed. The same fact, asked two ways, produces a government page or a marketing blog.</p><p>Three habits do most of the work.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — ask for the thing, not the opinion",
+              "bodyHtml": "<p><s>«What is the best invoicing software for freelancers?»</s></p><p><strong>«What do invoicing tools for freelancers charge, and what are the transaction fees on each?»</strong></p><p>«Best» finds affiliate listicles. A factual question finds pricing pages, and you form your own opinion from real numbers.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Ask «best» and you find advertising. Ask «what does it cost» and you find facts."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two and three",
+              "bodyHtml": "<p><strong>Say where it should look.</strong> «According to official guidance» or «from the company's own documentation» narrows the search away from summaries of summaries.</p><p><strong>Say when.</strong> «As of this year» matters for anything that changes — rules, prices, availability. Without it you get whatever ranks well, which may be four years old.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why does asking «what is the best tool for X» tend to disappoint?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Because the tool cannot form opinions about products at all."
+                },
+                {
+                  "id": "b",
+                  "label": "Because «best» matches listicles written to earn commission."
+                },
+                {
+                  "id": "c",
+                  "label": "Because comparison questions need more detail to work properly."
+                },
+                {
+                  "id": "d",
+                  "label": "Because product information changes too often to be reliable."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "«Best of» pages are written to rank and to earn affiliate revenue, so that is what the phrasing finds. Asking for prices and features surfaces the pages that actually contain them.",
+              "wrongHint": "Think about which kind of page is written to match that exact wording."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Follow the thread",
+              "bodyHtml": "<p>The strength of a research tool is the second and third question, not the first. Ask, read a source, then ask the sharper question that reading produced.</p><p>People who get the most out of it treat it as a conversation with a librarian, not a vending machine.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a decision you are currently researching.",
+                "Write the question as a fact, not as «what is best».",
+                "Add where it should look and the time period.",
+                "Ask a follow-up based on something you read in a source."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the fix to the weak question",
+              "subtitle": "Match each weak question with the change that improves it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "What is the best CRM for small teams"
+                  },
+                  "right": {
+                    "text": "Ask what each costs and what it actually does"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "What are the rules on invoicing abroad"
+                  },
+                  "right": {
+                    "text": "Add: according to official guidance"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "How much does this service charge"
+                  },
+                  "right": {
+                    "text": "Add: as of this year"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what kind of page that exact wording would rank first.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Read one source properly",
+              "bodyHtml": "<p>Opening one primary source teaches you more than five summaries, because summaries drop the exception that applies to you.</p><p>Use the tool to find the page quickly. Then read the page — that part is still your job and always will be.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Ask for facts rather than «best», name where it should look, and state the time period. Then follow the thread — the second and third questions are where the value is. Use it to find the primary source fast, then read that source yourself, because summaries drop the exception that applies to you.",
+              "nextTeaser": "Next: three research jobs it does better than anything else."
+            }
+          ]
+        },
+        {
+          "slug": "plx-three-real-uses",
+          "title": "Three jobs it does best",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Three research jobs where a search-based tool clearly beats both a general assistant and an ordinary search engine.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — checking something before you repeat it",
+              "bodyHtml": "<p>Somebody sent you a statistic. Before it goes into your proposal, find out whether it is real and how old it is.</p><p>This takes about ninety seconds and has saved more reputations than any other use on this list.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Check the number before you repeat it. Ninety seconds now, or an awkward correction later."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Two and three",
+              "bodyHtml": "<p><strong>Preparing for a conversation.</strong> Before a client call, learn what the company does, what changed recently and what its market looks like. Fifteen minutes of grounded reading beats an hour of guessing.</p><p><strong>Comparing real options.</strong> Prices, terms and limits across several providers, each with a link, in one pass rather than eleven browser tabs.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A colleague sends a striking statistic for your proposal. What comes first?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Include it, since a colleague you trust has already checked it."
+                },
+                {
+                  "id": "b",
+                  "label": "Find the original source and check what year it refers to."
+                },
+                {
+                  "id": "c",
+                  "label": "Rewrite it more cautiously so the claim is harder to attack."
+                },
+                {
+                  "id": "d",
+                  "label": "Ask a general assistant whether the statistic sounds plausible."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "Striking statistics travel far past their expiry date and often past their original meaning. Finding the source tells you the year and the population it described, which is usually narrower than the version being passed around.",
+              "wrongHint": "Ask what you would need to know if someone challenged that number."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What ties them together",
+              "bodyHtml": "<p>All three are about not being wrong in public. That is a different goal from producing text, and it needs a different tool.</p><p>Confidence without a source is the specific risk here, and visible sources are the specific fix.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Find a statistic you have repeated more than once.",
+                "Trace it to its original source and note the year.",
+                "Check whether it described the group you have been applying it to.",
+                "Decide whether you will keep using it."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the job to the risk it removes",
+              "subtitle": "Match each research job with what it protects you from.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Tracing a statistic to its source"
+                  },
+                  "right": {
+                    "text": "Repeating a number that is old or misapplied"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Reading up before a client call"
+                  },
+                  "right": {
+                    "text": "Asking something the website already answered"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Comparing terms across providers"
+                  },
+                  "right": {
+                    "text": "Choosing on marketing rather than on limits"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what the embarrassing outcome would have been.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep what you verified",
+              "bodyHtml": "<p>When you trace a fact to a good source, save both the fact and the link. You will need it again and will not want to repeat the search.</p><p>A short file of verified facts with sources is quietly one of the most valuable things a freelancer can own.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Three jobs stand out: checking a statistic before repeating it, preparing properly for a client conversation, and comparing real terms across providers. All three are about not being wrong in public, which needs visible sources rather than fluent text. Save what you verify, with the link.",
+              "nextTeaser": "Next: where it falls short."
+            }
+          ]
+        },
+        {
+          "slug": "plx-limits",
+          "title": "Where it falls short",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>A tool that shows sources feels trustworthy, and that feeling is itself a risk. Four limits worth knowing before you rely on it.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "One — a link is not a verdict",
+              "bodyHtml": "<p>It shows what it read, not whether that page was any good. A confident summary of a poor source is still a poor answer, wrapped in the appearance of rigour.</p><p>Glance at the domain. A government page, a company's own documentation and an anonymous blog carry very different weight.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "A visible source raises the ceiling on trust. It does not raise the floor."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three more",
+              "bodyHtml": "<ul><li><strong>It flattens disagreement</strong> — where experts differ, a single tidy answer hides that</li><li><strong>It cannot reach what is closed</strong> — paywalled and internal material is invisible to it</li><li><strong>It is a poor writer</strong> — gather here, shape elsewhere</li></ul><p>The second bites hardest in specialist fields, where the good material is exactly the material behind a paywall.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "On a contested topic, what is the specific danger?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "It will refuse to answer questions where experts openly disagree."
+                },
+                {
+                  "id": "b",
+                  "label": "One tidy answer can hide that the field is genuinely divided."
+                },
+                {
+                  "id": "c",
+                  "label": "It will always select whichever position appears most often online."
+                },
+                {
+                  "id": "d",
+                  "label": "It cannot summarise arguments that contradict one another clearly."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "A single fluent paragraph makes a contested question look settled. Asking directly what the main disagreements are usually produces a far more honest picture than the first answer did.",
+              "wrongHint": "Think about what a smooth summary of a divided field would leave out."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Ask what the argument is",
+              "bodyHtml": "<p>On anything contested, add a second question: «what do people disagree about here, and why?»</p><p>That question does more for your understanding than any amount of rephrasing the first one, and it is the habit that separates research from collecting.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Take a contested question in your field.",
+                "Ask it plainly and read the answer.",
+                "Ask what the main disagreements are and who holds each view.",
+                "Compare how complete the two answers feel."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the limit to the habit that handles it",
+              "subtitle": "Match each shortcoming with what you do about it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "It summarises whatever page it found"
+                  },
+                  "right": {
+                    "text": "Glance at the domain before trusting the claim"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It makes divided fields look settled"
+                  },
+                  "right": {
+                    "text": "Ask what people disagree about and why"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It cannot see paywalled material"
+                  },
+                  "right": {
+                    "text": "Expect gaps in specialist subjects"
+                  }
+                }
+              ],
+              "failHint": "For each limit, ask what a careful researcher would do differently.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Use it with something else",
+              "bodyHtml": "<p>The strongest workflow is two tools: find and verify here, then draft in a general assistant with the verified material pasted in.</p><p>Neither does both jobs well. Together they cover the whole task, and the handoff takes seconds.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Four limits: a visible link says it read the page, not that the page was right; contested fields get flattened into one tidy answer; paywalled and internal material is invisible; and it writes poorly. Ask what people disagree about, check the domain, and pair it with a general assistant for the drafting.",
+              "nextTeaser": "That completes the course: what it is for, asking well, three strong uses, and its limits."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

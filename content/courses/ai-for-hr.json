@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on using AI in HR without handing a hiring decision to something nobody can audit.",
       "lessons": [
         {
           "slug": "hr-why-screening-fails",
-          "title": "Why AI Screening Goes Wrong",
+          "title": "Why AI screening goes wrong",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Ranking Is Not Reading",
+              "heading": "Ranking is not reading",
               "bodyHtml": "<p><s>«Score these 200 CVs against the job description and give me the top 20.»</s></p><p><strong>«Flag which of these 200 mention hands-on experience with X, and quote the line. I'll read the flagged ones.»</strong></p><p>The first hands over the decision. The second hands over the finding, which is the part that was genuinely slow.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Ways It Filters Badly",
+              "heading": "Four ways it filters badly",
               "bodyHtml": "<ul><li><strong>Wording, not ability</strong> — the right experience described in unusual words</li><li><strong>Career gaps</strong> — treated as a negative signal without context</li><li><strong>Non-standard paths</strong> — self-taught, career changers, foreign qualifications</li><li><strong>Inherited patterns</strong> — whatever your past hiring already looked like</li></ul><p>Each of these removes exactly the candidates a good process is supposed to find.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Use It on the Job, Not the Person",
+              "heading": "Use it on the job, not the person",
               "bodyHtml": "<p>The safer half of the same work is analysing your own material: is this description clear, does it list requirements that are not real, would anyone outside your industry understand it?</p><p>That improves the applicant pool at the top of the funnel rather than trimming it blindly at the bottom.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Approach to Its Consequence",
+              "title": "Match the approach to its consequence",
               "subtitle": "Match each way of handling volume with what it produces.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Be Able to Explain Any Rejection",
+              "heading": "Be able to explain any rejection",
               "bodyHtml": "<p>Whatever process you run, someone may eventually ask why a particular person was not progressed. «The system scored them low» is not an answer that survives that conversation.</p><p>Keep the decision, and the reason for it, with a person. That is the line worth defending regardless of volume.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "hr-ads-and-questions",
-          "title": "Ads and Questions That Actually Filter",
+          "title": "Ads and questions that actually filter",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Describe the Work, Not the Person",
+              "heading": "Describe the work, not the person",
               "bodyHtml": "<p><s>«We're looking for a dynamic self-starter with excellent communication skills.»</s></p><p><strong>«In week one you'll take over the monthly reporting pack. Most of the job is turning messy data from three teams into something a director reads in five minutes.»</strong></p><p>The second attracts fewer applicants and far better ones, because people can tell whether they want the actual work.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Cut the Requirements That Are Not Real",
+              "heading": "Cut the requirements that are not real",
               "bodyHtml": "<ul><li><strong>Degree requirements</strong> nobody in the team actually has</li><li><strong>Years of experience</strong> chosen by habit rather than need</li><li><strong>Long tool lists</strong> where two would do</li><li><strong>«Native speaker»</strong> where fluent is what is meant</li></ul><p>Each of these shrinks your pool without improving it, and several carry legal risk depending on where you hire.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Questions With a Right Kind of Answer",
+              "heading": "Questions with a right kind of answer",
               "bodyHtml": "<p>Interview questions are easy to generate and mostly generic. The useful ones come from your own work: take a real problem the team hit last quarter and ask how the candidate would approach it.</p><p>Use the tool to turn that scenario into a clear question and a marking guide — not to invent the scenario itself, which is the part only you have.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Same Questions, Every Candidate",
+              "heading": "Same questions, every candidate",
               "bodyHtml": "<p>Structured interviews — the same questions, in the same order, scored against the same guide — are the single most effective fairness measure available, and they make notes comparable afterwards.</p><p>Preparing that guide is exactly the kind of writing worth handing over. Deciding what a good answer looks like is not.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "hr-difficult-messages",
-          "title": "The Messages That Are Hard to Write",
+          "title": "The messages that are hard to write",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Kind Is Specific",
+              "heading": "Kind is specific",
               "bodyHtml": "<p><s>«Unfortunately we have decided to proceed with other candidates at this time.»</s></p><p><strong>«We went with someone who had run this reporting process before. Your presentation was the clearest we saw — if the analyst role opens in spring, I'd like to call you.»</strong></p><p>The second takes a minute longer and is the reason people apply again, recommend you, and do not post about the experience.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What to Keep Yourself",
+              "heading": "What to keep yourself",
               "bodyHtml": "<ul><li><strong>The decision</strong> and the real reason for it</li><li><strong>Anything personal</strong> — health, family, performance history</li><li><strong>The commitment</strong> — dates, money, anything you are held to</li><li><strong>The final read</strong> — every word, before it goes</li></ul><p>What can be handed over is structure, tone and the version that says the same thing in half the words.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Say Less Than You Think",
+              "heading": "Say less than you think",
               "bodyHtml": "<p>Long explanations in difficult messages read as defensiveness, and each extra sentence adds something to argue with.</p><p>Ask for a shorter version and choose it. «Half the length, same information, same warmth» is a good instruction and almost always improves the result.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Never Send What You Have Not Read",
+              "heading": "Never send what you have not read",
               "bodyHtml": "<p>This is the one rule with no exceptions. Drafts occasionally invent a detail, and an invented specific in a message about someone's job is a serious problem.</p><p>Reading takes twenty seconds. It is the cheapest professional safeguard in this entire course.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "hr-rules-and-records",
-          "title": "Bias, Records and the Rules",
+          "title": "Bias, records and the rules",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Three Things to Establish Now",
+              "heading": "Three things to establish now",
               "bodyHtml": "<ul><li><strong>Where your candidate data goes</strong> — which tools, which countries, and what your privacy notice says</li><li><strong>Whether any decision is automated</strong> — in several jurisdictions this carries specific obligations</li><li><strong>What you keep</strong> — the record of how each decision was made, and for how long</li></ul><p>Answering these three takes an afternoon and is the difference between defensible and improvised.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Keep the Record as You Go",
+              "heading": "Keep the record as you go",
               "bodyHtml": "<p><s>Reconstructing a hiring decision from memory eight months later, after a complaint.</s></p><p><strong>A short note per candidate at the time: what was assessed, what the evidence was, who decided.</strong></p><p>Writing that note is quick with drafting help and nearly impossible to recreate afterwards, which is exactly when it matters.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Test Your Own Process for Drift",
+              "heading": "Test your own process for drift",
               "bodyHtml": "<p>Once a quarter, look at who progresses and who does not, grouped by whatever data you lawfully hold. You are not looking for proof of bias — you are looking for a pattern worth investigating.</p><p>Doing this on purpose, and recording that you did, is itself evidence of a considered process.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Ask Before You Roll Out",
+              "heading": "Ask before you roll out",
               "bodyHtml": "<p>Rules on automated decision-making in employment differ sharply by country and are being rewritten right now.</p><p>One conversation with an employment lawyer before you change a process is cheap. The same conversation after a complaint is not, and by then the choices have already been made.</p>"
             },
             {

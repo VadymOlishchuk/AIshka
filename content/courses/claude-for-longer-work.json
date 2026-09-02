@@ -1,6 +1,6 @@
 {
   "slug": "claude-for-longer-work",
-  "title": "Claude for Longer Work",
+  "title": "Claude for longer work",
   "description": "Where a second tool genuinely differs: whole documents, careful rewriting, keeping context between sessions, and using it to edit your own writing rather than replace it.",
   "kind": "mini",
   "icon": "✳️",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on the work that is too long or too careful for a quick answer.",
       "lessons": [
         {
           "slug": "cla-where-it-differs",
-          "title": "Where Claude Is Different",
+          "title": "Where Claude is different",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Long Input Is the Real Difference",
+              "heading": "Long input is the real difference",
               "bodyHtml": "<p>Short questions produce broadly similar answers everywhere. The gap appears when you paste something substantial.</p><p><s>«Explain the difference between these two contracts.»</s></p><p><strong>«Both contracts are below. List every clause where the obligations differ, quoting each one.»</strong></p><p>The second is the kind of task worth choosing a tool for — a lot of text in, something specific out.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What It Suits",
+              "heading": "What it suits",
               "bodyHtml": "<ul><li><strong>Whole documents</strong> — reports, transcripts, contracts, long threads</li><li><strong>Careful rewriting</strong> — keeping meaning while changing register</li><li><strong>Work where being wrong matters</strong> — it hedges rather than guesses</li><li><strong>Extended back-and-forth</strong> — refining one piece over many turns</li></ul><p>The third is a genuine trade-off: more hedging is safer and occasionally more annoying.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Give It Everything",
+              "heading": "Give it everything",
               "bodyHtml": "<p>The instinct with long material is to trim it first. Usually that removes the context that made the answer good.</p><p>Paste the whole thing and narrow the question instead. «Here is the full transcript — find every commitment anyone made» beats a shortened transcript and a broad question.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Task to Whether the Tool Matters",
+              "title": "Match the task to whether the tool matters",
               "subtitle": "Match each kind of work with how much the choice of tool affects it.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Use Two, Not One",
+              "heading": "Use two, not one",
               "bodyHtml": "<p>There is no reason to pick a single tool permanently. Most people who work with this daily use one for long documents and another for quick turnaround, and switch without thinking about it.</p><p>What matters is knowing which kind of task you are doing, not which brand you are loyal to.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "cla-long-documents",
-          "title": "Working With Long Documents",
+          "title": "Working with long documents",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Extraction Beats Summary",
+              "heading": "Extraction beats summary",
               "bodyHtml": "<p><s>«Summarise this report.»</s></p><p><strong>«List every commitment with a date attached, and quote the sentence each one comes from.»</strong></p><p>The second gives you something you can act on and check in seconds. The first gives you something you must read the document to evaluate.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Questions That Work on Anything Long",
+              "heading": "Four questions that work on anything long",
               "bodyHtml": "<ul><li><strong>«Find every mention of X»</strong> — extraction rather than overview</li><li><strong>«What does this assume without saying?»</strong> — the hidden argument</li><li><strong>«Where does it contradict itself?»</strong> — genuinely hard by hand</li><li><strong>«What would a sceptic attack first?»</strong> — the review question</li></ul><p>All four produce answers you can verify against the source in under a minute.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Work in Sections",
+              "heading": "Work in sections",
               "bodyHtml": "<p>On very long material, go section by section and keep the outputs. Quality drops when everything is processed at once, and the drop is invisible — it looks like a shorter answer, not a worse one.</p><p>Sectioning also lets you check as you go, which is far faster than finding a problem inside a finished forty-page summary.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Spot-Check the Quotes",
+              "heading": "Spot-check the quotes",
               "bodyHtml": "<p>The most common failure with long input is a detail quietly reassigned — the right number attached to the wrong year, the right statement to the wrong speaker.</p><p>Check three quotes at random before you rely on anything. It takes a minute and catches this class of error almost every time it happens.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "cla-keeping-context",
-          "title": "Keeping Context Between Sessions",
+          "title": "Keeping context between sessions",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Write the Standing Brief",
+              "heading": "Write the standing brief",
               "bodyHtml": "<p>Anything you find yourself repeating belongs somewhere permanent rather than in the conversation.</p><p><s>Explaining your role, your audience and your preferences at the start of every chat.</s></p><p><strong>«I run a small bakery. Writing is for customers, not colleagues. Plain English, short sentences, never exclamation marks.»</strong></p><p>Written once, that removes the same three corrections from every conversation this month.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "One Space per Project",
+              "heading": "One space per project",
               "bodyHtml": "<ul><li><strong>Separate work from personal</strong> — instructions bleed otherwise</li><li><strong>One per client or project</strong>, with their material in it</li><li><strong>Keep the reference documents there</strong>, not pasted each time</li><li><strong>Name them by what they are for</strong>, not by date</li></ul><p>Switching context then takes one click instead of three paragraphs of re-explanation.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Watch What It Remembers",
+              "heading": "Watch what it remembers",
               "bodyHtml": "<p>Memory features carry details between conversations, which is convenient and occasionally awkward — a client name or a rate surfacing where you did not expect it.</p><p>Look at what is stored every month, delete anything belonging to someone else, and turn it off for work you would not want repeated elsewhere.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Review It Monthly",
+              "heading": "Review it monthly",
               "bodyHtml": "<p>Once a month, look at what you have been correcting repeatedly and move it into the brief. Ten minutes.</p><p>Over a year this quietly becomes the most useful document you own — and it is yours, not tied to any one tool.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "cla-editing-not-generating",
-          "title": "Editing With It, Not Generating",
+          "title": "Editing with it, not generating",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Ask for Problems, Not Praise",
+              "heading": "Ask for problems, not praise",
               "bodyHtml": "<p><s>«Can you improve this paragraph?»</s></p><p><strong>«Which sentence here is doing no work? Where would a sceptical reader stop believing me? What am I assuming they already know?»</strong></p><p>The first returns a smoother version of the same text. The second returns the three things you would have missed.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Five Questions Worth Asking of Your Own Writing",
+              "heading": "Five questions worth asking of your own writing",
               "bodyHtml": "<ul><li><strong>What is the point, in one sentence?</strong> If it cannot answer, neither can a reader</li><li><strong>Which sentence could be deleted with nothing lost?</strong></li><li><strong>Where does this assume knowledge?</strong></li><li><strong>What would the strongest objection be?</strong></li><li><strong>Which line is the one worth keeping?</strong></li></ul><p>Answer those five and the piece improves without a single generated sentence.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Keep Your Own Voice",
+              "heading": "Keep your own voice",
               "bodyHtml": "<p>If you generate, you sound like everyone else. If you edit, you sound like yourself with the weak parts removed — and that difference is noticeable to readers even when they cannot name it.</p><p>It also compounds: the same three weaknesses come back every time, and after a month you stop making them.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Disagree Out Loud",
+              "heading": "Disagree out loud",
               "bodyHtml": "<p>It agrees readily when you push back, so its opinion is not evidence. But arguing with it forces you to articulate why you wrote something that way — and that is the moment you find out whether you had a reason.</p><p>Half the value of this exercise is discovering which of your choices were deliberate and which were habit.</p>"
             },
             {

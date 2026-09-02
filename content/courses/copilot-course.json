@@ -1,0 +1,511 @@
+{
+  "slug": "copilot-course",
+  "title": "Microsoft Copilot, honestly",
+  "description": "The assistant that matters because of where it sits, not how clever it is. Covers working inside the document, describing spreadsheet calculations instead of writing formulas, threads and missed meetings, and an honest verdict on whether the licence is worth it.",
+  "kind": "mini",
+  "icon": "🪟",
+  "shelf": "Tool courses",
+  "sortOrder": 4,
+  "modules": [
+    {
+      "slug": "the-course",
+      "title": "The course",
+      "description": "Three lessons on the assistant built into Word, Excel, Outlook and Teams.",
+      "icon": "🪟",
+      "lessons": [
+        {
+          "slug": "cop-what-it-is-for",
+          "title": "The assistant inside your documents",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Copilot's argument is the same as Gemini's, pointed at a different set of files: if your work lives in Word, Excel, Outlook and Teams, the assistant that lives there too removes the round trip.</p><p>For most office employment, that is where the work actually is.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "In place, not in a tab",
+              "bodyHtml": "<p><s>Copying a paragraph out of Word, pasting it into a browser, pasting the result back and fixing the formatting.</s></p><p><strong>Selecting the paragraph in Word and asking for the change where it already sits.</strong></p><p>Same output, and the formatting survives. Over a working week the difference is substantial and entirely unglamorous.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Its advantage is not intelligence. It is that your document never leaves the window."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where it is strongest",
+              "bodyHtml": "<ul><li><strong>Excel</strong> — describing what you want instead of writing the formula</li><li><strong>Outlook</strong> — summarising long threads and drafting replies</li><li><strong>Word</strong> — reshaping documents in place</li><li><strong>Teams</strong> — what was decided in a meeting you missed</li></ul><p>Excel is the one that converts sceptics. It removes a genuine barrier rather than saving a few keystrokes.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "Why does working inside the document matter more than it sounds?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Because the assistant produces better output when given more context."
+                },
+                {
+                  "id": "b",
+                  "label": "Because the round trip and the formatting repair vanish entirely."
+                },
+                {
+                  "id": "c",
+                  "label": "Because documents are more secure when they stay inside the app."
+                },
+                {
+                  "id": "d",
+                  "label": "Because the built-in version has features the web version lacks."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Correct 🔥",
+              "successBody": "The saving is friction rather than quality. Copy, paste, paste back and repair formatting is trivial once and significant forty times a week — which is the frequency that decides whether a tool gets used at all.",
+              "wrongHint": "Think about what you repeat many times a week rather than what impresses once."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The catch worth knowing",
+              "bodyHtml": "<p>It needs a paid licence, and it is not included in an ordinary subscription. Many people evaluating it are actually using the free web assistant and comparing the wrong thing.</p><p>Before judging it, confirm which one you have. This confusion is extremely common.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Check whether you have the licensed version or the free web one.",
+                "Open a spreadsheet and describe a calculation you would normally look up.",
+                "Ask Outlook to summarise your longest thread this week.",
+                "Note which of the two saved more time."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the application to its strongest use",
+              "subtitle": "Match each Microsoft application with what it does best there.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Excel"
+                  },
+                  "right": {
+                    "text": "Describing a calculation instead of writing the formula"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Outlook"
+                  },
+                  "right": {
+                    "text": "Summarising a long thread and drafting the reply"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Teams"
+                  },
+                  "right": {
+                    "text": "Recovering what was decided in a missed meeting"
+                  }
+                }
+              ],
+              "failHint": "For each application, ask which task there is most repetitive and most avoided.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Judge it on a boring task",
+              "bodyHtml": "<p>Test it on the spreadsheet you actually maintain, not on a demonstration. Its value is concentrated in dull recurring work.</p><p>That is also where it fails least — the tasks are well-defined and the material is already in front of it.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Copilot's case is proximity to Microsoft files: reshaping in Word, describing calculations in Excel, summarising threads in Outlook, recovering decisions from Teams. The saving is friction rather than intelligence. Confirm you have the licensed version rather than the free web assistant before judging it.",
+              "nextTeaser": "Next: the Excel work that converts sceptics."
+            }
+          ]
+        },
+        {
+          "slug": "cop-excel",
+          "title": "Spreadsheets without the formula",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Most people use a fraction of what a spreadsheet can do, not from lack of need but because the syntax is a wall.</p><p>Describing the calculation in plain language removes that wall, and it is the single most useful thing here.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Describe the outcome",
+              "bodyHtml": "<p><s>Searching online for how to write a lookup that handles missing values.</s></p><p><strong>«For each name in column A, find their total in the other sheet, and leave it blank if there is no match.»</strong></p><p>You describe what you want. It produces the formula. You check it against a row you can verify by eye.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Describe the result you want, then check one row you can verify yourself."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Four tasks worth learning first",
+              "bodyHtml": "<ul><li><strong>Lookups across sheets</strong> — the most common wall</li><li><strong>Cleaning</strong> — splitting names, fixing dates, trimming spaces</li><li><strong>Summaries by category</strong> — totals per client, per month</li><li><strong>Explaining a formula</strong> — someone else's, that nobody dares touch</li></ul><p>The fourth is underrated. Every business has a spreadsheet nobody understands and everybody depends on.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "It writes a formula and the result looks plausible. What now?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Use it, since a plausible result usually indicates a correct formula."
+                },
+                {
+                  "id": "b",
+                  "label": "Check one row where you can work out the right answer yourself."
+                },
+                {
+                  "id": "c",
+                  "label": "Ask it to explain the formula and confirm the logic is sound."
+                },
+                {
+                  "id": "d",
+                  "label": "Run it across the sheet and look for values that seem unusual."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "A formula can be subtly wrong and still produce a believable column — off-by-one ranges and silent mismatches look completely normal. One hand-checked row catches most of it in seconds.",
+              "wrongHint": "Ask which check would actually prove the formula right rather than plausible."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "Clean data first",
+              "bodyHtml": "<p>It works on what is there. Merged cells, inconsistent dates and stray spaces produce confidently wrong results.</p><p>Ask it to find the inconsistencies before asking it to calculate. That order saves far more time than it costs.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Open a spreadsheet you maintain regularly.",
+                "Describe one calculation you usually look up.",
+                "Verify a single row by hand before trusting the column.",
+                "Ask it to explain a formula in that sheet you did not write."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the spreadsheet task to why it helps",
+              "subtitle": "Match each task with the barrier it removes.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Describing a lookup in plain language"
+                  },
+                  "right": {
+                    "text": "The syntax wall that stopped you before"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Asking it to explain an old formula"
+                  },
+                  "right": {
+                    "text": "A sheet everyone depends on and nobody understands"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "Finding inconsistencies before calculating"
+                  },
+                  "right": {
+                    "text": "Confident results from messy underlying data"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what specifically was stopping the work from getting done.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Keep the formula, not the chat",
+              "bodyHtml": "<p>When something works, paste the formula into a notes tab with a line explaining what it does.</p><p>Next quarter you will need it again, and rebuilding it from memory takes longer than writing that line ever did.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Describing a calculation in plain language removes the syntax barrier that stops most spreadsheet work: lookups, cleaning, category summaries and explaining formulas nobody dares touch. Clean the data before calculating, verify one row by hand every time, and keep working formulas with a note on what they do.",
+              "nextTeaser": "Next: mail, meetings and where it disappoints."
+            }
+          ]
+        },
+        {
+          "slug": "cop-mail-and-meetings",
+          "title": "Mail, meetings and honest limits",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Two more genuinely useful jobs, and then the part the product pages skip: where it disappoints and why.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Threads and meetings",
+              "bodyHtml": "<p><strong>Long mail threads:</strong> ask what was decided and what is outstanding rather than reading forty replies. The context is already there, which is why this works well.</p><p><strong>Missed meetings:</strong> ask what was decided and what was assigned to you. Far faster than watching a recording, and usually more accurate than your colleague's recollection.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "Ask a thread what was decided and what is outstanding. Do not ask it to summarise everything."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Where it disappoints",
+              "bodyHtml": "<ul><li><strong>Messy source material</strong> — a chaotic thread produces a chaotic summary</li><li><strong>Uneven across applications</strong> — noticeably stronger in some than others</li><li><strong>Weak on your voice</strong> — drafts are competent and generic</li><li><strong>Licence confusion</strong> — people compare it to the free tool and judge wrongly</li></ul><p>The third matters for anything client-facing. Use it for structure, then make it sound like you.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "A drafted client email reads competently but not like you. What is the fix?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "Ask it to write in a warmer and more personal tone throughout."
+                },
+                {
+                  "id": "b",
+                  "label": "Keep its structure and rewrite the opening and closing yourself."
+                },
+                {
+                  "id": "c",
+                  "label": "Give it several of your past emails so it can copy your style."
+                },
+                {
+                  "id": "d",
+                  "label": "Draft the email yourself and use it only to check the wording."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "That's it 🔥",
+              "successBody": "Structure is the tedious part and it does that well. Voice lives mostly in how you open and close, so rewriting those two parts takes a minute and recovers what makes the message yours.",
+              "wrongHint": "Think about which part of an email actually carries your voice."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "The honest verdict",
+              "bodyHtml": "<p>If your employer already pays for the licence, it earns its place — particularly in Excel and Outlook.</p><p>If you are choosing personally and your work is not inside Microsoft files, the money is better spent elsewhere. The advantage is location, and location only counts if you are already there.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Ask your longest thread what was decided and what is outstanding.",
+                "Check the answer against the thread itself.",
+                "Draft one client email and rewrite its opening and closing.",
+                "Decide honestly whether the licence would be worth your own money."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the weakness to the way around it",
+              "subtitle": "Match each shortcoming with the practical response.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "Drafts are competent but generic"
+                  },
+                  "right": {
+                    "text": "Keep the structure, rewrite opening and closing"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "A chaotic thread gives a chaotic summary"
+                  },
+                  "right": {
+                    "text": "Ask what was decided, not for a summary"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "People judge it by the free web tool"
+                  },
+                  "right": {
+                    "text": "Confirm which version you are actually using"
+                  }
+                }
+              ],
+              "failHint": "For each weakness, ask what a five-minute habit would do about it.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "Location is the whole argument",
+              "bodyHtml": "<p>Copilot is not competing on being the cleverest assistant, and it does not need to be.</p><p>It is competing on being already open in the window where your work happens. Judge it on that, because that is the only claim it actually makes.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "It handles long threads and missed meetings well because the context is already present. It disappoints on messy material, varies by application, and drafts in a competent generic voice — keep its structure and rewrite the opening and closing. Worth it if the licence is already paid and your work lives in Microsoft files.",
+              "nextTeaser": "That completes the course: working in place, spreadsheets, mail and meetings, and the honest verdict."
+            }
+          ]
+        },
+        {
+          "slug": "cop-company-data",
+          "title": "What it can see",
+          "durationMin": 5,
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "heading": "Introduction",
+              "bodyHtml": "<p>Inside a company, Copilot can reach anything your account has permission to open. That sounds obvious and produces a surprise almost every time.</p><p>Most people have access to far more than they realise, and they have never had a tool willing to look through all of it at once.</p>"
+            },
+            {
+              "id": "b2",
+              "type": "text",
+              "heading": "Permissions you forgot you had",
+              "bodyHtml": "<p>A folder shared with you two years ago. A site you joined for one project. A drive somebody opened to the whole company by mistake.</p><p>You never opened them, so they were effectively invisible. An assistant that searches everything you may access makes them visible again — and it is doing exactly what it was told to do.</p>"
+            },
+            {
+              "id": "b3",
+              "type": "quote",
+              "text": "It does not break permissions. It reveals how loose the permissions already were."
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "heading": "Three practical consequences",
+              "bodyHtml": "<ul><li><strong>Surprising answers</strong> — salary figures, plans, other teams' documents</li><li><strong>Old documents resurfacing</strong> — drafts nobody meant to keep</li><li><strong>Blame lands on the tool</strong> — when the real issue is the sharing</li></ul><p>The third is worth naming out loud, because organisations often respond by switching the tool off rather than fixing what it exposed.</p>"
+            },
+            {
+              "id": "b5",
+              "type": "quiz",
+              "variant": "single",
+              "question": "It surfaces a document you were not supposed to see. What actually happened?",
+              "options": [
+                {
+                  "id": "a",
+                  "label": "The tool bypassed a permission it should have respected properly."
+                },
+                {
+                  "id": "b",
+                  "label": "You already had access, and nobody had noticed until now."
+                },
+                {
+                  "id": "c",
+                  "label": "The document was indexed incorrectly and appeared by mistake."
+                },
+                {
+                  "id": "d",
+                  "label": "Company rules were not applied to the assistant when installed."
+                }
+              ],
+              "correctId": "b",
+              "successTitle": "Exactly! 🔥",
+              "successBody": "It only reaches what your account can already open. Finding something surprising means the sharing was wrong long before the assistant existed — the tool made an old problem visible rather than creating a new one.",
+              "wrongHint": "Ask what the tool would have needed in order to reach that file at all."
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "heading": "What to do about it",
+              "bodyHtml": "<p>If something appears that should not, report it to whoever manages your systems. That is a genuine finding, not an embarrassment to hide.</p><p>And before rolling an assistant out to a team, someone should review what is shared too broadly. That review is a paid project in itself.</p>"
+            },
+            {
+              "id": "b7",
+              "type": "try",
+              "heading": "Try",
+              "items": [
+                "Ask it something you would not expect to have access to.",
+                "Note anything that appears which surprises you.",
+                "Report anything clearly wrong to whoever manages permissions.",
+                "Check what you have shared too widely yourself."
+              ]
+            },
+            {
+              "id": "ai1",
+              "type": "ai_task",
+              "variant": "match_pairs",
+              "cardKind": "text",
+              "title": "Match the surprise to its real cause",
+              "subtitle": "Match each unexpected result with what actually produced it.",
+              "pairs": [
+                {
+                  "left": {
+                    "text": "It surfaced another team's planning document"
+                  },
+                  "right": {
+                    "text": "That folder was shared more widely than intended"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It quoted a draft nobody meant to keep"
+                  },
+                  "right": {
+                    "text": "Old files were never cleared from a shared space"
+                  }
+                },
+                {
+                  "left": {
+                    "text": "It answered from a site you joined once"
+                  },
+                  "right": {
+                    "text": "Access from a finished project was never removed"
+                  }
+                }
+              ],
+              "failHint": "For each, ask what would have had to be true for the file to be reachable.",
+              "optional": true
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "heading": "A clean-up is a project",
+              "bodyHtml": "<p>Reviewing permissions before an assistant is switched on is real, scoped, sellable work — and companies now have an obvious reason to pay for it.</p><p>Nobody funded that clean-up when it was merely good practice. They fund it when a tool is about to read everything.</p>"
+            },
+            {
+              "id": "b9",
+              "type": "summary",
+              "body": "Copilot reaches whatever your account can already open, which means it surfaces sharing mistakes nobody noticed for years. That is a finding, not a fault in the tool — report anything wrong, and review permissions before rolling it out to a team. That review is itself a project companies will now pay for.",
+              "nextTeaser": "That completes the course: working in place, spreadsheets, mail and meetings, and what it can see."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

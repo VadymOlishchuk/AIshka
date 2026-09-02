@@ -1,6 +1,6 @@
 {
   "slug": "image-rights-and-disclosure",
-  "title": "Rights, Likeness and Disclosure",
+  "title": "Rights, likeness and disclosure",
   "description": "Who owns generated images, why owning one does not mean you may use what is in it, where disclosure has become expected, and the four lines that belong in every client agreement.",
   "kind": "mini",
   "icon": "⚖️",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on the questions clients ask and most freelancers guess at.",
       "lessons": [
         {
           "slug": "rgt-who-owns-it",
-          "title": "Who Owns What You Generated",
+          "title": "Who owns what you generated",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Three Separate Questions",
+              "heading": "Three separate questions",
               "bodyHtml": "<ul><li><strong>What does the tool's licence allow?</strong> Commercial use is not automatic on free tiers</li><li><strong>What does your local law say about authorship?</strong> This varies significantly by country</li><li><strong>What did you agree with the client?</strong> This is the one you control</li></ul><p>People conflate these constantly. A tool permitting commercial use says nothing about who owns the result.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Check the Licence, Not the Forum Post",
+              "heading": "Check the licence, not the forum post",
               "bodyHtml": "<p><s>«Someone said it's fine for commercial use.»</s></p><p><strong>«The terms for the plan I pay for say this, dated this month, and I saved a copy.»</strong></p><p>Terms differ between free and paid tiers of the same tool, and they change. A screenshot of the terms on the day you delivered is worth having.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Say What You Can Promise",
+              "heading": "Say what you can promise",
               "bodyHtml": "<p>You can always promise what is in your control: that you have the right to supply the work, and that you have not knowingly infringed anything.</p><p>You cannot promise exclusivity over something generated, because a similar output may exist. Saying that plainly at the start avoids a difficult conversation later.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Question to Where the Answer Lives",
+              "title": "Match the question to where the answer lives",
               "subtitle": "Match each thing a client asks about with what actually settles it.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "This Area Is Moving",
+              "heading": "This area is moving",
               "bodyHtml": "<p>Courts and regulators in several countries are actively deciding these questions, and positions have changed more than once already.</p><p>Re-read your tools' terms once or twice a year, and take actual legal advice before anything high-value. A short conversation now costs less than a dispute later.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "rgt-faces-brands",
-          "title": "Faces, Brands and Places",
+          "title": "Faces, brands and places",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Three Things That Carry Their Own Rules",
+              "heading": "Three things that carry their own rules",
               "bodyHtml": "<ul><li><strong>Recognisable people</strong> — likeness rights exist in most places, generated or not</li><li><strong>Brands and logos</strong> — a trademark does not stop being one because a tool drew it</li><li><strong>Protected places and works</strong> — some buildings and artworks have restrictions</li></ul><p>The first is the one that produces actual complaints, especially when the resemblance is close enough that someone recognises themselves.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Real People Need Permission",
+              "heading": "Real people need permission",
               "bodyHtml": "<p><s>Generating an image resembling a public figure and using it in an advert.</s></p><p><strong>Generating an unremarkable person who resembles nobody in particular.</strong></p><p>Using someone's likeness to promote something almost always needs their agreement, and «it was generated» has not worked as a defence.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Check What Slipped Into the Frame",
+              "heading": "Check what slipped into the frame",
               "bodyHtml": "<p>Generated images routinely include half-formed logos on clothing, recognisable buildings, and text on signage that is nearly a real brand.</p><p>Zoom in before delivering. These details are easy to remove and awkward to explain once published.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "When in Doubt, Change It",
+              "heading": "When in doubt, change it",
               "bodyHtml": "<p>Regenerating with an exclusion is faster than establishing whether a specific use is permitted.</p><p>«No visible logos, no recognisable landmarks, no identifiable faces» in the prompt removes the entire question for most commercial work.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "rgt-disclosure",
-          "title": "When You Must Say It Is Generated",
+          "title": "When you must say it is generated",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Where It Matters Most",
+              "heading": "Where it matters most",
               "bodyHtml": "<ul><li><strong>Anything a buyer relies on</strong> — product images, property photos, listings</li><li><strong>Anything documentary</strong> — news, reports, evidence of something that happened</li><li><strong>Anything depicting a person</strong> — even an invented one, in some contexts</li><li><strong>Regulated advertising</strong> — where rules on misleading claims already apply</li></ul><p>Decorative and illustrative use — a header image, an abstract background — is rarely the concern.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Label It Where It Is Seen",
+              "heading": "Label it where it is seen",
               "bodyHtml": "<p><s>Mentioning during a call that some of the imagery is generated.</s></p><p><strong>A line in the listing itself: «Room setting is a digital visualisation; the product is photographed.»</strong></p><p>A verbal mention protects nobody. The label has to travel with the image, because that is where the person who might be misled encounters it.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Keep a Record Per Project",
+              "heading": "Keep a record per project",
               "bodyHtml": "<p>Note which assets were generated, with which tool, and when. It takes a line per project.</p><p>If a question arrives a year later — from a client, a platform or a regulator — that note is the difference between an answer and a reconstruction.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Disclosing Is Rarely a Problem",
+              "heading": "Disclosing is rarely a problem",
               "bodyHtml": "<p>People worry that saying an image is generated damages trust. In practice the opposite is reported: audiences respond badly to discovering it, not to being told.</p><p>Being the one who mentioned it puts you in a completely different position from being the one who was found out.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "rgt-client-agreements",
-          "title": "Client Work and What to Put in Writing",
+          "title": "Client work and what to put in writing",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Four Lines Worth Having",
+              "heading": "Four lines worth having",
               "bodyHtml": "<ul><li><strong>Whether AI may be used</strong>, and for which parts</li><li><strong>What is transferred</strong> on payment, and what is licensed rather than sold</li><li><strong>Which assets are generated</strong>, listed at delivery</li><li><strong>What you do not warrant</strong> — exclusivity over generated output</li></ul><p>The first line prevents the worst conversation: discovering after delivery that the client had a policy against it.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Ask Before You Start",
+              "heading": "Ask before you start",
               "bodyHtml": "<p><s>Assuming it is fine because they never mentioned it.</s></p><p><strong>«Do you have a policy on AI-generated assets? Some clients do, and it changes how I quote.»</strong></p><p>One question at kickoff. Publishers, regulated industries and larger companies frequently have rules, and their own clients sometimes impose more.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "List the Generated Assets at Delivery",
+              "heading": "List the generated assets at delivery",
               "bodyHtml": "<p>A short line in the handover — which files were generated, which were photographed, which were edited — takes a minute and prevents every later dispute about it.</p><p>It also makes you noticeably easier to work with, because their legal or brand team can answer their own questions without coming back to you.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Price the Restriction",
+              "heading": "Price the restriction",
               "bodyHtml": "<p>If a client rules out generated assets, the work is slower and should cost more. That is not a penalty — it is an accurate quote for a different method.</p><p>Saying so plainly at kickoff is normal. Absorbing it silently and resenting it later is the common alternative, and it damages the relationship more than the price ever would.</p>"
             },
             {

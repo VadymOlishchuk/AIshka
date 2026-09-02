@@ -1,6 +1,6 @@
 {
   "slug": "editing-generated-text",
-  "title": "Editing Generated Text",
+  "title": "Editing generated text",
   "description": "The tells readers now recognise, the cutting pass that improves almost any draft, putting back the specifics only you have, and the two-minute read-aloud that catches everything else.",
   "kind": "mini",
   "icon": "✏️",
@@ -9,12 +9,12 @@
   "modules": [
     {
       "slug": "the-course",
-      "title": "The Course",
+      "title": "The course",
       "description": "Four lessons on the skill that decides whether text reads as yours.",
       "lessons": [
         {
           "slug": "edt-the-tells",
-          "title": "The Tells Everyone Recognises",
+          "title": "The tells everyone recognises",
           "durationMin": 5,
           "blocks": [
             {
@@ -26,7 +26,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Eight Words and Phrases",
+              "heading": "Eight words and phrases",
               "bodyHtml": "<ul><li><strong>«delve», «leverage», «robust», «seamless»</strong></li><li><strong>«It's not just X, it's Y»</strong> — the most recognisable structure of all</li><li><strong>«In today's fast-paced world»</strong></li><li><strong>«Let's dive in»</strong> and «Here's the thing»</li><li><strong>Three adjectives</strong> where one would do</li></ul><p>A single find-and-replace pass on this list changes how a piece reads more than an hour of rewriting.</p>"
             },
             {
@@ -37,7 +37,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "The Structural Tells Matter More",
+              "heading": "The structural tells matter more",
               "bodyHtml": "<p>Words are easy. The shape is what gives it away.</p><p><s>Three tidy points of equal length, then a paragraph summarising the three points.</s></p><p><strong>Two points of different weight, one of them with an example, and no summary because you already made it.</strong></p><p>Human writing is uneven. Perfectly balanced structure is the strongest tell there is.</p>"
             },
             {
@@ -71,7 +71,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Fix the Shape First",
+              "heading": "Fix the shape first",
               "bodyHtml": "<p>Removing banned words from a perfectly symmetrical piece leaves a perfectly symmetrical piece with different words.</p><p>Break the balance: delete the weakest point entirely, expand one, cut the summary. That single edit does more than every word substitution combined.</p>"
             },
             {
@@ -90,7 +90,7 @@
               "type": "ai_task",
               "variant": "match_pairs",
               "cardKind": "text",
-              "title": "Match the Tell to How Strong It Is",
+              "title": "Match the tell to how strong it is",
               "subtitle": "Match each feature of a draft with how clearly it signals its origin.",
               "pairs": [
                 {
@@ -124,7 +124,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Keep One Thing Only You Could Write",
+              "heading": "Keep one thing only you could write",
               "bodyHtml": "<p>The most reliable fix is to add something that could not have been generated: a real number, a specific mistake you made, the name of an actual client, what happened last Tuesday.</p><p>One such sentence makes an entire piece read as human, even if everything around it was drafted by a tool.</p>"
             },
             {
@@ -137,7 +137,7 @@
         },
         {
           "slug": "edt-cutting",
-          "title": "The Cutting Pass",
+          "title": "The cutting pass",
           "durationMin": 5,
           "blocks": [
             {
@@ -149,7 +149,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Cut a Third and See",
+              "heading": "Cut a third and see",
               "bodyHtml": "<p>The reliable experiment: remove a third of the words without removing any information, then compare.</p><p><s>«It's important to note that there are several factors which may contribute to this outcome.»</s></p><p><strong>«Three things cause this.»</strong></p><p>Fourteen words to four, and the second is clearer. That ratio is typical, not exceptional.</p>"
             },
             {
@@ -160,7 +160,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "What to Delete First",
+              "heading": "What to delete first",
               "bodyHtml": "<ul><li><strong>The opening paragraph</strong> — it is almost always a warm-up</li><li><strong>«It's important to note that»</strong> and every phrase like it</li><li><strong>The closing summary</strong> — you already said it</li><li><strong>The second and third adjective</strong></li><li><strong>Any sentence starting «Additionally» or «Moreover»</strong></li></ul><p>Delete all five and read what remains. It is usually the piece you wanted.</p>"
             },
             {
@@ -194,7 +194,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Ask for the Short Version",
+              "heading": "Ask for the short version",
               "bodyHtml": "<p>You can do half of this by asking: «same information, half the length, keep the example».</p><p>Then cut the short version by hand as well. Two passes, and the second one is where the piece actually becomes yours.</p>"
             },
             {
@@ -211,7 +211,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "Length Is Not Value",
+              "heading": "Length is not value",
               "bodyHtml": "<p>Longer output feels like more work and more value. Readers experience it as more time spent, which is the opposite.</p><p>The piece someone finishes is worth more than the thorough one they abandon halfway — and shorter is almost always the version they finish.</p>"
             },
             {
@@ -224,7 +224,7 @@
         },
         {
           "slug": "edt-specifics",
-          "title": "Putting the Specifics Back In",
+          "title": "Putting the specifics back in",
           "durationMin": 5,
           "blocks": [
             {
@@ -236,7 +236,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "Replace Categories With Instances",
+              "heading": "Replace categories with instances",
               "bodyHtml": "<p><s>«Many businesses struggle to keep their content consistent.»</s></p><p><strong>«A bakery I worked with posted daily for three weeks, then stopped for two months.»</strong></p><p>The second is the same point made concrete. It is also unarguable, because it happened.</p>"
             },
             {
@@ -247,7 +247,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Four Kinds Worth Adding",
+              "heading": "Four kinds worth adding",
               "bodyHtml": "<ul><li><strong>A number</strong> — «three weeks», not «a while»</li><li><strong>A named thing</strong> — a tool, a place, a real example</li><li><strong>A quote</strong> — what someone actually said</li><li><strong>A failure</strong> — what did not work, and why</li></ul><p>The fourth is the most persuasive and the least used. Nobody generates admissions of failure, so they read as unmistakably real.</p>"
             },
             {
@@ -281,7 +281,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Only You Have This Material",
+              "heading": "Only you have this material",
               "bodyHtml": "<p>This is the part of writing no tool can do, and therefore the part worth your time. Your numbers, your clients, your mistakes.</p><p>Keep a running note of them — the odd figure, the thing that went wrong, the exact phrase a customer used. That file is what turns a competent draft into something worth reading.</p>"
             },
             {
@@ -298,7 +298,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "One Per Paragraph Is Enough",
+              "heading": "One per paragraph is enough",
               "bodyHtml": "<p>You do not need to rewrite everything. One concrete detail per paragraph transforms a piece, and it is achievable in ten minutes.</p><p>Chasing more than that produces a different failure — a piece so dense with examples that the argument disappears underneath them.</p>"
             },
             {
@@ -311,7 +311,7 @@
         },
         {
           "slug": "edt-read-aloud",
-          "title": "Reading It Aloud",
+          "title": "Reading it aloud",
           "durationMin": 5,
           "blocks": [
             {
@@ -323,7 +323,7 @@
             {
               "id": "b2",
               "type": "text",
-              "heading": "What Your Ear Catches",
+              "heading": "What your ear catches",
               "bodyHtml": "<ul><li><strong>Sentences you run out of breath in</strong> — too long</li><li><strong>Words you would never say</strong> — «utilise», «myriad», «furthermore»</li><li><strong>The place you stumble</strong> — a real ambiguity, every time</li><li><strong>Repetition</strong> — invisible on screen, obvious aloud</li><li><strong>Flat rhythm</strong> — every sentence the same length</li></ul><p>None of these are visible while reading silently, because your eye smooths over what your mouth cannot.</p>"
             },
             {
@@ -334,7 +334,7 @@
             {
               "id": "b4",
               "type": "text",
-              "heading": "Vary the Length on Purpose",
+              "heading": "Vary the length on purpose",
               "bodyHtml": "<p><s>Every sentence between fifteen and twenty words, evenly, for three paragraphs.</s></p><p><strong>A long sentence that builds through several clauses and takes its time. Then a short one. That contrast is what rhythm is.</strong></p><p>Generated text is metrically even, and even rhythm reads as machine-made even when every individual sentence is fine.</p>"
             },
             {
@@ -368,7 +368,7 @@
             {
               "id": "b6",
               "type": "text",
-              "heading": "Read the First Line Twice",
+              "heading": "Read the first line twice",
               "bodyHtml": "<p>If nothing else, read the opening aloud. It is the sentence most people never revisit and the one that decides whether the rest is read at all.</p><p>Generated openings are reliably the weakest part of a piece, because they were produced before the argument existed.</p>"
             },
             {
@@ -385,7 +385,7 @@
             {
               "id": "b8",
               "type": "text",
-              "heading": "The Whole Process, in Order",
+              "heading": "The whole process, in order",
               "bodyHtml": "<p>Cut a third. Fix the structure. Add one specific per paragraph. Read aloud. Ship.</p><p>Ten minutes on a normal piece. That routine is the entire difference between text that reads as yours and text everyone recognises — and none of it requires being a good writer.</p>"
             },
             {
