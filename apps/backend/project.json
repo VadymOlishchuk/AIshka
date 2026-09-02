@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/backend/src",
+  "projectType": "application",
+  "tags": ["scope:api"],
+  "implicitDependencies": ["core"],
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": { "command": "tsx watch --clear-screen=false apps/backend/src/main.ts", "cwd": "{workspaceRoot}" }
+    },
+    "start": {
+      "executor": "nx:run-commands",
+      "options": { "command": "tsx apps/backend/src/main.ts", "cwd": "{workspaceRoot}" }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": { "command": "tsc -p apps/backend/tsconfig.json", "cwd": "{workspaceRoot}" }
+    }
+  }
+}

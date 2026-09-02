@@ -1,13 +1,10 @@
 import "dotenv/config";
-import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "../src/generated/prisma/client";
-import { loadCourses } from "../src/core/content/load";
-import { publishableModules } from "../src/core/content/course";
-import { refreshPlans } from "../src/core/plan/enroll";
+import { loadCourses } from "../libs/core/src/content/load";
+import { publishableModules } from "../libs/core/src/content/course";
+import { refreshPlans } from "../libs/core/src/plan/enroll";
 
-const db = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL! }),
-});
+// Той самий клієнт, що й у застосунку: один пул, одна конфігурація, жодних дублів.
+import { db } from "../libs/core/src/db";
 
 async function main() {
   const { courses, issues } = loadCourses();

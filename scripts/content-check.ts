@@ -1,6 +1,6 @@
-import { loadCourses } from "../src/core/content/load";
-import { publishableModules } from "../src/core/content/course";
-import { countWords } from "../src/core/content/blocks";
+import { loadCourses } from "../libs/core/src/content/load";
+import { publishableModules } from "../libs/core/src/content/course";
+import { countWords } from "../libs/core/src/content/blocks";
 
 const { courses, issues } = loadCourses();
 

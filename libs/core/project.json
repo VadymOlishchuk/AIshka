@@ -1,0 +1,17 @@
+{
+  "name": "core",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/core/src",
+  "projectType": "library",
+  "tags": ["scope:domain"],
+  "targets": {
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": { "command": "tsc -p libs/core/tsconfig.json", "cwd": "{workspaceRoot}" }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": { "command": "vitest run --root libs/core --passWithNoTests", "cwd": "{workspaceRoot}" }
+    }
+  }
+}

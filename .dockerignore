@@ -1,0 +1,13 @@
+node_modules
+**/node_modules
+**/dist
+.nx
+.next
+.git
+.env
+.env.*
+!.env.example
+images
+*.pen
+*.glsl
+docs

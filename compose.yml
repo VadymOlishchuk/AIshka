@@ -1,0 +1,94 @@
+# Прод: docker compose up --build -d
+# База -> міграції й контент -> backend -> main (:3000) і landing (:3100).
+# На проді main і landing стоять на різних піддоменах одного домену, і бекенд
+# ставить cookie на батьківський домен (COOKIE_DOMAIN) — тому сесія після
+# реєстрації на лендінгу доїжджає до платформи.
+name: aishka
+
+x-backend-env: &backend-env
+  DATABASE_URL: postgresql://aishka:aishka@db:5432/aishka?schema=public
+  AUTH_JWT_SECRET: ${AUTH_JWT_SECRET:?set AUTH_JWT_SECRET in .env}
+  APP_URL: ${APP_URL:-http://localhost:3000}
+  COOKIE_DOMAIN: ${COOKIE_DOMAIN:-}
+  BILLING_ENABLED: ${BILLING_ENABLED:-false}
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: aishka-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: aishka
+      POSTGRES_PASSWORD: aishka
+      POSTGRES_DB: aishka
+    ports:
+      - "5433:5432"
+    volumes:
+      - aishka-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aishka"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # Одноразово: накатує міграції й заливає контент. Бекенд стартує лише після нього.
+  migrate:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile
+    command: sh -c "pnpm db:deploy && pnpm content:sync"
+    environment:
+      <<: *backend-env
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  backend:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile
+    restart: unless-stopped
+    environment:
+      <<: *backend-env
+      NODE_ENV: production
+      API_PORT: "3001"
+    expose:
+      - "3001"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3001/api/health || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  main:
+    build:
+      context: .
+      dockerfile: apps/main/Dockerfile
+      args:
+        VITE_LANDING_URL: ${LANDING_URL:-http://localhost:3100}
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  landing:
+    build:
+      context: .
+      dockerfile: apps/landing/Dockerfile
+      args:
+        VITE_MAIN_URL: ${APP_URL:-http://localhost:3000}
+    restart: unless-stopped
+    ports:
+      - "3100:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  aishka-pgdata:

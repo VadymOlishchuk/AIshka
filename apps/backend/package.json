@@ -1,0 +1,20 @@
+{
+  "name": "@aishka/backend",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "tsx watch --clear-screen=false src/main.ts",
+    "start": "tsx src/main.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@aishka/core": "workspace:*",
+    "@fastify/cookie": "^11.1.2",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.12.1",
+    "fastify-plugin": "^6.0.0",
+    "tsx": "^4.23.13",
+    "zod": "^4.5.4"
+  }
+}

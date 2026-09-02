@@ -13,7 +13,7 @@ import path from "node:path";
  * Якщо в контенті з'явився значок, якого немає в мапі, скрипт скаже про це.
  */
 const BASE = "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/";
-const OUT = "public/emoji";
+const OUT = "apps/main/public/emoji";
 
 const codepointsOf = (symbol: string) =>
   [...symbol]
@@ -58,7 +58,7 @@ async function main() {
 
   const files = (await readdir(OUT)).filter((f) => f.endsWith(".png")).sort();
   await writeFile(
-    "src/lib/emoji-assets.ts",
+    "libs/ui/src/emoji-assets.ts",
     "// Згенеровано `pnpm emoji:sync` — не редагувати руками.\n" +
       "// Значки, яких немає в наборі Fluent 3D, лишаються текстовими.\n" +
       "export const EMOJI_ASSETS = new Set([\n" +

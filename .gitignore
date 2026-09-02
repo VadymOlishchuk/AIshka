@@ -1,14 +1,14 @@
 node_modules/
+dist/
+.nx/
 .next/
 out/
-dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
 # Усі файли оточення поза git, крім прикладу.
-# Раніше тут було .env і .env*.local — .env.production під це не підпадав.
 .env
 .env.*
 !.env.example
-*.tsbuildinfo
-next-env.d.ts
-.DS_Store
-coverage/
-src/generated/
+# Клієнт Prisma генерується з prisma/schema.prisma при install.
+libs/core/src/generated/

@@ -5,13 +5,10 @@
 import "dotenv/config";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "../src/generated/prisma/client";
-import { ProjectInput, checkProject } from "../src/core/content/project";
+import { ProjectInput, checkProject } from "../libs/core/src/content/project";
 
-const db = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL! }),
-});
+// Той самий клієнт, що й у застосунку: один пул, одна конфігурація, жодних дублів.
+import { db } from "../libs/core/src/db";
 
 const DIR = path.join(process.cwd(), "content", "projects");
 

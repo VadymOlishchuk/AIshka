@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "sharedGlobals": ["{workspaceRoot}/tsconfig.base.json", "{workspaceRoot}/prisma/schema.prisma"],
+    "production": ["default", "!{projectRoot}/**/*.test.ts", "!{projectRoot}/**/*.test.tsx"]
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"],
+      "cache": true
+    },
+    "typecheck": {
+      "inputs": ["default", "^default"],
+      "cache": true
+    },
+    "test": {
+      "inputs": ["default", "^default"],
+      "cache": true
+    },
+    "serve": {
+      "dependsOn": ["^build"]
+    }
+  },
+  "defaultBase": "main"
+}
