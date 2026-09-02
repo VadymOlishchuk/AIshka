@@ -17,7 +17,6 @@ export default defineConfig({
   },
   server: {
     proxy: { "/api": { target: apiTarget, changeOrigin: true } },
-    watch: process.env.CHOKIDAR_USEPOLLING ? { usePolling: true, interval: 300 } : undefined,
   },
   build: { outDir: "dist", sourcemap: false },
 });

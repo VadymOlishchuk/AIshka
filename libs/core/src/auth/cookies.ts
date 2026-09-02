@@ -14,7 +14,7 @@ export type CookieOptions = {
 };
 
 // HttpOnly — щоб токен не читався зі сторонніх скриптів на сторінці.
-// secure лише на проді: локально та в compose-dev трафік іде по http.
+// secure лише на проді: локально трафік іде по http.
 function base(): Omit<CookieOptions, "maxAge"> {
   return {
     httpOnly: true,

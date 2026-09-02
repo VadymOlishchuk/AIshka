@@ -32,8 +32,7 @@ scripts/       content:check / content:sync / project:sync / emoji:sync
 
 ```
 pnpm db:up                  # Postgres на localhost:5433
-pnpm dev                    # backend :3001, main :5173, landing :5174; Vite проксіює /api
-pnpm docker:dev             # те саме в Docker з hot reload (compose.dev.yml)
+pnpm dev:all                # backend :3001, main :5173, landing :5174; Vite проксіює /api
 pnpm docker:prod            # прод: main :3000, landing :3100 (nginx) -> backend -> db
 pnpm db:migrate             # міграція після зміни schema.prisma
 pnpm content:check          # гейт публікації без запису в БД
@@ -44,7 +43,7 @@ pnpm typecheck              # tsc по всіх проєктах через nx
 
 **Після `db:migrate` перевір, що backend перезапустився.** Клієнт Prisma генерується
 в `libs/core/src/generated`, tsx watch зазвичай підхоплює це сам; якщо сторінки
-віддають старі дані без нового поля — перезапусти `pnpm dev`. Двічі втрачали
+віддають старі дані без нового поля — перезапусти `pnpm dev:all`. Двічі втрачали
 на цьому час ще на Next.
 
 ## Рішення, які не переобговорюємо
@@ -66,6 +65,8 @@ pnpm typecheck              # tsc по всіх проєктах через nx
 - **Токени**: короткий JWT у cookie `at` (15 хв) + непрозорий refresh у `rt` (30 днів,
   ротація з виявленням повторного використання). Обидві cookie — HttpOnly. Клієнт на
   перший 401 сам кличе `/api/auth/refresh` і повторює запит.
+- **Docker лише для Postgres і проду.** Розробка — `pnpm dev:all` на хості: dev-compose
+  з bind-mount і томом node_modules пробували, він не вартий своїх граблів.
 - **Один домен для браузера**: у dev Vite проксіює `/api`, у prod — nginx. Тому CORS
   немає і не має з'явитися. Між піддоменами main/landing сесію несе cookie на
   батьківському домені, а не токен у URL.

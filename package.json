@@ -8,7 +8,7 @@
     "node": ">=24"
   },
   "scripts": {
-    "dev": "nx run-many -t serve --parallel=3",
+    "dev:all": "nx run-many -t serve --parallel=3",
     "build": "nx run-many -t build",
     "typecheck": "nx run-many -t typecheck",
     "test": "nx run-many -t test",
@@ -21,7 +21,6 @@
     "content:sync": "tsx scripts/content-sync.ts && tsx scripts/project-sync.ts",
     "project:sync": "tsx scripts/project-sync.ts",
     "emoji:sync": "tsx scripts/emoji-sync.ts",
-    "docker:dev": "docker compose -f compose.yml -f compose.dev.yml up --build",
     "docker:prod": "docker compose -f compose.yml up --build -d",
     "postinstall": "prisma generate"
   },

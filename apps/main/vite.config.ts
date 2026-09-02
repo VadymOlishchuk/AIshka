@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { fileURLToPath } from "node:url";
 
 // /api проксіюється в Fastify, тому з браузера все виглядає одним доменом:
-// cookie SameSite=Lax працюють без CORS і локально, і в compose.
+// cookie SameSite=Lax працюють без CORS.
 const apiTarget = process.env.API_PROXY_TARGET ?? "http://localhost:3001";
 
 export default defineConfig({
@@ -18,8 +18,6 @@ export default defineConfig({
   },
   server: {
     proxy: { "/api": { target: apiTarget, changeOrigin: true } },
-    // У Docker на macOS події файлової системи не завжди доходять — тоді polling.
-    watch: process.env.CHOKIDAR_USEPOLLING ? { usePolling: true, interval: 300 } : undefined,
   },
   build: { outDir: "dist", sourcemap: false },
 });

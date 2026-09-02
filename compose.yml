@@ -1,4 +1,5 @@
-# Прод: docker compose up --build -d
+# Прод: pnpm docker:prod (docker compose up --build -d). Для розробки compose не
+# потрібен — pnpm dev:all піднімає все локально, у Docker лише Postgres (pnpm db:up).
 # База -> міграції й контент -> backend -> main (:3000) і landing (:3100).
 # На проді main і landing стоять на різних піддоменах одного домену, і бекенд
 # ставить cookie на батьківський домен (COOKIE_DOMAIN) — тому сесія після
