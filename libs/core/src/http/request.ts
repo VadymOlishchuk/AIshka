@@ -7,14 +7,14 @@ function header(headers: IncomingHeaders, name: string): string | null {
   return value ?? null;
 }
 
-export function ipOf(headers: IncomingHeaders, fallback = "unknown"): string {
-  const forwarded = header(headers, "x-forwarded-for");
-  if (forwarded) return forwarded.split(",")[0]!.trim();
-  return header(headers, "x-real-ip") ?? fallback;
-}
-
-export function ctxOf(headers: IncomingHeaders, socketIp?: string) {
-  return { ip: ipOf(headers, socketIp ?? "unknown"), userAgent: header(headers, "user-agent") };
+/**
+ * Контекст запиту для сесій і лімітів. IP сюди приходить уже вирішеним
+ * сервером (у Fastify — req.ip з урахуванням trustProxy). Домен навмисно
+ * не читає X-Forwarded-For сам: заголовок підставляє будь-хто, і кожен, хто
+ * розбирає його «на всякий випадок», дарує обхід лімітів за IP.
+ */
+export function ctxOf(ip: string, headers: IncomingHeaders) {
+  return { ip, userAgent: header(headers, "user-agent") };
 }
 
 /** Дозволяємо редірект лише на власні відносні шляхи — інакше open redirect. */

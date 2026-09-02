@@ -15,12 +15,14 @@ export type TokenPurpose = keyof typeof TTL;
  * Один механізм на три сценарії: перше встановлення пароля, забутий пароль
  * і зміна пароля. Різниця лише в тексті листа й терміні життя токена.
  */
-export async function issuePasswordToken(email: string, purpose: TokenPurpose) {
+export async function issuePasswordToken(email: string, purpose: TokenPurpose): Promise<string | null> {
   const user = await db.user.findUnique({ where: { email }, select: { id: true, firstName: true } });
 
   // Відповідь однакова незалежно від того, чи існує акаунт — інакше форма
   // «забули пароль» стає способом перевіряти, хто у нас зареєстрований.
-  if (!user) return;
+  // Сирий токен повертається лише тому, хто його щойно оплатив; форма
+  // «забув пароль» його ніколи не показує.
+  if (!user) return null;
 
   const raw = randomBytes(32).toString("base64url");
 
@@ -43,6 +45,8 @@ export async function issuePasswordToken(email: string, purpose: TokenPurpose) {
         ? `Hi ${user.firstName}, open this link to choose a new password (valid for 30 minutes): ${link}`
         : `Hi ${user.firstName}, open this link to set your password: ${link}`,
   });
+
+  return raw;
 }
 
 export async function consumePasswordToken(raw: string, newPassword: string) {

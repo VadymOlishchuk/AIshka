@@ -19,7 +19,9 @@ datasource db {
 model User {
   id           String    @id @default(cuid())
   email        String    @unique
-  passwordHash String
+  // Порожній, поки людина не поставила пароль: акаунт створюється на лендінгу
+  // в момент введення email, ще до оплати. Вхід без пароля неможливий.
+  passwordHash String?
   firstName    String
   locale       String    @default("en")
 
@@ -37,6 +39,7 @@ model User {
   progress       Progress[]
   ratings        LessonRating[]
   subscription   Subscription?
+  orders         Order[]
   builds       Build[]
 }
 
@@ -207,8 +210,9 @@ model Subscription {
   id                String    @id @default(cuid())
   userId            String    @unique
   user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  stripeCustomerId  String    @unique
-  stripeSubId       String    @unique
+  // Порожні, поки платежі йдуть через заглушку; Stripe заповнить при підключенні.
+  stripeCustomerId  String?   @unique
+  stripeSubId       String?   @unique
   planCode          String
   status            SubStatus
   priceCents        Int
@@ -221,6 +225,26 @@ model Subscription {
   cancelReason      String?
 
   @@index([status, currentPeriodEnd])
+}
+
+// Замовлення з лендінгу: email -> оплата -> пароль -> платформа.
+// Одна людина може мати кілька замовлень; підписка при цьому одна.
+model Order {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  email       String
+  planCode    String
+  amountCents Int
+  currency    String    @default("usd")
+  status      String // pending | paid | failed
+  provider    String // stub | stripe
+  providerRef String?   @unique // ідемпотентність: один платіж — один запис
+  createdAt   DateTime  @default(now())
+  paidAt      DateTime?
+
+  @@index([userId])
+  @@index([status, createdAt])
 }
 
 model WebhookEvent {

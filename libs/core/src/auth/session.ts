@@ -1,5 +1,6 @@
 import { randomUUID } from "node:crypto";
 import { db } from "../db";
+import { log } from "../log";
 import { AppError } from "../http/errors";
 import { hashToken, newOpaqueToken, signAccess, REFRESH_TTL_SECONDS } from "./tokens";
 
@@ -45,10 +46,10 @@ export async function rotateSession(rawRefresh: string, ctx: RequestCtx) {
       where: { familyId: current.familyId, revokedAt: null },
       data: { revokedAt: new Date() },
     });
-    console.warn("[auth] refresh_reuse_detected", {
-      userId: current.userId,
-      familyId: current.familyId,
-    });
+    log.warn(
+      { event: "refresh_reuse_detected", userId: current.userId, familyId: current.familyId, ip: ctx.ip },
+      "refresh token reused — session family revoked",
+    );
     throw new AppError("unauthenticated");
   }
 

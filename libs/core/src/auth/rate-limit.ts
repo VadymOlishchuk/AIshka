@@ -13,50 +13,48 @@ export type RateLimitOptions = {
 
 export type RateLimitResult = { allowed: boolean; retryAfter: number };
 
+type Row = { count: number; resetAt: Date; blockedUntil: Date | null };
+
 /**
  * Перевіряє всі ключі одразу: вхід лімітується і за IP, і за акаунтом,
  * інакше перебір паролів просто розкладається по багатьох адресах.
+ *
+ * Лічильник оновлюється одним UPSERT-ом: read-then-write двома запитами
+ * пропускав пачку паралельних спроб повз ліміт.
  */
 export async function rateLimit(
   keys: string[],
   options: RateLimitOptions,
 ): Promise<RateLimitResult> {
+  const blockAfter = options.blockAfter ?? 0;
+  const blockSec = options.blockSec ?? 0;
   const now = new Date();
   let worst = 0;
 
   for (const key of keys) {
-    const existing = await db.rateLimit.findUnique({ where: { key } });
+    const [row] = await db.$queryRaw<Row[]>`
+      INSERT INTO "RateLimit" ("key", "count", "resetAt")
+      VALUES (${key}, 1, now() + make_interval(secs => ${options.windowSec}))
+      ON CONFLICT ("key") DO UPDATE SET
+        "count" = CASE WHEN "RateLimit"."resetAt" <= now() THEN 1 ELSE "RateLimit"."count" + 1 END,
+        "resetAt" = CASE
+          WHEN "RateLimit"."resetAt" <= now() THEN now() + make_interval(secs => ${options.windowSec})
+          ELSE "RateLimit"."resetAt" END,
+        "blockedUntil" = CASE
+          WHEN "RateLimit"."blockedUntil" IS NOT NULL AND "RateLimit"."blockedUntil" > now()
+            THEN "RateLimit"."blockedUntil"
+          WHEN ${blockAfter}::int > 0
+            AND (CASE WHEN "RateLimit"."resetAt" <= now() THEN 1 ELSE "RateLimit"."count" + 1 END) >= ${blockAfter}::int
+            THEN now() + make_interval(secs => ${blockSec})
+          ELSE NULL END
+      RETURNING "count", "resetAt", "blockedUntil"`;
 
-    if (existing?.blockedUntil && existing.blockedUntil > now) {
-      worst = Math.max(worst, secondsUntil(existing.blockedUntil, now));
-      continue;
+    if (!row) continue;
+    if (row.blockedUntil && row.blockedUntil > now) {
+      worst = Math.max(worst, secondsUntil(row.blockedUntil, now));
+    } else if (row.count > options.limit) {
+      worst = Math.max(worst, secondsUntil(row.resetAt, now));
     }
-
-    const windowExpired = !existing || existing.resetAt <= now;
-    const count = windowExpired ? 1 : existing.count + 1;
-    const resetAt = windowExpired
-      ? new Date(now.getTime() + options.windowSec * 1000)
-      : existing.resetAt;
-
-    const shouldBlock =
-      options.blockAfter !== undefined &&
-      options.blockSec !== undefined &&
-      count >= options.blockAfter;
-
-    await db.rateLimit.upsert({
-      where: { key },
-      create: { key, count, resetAt },
-      update: {
-        count,
-        resetAt,
-        ...(shouldBlock
-          ? { blockedUntil: new Date(now.getTime() + options.blockSec! * 1000) }
-          : {}),
-      },
-    });
-
-    if (shouldBlock) worst = Math.max(worst, options.blockSec!);
-    else if (count > options.limit) worst = Math.max(worst, secondsUntil(resetAt, now));
   }
 
   return worst > 0 ? { allowed: false, retryAfter: worst } : { allowed: true, retryAfter: 0 };

@@ -41,7 +41,7 @@ export function Login() {
 
       <p className="mt-5 text-center text-[14px] text-ink-muted">
         No account yet?{" "}
-        <a href={`${LANDING_URL}/register`} className="font-semibold text-accent underline-offset-2 hover:underline">
+        <a href={`${LANDING_URL}/start`} className="font-semibold text-accent underline-offset-2 hover:underline">
           Create one
         </a>
       </p>

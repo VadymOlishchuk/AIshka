@@ -6,7 +6,7 @@ import {
   clearedAuthCookies,
 } from "@aishka/core/auth/cookies";
 import { currentUser, requireActiveAccess, requireUser } from "@aishka/core/auth/guards";
-import { ctxOf, ipOf } from "@aishka/core/http/request";
+import { ctxOf } from "@aishka/core/http/request";
 
 /** Токен з cookie. Заголовок Authorization тут навмисно не читається: один канал — менше дір. */
 export const accessToken = (req: FastifyRequest) => req.cookies[ACCESS_COOKIE] ?? null;
@@ -16,8 +16,9 @@ export const userOf = (req: FastifyRequest) => currentUser(accessToken(req));
 export const requireUserOf = (req: FastifyRequest) => requireUser(accessToken(req));
 export const requireAccessOf = (req: FastifyRequest) => requireActiveAccess(accessToken(req));
 
-export const requestCtx = (req: FastifyRequest) => ctxOf(req.headers, req.ip);
-export const requestIp = (req: FastifyRequest) => ipOf(req.headers, req.ip);
+// req.ip уже враховує trustProxy — читати X-Forwarded-For руками не можна.
+export const requestCtx = (req: FastifyRequest) => ctxOf(req.ip, req.headers);
+export const requestIp = (req: FastifyRequest) => req.ip;
 
 export function setAuthCookies(reply: FastifyReply, access: string, refresh: string) {
   for (const c of authCookies(access, refresh)) reply.setCookie(c.name, c.value, c.options);

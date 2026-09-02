@@ -1,18 +1,11 @@
 import type { FastifyPluginAsync } from "fastify";
 import { z } from "zod";
 import { db } from "@aishka/core/db";
-import { getDummyHash, hashPassword, verifyPassword } from "@aishka/core/auth/password";
+import { verifyPassword } from "@aishka/core/auth/password";
 import { rateLimit, resetRateLimit } from "@aishka/core/auth/rate-limit";
-import {
-  LoginInput,
-  RegisterInput,
-  emailField,
-  fieldErrors,
-  passwordField,
-} from "@aishka/core/auth/schemas";
+import { LoginInput, emailField, fieldErrors, passwordField } from "@aishka/core/auth/schemas";
 import { issueSessionPair, revokeByRefresh, rotateSession } from "@aishka/core/auth/session";
 import { consumePasswordToken, issuePasswordToken } from "@aishka/core/auth/password-reset";
-import { FIRST_STEP } from "@aishka/core/plan/onboarding";
 import {
   clearAuthCookies,
   refreshToken,
@@ -25,41 +18,6 @@ const landing = (user: { onboardingDone: boolean }) =>
   user.onboardingDone ? "/" : "/onboarding";
 
 export const authRoutes: FastifyPluginAsync = async (app) => {
-  app.post("/register", async (req, reply) => {
-    const parsed = RegisterInput.safeParse(req.body);
-    if (!parsed.success) {
-      return reply.fail("validation_failed", { fields: fieldErrors(parsed.error) });
-    }
-
-    const gate = await rateLimit([`register:ip:${requestIp(req)}`], { limit: 5, windowSec: 3600 });
-    if (!gate.allowed) {
-      return reply.fail("rate_limited", { headers: { "Retry-After": String(gate.retryAfter) } });
-    }
-
-    const { firstName, email, password } = parsed.data;
-
-    const existing = await db.user.findUnique({ where: { email }, select: { id: true } });
-    if (existing) {
-      // TODO(етап 3): коли з'явиться розсилка — не розкривати зайнятість пошти,
-      // а надсилати лист «у вас уже є акаунт» і показувати той самий екран.
-      return reply.fail("validation_failed", {
-        fields: { email: "This email already has an account. Sign in instead." },
-      });
-    }
-
-    const user = await db.user.create({
-      data: {
-        email,
-        firstName,
-        passwordHash: await hashPassword(password),
-        onboardingStep: FIRST_STEP,
-      },
-    });
-
-    const { access, refresh } = await issueSessionPair(user.id, requestCtx(req));
-    return setAuthCookies(reply, access, refresh).ok({ next: "/onboarding" });
-  });
-
   app.post("/login", async (req, reply) => {
     const parsed = LoginInput.safeParse(req.body);
     if (!parsed.success) {
@@ -76,7 +34,9 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
     }
 
     const user = await db.user.findUnique({ where: { email } });
-    const passwordOk = await verifyPassword(user?.passwordHash ?? (await getDummyHash()), password);
+    // Немає акаунта, немає пароля (не завершив оплату) чи пароль невірний —
+    // одна й та сама відповідь за один і той самий час.
+    const passwordOk = await verifyPassword(user?.passwordHash ?? null, password);
 
     // Однакова відповідь на «немає такого акаунта» і «невірний пароль»:
     // різниця повідомлень дозволяє перевіряти, хто у нас зареєстрований.
@@ -97,6 +57,13 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
 
   /** Клієнт кличе це, отримавши 401, і повторює запит. Ротація з виявленням повторного використання. */
   app.post("/refresh", async (req, reply) => {
+    // Токен не вгадати, але кожен виклик — запит у базу. Ліміт лише щоб не
+    // давати безкоштовний спосіб її навантажити.
+    const gate = await rateLimit([`refresh:ip:${requestIp(req)}`], { limit: 60, windowSec: 600 });
+    if (!gate.allowed) {
+      return reply.fail("rate_limited", { headers: { "Retry-After": String(gate.retryAfter) } });
+    }
+
     const refresh = refreshToken(req);
     if (!refresh) return clearAuthCookies(reply).fail("unauthenticated");
 
@@ -129,6 +96,11 @@ export const authRoutes: FastifyPluginAsync = async (app) => {
   });
 
   app.post("/password/set", async (req, reply) => {
+    const gate = await rateLimit([`pwset:ip:${requestIp(req)}`], { limit: 10, windowSec: 600 });
+    if (!gate.allowed) {
+      return reply.fail("rate_limited", { headers: { "Retry-After": String(gate.retryAfter) } });
+    }
+
     const parsed = z
       .object({ token: z.string().min(10), password: passwordField })
       .safeParse(req.body);

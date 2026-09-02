@@ -3,6 +3,9 @@ import cookie from "@fastify/cookie";
 import { ZodError } from "zod";
 import { AppError, STATUS, errorBody } from "@aishka/core/http/errors";
 import { fieldErrors } from "@aishka/core/auth/schemas";
+import { cleanupAuthTables } from "@aishka/core/auth/maintenance";
+import { env } from "@aishka/core/env";
+import { setLogger } from "@aishka/core/log";
 import { envelope } from "./plugins/envelope";
 import { authRoutes } from "./routes/auth";
 import { meRoutes } from "./routes/me";
@@ -11,6 +14,7 @@ import { buildRoutes } from "./routes/build";
 import { catalogRoutes } from "./routes/catalog";
 import { lessonRoutes } from "./routes/lessons";
 import { landingRoutes } from "./routes/landing";
+import { checkoutRoutes } from "./routes/checkout";
 
 /**
  * Збирає застосунок без прослуховування порту — так його можна підняти
@@ -23,8 +27,13 @@ export async function buildApp() {
       // Cookie з токенами не мають потрапляти в логи ні за яких обставин.
       redact: ["req.headers.cookie", "req.headers.authorization"],
     },
-    trustProxy: true,
+    // Лише за своїм nginx: інакше X-Forwarded-For підставляє будь-хто
+    // й обходить ліміти за IP.
+    trustProxy: env.TRUST_PROXY,
   });
+
+  // Події безпеки з домену — у той самий структурований лог, що й усе інше.
+  setLogger(app.log);
 
   await app.register(cookie);
   await app.register(envelope);
@@ -61,6 +70,21 @@ export async function buildApp() {
   await app.register(catalogRoutes, { prefix: "/api" });
   await app.register(lessonRoutes, { prefix: "/api/lessons" });
   await app.register(landingRoutes, { prefix: "/api" });
+  await app.register(checkoutRoutes, { prefix: "/api/checkout" });
+
+  // Таблиці auth не чистять себе самі: раз на годину, і одразу на старті.
+  const sweep = async () => {
+    try {
+      const n = await cleanupAuthTables();
+      app.log.info(n, "auth tables swept");
+    } catch (error) {
+      app.log.error(error, "auth sweep failed");
+    }
+  };
+  app.addHook("onReady", sweep);
+  const timer = setInterval(sweep, 60 * 60 * 1000);
+  timer.unref();
+  app.addHook("onClose", async () => clearInterval(timer));
 
   return app;
 }

@@ -13,7 +13,15 @@ export function hashPassword(plain: string): Promise<string> {
   return hash(plain, OPTIONS);
 }
 
-export function verifyPassword(hashed: string, plain: string): Promise<boolean> {
+/**
+ * Акаунт без пароля (створений на лендінгу, оплата ще не завершена) не входить
+ * ніколи — але перевірка все одно коштує стільки ж, скільки справжня.
+ */
+export async function verifyPassword(hashed: string | null, plain: string): Promise<boolean> {
+  if (!hashed) {
+    await verify(await getDummyHash(), plain).catch(() => false);
+    return false;
+  }
   return verify(hashed, plain).catch(() => false);
 }
 

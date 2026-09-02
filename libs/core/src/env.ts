@@ -22,6 +22,14 @@ const EnvSchema = z.object({
     .transform((v) => v === "true"),
   // Звідки читати content/*.json. У контейнері API — /app/content.
   CONTENT_DIR: z.string().optional(),
+  // Вірити X-Forwarded-For можна лише за своїм проксі (nginx у compose).
+  // На голому порту заголовок підставляє хто завгодно — і обходить ліміти за IP.
+  TRUST_PROXY: z
+    .string()
+    .default("false")
+    .transform((v) => v === "true"),
+  // stub — оплата «в один клік» для розробки; stripe — коли підключимо Checkout.
+  PAYMENTS_PROVIDER: z.enum(["stub", "stripe"]).default("stub"),
 });
 
 const parsed = EnvSchema.safeParse(process.env);

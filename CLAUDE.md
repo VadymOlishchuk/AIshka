@@ -72,6 +72,23 @@ pnpm typecheck              # tsc по всіх проєктах через nx
   немає і не має з'явитися. Між піддоменами main/landing сесію несе cookie на
   батьківському домені, а не токен у URL.
 
+## Воронка входу
+
+Єдиний спосіб потрапити в продукт — через лендінг (`apps/landing`):
+
+```
+/start            email + ім'я      -> POST /api/checkout/start      -> User без пароля + Order pending
+/checkout/:id     оплата            -> POST /api/checkout/:id/complete (stub) або Stripe-вебхук
+                                     -> Order paid, Subscription active, токен на пароль
+/set-password     пароль            -> POST /api/auth/password/set    -> сесія в cookie
+-> MAIN_URL/onboarding               платформа відкривається вже з входом
+```
+
+`/api/auth/register` немає навмисно: акаунт з паролем без оплати — обхід воронки.
+Заглушка оплати існує лише при `PAYMENTS_PROVIDER=stub`; зі Stripe маршрут
+`/complete` не реєструється взагалі, а `completeCheckout()` кличе вебхук.
+Акаунт без пароля не входить ніколи, але перевірка коштує стільки ж часу.
+
 ## Правила контенту
 
 Урок: 8–14 блоків, 400–1400 слів, текстовий блок ≤110 слів, обов'язкові квіз і summary

@@ -26,8 +26,8 @@ export function Landing() {
           have, and what&apos;s actually stopping you. Short lessons, real examples, one step at a time.
         </p>
         <div className="flex flex-wrap gap-3">
-          <Link to="/register">
-            <Button>Build my plan</Button>
+          <Link to="/start">
+            <Button>Get started</Button>
           </Link>
           {/* Вхід — на платформі: тут лише ті, хто ще не з нами. */}
           <a href={`${MAIN_URL}/login`}>
