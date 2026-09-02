@@ -73,12 +73,14 @@ export function Library() {
               </div>
 
               {/*
-                Ряд в один рядок з горизонтальною прокруткою. Негативні поля дають
-                йому дійти до краю екрана — так видно, що праворуч є продовження,
-                а не що ряд обрізали. Нижній відступ тримає кольорову тінь картки,
-                яку overflow інакше зрізав би, і компенсується від'ємним полем.
+                Ряд в один рядок з горизонтальною прокруткою. Стрічка стоїть у
+                контейнері, тому перша картка починається рівно там, де заголовок
+                полиці. Від'ємні поля «до краю екрана» тут були: паддинг усередині
+                прокрутки не спрацьовував, і перша картка липла до лівого краю.
+                Нижній відступ тримає кольорову тінь картки, яку overflow інакше
+                зрізав би, і компенсується від'ємним полем.
               */}
-              <ul className="-mx-5 -mb-6 flex snap-x gap-4 overflow-x-auto px-5 pb-12 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              <ul className="-mb-6 flex snap-x gap-4 overflow-x-auto pb-12 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                 {items.map((course, index) => (
                   <li key={course.id} className="w-[344px] flex-none snap-start">
                     <CourseCard course={course} highlighted={course.id === continueId} index={index} />
