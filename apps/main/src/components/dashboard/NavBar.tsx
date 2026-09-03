@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { useLocation } from "react-router";
-import { BuildIcon, HomeIcon, LibraryIcon, UserIcon } from "@aishka/ui/icons";
+import { HomeIcon, LibraryIcon, UserIcon } from "@aishka/ui/icons";
 import { SignOutButton } from "@/components/dashboard/SignOutButton";
 
 /**
@@ -22,7 +22,6 @@ import { SignOutButton } from "@/components/dashboard/SignOutButton";
  */
 const LINKS = [
   { href: "/", label: "Home", Icon: HomeIcon, match: "/" },
-  { href: "/build", label: "Build", Icon: BuildIcon, match: "/build" },
   { href: "/library", label: "Library", Icon: LibraryIcon, match: "/library" },
 ];
 
