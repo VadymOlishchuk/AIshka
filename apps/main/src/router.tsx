@@ -76,14 +76,16 @@ export const router = createBrowserRouter([
         loader: async ({ request }: LoaderFunctionArgs) => {
           const me = await fetchMe(request);
           if (!me.onboardingDone) return redirect("/onboarding");
-          try {
-            return { me, build: await api.get<BuildView>("/api/build") };
-          } catch (error) {
-            if (error instanceof ApiError && error.code === "not_found") {
-              return redirect("/library");
-            }
-            throw error;
-          }
+          // Каталог тепер стоїть на самій головній, тому збірки може й не бути:
+          // сторінці є що показати без неї, і редірект у бібліотеку зайвий.
+          const [build, courses] = await Promise.all([
+            api.get<BuildView>("/api/build").catch((error) => {
+              if (error instanceof ApiError && error.code === "not_found") return null;
+              throw error;
+            }),
+            load<CatalogCourse[]>("/api/catalog", request),
+          ]);
+          return { me, build, courses };
         },
       },
       {

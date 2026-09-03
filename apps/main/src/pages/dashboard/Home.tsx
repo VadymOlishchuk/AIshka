@@ -1,129 +1,114 @@
 import { Link, useLoaderData } from "react-router";
 import type { BuildView } from "@aishka/core/build/service";
-import { Button, Card, Eyebrow, Pill } from "@aishka/ui/primitives";
-import { Emoji } from "@aishka/ui/emoji";
+import type { CatalogCourse } from "@aishka/core/progress/service";
+import { Button, Card, Pill } from "@aishka/ui/primitives";
 import type { Me } from "@aishka/ui/api";
 import { useTitle } from "@aishka/ui/title";
+import { CourseShelves } from "@/components/dashboard/CourseShelves";
 
 /**
- * Головна. Тут навмисно немає відсотка: замість «41%» — скільки артефактів
- * зроблено і що саме наступне. Число артефактів можна показати клієнту,
- * відсоток — ні.
+ * Головна: угорі — що людина отримає в кінці (збірка), нижче — весь каталог
+ * полицями. Обіцянка й спосіб її виконати стоять на одному екрані, тому після
+ * реєстрації не треба вгадувати, куди йти далі.
+ *
+ * Панель збірки тут навмисно компактна: вона задає напрямок, а не забирає
+ * перший екран. Розгорнутий вигляд зі слотами живе на /build.
  */
 export function Home() {
   useTitle("Home · AIshka");
-  const { me, build } = useLoaderData() as { me: Me; build: BuildView };
-  const remaining = build.total - build.filled;
+  const { me, build, courses } = useLoaderData() as {
+    me: Me;
+    build: BuildView | null;
+    courses: CatalogCourse[];
+  };
 
   return (
-    <main className="mx-auto w-full max-w-[1290px] px-5 py-8">
-      <h1 className="mb-6 text-[34px] font-extrabold leading-[1.1] text-ink-strong">
+    <main className="mx-auto w-full max-w-[1100px] px-5 py-8">
+      <h1 className="mb-6 text-[30px] font-extrabold leading-[1.1] tracking-[-0.03em] text-ink-strong">
         Welcome, {me.firstName}
       </h1>
 
-      {/* Одна темна панель на сторінку — це правило колірної системи. */}
-      <section className="mb-10 overflow-hidden rounded-[22px] bg-ink-panel p-7 text-white sm:p-9">
-        <div className="gap-8 lg:flex lg:items-start">
-          <div className="min-w-0 flex-1">
-            <Pill tone="onDark" className="uppercase tracking-[.09em]">
-              Your build
-            </Pill>
+      {build ? <BuildStrip build={build} /> : null}
 
-            <h2 className="mb-3 mt-5 text-[28px] font-extrabold leading-[1.15] text-balance">
-              {build.title}
-            </h2>
-            <p className="mb-7 max-w-[60ch] text-[15px] leading-relaxed text-muted-on-dark">
-              {build.outcome}
+      {courses.length === 0 ? (
+        <Card className="p-8 text-center">
+          <p className="text-[15px] text-ink-muted">
+            No courses published yet. Your build is where to start.
+          </p>
+        </Card>
+      ) : (
+        <CourseShelves courses={courses} />
+      )}
+    </main>
+  );
+}
+
+/**
+ * Збірка одним рядком: обіцянка, скільки з неї вже зібрано і що робити далі.
+ * Одна темна панель на сторінку — це правило колірної системи, тому нижче
+ * полиці лишаються світлими.
+ */
+function BuildStrip({ build }: { build: BuildView }) {
+  const percent = build.total > 0 ? Math.round((build.filled / build.total) * 100) : 0;
+
+  return (
+    <section className="mb-12 overflow-hidden rounded-[24px] bg-ink-panel p-6 text-white sm:p-7">
+      <div className="gap-7 sm:flex sm:items-center">
+        <div className="min-w-0 flex-1">
+          <Pill tone="onDark" className="uppercase tracking-[.09em]">
+            What you walk away with
+          </Pill>
+
+          <h2 className="mb-2 mt-4 text-[22px] font-extrabold leading-[1.15] text-balance sm:text-[25px]">
+            {build.title}
+          </h2>
+          {/* Обіцянка коротшає до двох рядків: тут вона орієнтир, а не опис. */}
+          <p className="line-clamp-2 max-w-[58ch] text-[14px] leading-relaxed text-muted-on-dark">
+            {build.outcome}
+          </p>
+
+          <div className="mt-5 flex items-center gap-3">
+            <span className="h-1.5 w-full max-w-[220px] overflow-hidden rounded-full bg-white/15">
+              <span
+                className="block h-full rounded-full bg-white transition-[width] duration-500"
+                style={{ width: `${percent === 0 ? 3 : percent}%` }}
+              />
+            </span>
+            <p className="flex-none text-[13px] tabular-nums text-muted-on-dark">
+              <span className="font-bold text-white">
+                {build.filled}/{build.total}
+              </span>{" "}
+              artifacts
             </p>
-
-            <div className="mb-7 flex flex-wrap items-end gap-x-10 gap-y-4">
-              <div>
-                <p className="text-[40px] font-extrabold leading-none tabular-nums">
-                  {build.filled}
-                  <span className="text-muted-on-dark"> / {build.total}</span>
-                </p>
-                <p className="mt-1.5 text-[13px] text-muted-on-dark">artifacts made</p>
-              </div>
-              <p className="text-[14px] text-muted-on-dark">
-                {remaining > 0 ? `${remaining} slots still empty` : "Nothing left to fill"}
-              </p>
-            </div>
-
-            {build.next ? (
-              <>
-                <p className="mb-1 text-[13px] text-muted-on-dark">
-                  Next · {build.next.stageTitle} · {build.next.minutes} min
-                </p>
-                <p className="mb-5 text-[18px] font-bold">{build.next.title}</p>
-                <Link to="/build">
-                  <Button variant="onDark" className="w-full sm:w-auto">
-                    Open the build
-                  </Button>
-                </Link>
-              </>
-            ) : (
-              <Link to="/library">
-                <Button variant="onDark" className="w-full sm:w-auto">
-                  Browse the library
-                </Button>
-              </Link>
-            )}
           </div>
 
-          {build.coverUrl ? (
-            <img
-              src={build.coverUrl}
-              alt=""
-              width={800}
-              height={800}
-              className="mt-8 hidden w-[280px] flex-none rounded-[18px] object-cover lg:mt-0 lg:block"
-            />
-          ) : null}
-        </div>
-      </section>
+          {/* Наступний крок і дія — в один рядок: на панелі лише одна кнопка. */}
+          <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3">
+            {build.next ? (
+              <p className="min-w-0 text-[13px] text-muted-on-dark">
+                Next · {build.next.stageTitle} · {build.next.minutes} min
+                <span className="ml-2 font-bold text-white">{build.next.title}</span>
+              </p>
+            ) : null}
 
-      <section>
-        <Eyebrow className="mb-3">Where you are</Eyebrow>
-        <h2 className="mb-5 text-[26px] font-extrabold text-ink-strong">The five stages</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {build.stages.map((stage) => {
-            const done = stage.slots.filter((s) => s.filled).length;
-            const complete = done === stage.slots.length;
-            return (
-              <Link key={stage.id} to="/build" className="group">
-                <Card className="h-full p-5 transition group-hover:border-accent/40">
-                  <div className="mb-3 flex items-center gap-3">
-                    <span aria-hidden className="flex h-8 w-8 flex-none items-center justify-center">
-                      <Emoji symbol={stage.icon ?? "▫️"} className="h-7 w-7 object-contain" fallbackSize="text-[26px]" />
-                    </span>
-                    <h3 className="text-[18px] font-bold leading-snug text-ink-strong">
-                      {stage.title}
-                    </h3>
-                  </div>
-                  <p className="mb-4 line-clamp-3 text-[14px] leading-relaxed text-ink-muted">
-                    {stage.intent}
-                  </p>
-                  {/* Слоти показані фізично: заповнені суцільні, порожні — пунктир. */}
-                  <div className="mb-2.5 flex flex-wrap gap-1.5">
-                    {stage.slots.map((slot) => (
-                      <span
-                        key={slot.id}
-                        title={slot.title}
-                        className={`h-2.5 w-2.5 rounded-[3px] ${
-                          slot.filled ? "bg-accent" : "border border-dashed border-line-strong"
-                        }`}
-                      />
-                    ))}
-                  </div>
-                  <p className="text-[13px] tabular-nums text-ink-muted">
-                    {complete ? "stage complete" : `${done} of ${stage.slots.length} filled`}
-                  </p>
-                </Card>
-              </Link>
-            );
-          })}
+            <Link to="/build" className="ml-auto max-sm:w-full">
+              <Button variant="onDark" className="max-sm:w-full">
+                {build.next ? "Open the build" : "See the build"}
+              </Button>
+            </Link>
+          </div>
         </div>
-      </section>
-    </main>
+
+        {build.coverUrl ? (
+          <img
+            src={build.coverUrl}
+            alt=""
+            width={600}
+            height={600}
+            className="mt-7 hidden w-[168px] flex-none rounded-[16px] object-cover sm:mt-0 sm:block"
+          />
+        ) : null}
+      </div>
+    </section>
   );
 }
